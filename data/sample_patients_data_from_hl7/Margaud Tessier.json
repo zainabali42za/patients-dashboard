@@ -1,0 +1,2038 @@
+{
+  "resourceType": "Bundle",
+  "id": "6c5df812-8d22-45e3-9e0e-441818a6325a",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "9f70439e-5d5c-445b-aca8-d5f8af8bb498"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:de6867de-5d6f-45f0-a776-08692b21e559",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "de6867de-5d6f-45f0-a776-08692b21e559",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "1a35d51d-f127-41d2-a2d7-937ce7aa52cd"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:e93fe596-02f2-47b2-bf83-7b4d022ddb99"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Osteoporosis</td><td><span class=\"nb\">24-Aug-2015</span></td><td>active</td></tr><tr><td>Fibromyalgia</td><td><span class=\"nb\">05-Feb-2014</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c9788d7d-ec82-4bfd-b08a-dceaa585831f"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bbee3dcd-81eb-42df-8d28-512e112ca036"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2024</span></td></tr><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">27-Sep-2021</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">22-Feb-2021</span></td></tr><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">21-Sep-2020</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">29-Aug-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:caef1a33-10f9-412d-9ac7-42bbabd93345"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2c7de2a6-b246-4c98-85bf-2729eb6b9a47"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-10-14</th><th>2023-10-09</th></tr><tr><td>Body Height</td><td>165.1 cm</td><td>165.1 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>1 {score}</td></tr><tr><td>Body Weight</td><td>74.8 kg</td><td>74.8 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.4 kg/m2</td><td>27.4 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>76 mm[Hg]</td><td>71 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>99 mm[Hg]</td><td>99 mm[Hg]</td></tr><tr><td>Heart rate</td><td>72 /min</td><td>81 /min</td></tr><tr><td>Respiratory rate</td><td>15 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9797c649-8fca-4494-906b-388872a5ac8f"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>09-OCT-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td><strong>288.4 H</strong></td><td>130 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>120.6</td><td>35 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td><strong>209.4 H</strong></td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>54.9</td><td>40 - 100</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "custodian": {
+          "reference": "urn:uuid:61a16c50-bf9f-4c4d-a64c-4a7864856776"
+        },
+        "date": "2023-10-09",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "3e312991-90ee-41ef-804f-52535db3a2e3",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8021-626919-3"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "a232a63b-0bec-2cf5-40ad-38b3023473db"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Margaud"
+            ],
+            "family": "Tessier",
+            "text": "Margaud Tessier"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "98, rue Allain"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "75005",
+            "city": "Saint Dominique",
+            "country": "France"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0473616890"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FR",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Margaud Tessier</td><td>female</td><td>06-Dec-1957</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1957-12-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e93fe596-02f2-47b2-bf83-7b4d022ddb99",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "e93fe596-02f2-47b2-bf83-7b4d022ddb99",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id e93fe596-02f2-47b2-bf83-7b4d022ddb99</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:6953bd2d-2c0f-49fc-ba5c-6eb3c61a39c7"
+        },
+        "organization": {
+          "reference": "urn:uuid:61a16c50-bf9f-4c4d-a64c-4a7864856776"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:61a16c50-bf9f-4c4d-a64c-4a7864856776",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "61a16c50-bf9f-4c4d-a64c-4a7864856776",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "cf5f7741-d7f8-4dfe-b6cf-7dc46f56a417"
+          }
+        ],
+        "address": [
+          {
+            "city": "Paris",
+            "postalCode": "75001",
+            "country": "France"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Hôtel-Dieu</table></div>"
+        },
+        "name": "Hôtel-Dieu"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6953bd2d-2c0f-49fc-ba5c-6eb3c61a39c7",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "6953bd2d-2c0f-49fc-ba5c-6eb3c61a39c7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c9788d7d-ec82-4bfd-b08a-dceaa585831f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c9788d7d-ec82-4bfd-b08a-dceaa585831f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "64859006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporosis (disorder)"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoporosis</td><td><span class=\"nb\">24-Aug-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-08-24",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "asserter": {
+          "reference": "urn:uuid:e93fe596-02f2-47b2-bf83-7b4d022ddb99",
+          "display": "Hôtel-Dieu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a86b7d20-e96c-43b7-8bfe-706053b3513b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a86b7d20-e96c-43b7-8bfe-706053b3513b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "203082005",
+              "system": "http://snomed.info/sct",
+              "display": "Fibromyalgia (disorder)"
+            }
+          ],
+          "text": "Fibromyalgia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Fibromyalgia</td><td><span class=\"nb\">05-Feb-2014</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-02-05",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "asserter": {
+          "reference": "urn:uuid:e93fe596-02f2-47b2-bf83-7b4d022ddb99",
+          "display": "Hôtel-Dieu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1a035ec-83cc-49c1-880f-2be632f81b02",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f1a035ec-83cc-49c1-880f-2be632f81b02",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">29-Dec-2016 - 22-Jan-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-12-29",
+        "abatementDateTime": "2017-01-22",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "asserter": {
+          "reference": "urn:uuid:e93fe596-02f2-47b2-bf83-7b4d022ddb99",
+          "display": "Hôtel-Dieu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bbee3dcd-81eb-42df-8d28-512e112ca036",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "bbee3dcd-81eb-42df-8d28-512e112ca036",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:caef1a33-10f9-412d-9ac7-42bbabd93345",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "caef1a33-10f9-412d-9ac7-42bbabd93345",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "occurrenceDateTime": "2024-10-14",
+        "lotNumber": "BT-aOXznK",
+        "expirationDate": "2025-07-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c70cbde-25a6-43ab-ba0c-61542b3cf014",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "5c70cbde-25a6-43ab-ba0c-61542b3cf014",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1252709000",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Streptococcus pneumoniae capsular polysaccharide antigens conjugated"
+            },
+            {
+              "code": "J07AL01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Pneumococcal polysaccharide vaccines"
+            }
+          ],
+          "text": "Streptococcus pneumoniae Danish serotype 1"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">27-Sep-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "occurrenceDateTime": "2021-09-27",
+        "lotNumber": "TY-oHqtS",
+        "expirationDate": "2022-05-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b58cc519-8c0a-4679-8dc7-e99437af4b04",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b58cc519-8c0a-4679-8dc7-e99437af4b04",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">22-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "occurrenceDateTime": "2021-02-22",
+        "lotNumber": "VG-ZLGbSQ",
+        "expirationDate": "2021-12-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e39b1d96-3452-4a31-95f0-afc47718378b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e39b1d96-3452-4a31-95f0-afc47718378b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "51451000087105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Streptococcus pneumoniae capsular polysaccharide antigens conjugated"
+            },
+            {
+              "code": "J07AL02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Pneumococcal conjugate vaccines"
+            }
+          ],
+          "text": "Streptococcus pneumoniae Danish serotype 1"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">21-Sep-2020</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "occurrenceDateTime": "2020-09-21",
+        "lotNumber": "VN-i8AFa0R3",
+        "expirationDate": "2021-06-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27c32cf5-ddd3-4ad4-89f0-afaaba149999",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "27c32cf5-ddd3-4ad4-89f0-afaaba149999",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">29-Aug-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "occurrenceDateTime": "2016-08-29",
+        "lotNumber": "TU-FqXh3sTw",
+        "expirationDate": "2017-08-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c7de2a6-b246-4c98-85bf-2729eb6b9a47",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "2c7de2a6-b246-4c98-85bf-2729eb6b9a47",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            }
+          ],
+          "text": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9797c649-8fca-4494-906b-388872a5ac8f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9797c649-8fca-4494-906b-388872a5ac8f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 165.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>14-Oct-2024</td><td>165.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14920187-9c7d-4254-bba8-48d3e86488eb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "14920187-9c7d-4254-bba8-48d3e86488eb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>14-Oct-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dca22c7a-21dc-4676-a495-16c31e58488c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dca22c7a-21dc-4676-a495-16c31e58488c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>14-Oct-2024</td><td>74.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93a876bd-9c2b-4b6c-9bcc-40ef3773e91f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "93a876bd-9c2b-4b6c-9bcc-40ef3773e91f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.4,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>14-Oct-2024</td><td>27.4 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:449bbcc8-657b-4723-ab49-9eff5d5a2b65",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "449bbcc8-657b-4723-ab49-9eff5d5a2b65",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>14-Oct-2024</td><td>76 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9ee209a-1e59-4c17-b90f-7ef88c716296",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b9ee209a-1e59-4c17-b90f-7ef88c716296",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 99,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>14-Oct-2024</td><td>99 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a58ba69-cbba-416b-a451-7d05ca328a06",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5a58ba69-cbba-416b-a451-7d05ca328a06",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>14-Oct-2024</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b058cbd2-63eb-4a62-ab0b-814b9e5c6974",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b058cbd2-63eb-4a62-ab0b-814b9e5c6974",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>14-Oct-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b188ffda-3cea-4123-b3bd-d39bf776208c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b188ffda-3cea-4123-b3bd-d39bf776208c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 165.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>09-Oct-2023</td><td>165.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c68f6216-054e-46d6-aa54-b0f726ab7a19",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c68f6216-054e-46d6-aa54-b0f726ab7a19",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>09-Oct-2023</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c873c54c-bafd-48c1-b5c6-1cf4499f2c24",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c873c54c-bafd-48c1-b5c6-1cf4499f2c24",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>09-Oct-2023</td><td>74.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:116aaf94-8f03-4255-810f-ef873fe06370",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "116aaf94-8f03-4255-810f-ef873fe06370",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.4,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>09-Oct-2023</td><td>27.4 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d487798f-f017-4739-ac99-9b903a03b5e3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d487798f-f017-4739-ac99-9b903a03b5e3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 71,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>09-Oct-2023</td><td>71 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e867186a-6d8c-4cdc-a771-40207c22a59b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e867186a-6d8c-4cdc-a771-40207c22a59b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 99,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>09-Oct-2023</td><td>99 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:536fb84a-9806-4077-924f-51cc7fcc2e6a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "536fb84a-9806-4077-924f-51cc7fcc2e6a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>09-Oct-2023</td><td>81 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd86dab7-c3f2-4aa6-913e-bb12debf5847",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cd86dab7-c3f2-4aa6-913e-bb12debf5847",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>09-Oct-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1e0deb13-228e-485c-b44a-d75879e90dfa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1e0deb13-228e-485c-b44a-d75879e90dfa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 288.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>288.4</td><td>130 - 200</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09T21:16:17Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d22d9b7d-abf5-42d8-8000-fd6f061c457a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d22d9b7d-abf5-42d8-8000-fd6f061c457a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 120.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 35,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>120.6</td><td>35 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09T21:16:17Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fdb0ab87-e028-4d2c-88db-f3e0fb523b37",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fdb0ab87-e028-4d2c-88db-f3e0fb523b37",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 209.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>209.4</td><td>0 - 130</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09T21:16:17Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ee2afdc2-69e3-4c5e-8cd1-76d19a691a40",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ee2afdc2-69e3-4c5e-8cd1-76d19a691a40",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 54.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>54.9</td><td>40 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:3e312991-90ee-41ef-804f-52535db3a2e3",
+          "display": "Margaud Tessier"
+        },
+        "effectiveDateTime": "2023-10-09T21:16:17Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:277f5502-c1de-4445-aa6f-b333b150282b",
+      "resource": {
+        "resourceType": "Device",
+        "id": "277f5502-c1de-4445-aa6f-b333b150282b",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24adf951-7ca9-4e5e-a89a-d87a8c058a5c",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "24adf951-7ca9-4e5e-a89a-d87a8c058a5c",
+        "target": [
+          {
+            "reference": "Patient/3e312991-90ee-41ef-804f-52535db3a2e3"
+          },
+          {
+            "reference": "Bundle/6c5df812-8d22-45e3-9e0e-441818a6325a"
+          },
+          {
+            "reference": "Composition/de6867de-5d6f-45f0-a776-08692b21e559"
+          },
+          {
+            "reference": "PractitionerRole/e93fe596-02f2-47b2-bf83-7b4d022ddb99"
+          },
+          {
+            "reference": "Organization/61a16c50-bf9f-4c4d-a64c-4a7864856776"
+          },
+          {
+            "reference": "Practitioner/6953bd2d-2c0f-49fc-ba5c-6eb3c61a39c7"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/277f5502-c1de-4445-aa6f-b333b150282b"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2023-10-09T21:16:17Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2023-10-09T21:16:17Z"
+}

@@ -1,0 +1,3708 @@
+{
+  "resourceType": "Bundle",
+  "id": "637c4509-de53-4b9e-9abe-aac202034aac",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "accecfd8-f022-474f-bd0d-8d7b71593bea"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a88c56f8-9366-4735-abe4-fc5a33d50a5e",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "a88c56f8-9366-4735-abe4-fc5a33d50a5e",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "70e614b5-8392-4910-8685-8545c48e5ef4"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">02-Aug-2020</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">08-Jun-1980</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bd44a1a6-0265-44a8-b5a7-f93799c6c775"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:91a69e4f-0a13-48b6-a1d5-9c5ff865db36"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">25-Aug-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Feb-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">16-Jul-2017</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e610b116-268c-4e14-ad2c-ae7492ee8de7"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">29-Mar-2021</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">29-Mar-2021</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">28-Mar-2021</span></td><td>-</td></tr><tr><td>Occupational therapy</td><td><span class=\"nb\">27-Mar-2021</span></td><td>-</td></tr><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">23-Mar-2021</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr><tr><td>Postoperative procedure education</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Stair-climbing test</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Walking exercise test</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Discharge to ward</td><td><span class=\"nb\">15-Aug-2020</span></td><td>-</td></tr><tr><td>Discharge from hospital</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Documentation procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Echocardiography</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Blood group typing</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Intubation</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Pulmonary catheterization with Swan-Ganz catheter</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Pre-surgery testing</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Preparation of patient for procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Median sternotomy</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Insertion of catheter into artery</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Scheduling</td><td><span class=\"nb\">14-Aug-2020</span></td><td>Abnormal findings diagnostic imaging heart+coronary circulat (finding)</td></tr><tr><td>Administration of anesthesia for procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr><tr><td>Off-pump coronary artery bypass</td><td><span class=\"nb\">14-Aug-2020</span></td><td>Ischemic heart disease (disorder)</td></tr><tr><td>Notification of treatment plan</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:85b68f98-1f5b-4043-9535-4ca76d260a22"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ed085d1a-a8d4-402f-80e7-91707ab42b48"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Routine antenatal care</td><td><span class=\"nb\">25-Aug-1991</span></td><td>-</td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">08-Jun-1980</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain lifestyle modifications to reduce risk of progression to diabetes, including healthy diet, regular physical activity, and weight management.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-08-25</th><th>2023-08-20</th></tr><tr><td>Body Height</td><td>153.8 cm</td><td>153.8 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>2 {score}</td><td>1 {score}</td></tr><tr><td>Body Weight</td><td>65.9 kg</td><td>65.9 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.9 kg/m2</td><td>27.9 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>67 mm[Hg]</td><td>69 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>100 mm[Hg]</td><td>100 mm[Hg]</td></tr><tr><td>Heart rate</td><td>95 /min</td><td>76 /min</td></tr><tr><td>Respiratory rate</td><td>12 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:09c695a1-ac12-4f11-aeb1-2951df5d6aa1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>25-AUG-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.3</td><td>4.5 - 6.4</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>79.5</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>9.7</td><td>7 - 30</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.5</td><td>0.5 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td><strong>8.5 L</strong></td><td>8.6 - 10.2</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>136.5</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>3.9</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>108.8</td><td>98 - 114</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>27.5</td><td>22 - 32</td><td>mmol/L</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">08-Jun-1980</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4c4eb407-e9ce-4d41-9a03-b0b39df106d9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "custodian": {
+          "reference": "urn:uuid:49bb0b7c-2aed-41e8-a8e5-6a8dda8019d3"
+        },
+        "date": "2024-08-25",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "1106-846125-7"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "2f252e28-1ff3-1dd7-fb80-102d6806e294"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Christa"
+            ],
+            "family": "Vleugels",
+            "text": "Christa Vleugels"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Brentweg 883"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "2560",
+            "city": "Elen",
+            "country": "Belgium"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "058-3890609"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "BE",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Christa Vleugels</td><td>female</td><td>11-Nov-1946</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1946-11-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 17cb483d-5659-4cfa-ac09-a3ba7c587ff4</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:7a07db26-b8e5-46ff-9f8a-893d46847e64"
+        },
+        "organization": {
+          "reference": "urn:uuid:49bb0b7c-2aed-41e8-a8e5-6a8dda8019d3"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49bb0b7c-2aed-41e8-a8e5-6a8dda8019d3",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "49bb0b7c-2aed-41e8-a8e5-6a8dda8019d3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "c853a57a-230b-4866-847e-46080fe3b0f0"
+          }
+        ],
+        "address": [
+          {
+            "city": "Mechelen",
+            "postalCode": "2800",
+            "country": "Belgium"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">AZ Sint-Maarten</table></div>"
+        },
+        "name": "AZ Sint-Maarten"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a07db26-b8e5-46ff-9f8a-893d46847e64",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7a07db26-b8e5-46ff-9f8a-893d46847e64",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd44a1a6-0265-44a8-b5a7-f93799c6c775",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bd44a1a6-0265-44a8-b5a7-f93799c6c775",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">02-Aug-2020</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-08-02",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0e903d3-5ec4-496e-b59f-8a230383797d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f0e903d3-5ec4-496e-b59f-8a230383797d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">08-Jun-1980</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1980-06-08",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:401a9f4f-5efb-423f-ad76-427106c6b5a2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "401a9f4f-5efb-423f-ad76-427106c6b5a2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Polyp of colon</span></td><td><span class=\"nb\">26-May-2022 - 23-Jul-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-05-26",
+        "abatementDateTime": "2023-07-23",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d47f4084-058c-4c10-ac96-1dad73908f1d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d47f4084-058c-4c10-ac96-1dad73908f1d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "36971009",
+              "system": "http://snomed.info/sct",
+              "display": "Sinusitis (disorder)"
+            }
+          ],
+          "text": "Sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sinusitis</span></td><td><span class=\"nb\">22-Oct-2020 - 16-Nov-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-10-22",
+        "abatementDateTime": "2020-11-16",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe0dd8c8-f40a-4780-bc6c-ccad67f7ab10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fe0dd8c8-f40a-4780-bc6c-ccad67f7ab10",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "70704007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of wrist (disorder)"
+            }
+          ],
+          "text": "Sprain of wrist"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of wrist</span></td><td><span class=\"nb\">06-Oct-2020 - 22-Oct-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-10-06",
+        "abatementDateTime": "2020-10-22",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:719fc9b8-22c1-4e68-aa0f-570742b932eb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "719fc9b8-22c1-4e68-aa0f-570742b932eb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Polyp of colon</span></td><td><span class=\"nb\">23-Mar-2016 - 26-May-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-03-23",
+        "abatementDateTime": "2017-05-26",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "asserter": {
+          "reference": "urn:uuid:17cb483d-5659-4cfa-ac09-a3ba7c587ff4",
+          "display": "AZ Sint-Maarten"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:91a69e4f-0a13-48b6-a1d5-9c5ff865db36",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "91a69e4f-0a13-48b6-a1d5-9c5ff865db36",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e610b116-268c-4e14-ad2c-ae7492ee8de7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e610b116-268c-4e14-ad2c-ae7492ee8de7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">25-Aug-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "occurrenceDateTime": "2024-08-25",
+        "lotNumber": "YA-S18EFe",
+        "expirationDate": "2025-04-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7dcc3484-7413-45b1-b7bd-0a14916bc481",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "7dcc3484-7413-45b1-b7bd-0a14916bc481",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "occurrenceDateTime": "2021-02-21",
+        "lotNumber": "YP-CjahZWCY",
+        "expirationDate": "2021-06-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4ed93e3-e18c-4cac-b485-6da6246ff0a5",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "a4ed93e3-e18c-4cac-b485-6da6246ff0a5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">16-Jul-2017</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "occurrenceDateTime": "2017-07-16",
+        "lotNumber": "TO-rFiS8TI5v",
+        "expirationDate": "2018-05-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85b68f98-1f5b-4043-9535-4ca76d260a22",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "85b68f98-1f5b-4043-9535-4ca76d260a22",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">29-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-29",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7b3b3cd-0e21-4df0-a216-ffdc212ceb17",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a7b3b3cd-0e21-4df0-a216-ffdc212ceb17",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">29-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-29",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:991b29e7-ff16-4e81-aaac-924c2c036626",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "991b29e7-ff16-4e81-aaac-924c2c036626",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">28-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-28",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ead1e857-d77a-4dcc-b7c9-a5a4c3f02e12",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ead1e857-d77a-4dcc-b7c9-a5a4c3f02e12",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84478008",
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Occupational therapy</td><td><span class=\"nb\">27-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-27",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdf04d35-1b14-4ed6-862c-e8ad9e998850",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cdf04d35-1b14-4ed6-862c-e8ad9e998850",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "409023009",
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">23-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-23",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:296704ad-7bb7-4a3b-8054-a023f002ce9b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "296704ad-7bb7-4a3b-8054-a023f002ce9b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-21",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e89cedb8-75f6-47dd-9b90-e35adf4b9f38",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e89cedb8-75f6-47dd-9b90-e35adf4b9f38",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-21",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd95fde3-579f-4fa2-a52b-fa7ae1982e1d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "bd95fde3-579f-4fa2-a52b-fa7ae1982e1d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">21-Mar-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-03-21",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd5f4958-15c6-4fc5-b9a9-60c0ce7a9476",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cd5f4958-15c6-4fc5-b9a9-60c0ce7a9476",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "243063003",
+              "system": "http://snomed.info/sct",
+              "display": "Postoperative procedure education (procedure)"
+            }
+          ],
+          "text": "Postoperative procedure education"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Postoperative procedure education</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b74b1bf8-91ac-463f-bb29-140e4ff3177e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b74b1bf8-91ac-463f-bb29-140e4ff3177e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "252482003",
+              "system": "http://snomed.info/sct",
+              "display": "Stair-climbing test (procedure)"
+            }
+          ],
+          "text": "Stair-climbing test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Stair-climbing test</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82ba1ccc-23cf-4f77-ab19-fb4c0b3900d6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "82ba1ccc-23cf-4f77-ab19-fb4c0b3900d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "302761001",
+              "system": "http://snomed.info/sct",
+              "display": "Walking exercise test (procedure)"
+            }
+          ],
+          "text": "Walking exercise test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Walking exercise test</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5cff10fe-7633-4156-aeb0-b3390097e520",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5cff10fe-7633-4156-aeb0-b3390097e520",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "306706006",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge to ward (procedure)"
+            }
+          ],
+          "text": "Discharge to ward"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge to ward</td><td><span class=\"nb\">15-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1640b311-67ea-4e90-ab63-aac92464f87e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1640b311-67ea-4e90-ab63-aac92464f87e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "308283009",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from hospital (procedure)"
+            }
+          ],
+          "text": "Discharge from hospital"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from hospital</td><td><span class=\"nb\">15-Aug-2020</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:439690a4-0ed0-410f-bdc6-58589279f885",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "439690a4-0ed0-410f-bdc6-58589279f885",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "23745001",
+              "system": "http://snomed.info/sct",
+              "display": "Documentation procedure (procedure)"
+            }
+          ],
+          "text": "Documentation procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Documentation procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89b1af2d-946b-4de0-b49e-13006c66e89e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "89b1af2d-946b-4de0-b49e-13006c66e89e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "29303009",
+              "system": "http://snomed.info/sct",
+              "display": "Electrocardiographic procedure (procedure)"
+            }
+          ],
+          "text": "Electrocardiographic procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b2acf29-90a7-4262-90df-b4263de9c141",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8b2acf29-90a7-4262-90df-b4263de9c141",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "40701008",
+              "system": "http://snomed.info/sct",
+              "display": "Echocardiography (procedure)"
+            }
+          ],
+          "text": "Echocardiography"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Echocardiography</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34207327-03df-49b7-abaf-8b2561164788",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "34207327-03df-49b7-abaf-8b2561164788",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "44608003",
+              "system": "http://snomed.info/sct",
+              "display": "Blood group typing (procedure)"
+            }
+          ],
+          "text": "Blood group typing"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood group typing</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6f34e49-a3df-42cd-ad26-7f1879a4a3c8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f6f34e49-a3df-42cd-ad26-7f1879a4a3c8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "52765003",
+              "system": "http://snomed.info/sct",
+              "display": "Intubation"
+            }
+          ],
+          "text": "Intubation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Intubation</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:639a2a7e-edec-4fdd-8607-b9dec0883f67",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "639a2a7e-edec-4fdd-8607-b9dec0883f67",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "65677008",
+              "system": "http://snomed.info/sct",
+              "display": "Pulmonary catheterization with Swan-Ganz catheter (procedure)"
+            }
+          ],
+          "text": "Pulmonary catheterization with Swan-Ganz catheter"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pulmonary catheterization with Swan-Ganz catheter</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38efb3b2-a538-4bea-83fb-379aad0eb8c0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "38efb3b2-a538-4bea-83fb-379aad0eb8c0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "71493000",
+              "system": "http://snomed.info/sct",
+              "display": "Transfusion of packed red blood cells (procedure)"
+            }
+          ],
+          "text": "Transfusion of packed red blood cells"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e5ccc31d-6ad0-4933-815b-1c22962e2ffb",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e5ccc31d-6ad0-4933-815b-1c22962e2ffb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "110467000",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-surgery testing (procedure)"
+            }
+          ],
+          "text": "Pre-surgery testing"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-surgery testing</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd9a6fac-1818-4d21-82d7-63ad91c300c8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "dd9a6fac-1818-4d21-82d7-63ad91c300c8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "223495004",
+              "system": "http://snomed.info/sct",
+              "display": "Preparation of patient for procedure (regime/therapy)"
+            }
+          ],
+          "text": "Preparation of patient for procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Preparation of patient for procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:861b53fc-53b9-4d51-abd0-57f0d4d6074b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "861b53fc-53b9-4d51-abd0-57f0d4d6074b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "271280005",
+              "system": "http://snomed.info/sct",
+              "display": "Removal of endotracheal tube (procedure)"
+            }
+          ],
+          "text": "Removal of endotracheal tube"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:707669f4-098d-460d-ad00-921e465e04db",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "707669f4-098d-460d-ad00-921e465e04db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "359672006",
+              "system": "http://snomed.info/sct",
+              "display": "Median sternotomy (procedure)"
+            }
+          ],
+          "text": "Median sternotomy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Median sternotomy</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a004ea04-3be6-4ba7-a2ee-6e21dd4ab4f1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a004ea04-3be6-4ba7-a2ee-6e21dd4ab4f1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "392247006",
+              "system": "http://snomed.info/sct",
+              "display": "Insertion of catheter into artery (procedure)"
+            }
+          ],
+          "text": "Insertion of catheter into artery"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Insertion of catheter into artery</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b3f44b0-8840-48c2-a404-9918a753a38f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8b3f44b0-8840-48c2-a404-9918a753a38f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "399208008",
+              "system": "http://snomed.info/sct",
+              "display": "Plain chest X-ray (procedure)"
+            }
+          ],
+          "text": "Plain X-ray of chest"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5ec685cd-8a11-40fc-8798-020a6fea114e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5ec685cd-8a11-40fc-8798-020a6fea114e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410538000",
+              "system": "http://snomed.info/sct",
+              "display": "Scheduling (procedure)"
+            }
+          ],
+          "text": "Scheduling"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "274531002",
+                "system": "http://snomed.info/sct",
+                "display": "Abnormal findings diagnostic imaging heart+coronary circulat (finding)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Scheduling</td><td><span class=\"nb\">14-Aug-2020</span></td><td>Abnormal findings diagnostic imaging heart+coronary circulat (finding)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f78ea5c8-ae14-43d6-9b42-0d3247012640",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f78ea5c8-ae14-43d6-9b42-0d3247012640",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410770002",
+              "system": "http://snomed.info/sct",
+              "display": "Administration of anesthesia for procedure (procedure)"
+            }
+          ],
+          "text": "Administration of anesthesia for procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Administration of anesthesia for procedure</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d0aa732-68d0-4c2b-b7f5-b2eb47606b9c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3d0aa732-68d0-4c2b-b7f5-b2eb47606b9c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "418824004",
+              "system": "http://snomed.info/sct",
+              "display": "Off-pump coronary artery bypass (procedure)"
+            }
+          ],
+          "text": "Off-pump coronary artery bypass"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "414545008",
+                "system": "http://snomed.info/sct",
+                "display": "Ischemic heart disease (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Off-pump coronary artery bypass</td><td><span class=\"nb\">14-Aug-2020</span></td><td>Ischemic heart disease (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:216a8d0e-c46f-43fb-a71c-761919c61d4e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "216a8d0e-c46f-43fb-a71c-761919c61d4e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "709138001",
+              "system": "http://snomed.info/sct",
+              "display": "Notification of treatment plan (procedure)"
+            }
+          ],
+          "text": "Notification of treatment plan"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notification of treatment plan</td><td><span class=\"nb\">14-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-14",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed085d1a-a8d4-402f-80e7-91707ab42b48",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "ed085d1a-a8d4-402f-80e7-91707ab42b48",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:277ea5c1-4548-49d8-af71-379241efb57f",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "277ea5c1-4548-49d8-af71-379241efb57f",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "134435003",
+                    "system": "http://snomed.info/sct",
+                    "display": "Routine antenatal care (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Routine antenatal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1991-08-25"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Routine antenatal care</td><td><span class=\"nb\">25-Aug-1991</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5aeb5f2a-e41f-4c86-bb56-4dffd7d0dea8",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "5aeb5f2a-e41f-4c86-bb56-4dffd7d0dea8",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1980-06-08"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:d425709a-9951-4903-90af-6b308323a8d6"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">08-Jun-1980</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain lifestyle modifications to reduce risk of progression to diabetes, including healthy diet, regular physical activity, and weight management.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c98b4f6-4af1-47b3-9e0d-754d197e2729",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "5c98b4f6-4af1-47b3-9e0d-754d197e2729",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09c695a1-ac12-4f11-aeb1-2951df5d6aa1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "09c695a1-ac12-4f11-aeb1-2951df5d6aa1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 153.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>25-Aug-2024</td><td>153.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb0ad0bd-ffa8-47e4-b0c8-521024294755",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb0ad0bd-ffa8-47e4-b0c8-521024294755",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>25-Aug-2024</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2fcafc2-88a8-4868-8a4d-99265f0fc479",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e2fcafc2-88a8-4868-8a4d-99265f0fc479",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 65.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>25-Aug-2024</td><td>65.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08ebc568-eeb6-4c0e-b151-975de4016db6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "08ebc568-eeb6-4c0e-b151-975de4016db6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>25-Aug-2024</td><td>27.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b990564d-213a-4293-9fe5-f9cd0329332a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b990564d-213a-4293-9fe5-f9cd0329332a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 67,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>25-Aug-2024</td><td>67 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06af46e0-1ecb-42c5-9c4f-8036506da388",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06af46e0-1ecb-42c5-9c4f-8036506da388",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 100,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>25-Aug-2024</td><td>100 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:840619bf-21aa-4036-9d6e-9f6e392515af",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "840619bf-21aa-4036-9d6e-9f6e392515af",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 95,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>25-Aug-2024</td><td>95 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d6ebae8-5cb0-4a60-8a64-0a3840fa2ccf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6d6ebae8-5cb0-4a60-8a64-0a3840fa2ccf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>25-Aug-2024</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd14f722-b769-4e0d-aba9-798bc81b214f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dd14f722-b769-4e0d-aba9-798bc81b214f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 153.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>20-Aug-2023</td><td>153.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef46eaf7-5e92-434a-884a-dc5c1a9bd873",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ef46eaf7-5e92-434a-884a-dc5c1a9bd873",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>20-Aug-2023</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c02663a-8738-4d0a-a59a-6364c5d6329e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6c02663a-8738-4d0a-a59a-6364c5d6329e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 65.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>20-Aug-2023</td><td>65.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20f6aa3c-62ac-4dcb-ad66-db34eb13e6fc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20f6aa3c-62ac-4dcb-ad66-db34eb13e6fc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>20-Aug-2023</td><td>27.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:998b2927-98c5-45fe-9e73-75572b3dd11d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "998b2927-98c5-45fe-9e73-75572b3dd11d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>20-Aug-2023</td><td>69 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:adc115b3-3771-4b49-806c-ef396c2a40d7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "adc115b3-3771-4b49-806c-ef396c2a40d7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 100,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>20-Aug-2023</td><td>100 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:13972fc1-45b9-403d-8a7e-0a02df14e209",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "13972fc1-45b9-403d-8a7e-0a02df14e209",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>20-Aug-2023</td><td>76 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:338ddee4-c51e-48d7-a8a5-44118ca3623a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "338ddee4-c51e-48d7-a8a5-44118ca3623a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>20-Aug-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2023-08-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c74b308c-fb89-435c-8602-fcf909fb13db",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c74b308c-fb89-435c-8602-fcf909fb13db",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.3,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.4,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.3</td><td>4.5 - 6.4</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78f93307-eae8-4a2b-82d1-2e8a639592c7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "78f93307-eae8-4a2b-82d1-2e8a639592c7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 79.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>79.5</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f08c8d5b-f605-45ea-b6b4-9ede9505664d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f08c8d5b-f605-45ea-b6b4-9ede9505664d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 30,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>9.7</td><td>7 - 30</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4c30ea8-c193-4afc-b8e2-ce3c37aba22b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e4c30ea8-c193-4afc-b8e2-ce3c37aba22b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.5</td><td>0.5 - 1.3</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d4f74255-e380-4848-ae37-47c08f5f1813",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d4f74255-e380-4848-ae37-47c08f5f1813",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.2,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>8.5</td><td>8.6 - 10.2</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d3609387-ff19-470e-90a9-7dc506ff0eec",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d3609387-ff19-470e-90a9-7dc506ff0eec",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 136.5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>136.5</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:330d3dca-060b-4572-ab8a-3fa857315586",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "330d3dca-060b-4572-ab8a-3fa857315586",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>3.9</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24919bce-b391-4229-a132-083c3625f3ba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "24919bce-b391-4229-a132-083c3625f3ba",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 108.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 114,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>108.8</td><td>98 - 114</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:52118257-c33a-4aed-aa17-6457c0814810",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "52118257-c33a-4aed-aa17-6457c0814810",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 27.5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 32,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>27.5</td><td>22 - 32</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "effectiveDateTime": "2024-08-25T09:47:37Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c4eb407-e9ce-4d41-9a03-b0b39df106d9",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "4c4eb407-e9ce-4d41-9a03-b0b39df106d9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1980-06-08"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">08-Jun-1980</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:e66ac288-8dca-42d1-aeb7-6305b554600a",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e66ac288-8dca-42d1-aeb7-6305b554600a",
+      "resource": {
+        "resourceType": "Device",
+        "id": "e66ac288-8dca-42d1-aeb7-6305b554600a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)40934026133150(11)800518(17)050602(10)65672755500955(21)28841843"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:d10c9c16-eae5-43e1-a9c3-7346dfe10ecd",
+          "display": "Christa Vleugels"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:098a5551-8b88-42a5-9230-c56fa5ea1ebf",
+      "resource": {
+        "resourceType": "Device",
+        "id": "098a5551-8b88-42a5-9230-c56fa5ea1ebf",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78d9502e-e42a-4384-b9a6-355c45bd0d4c",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "78d9502e-e42a-4384-b9a6-355c45bd0d4c",
+        "target": [
+          {
+            "reference": "Patient/d10c9c16-eae5-43e1-a9c3-7346dfe10ecd"
+          },
+          {
+            "reference": "Bundle/637c4509-de53-4b9e-9abe-aac202034aac"
+          },
+          {
+            "reference": "Composition/a88c56f8-9366-4735-abe4-fc5a33d50a5e"
+          },
+          {
+            "reference": "PractitionerRole/17cb483d-5659-4cfa-ac09-a3ba7c587ff4"
+          },
+          {
+            "reference": "Organization/49bb0b7c-2aed-41e8-a8e5-6a8dda8019d3"
+          },
+          {
+            "reference": "Practitioner/7a07db26-b8e5-46ff-9f8a-893d46847e64"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/098a5551-8b88-42a5-9230-c56fa5ea1ebf"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-08-25T09:47:37Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-08-25T09:47:37Z"
+}

@@ -1,0 +1,4240 @@
+{
+  "resourceType": "Bundle",
+  "id": "4dec844c-fdce-4587-a139-b8e4e629b308",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "6ac0d68d-2622-4378-8c43-95636bbd7fcf"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:3bced515-824a-4e92-829d-928c11dc041b",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "3bced515-824a-4e92-829d-928c11dc041b",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "cc1af9f7-0cb0-44ed-8079-40135b91c258"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">24-Apr-2023</span></td><td>active</td></tr><tr><td>Osteoporosis</td><td><span class=\"nb\">14-Mar-2016</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">02-Mar-2007</span></td><td>active</td></tr><tr><td>Recurrent rectal polyp</td><td><span class=\"nb\">26-Feb-2007</span></td><td>active</td></tr><tr><td>Polyp of colon</td><td><span class=\"nb\">23-Jan-2006</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4b4d8238-39f5-4988-a15e-000d860096b1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0765c30d-a799-4186-a9e4-c4621d3b5213"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">17-Feb-2025</span></td></tr><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">18-Apr-2022</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">24-May-2021</span></td></tr><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">12-Apr-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">20-Mar-2017</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d46d24d4-2a54-4266-8679-159875823605"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">26-May-2025</span></td><td>-</td></tr><tr><td>Depression screening</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">27-Jan-2021</span></td><td>-</td></tr><tr><td>Hospice care</td><td><span class=\"nb\">26-Jan-2021</span></td><td>-</td></tr><tr><td>Notifications</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr><tr><td>Certification procedure</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:aa008932-6fdc-45c0-90a9-b60e5a7bc78d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:abf80799-e8cf-48f1-b673-7cd05cc5f5bb"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">24-Apr-2023</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce risk of kidney and cardiovascular complications.</li><li>Patient will demonstrate understanding and implement recommended lifestyle modifications for hypertension, including sodium restriction, regular physical activity, and weight management.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-16</th><th>2025-06-02</th></tr><tr><td>Body Height</td><td>174.8 cm</td><td>174.8 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>83.5 kg</td><td>83.5 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.3 kg/m2</td><td>27.3 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>87 mm[Hg]</td><td>86 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>121 mm[Hg]</td><td>121 mm[Hg]</td></tr><tr><td>Heart rate</td><td>87 /min</td><td>72 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>12 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:82c4f1f0-8440-4320-a8ad-176201af8f15"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>16-JUN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>99.6</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>18.8</td><td>7 - 45</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td><strong>1.8 H</strong></td><td>0.9 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.5</td><td>8.5 - 10.5</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>137.9</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>4.4</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>101.8</td><td>98 - 111</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>24.3</td><td>22 - 32</td><td>mmol/L</td></tr><tr><td>Appearance of Urine</td><td>Cloudy urine</td><td></td><td></td></tr><tr><td>Odor of Urine</td><td>Urine smell ammoniacal</td><td></td><td></td></tr><tr><td>Clarity of Urine</td><td>Translucent</td><td></td><td></td></tr><tr><td>Color of Urine</td><td>Brown color</td><td></td><td></td></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td><strong>2.5 H</strong></td><td>0 - 0</td><td>mg/dL</td></tr><tr><td>Glucose [Presence] in Urine by Test strip</td><td>++</td><td></td><td></td></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.3</td><td>0 - 1.4</td><td>mg/dL</td></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td><td>Finding of bilirubin in urine</td><td></td><td></td></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td><strong>10.5 H</strong></td><td>0 - 8</td><td>mg/dL</td></tr><tr><td>Ketones [Presence] in Urine by Test strip</td><td>Urine ketone test = +</td><td></td><td></td></tr><tr><td>Specific gravity of Urine by Test strip</td><td><strong>1.0 L</strong></td><td>1.005 - 1.03</td><td>{nominal}</td></tr><tr><td>pH of Urine by Test strip</td><td>5.9</td><td>4.6 - 7</td><td>pH</td></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td><strong>326.3 H</strong></td><td>0 - 149</td><td>mg/dL</td></tr><tr><td>Protein [Presence] in Urine by Test strip</td><td>Urine protein test = ++</td><td></td><td></td></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td><td>Urine nitrite negative</td><td></td><td></td></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td><td>Urine blood test = negative</td><td></td><td></td></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td><td>Urine leukocyte test negative</td><td></td><td></td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "custodian": {
+          "reference": "urn:uuid:04bbd99c-c5a8-4c3a-9b62-c99c980de5f9"
+        },
+        "date": "2025-06-16",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1eed857d-452e-48cb-9379-b11ae2a67a3d",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6339-905268-5"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "c972a7dd-d193-1ff1-8084-b1369483574a"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Amedeu"
+            ],
+            "family": "Suciu",
+            "text": "Amedeu Suciu"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Aleea Ardelean Nr. 241 Bl. 14  Sc. 70 Ap. 736"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "332006",
+            "city": "Petrosani",
+            "country": "Romania"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0736 711 964"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "RO",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Amedeu Suciu</td><td>male</td><td>26-Mar-1960</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1960-03-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:f3a4a1c1-aeb1-42de-93c0-7abd46141397"
+        },
+        "organization": {
+          "reference": "urn:uuid:04bbd99c-c5a8-4c3a-9b62-c99c980de5f9"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04bbd99c-c5a8-4c3a-9b62-c99c980de5f9",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "04bbd99c-c5a8-4c3a-9b62-c99c980de5f9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "fc0d36c9-da87-4be9-9674-572daaf9359c"
+          }
+        ],
+        "address": [
+          {
+            "city": "Hațeg",
+            "postalCode": "335500",
+            "country": "Romania"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Spitalul Orășenesc Hațeg</table></div>"
+        },
+        "name": "Spitalul Orășenesc Hațeg"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3a4a1c1-aeb1-42de-93c0-7abd46141397",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f3a4a1c1-aeb1-42de-93c0-7abd46141397",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b4d8238-39f5-4988-a15e-000d860096b1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4b4d8238-39f5-4988-a15e-000d860096b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-17",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9611739c-8a5f-40c4-a0b8-3c3b9fc9398b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9611739c-8a5f-40c4-a0b8-3c3b9fc9398b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-17",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7c00251c-2903-443c-be99-8b3f81bf7e4f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7c00251c-2903-443c-be99-8b3f81bf7e4f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">17-Feb-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-17",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ed57ee2-5ff9-4dce-a22e-12b7e011960e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9ed57ee2-5ff9-4dce-a22e-12b7e011960e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">24-Apr-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-04-24",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:deed1282-9abb-4921-b4a8-4af537af8ee5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "deed1282-9abb-4921-b4a8-4af537af8ee5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "64859006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporosis (disorder)"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoporosis</td><td><span class=\"nb\">14-Mar-2016</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-03-14",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:226e0672-eb29-4275-87a7-fd73c8cd275a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "226e0672-eb29-4275-87a7-fd73c8cd275a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">02-Mar-2007</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2007-03-02",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f1dd7a6-86fa-46cf-aaa8-e8bafcaf975a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6f1dd7a6-86fa-46cf-aaa8-e8bafcaf975a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "713197008",
+              "system": "http://snomed.info/sct",
+              "display": "Recurrent rectal polyp (disorder)"
+            }
+          ],
+          "text": "Recurrent rectal polyp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Recurrent rectal polyp</td><td><span class=\"nb\">26-Feb-2007</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2007-02-26",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74df5297-5207-4499-b1b5-cc8e8ae40526",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "74df5297-5207-4499-b1b5-cc8e8ae40526",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Polyp of colon</td><td><span class=\"nb\">23-Jan-2006</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2006-01-23",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0399d7e5-a72e-4e27-8a5b-bb590478a3d6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0399d7e5-a72e-4e27-8a5b-bb590478a3d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">09-Jun-2025 - 19-Jun-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-06-09",
+        "abatementDateTime": "2025-06-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b19abbf1-4a55-464e-af00-f9c9e9df9be8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b19abbf1-4a55-464e-af00-f9c9e9df9be8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">04-Sep-2023 - 16-Sep-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-09-04",
+        "abatementDateTime": "2023-09-16",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a3cd8b4c-7dfa-432f-910a-325f1cc94d64",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a3cd8b4c-7dfa-432f-910a-325f1cc94d64",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "44465007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of ankle (disorder)"
+            }
+          ],
+          "text": "Sprain of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of ankle</span></td><td><span class=\"nb\">01-Jan-2022 - 11-Feb-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-01-01",
+        "abatementDateTime": "2022-02-11",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10ff33a5-0ea1-472f-9400-6fbc42029195",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "10ff33a5-0ea1-472f-9400-6fbc42029195",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">11-May-2021 - 07-Jun-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-05-11",
+        "abatementDateTime": "2021-06-07",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "asserter": {
+          "reference": "urn:uuid:a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb",
+          "display": "Spitalul Orășenesc Hațeg"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0765c30d-a799-4186-a9e4-c4621d3b5213",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "0765c30d-a799-4186-a9e4-c4621d3b5213",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d46d24d4-2a54-4266-8679-159875823605",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d46d24d4-2a54-4266-8679-159875823605",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">17-Feb-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "occurrenceDateTime": "2025-02-17",
+        "lotNumber": "EI-YDUKz",
+        "expirationDate": "2025-09-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b5dd104-eee0-403a-961a-00bab8160981",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3b5dd104-eee0-403a-961a-00bab8160981",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1252709000",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Streptococcus pneumoniae capsular polysaccharide antigens conjugated"
+            },
+            {
+              "code": "J07AL01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Pneumococcal polysaccharide vaccines"
+            }
+          ],
+          "text": "Streptococcus pneumoniae Danish serotype 1"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">18-Apr-2022</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "occurrenceDateTime": "2022-04-18",
+        "lotNumber": "GW-GxKh",
+        "expirationDate": "2022-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:084d6bbb-d76b-4bac-bd9b-6da0712759e5",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "084d6bbb-d76b-4bac-bd9b-6da0712759e5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">24-May-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "occurrenceDateTime": "2021-05-24",
+        "lotNumber": "WA-bRgvub",
+        "expirationDate": "2022-03-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b14dc81b-acc0-414f-8c7e-9ede6f5d839b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b14dc81b-acc0-414f-8c7e-9ede6f5d839b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "51451000087105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Streptococcus pneumoniae capsular polysaccharide antigens conjugated"
+            },
+            {
+              "code": "J07AL02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Pneumococcal conjugate vaccines"
+            }
+          ],
+          "text": "Streptococcus pneumoniae Danish serotype 1"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">12-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "occurrenceDateTime": "2021-04-12",
+        "lotNumber": "EN-ofpAVsD",
+        "expirationDate": "2021-05-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f53b59e-2ba2-4ddf-a14d-6897ea8234aa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "5f53b59e-2ba2-4ddf-a14d-6897ea8234aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">20-Mar-2017</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "occurrenceDateTime": "2017-03-20",
+        "lotNumber": "IV-Tlikkrjlk",
+        "expirationDate": "2018-03-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa008932-6fdc-45c0-90a9-b60e5a7bc78d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "aa008932-6fdc-45c0-90a9-b60e5a7bc78d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">26-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-26",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ccf58858-fa1a-4267-92b8-0a8facf7e508",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ccf58858-fa1a-4267-92b8-0a8facf7e508",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2f7e8a73-2b6b-445a-9297-30078c9ae5fe",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2f7e8a73-2b6b-445a-9297-30078c9ae5fe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7df4ad38-8467-4209-92ad-86b4ef49cfa8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7df4ad38-8467-4209-92ad-86b4ef49cfa8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d396cf93-8b92-40c9-a354-a63f615dd11e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d396cf93-8b92-40c9-a354-a63f615dd11e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5fe9c4eb-77d0-4436-adc5-1e9035c15235",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5fe9c4eb-77d0-4436-adc5-1e9035c15235",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">19-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-19",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa987b0a-6522-4698-a74a-9789f642976f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "aa987b0a-6522-4698-a74a-9789f642976f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">27-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-27",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14c8a704-471b-4231-a5fc-0563bf9285e7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "14c8a704-471b-4231-a5fc-0563bf9285e7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "385763009",
+              "system": "http://snomed.info/sct",
+              "display": "Hospice care (regime/therapy)"
+            }
+          ],
+          "text": "Hospice care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hospice care</td><td><span class=\"nb\">26-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-26",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:042a06ae-150e-4621-b246-cad291cb343e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "042a06ae-150e-4621-b246-cad291cb343e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "185087000",
+              "system": "http://snomed.info/sct",
+              "display": "Notifications (procedure)"
+            }
+          ],
+          "text": "Notifications"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notifications</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-18",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5136203-9ae5-45e2-bd6a-3bed365a2551",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a5136203-9ae5-45e2-bd6a-3bed365a2551",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "310417005",
+              "system": "http://snomed.info/sct",
+              "display": "Certification procedure (procedure)"
+            }
+          ],
+          "text": "Certification procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Certification procedure</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-18",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:217e75ad-4334-46cf-9f86-cab528fda459",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "217e75ad-4334-46cf-9f86-cab528fda459",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-18",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:664e4f6a-8e22-4b6f-a9e0-f03d64b1aee8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "664e4f6a-8e22-4b6f-a9e0-f03d64b1aee8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">18-Jan-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-01-18",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:abf80799-e8cf-48f1-b673-7cd05cc5f5bb",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "abf80799-e8cf-48f1-b673-7cd05cc5f5bb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14c1f6f8-0da7-4d00-b3c4-7fec4496f5bc",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "14c1f6f8-0da7-4d00-b3c4-7fec4496f5bc",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2023-04-24"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:2fa241db-85fa-4cae-bb50-32b9681980c0"
+          },
+          {
+            "reference": "urn:uuid:dc647bc4-1b3b-4f9e-9543-434e326c03dd"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">24-Apr-2023</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce risk of kidney and cardiovascular complications.</li><li>Patient will demonstrate understanding and implement recommended lifestyle modifications for hypertension, including sodium restriction, regular physical activity, and weight management.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00c606ad-0e83-4228-b539-800f03d999eb",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "00c606ad-0e83-4228-b539-800f03d999eb",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82c4f1f0-8440-4320-a8ad-176201af8f15",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82c4f1f0-8440-4320-a8ad-176201af8f15",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 174.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>16-Jun-2025</td><td>174.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd8f5d75-330a-4035-b2d7-93b8651d2e9c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dd8f5d75-330a-4035-b2d7-93b8651d2e9c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>16-Jun-2025</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fd0ed5cc-1b5c-421a-b24c-672c12fc3941",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fd0ed5cc-1b5c-421a-b24c-672c12fc3941",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83.5,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>16-Jun-2025</td><td>83.5 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:25c71b07-5302-4605-83e4-a86c8fe48194",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "25c71b07-5302-4605-83e4-a86c8fe48194",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>16-Jun-2025</td><td>27.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df5d48d7-20d8-43cc-9cfc-a4c914bc03d8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "df5d48d7-20d8-43cc-9cfc-a4c914bc03d8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 87,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>16-Jun-2025</td><td>87 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b47d83d-3959-47c8-ae3a-419ca9e57d3b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3b47d83d-3959-47c8-ae3a-419ca9e57d3b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 121,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>16-Jun-2025</td><td>121 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6a31bf7-861c-4a32-adba-4c7da5891e5d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f6a31bf7-861c-4a32-adba-4c7da5891e5d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 87,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>16-Jun-2025</td><td>87 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bcfb1451-3a27-4f9d-a978-b60e1de78b52",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bcfb1451-3a27-4f9d-a978-b60e1de78b52",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>16-Jun-2025</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5219fc1b-87ed-407a-aa1b-05870457def3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5219fc1b-87ed-407a-aa1b-05870457def3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 174.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>02-Jun-2025</td><td>174.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6845a122-5837-4361-8ba4-084639a162a4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6845a122-5837-4361-8ba4-084639a162a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>02-Jun-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa6cf291-bbc6-4ce3-822e-2f8d0fb6ad7b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa6cf291-bbc6-4ce3-822e-2f8d0fb6ad7b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83.5,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>02-Jun-2025</td><td>83.5 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3aa16458-9d64-44ad-b9af-a6bd100bece8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3aa16458-9d64-44ad-b9af-a6bd100bece8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>02-Jun-2025</td><td>27.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c52c8646-39ec-40a3-acbe-30d35c6f0d05",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c52c8646-39ec-40a3-acbe-30d35c6f0d05",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>02-Jun-2025</td><td>86 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a3ed780-ce41-4061-b77a-1b13d098e0f9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9a3ed780-ce41-4061-b77a-1b13d098e0f9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 121,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>02-Jun-2025</td><td>121 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cfe50bb-ad32-4fe1-8820-87a90370b02e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9cfe50bb-ad32-4fe1-8820-87a90370b02e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>02-Jun-2025</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1136f778-b328-456d-8660-0db20e774200",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1136f778-b328-456d-8660-0db20e774200",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>02-Jun-2025</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85310084-b054-4e2f-aaa0-8fea09faa632",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85310084-b054-4e2f-aaa0-8fea09faa632",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2345-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 99.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>99.6</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa243346-14cd-4dc5-8b65-e99a2c09a9d9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa243346-14cd-4dc5-8b65-e99a2c09a9d9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "3094-0",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 18.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 45,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>18.8</td><td>7 - 45</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1b2dae4-8da2-4afc-bbfd-bc89c6f7f983",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f1b2dae4-8da2-4afc-bbfd-bc89c6f7f983",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2160-0",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.9,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td>1.8</td><td>0.9 - 1.3</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:90f0a6a6-e2ae-4835-bf6b-22fc9cb71db2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "90f0a6a6-e2ae-4835-bf6b-22fc9cb71db2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "17861-6",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.5</td><td>8.5 - 10.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0302003-1dbe-4da3-b454-a5df435e22b4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d0302003-1dbe-4da3-b454-a5df435e22b4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2951-2",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>137.9</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6641c5db-978e-490a-8a77-2cc4e2a630fe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6641c5db-978e-490a-8a77-2cc4e2a630fe",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2823-3",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>4.4</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ec42bf29-628a-41ad-8117-8b1ac743c290",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ec42bf29-628a-41ad-8117-8b1ac743c290",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2075-0",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 101.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 111,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>101.8</td><td>98 - 111</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db371975-d178-4b19-8434-b5b74a482c83",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "db371975-d178-4b19-8434-b5b74a482c83",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2028-9",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 24.3,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 32,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>24.3</td><td>22 - 32</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf5523e8-5e70-4937-8187-d43eb2c548cd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf5523e8-5e70-4937-8187-d43eb2c548cd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5767-9",
+              "system": "http://loinc.org",
+              "display": "Appearance of Urine"
+            }
+          ],
+          "text": "Appearance of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Appearance of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:458fb049-2e98-403e-ba06-2a279714c58a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "458fb049-2e98-403e-ba06-2a279714c58a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "34533-0",
+              "system": "http://loinc.org",
+              "display": "Odor of Urine"
+            }
+          ],
+          "text": "Odor of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Odor of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38207957-792c-442c-96c4-d11fc6b06e47",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38207957-792c-442c-96c4-d11fc6b06e47",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32167-9",
+              "system": "http://loinc.org",
+              "display": "Clarity of Urine"
+            }
+          ],
+          "text": "Clarity of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Clarity of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a3cab936-ac4e-46b1-bb51-70badda7a841",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a3cab936-ac4e-46b1-bb51-70badda7a841",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5778-6",
+              "system": "http://loinc.org",
+              "display": "Color of Urine"
+            }
+          ],
+          "text": "Color of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Color of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74b679cb-41e8-4fc3-9cbc-aa9abdfbc50e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "74b679cb-41e8-4fc3-9cbc-aa9abdfbc50e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5792-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>2.5</td><td>0 - 0</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b48f9833-1ce7-4e88-9d31-ae52fa3a2ad6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b48f9833-1ce7-4e88-9d31-ae52fa3a2ad6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "25428-4",
+              "system": "http://loinc.org",
+              "display": "Glucose [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87652911-9e1c-4380-9e15-626b184cd316",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87652911-9e1c-4380-9e15-626b184cd316",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20505-4",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.3</td><td>0 - 1.4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6a9f61a-3c29-4ef2-8941-1b4e6111cfac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e6a9f61a-3c29-4ef2-8941-1b4e6111cfac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5770-3",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:720e91f9-9b26-44da-8b29-ae2d783ce87b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "720e91f9-9b26-44da-8b29-ae2d783ce87b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5797-6",
+              "system": "http://loinc.org",
+              "display": "Ketones [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>10.5</td><td>0 - 8</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a051ad2b-f773-49b3-83f8-e942d9be12a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a051ad2b-f773-49b3-83f8-e942d9be12a2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2514-8",
+              "system": "http://loinc.org",
+              "display": "Ketones [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:970560d6-c44d-49c0-ba5a-4c935719fad0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "970560d6-c44d-49c0-ba5a-4c935719fad0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5811-5",
+              "system": "http://loinc.org",
+              "display": "Specific gravity of Urine by Test strip"
+            }
+          ],
+          "text": "Specific gravity of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "{nominal}",
+          "code": "{nominal}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1.005,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.03,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Specific gravity of Urine by Test strip</td><td>1.0</td><td>1.005 - 1.03</td><td>L</td><td>{nominal}</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6dbe40c-d0fb-4a09-855a-e08ad427a370",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f6dbe40c-d0fb-4a09-855a-e08ad427a370",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5803-2",
+              "system": "http://loinc.org",
+              "display": "pH of Urine by Test strip"
+            }
+          ],
+          "text": "pH of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.9,
+          "unit": "pH",
+          "code": "pH"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.6,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>pH of Urine by Test strip</td><td>5.9</td><td>4.6 - 7</td><td></td><td>pH</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38eb5af4-eb23-40ff-8c6b-87c8740c0849",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38eb5af4-eb23-40ff-8c6b-87c8740c0849",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5804-0",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 326.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 149,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td>326.3</td><td>0 - 149</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6f97aa6-7d3f-419c-90a2-0909dc1a5196",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b6f97aa6-7d3f-419c-90a2-0909dc1a5196",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20454-5",
+              "system": "http://loinc.org",
+              "display": "Protein [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7646d04-bd6e-4ad6-84a1-c1a67687ead7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e7646d04-bd6e-4ad6-84a1-c1a67687ead7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5802-4",
+              "system": "http://loinc.org",
+              "display": "Nitrite [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Nitrite [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:90bfafcc-ef76-46f0-870c-e0b30862a257",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "90bfafcc-ef76-46f0-870c-e0b30862a257",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5794-3",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Hemoglobin [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cad59a9-ae59-46b3-8cb5-d5bd0b5dcb4c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9cad59a9-ae59-46b3-8cb5-d5bd0b5dcb4c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5799-2",
+              "system": "http://loinc.org",
+              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Leukocyte esterase [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1eed857d-452e-48cb-9379-b11ae2a67a3d",
+          "display": "Amedeu Suciu"
+        },
+        "effectiveDateTime": "2025-06-16T10:01:34Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc85ef3e-677e-4568-8f1f-c73a6498174b",
+      "resource": {
+        "resourceType": "Device",
+        "id": "dc85ef3e-677e-4568-8f1f-c73a6498174b",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3531af0b-af93-4243-a160-598609411cc9",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "3531af0b-af93-4243-a160-598609411cc9",
+        "target": [
+          {
+            "reference": "Patient/1eed857d-452e-48cb-9379-b11ae2a67a3d"
+          },
+          {
+            "reference": "Bundle/4dec844c-fdce-4587-a139-b8e4e629b308"
+          },
+          {
+            "reference": "Composition/3bced515-824a-4e92-829d-928c11dc041b"
+          },
+          {
+            "reference": "PractitionerRole/a68977cc-c5bc-4ec6-bfa8-a63964ddbcfb"
+          },
+          {
+            "reference": "Organization/04bbd99c-c5a8-4c3a-9b62-c99c980de5f9"
+          },
+          {
+            "reference": "Practitioner/f3a4a1c1-aeb1-42de-93c0-7abd46141397"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/dc85ef3e-677e-4568-8f1f-c73a6498174b"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-06-16T10:01:34Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-06-16T10:01:34Z"
+}

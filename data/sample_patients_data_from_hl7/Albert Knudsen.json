@@ -1,0 +1,2572 @@
+{
+  "resourceType": "Bundle",
+  "id": "0d682cd5-7207-475c-af58-4f7c83ebd2b5",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "50e0e681-1290-4929-ab2f-db3b8a934a38"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:b3321ee6-cf3b-4b55-a0ad-761dc7fce277",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "b3321ee6-cf3b-4b55-a0ad-761dc7fce277",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "fc48feb2-9cd1-40d9-bc67-841c7d774965"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">18-Oct-2017</span></td><td>active</td></tr><tr><td>Dependent drug abuse</td><td><span class=\"nb\">21-Mar-1998</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8fc555c4-5955-4626-826e-adf9add1c9a3"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9bac3f24-db5a-4cfe-bf5a-2d9facb447da"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr><tr><td>COVID-19 non-replicating viral vector vaccine</td><td><span class=\"nb\">21-Apr-2021</span></td></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2015</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ff2ef7bb-3b61-4a1b-a2fc-2f4e03faa7e4"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr><tr><td>Plain X-ray of clavicle</td><td><span class=\"nb\">01-Dec-2019</span></td><td>-</td></tr><tr><td>Admission to orthopedic department</td><td><span class=\"nb\">01-Dec-2019</span></td><td>Fracture of clavicle</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f3f46dbe-93de-4e7f-b12d-167bb2087834"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8d9caa33-d5d9-4b23-bcb8-755a5d2b6f10"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">18-Oct-2017</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain blood pressure below 130/80 mmHg through lifestyle changes including diet, exercise, and sodium reduction.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">08-Nov-2000</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-11-27</th><th>2023-11-22</th></tr><tr><td>Body Height</td><td>174.3 cm</td><td>174.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>0 {score}</td></tr><tr><td>Body Weight</td><td>91.6 kg</td><td>89.8 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.1 kg/m2</td><td>29.6 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>92 mm[Hg]</td><td>95 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>136 mm[Hg]</td><td>134 mm[Hg]</td></tr><tr><td>Heart rate</td><td>83 /min</td><td>72 /min</td></tr><tr><td>Respiratory rate</td><td>12 /min</td><td>13 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d45d4591-8932-42ea-9c53-6b281508802e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>27-NOV-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td><strong>296.9 H</strong></td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>122.9</td><td>0 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td><strong>214.8 H</strong></td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>57.5</td><td>40 - 60</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "custodian": {
+          "reference": "urn:uuid:fa814e75-52a4-478c-b37a-0b9858df7227"
+        },
+        "date": "2024-11-27",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f62d3409-8271-49d7-a842-91e77d3303c5",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8668-391327-0"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "d2524b32-2db1-c7a7-6287-04bac4c1c7ba"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Albert"
+            ],
+            "family": "Knudsen",
+            "text": "Albert Knudsen"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Obdams Allé 8"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "7741",
+            "city": "Vesløs",
+            "country": "Denmark"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+45 92155678"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "DK",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Albert Knudsen</td><td>male</td><td>25-Jan-1978</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1978-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "b57937da-be1a-4694-bd6d-e31bef075c3f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id b57937da-be1a-4694-bd6d-e31bef075c3f</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:4862c1e9-e737-42d4-9bd2-a668586d6b93"
+        },
+        "organization": {
+          "reference": "urn:uuid:fa814e75-52a4-478c-b37a-0b9858df7227"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa814e75-52a4-478c-b37a-0b9858df7227",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "fa814e75-52a4-478c-b37a-0b9858df7227",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "8579e816-ca32-403e-9f4c-3da79849f7e1"
+          }
+        ],
+        "address": [
+          {
+            "city": "Thisted",
+            "postalCode": "7700",
+            "country": "Denmark"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Aalborg Universitetshospital Thisted</table></div>"
+        },
+        "name": "Aalborg Universitetshospital Thisted"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4862c1e9-e737-42d4-9bd2-a668586d6b93",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "4862c1e9-e737-42d4-9bd2-a668586d6b93",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8fc555c4-5955-4626-826e-adf9add1c9a3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8fc555c4-5955-4626-826e-adf9add1c9a3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">18-Oct-2017</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-10-18",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4bce15b9-0e36-4de2-b3df-fbadf5929884",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4bce15b9-0e36-4de2-b3df-fbadf5929884",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6525002",
+              "system": "http://snomed.info/sct",
+              "display": "Dependent drug abuse (disorder)"
+            }
+          ],
+          "text": "Dependent drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Dependent drug abuse</td><td><span class=\"nb\">21-Mar-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-03-21",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0cc110ad-6059-461f-aaa6-6b04419ac2c6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0cc110ad-6059-461f-aaa6-6b04419ac2c6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">28-Jan-2023 - 28-Jan-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-01-28",
+        "abatementDateTime": "2023-01-28",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2ea1c4a-7643-4598-acf8-7433377111c5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b2ea1c4a-7643-4598-acf8-7433377111c5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "10509002",
+              "system": "http://snomed.info/sct",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute bronchitis</span></td><td><span class=\"nb\">05-Dec-2022 - 18-Dec-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-12-05",
+        "abatementDateTime": "2022-12-18",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b41f4550-63f8-45ff-9f1d-f37063b1da56",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b41f4550-63f8-45ff-9f1d-f37063b1da56",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Aug-2020 - 21-Aug-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-08-10",
+        "abatementDateTime": "2020-08-21",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6dc150d-fce7-44a6-8d7c-d23034cd2f81",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f6dc150d-fce7-44a6-8d7c-d23034cd2f81",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "58150001",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of clavicle (disorder)"
+            }
+          ],
+          "text": "Fracture of clavicle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of clavicle</span></td><td><span class=\"nb\">01-Dec-2019 - 28-Jan-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-12-01",
+        "abatementDateTime": "2020-01-28",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e417d1f-a98d-43e2-9add-a35b0998474d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7e417d1f-a98d-43e2-9add-a35b0998474d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">01-Dec-2019 - 28-Jan-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-12-01",
+        "abatementDateTime": "2020-01-28",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "asserter": {
+          "reference": "urn:uuid:b57937da-be1a-4694-bd6d-e31bef075c3f",
+          "display": "Aalborg Universitetshospital Thisted"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9bac3f24-db5a-4cfe-bf5a-2d9facb447da",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9bac3f24-db5a-4cfe-bf5a-2d9facb447da",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff2ef7bb-3b61-4a1b-a2fc-2f4e03faa7e4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "ff2ef7bb-3b61-4a1b-a2fc-2f4e03faa7e4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "occurrenceDateTime": "2024-11-27",
+        "lotNumber": "WD-IDLls",
+        "expirationDate": "2025-08-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bbd7f4b3-26c7-4da3-850f-a14b0e006423",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "bbd7f4b3-26c7-4da3-850f-a14b0e006423",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2221000221107",
+              "system": "http://snomed.info/sct",
+              "display": "Live attenuated Varicella-zoster vaccine"
+            },
+            {
+              "code": "J07BK02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Varicella-zoster vaccines"
+            }
+          ],
+          "text": "Live attenuated Human alphaherpesvirus 3 only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "368208006",
+              "system": "http://snomed.info/sct",
+              "display": "Left upper arm structure"
+            }
+          ],
+          "text": "Left upper arm structure"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "34206005",
+              "system": "http://snomed.info/sct",
+              "display": "Subcutaneous route"
+            }
+          ],
+          "text": "Subcutaneous route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "occurrenceDateTime": "2024-11-27",
+        "lotNumber": "CT-R0O34",
+        "expirationDate": "2025-02-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc777842-7b64-427f-b557-9bad199c52b8",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "fc777842-7b64-427f-b557-9bad199c52b8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">27-Nov-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "occurrenceDateTime": "2024-11-27",
+        "lotNumber": "JT-wBBC",
+        "expirationDate": "2025-01-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:027befbe-f389-496b-b481-b187cf4b1869",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "027befbe-f389-496b-b481-b187cf4b1869",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "29061000087103",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing recombinant viral vector encoding SARS-CoV-2 spike protein"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 vector vaccines (non-replicating)"
+            }
+          ],
+          "text": "COVID-19 non-replicating viral vector vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>COVID-19 non-replicating viral vector vaccine</td><td><span class=\"nb\">21-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "occurrenceDateTime": "2021-04-21",
+        "lotNumber": "AJ-jWTgiMi1Q",
+        "expirationDate": "2022-04-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d333b01-1276-4368-9fbf-09771f2e5eb6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "7d333b01-1276-4368-9fbf-09771f2e5eb6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2015</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "occurrenceDateTime": "2015-10-14",
+        "lotNumber": "QU-vwdNpLZ",
+        "expirationDate": "2016-06-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3f46dbe-93de-4e7f-b12d-167bb2087834",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f3f46dbe-93de-4e7f-b12d-167bb2087834",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-12-14",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1e1ebb5-b274-4b16-bbbf-71a285d767d3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c1e1ebb5-b274-4b16-bbbf-71a285d767d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-12-14",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23533fb9-2299-4191-949e-c237a4101fec",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "23533fb9-2299-4191-949e-c237a4101fec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-12-14",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85ee4825-620c-4675-b0a8-6abea492da6b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "85ee4825-620c-4675-b0a8-6abea492da6b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">14-Dec-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-12-14",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05201cfe-6a93-4342-a863-d63deb19c8e8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "05201cfe-6a93-4342-a863-d63deb19c8e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "168594001",
+              "system": "http://snomed.info/sct",
+              "display": "Clavicle X-ray"
+            }
+          ],
+          "text": "Plain X-ray of clavicle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of clavicle</td><td><span class=\"nb\">01-Dec-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-12-01",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:513a70f7-d751-4ffa-aafe-39081614e155",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "513a70f7-d751-4ffa-aafe-39081614e155",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "305428000",
+              "system": "http://snomed.info/sct",
+              "display": "Admission to orthopedic department"
+            }
+          ],
+          "text": "Admission to orthopedic department"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "58150001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of clavicle"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Admission to orthopedic department</td><td><span class=\"nb\">01-Dec-2019</span></td><td>Fracture of clavicle</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-12-01",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d9caa33-d5d9-4b23-bcb8-755a5d2b6f10",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "8d9caa33-d5d9-4b23-bcb8-755a5d2b6f10",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83cc9a1f-0580-43fe-8eee-1fe4fe017325",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "83cc9a1f-0580-43fe-8eee-1fe4fe017325",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2017-10-18"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:1b4e7a78-cb22-44f4-9807-42e4cd8afe35"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">18-Oct-2017</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain blood pressure below 130/80 mmHg through lifestyle changes including diet, exercise, and sodium reduction.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7bc854c6-dea4-48fd-8145-98dba96c325c",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "7bc854c6-dea4-48fd-8145-98dba96c325c",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2000-11-08"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">08-Nov-2000</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d45d4591-8932-42ea-9c53-6b281508802e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d45d4591-8932-42ea-9c53-6b281508802e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 174.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>27-Nov-2024</td><td>174.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa05ee32-c68a-496d-815d-e32d453a8ee2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa05ee32-c68a-496d-815d-e32d453a8ee2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>27-Nov-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f154f80-fe83-4048-9f8a-ccad23d84132",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1f154f80-fe83-4048-9f8a-ccad23d84132",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 91.6,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>27-Nov-2024</td><td>91.6 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:46152a51-9a13-4f38-b0b7-6679cacb462d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "46152a51-9a13-4f38-b0b7-6679cacb462d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27-Nov-2024</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ccd81aa3-63a1-46c6-b0e7-ced17d8a6e78",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ccd81aa3-63a1-46c6-b0e7-ced17d8a6e78",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>27-Nov-2024</td><td>92 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2fd2bf5c-0400-4040-8262-b0b0df4875f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2fd2bf5c-0400-4040-8262-b0b0df4875f8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 136,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>27-Nov-2024</td><td>136 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdcee63e-17db-46ef-a550-775eb5e625c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cdcee63e-17db-46ef-a550-775eb5e625c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>27-Nov-2024</td><td>83 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92275da3-72a3-485a-aca7-f5e4d55456c7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "92275da3-72a3-485a-aca7-f5e4d55456c7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>27-Nov-2024</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d13e594-3b65-4006-afa8-b49e459caf23",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3d13e594-3b65-4006-afa8-b49e459caf23",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 174.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>22-Nov-2023</td><td>174.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0f3c9b8-5169-4678-8c97-8012495775be",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d0f3c9b8-5169-4678-8c97-8012495775be",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>22-Nov-2023</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d2aa477-d157-45f2-a86a-24c3498f2dc0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8d2aa477-d157-45f2-a86a-24c3498f2dc0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 89.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>22-Nov-2023</td><td>89.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0548f00e-7a11-4511-8eaa-0c8794e47064",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0548f00e-7a11-4511-8eaa-0c8794e47064",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 29.6,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>22-Nov-2023</td><td>29.6 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:02bf5da5-77aa-424d-bd14-d135768786aa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "02bf5da5-77aa-424d-bd14-d135768786aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 95,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>22-Nov-2023</td><td>95 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11e1e54c-7c1b-4c95-bb1f-21bebacfded6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "11e1e54c-7c1b-4c95-bb1f-21bebacfded6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 134,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>22-Nov-2023</td><td>134 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ecd9fb4-30ec-405b-8571-d25267c74726",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ecd9fb4-30ec-405b-8571-d25267c74726",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>22-Nov-2023</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:443a2cca-88fa-4b5b-bdcf-4b17fba8a69b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "443a2cca-88fa-4b5b-bdcf-4b17fba8a69b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>22-Nov-2023</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2023-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01bf0eea-d8cc-4b52-a1fd-c46f3f5a0bf2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "01bf0eea-d8cc-4b52-a1fd-c46f3f5a0bf2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 296.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>27-Nov-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>296.9</td><td>125 - 200</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27T13:16:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7ecfceb-1e59-439d-b808-a62eff1f5da1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b7ecfceb-1e59-439d-b808-a62eff1f5da1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 122.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>27-Nov-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>122.9</td><td>0 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27T13:16:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56517123-1b01-4258-82e9-f6c28b8580c1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "56517123-1b01-4258-82e9-f6c28b8580c1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 214.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>27-Nov-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>214.8</td><td>0 - 130</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27T13:16:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e325524e-addd-43e3-9853-5368e5b56578",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e325524e-addd-43e3-9853-5368e5b56578",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 57.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 60,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>27-Nov-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>57.5</td><td>40 - 60</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f62d3409-8271-49d7-a842-91e77d3303c5",
+          "display": "Albert Knudsen"
+        },
+        "effectiveDateTime": "2024-11-27T13:16:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f568e33a-659b-4c8d-9f6b-9354768bc1d3",
+      "resource": {
+        "resourceType": "Device",
+        "id": "f568e33a-659b-4c8d-9f6b-9354768bc1d3",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d6c4e95b-cbe6-4e01-a887-cc7fbb30de62",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "d6c4e95b-cbe6-4e01-a887-cc7fbb30de62",
+        "target": [
+          {
+            "reference": "Patient/f62d3409-8271-49d7-a842-91e77d3303c5"
+          },
+          {
+            "reference": "Bundle/0d682cd5-7207-475c-af58-4f7c83ebd2b5"
+          },
+          {
+            "reference": "Composition/b3321ee6-cf3b-4b55-a0ad-761dc7fce277"
+          },
+          {
+            "reference": "PractitionerRole/b57937da-be1a-4694-bd6d-e31bef075c3f"
+          },
+          {
+            "reference": "Organization/fa814e75-52a4-478c-b37a-0b9858df7227"
+          },
+          {
+            "reference": "Practitioner/4862c1e9-e737-42d4-9bd2-a668586d6b93"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/f568e33a-659b-4c8d-9f6b-9354768bc1d3"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-11-27T13:16:38Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-11-27T13:16:38Z"
+}

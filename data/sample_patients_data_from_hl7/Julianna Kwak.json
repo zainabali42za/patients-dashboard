@@ -1,0 +1,5578 @@
+{
+  "resourceType": "Bundle",
+  "id": "c32b89c8-114f-4e69-86ff-9be292152b5d",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "3c641abe-1d90-41d1-b916-6be63880a728"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:fe19e253-66b9-4bbe-98d7-1018f1d95170",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "fe19e253-66b9-4bbe-98d7-1018f1d95170",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "2774fb3b-35d1-4c55-b47a-78a922d452d2"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">21-Aug-2023</span></td><td>active</td></tr><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">21-Aug-2023</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">05-Jul-2021</span></td><td>active</td></tr><tr><td>Fibromyalgia</td><td><span class=\"nb\">05-Feb-2014</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">03-May-2010</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">03-May-2010</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">01-Dec-2003</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">01-Dec-2003</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">26-Apr-2003</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">06-Mar-2000</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">23-Feb-1998</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">23-Feb-1998</span></td><td>active</td></tr><tr><td>Sepsis</td><td><span class=\"nb\">04-May-1994</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">28-Dec-1987</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9f03dc7e-4d26-4ac7-a1dc-476e1236ed60"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5b394da6-a9cd-4129-8629-a936820de73f"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">09-Jun-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Jul-2021</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">10-May-2021</span></td></tr><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">29-Jun-2020</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:89571513-3a3d-48e1-90f3-7153c001a8eb"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr><tr><td>Screening for drug abuse</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr><tr><td>Oxygen administration by mask</td><td><span class=\"nb\">22-Dec-2020</span></td><td>Hypoxemia (disorder)</td></tr><tr><td>Placing subject in prone position</td><td><span class=\"nb\">22-Dec-2020</span></td><td>Hypoxemia (disorder)</td></tr><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">13-Dec-2020</span></td><td>-</td></tr><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">24-Aug-2020</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:db638caf-0e37-462b-a98f-6bc6e9bb0559"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5a2616cc-b673-43b5-be02-0aa65c3d4daf"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">12-Jan-2014</span></td><td>Localized primary osteoarthritis of the hand</td></tr><tr><td><ul><li>Decrease hand pain severity to improve function and quality of life</li><li>Increase ability to perform daily activities using hands</li><li>Decrease swelling in affected hand joints</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">23-Feb-1998</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and sustain a diabetes self-management plan to reduce risk of progression to type 2 diabetes.</li></ul></td><td></td><td></td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">28-Dec-1987</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will receive education and demonstrate understanding of lifestyle modifications (diet, exercise, sodium restriction, weight management, alcohol moderation, smoking cessation) to help control blood pressure.</li></ul></td><td></td><td></td></tr><tr><td>Weight management program</td><td><span class=\"nb\">22-Dec-1986</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-09</th><th>2025-04-07</th></tr><tr><td>Body Height</td><td>162.7 cm</td><td>162.7 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>0 {score}</td><td>0 {score}</td></tr><tr><td>Body Weight</td><td>84.8 kg</td><td>84.8 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>32 kg/m2</td><td>32 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>73 mm[Hg]</td><td>70 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>96 mm[Hg]</td><td>99 mm[Hg]</td></tr><tr><td>Heart rate</td><td>73 /min</td><td>72 /min</td></tr><tr><td>Respiratory rate</td><td>16 /min</td><td>12 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c07be08e-5084-4a1e-9444-aa1a7c6baab1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>09-JUN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>83.3</td><td>70 - 139</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>19.8</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td><strong>2.0 H</strong></td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.3</td><td>8.4 - 10.3</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>137.8</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>5.1</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>103.4</td><td>98 - 108</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td><strong>20.8 L</strong></td><td>22 - 32</td><td>mmol/L</td></tr><tr><td>Appearance of Urine</td><td>Cloudy urine</td><td></td><td></td></tr><tr><td>Odor of Urine</td><td>Urine smell ammoniacal</td><td></td><td></td></tr><tr><td>Clarity of Urine</td><td>Translucent</td><td></td><td></td></tr><tr><td>Color of Urine</td><td>Brown color</td><td></td><td></td></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td><strong>2.1 H</strong></td><td>0 - 0.8</td><td>mg/dL</td></tr><tr><td>Glucose [Presence] in Urine by Test strip</td><td>++</td><td></td><td></td></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>0.2</td><td>0 - 1</td><td>mg/dL</td></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td><td>Finding of bilirubin in urine</td><td></td><td></td></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>13.1</td><td>0 - 20</td><td>mg/dL</td></tr><tr><td>Ketones [Presence] in Urine by Test strip</td><td>Urine ketone test = ++</td><td></td><td></td></tr><tr><td>Specific gravity of Urine by Test strip</td><td><strong>1.0 L</strong></td><td>1.005 - 1.03</td><td>{nominal}</td></tr><tr><td>pH of Urine by Test strip</td><td>5.3</td><td>4.6 - 7</td><td>pH</td></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td><strong>296.3 H</strong></td><td>0 - 14</td><td>mg/dL</td></tr><tr><td>Protein [Presence] in Urine by Test strip</td><td>Urine protein test = ++</td><td></td><td></td></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td><td>Urine nitrite negative</td><td></td><td></td></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td><td>Urine blood test = negative</td><td></td><td></td></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td><td>Urine leukocyte test negative</td><td></td><td></td></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td><strong>3.1 L</strong></td><td>4 - 6</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>83.3</td><td>70 - 100</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td><strong>4.0 H</strong></td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.3</td><td>8.5 - 10.4</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.8</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>5.1</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.4</td><td>98 - 107</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td><strong>20.8 L</strong></td><td>22 - 29</td><td>mmol/L</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">26-Apr-2003</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">23-Feb-1998</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5fa5d301-c815-4096-980a-cbd226758e3b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "custodian": {
+          "reference": "urn:uuid:e1020de9-3863-41f2-8ee2-100ce2fdfd65"
+        },
+        "date": "2025-06-09",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f77703b4-aeb1-4375-a868-6bcbfb48263a",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "4684-935734-1"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "71d60d7f-621b-4458-a215-9dbc6fc37ba1"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Julianna"
+            ],
+            "family": "Kwak",
+            "text": "Julianna Kwak"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "al. Opolska 09"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "58-300",
+            "city": "Wałbrzych",
+            "country": "Poland"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+48 727 348 722"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "PL",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Julianna Kwak</td><td>female</td><td>25-Sep-1973</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1973-09-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id f7a41e9f-e406-4e12-b345-2f31f6e6a899</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:c191a3b2-dbc9-404b-ac22-b4925abbd848"
+        },
+        "organization": {
+          "reference": "urn:uuid:e1020de9-3863-41f2-8ee2-100ce2fdfd65"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1020de9-3863-41f2-8ee2-100ce2fdfd65",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e1020de9-3863-41f2-8ee2-100ce2fdfd65",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "d365d5df-e5b6-401f-be6a-ccd762c03809"
+          }
+        ],
+        "address": [
+          {
+            "city": "Wałbrzych",
+            "postalCode": "58-302",
+            "country": "Poland"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego</table></div>"
+        },
+        "name": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c191a3b2-dbc9-404b-ac22-b4925abbd848",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "c191a3b2-dbc9-404b-ac22-b4925abbd848",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f03dc7e-4d26-4ac7-a1dc-476e1236ed60",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9f03dc7e-4d26-4ac7-a1dc-476e1236ed60",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "433144002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 3 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">21-Aug-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-21",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b92f63e7-107c-40d7-b2cd-3652c5129141",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b92f63e7-107c-40d7-b2cd-3652c5129141",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "157141000119108",
+              "system": "http://snomed.info/sct",
+              "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Proteinuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">21-Aug-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-21",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf9dab00-f044-43d8-9d3e-038acb9153b1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bf9dab00-f044-43d8-9d3e-038acb9153b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">05-Jul-2021</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-07-05",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ccb7f564-0dec-4d8f-b7a6-2a19019b7758",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ccb7f564-0dec-4d8f-b7a6-2a19019b7758",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "203082005",
+              "system": "http://snomed.info/sct",
+              "display": "Fibromyalgia (disorder)"
+            }
+          ],
+          "text": "Fibromyalgia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Fibromyalgia</td><td><span class=\"nb\">05-Feb-2014</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-02-05",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7afc5598-16ef-4fc6-862d-4dd3df809e2c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7afc5598-16ef-4fc6-862d-4dd3df809e2c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">03-May-2010</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2010-05-03",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6b58c73-3f59-4bdd-8385-0613dae0db66",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e6b58c73-3f59-4bdd-8385-0613dae0db66",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">03-May-2010</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2010-05-03",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6b5c11b-ee23-46b5-af42-dcc805af3393",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a6b5c11b-ee23-46b5-af42-dcc805af3393",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">01-Dec-2003</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2003-12-01",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55cffe0a-5ff7-4055-914f-e8c0b05617ca",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "55cffe0a-5ff7-4055-914f-e8c0b05617ca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431855005",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 1 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">01-Dec-2003</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2003-12-01",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c35b3aa5-fa41-4fb5-a49d-5f1ca05dfe75",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c35b3aa5-fa41-4fb5-a49d-5f1ca05dfe75",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">26-Apr-2003</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2003-04-26",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b60d083c-c242-4104-a6cb-5ea5945c53b6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b60d083c-c242-4104-a6cb-5ea5945c53b6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">06-Mar-2000</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2000-03-06",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:241e6318-2683-455c-8a86-ab54697ad3af",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "241e6318-2683-455c-8a86-ab54697ad3af",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">23-Feb-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-02-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:397b5e37-6a9c-48e1-bdc3-a1eed10a9d21",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "397b5e37-6a9c-48e1-bdc3-a1eed10a9d21",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">23-Feb-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-02-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a0eb345-8bca-45e3-bf1e-cdae94776342",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1a0eb345-8bca-45e3-bf1e-cdae94776342",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "91302008",
+              "system": "http://snomed.info/sct",
+              "display": "Sepsis (disorder)"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sepsis</td><td><span class=\"nb\">04-May-1994</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1994-05-04",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f544e469-f698-43f4-a26f-5b245e6530f5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f544e469-f698-43f4-a26f-5b245e6530f5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">28-Dec-1987</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1987-12-28",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2a555de5-4be4-4f20-bed6-b20fb733b589",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2a555de5-4be4-4f20-bed6-b20fb733b589",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "44465007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of ankle (disorder)"
+            }
+          ],
+          "text": "Sprain of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of ankle</span></td><td><span class=\"nb\">13-Oct-2022 - 06-Nov-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-10-13",
+        "abatementDateTime": "2022-11-06",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca953671-8b29-488b-b14a-db3aa867cbdc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ca953671-8b29-488b-b14a-db3aa867cbdc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "233604007",
+              "system": "http://snomed.info/sct",
+              "display": "Pneumonia (disorder)"
+            }
+          ],
+          "text": "Pneumonia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Pneumonia</span></td><td><span class=\"nb\">13-Dec-2020 - 22-Dec-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-12-13",
+        "abatementDateTime": "2020-12-22",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:13b8bb56-1aed-42d8-87de-387d44c3f78c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "13b8bb56-1aed-42d8-87de-387d44c3f78c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "389087006",
+              "system": "http://snomed.info/sct",
+              "display": "Hypoxemia (disorder)"
+            }
+          ],
+          "text": "Hypoxemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Hypoxemia</span></td><td><span class=\"nb\">13-Dec-2020 - 22-Dec-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-12-13",
+        "abatementDateTime": "2020-12-22",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1312a843-6488-476c-b546-da48cafece42",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1312a843-6488-476c-b546-da48cafece42",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "840539006",
+              "system": "http://snomed.info/sct",
+              "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+            }
+          ],
+          "text": "COVID-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">COVID-19</span></td><td><span class=\"nb\">13-Dec-2020 - 22-Dec-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-12-13",
+        "abatementDateTime": "2020-12-22",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:143a0391-7e9a-4da2-8677-eb2d8b1492c9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "143a0391-7e9a-4da2-8677-eb2d8b1492c9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">14-Sep-2020 - 11-Oct-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-09-14",
+        "abatementDateTime": "2020-10-11",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab1e312c-5e1d-4a4f-bb6b-59274ccfb42d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ab1e312c-5e1d-4a4f-bb6b-59274ccfb42d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "75498004",
+              "system": "http://snomed.info/sct",
+              "display": "Acute bacterial sinusitis (disorder)"
+            }
+          ],
+          "text": "Acute bacterial sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute bacterial sinusitis</span></td><td><span class=\"nb\">30-Dec-2019 - 20-Mar-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-12-30",
+        "abatementDateTime": "2020-03-20",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:508dc76d-1a00-4f8d-9625-7ba6fb8b62aa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "508dc76d-1a00-4f8d-9625-7ba6fb8b62aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "19169002",
+              "system": "http://snomed.info/sct",
+              "display": "Miscarriage in first trimester (disorder)"
+            }
+          ],
+          "text": "Miscarriage in first trimester"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Miscarriage in first trimester</span></td><td><span class=\"nb\">23-Nov-2015 - 01-Dec-2015</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-11-23",
+        "abatementDateTime": "2015-12-01",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f290a11-0202-4621-8fa3-6d918e0e2c1c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3f290a11-0202-4621-8fa3-6d918e0e2c1c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "156073000",
+              "system": "http://snomed.info/sct",
+              "display": "Complete miscarriage (disorder)"
+            }
+          ],
+          "text": "Complete miscarriage"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Complete miscarriage</span></td><td><span class=\"nb\">23-Nov-2015 - 01-Dec-2015</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-11-23",
+        "abatementDateTime": "2015-12-01",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "asserter": {
+          "reference": "urn:uuid:f7a41e9f-e406-4e12-b345-2f31f6e6a899",
+          "display": "Specjalistyczny Szpital Ginekologiczno - Położniczy im. E. Biernackiego"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b394da6-a9cd-4129-8629-a936820de73f",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "5b394da6-a9cd-4129-8629-a936820de73f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89571513-3a3d-48e1-90f3-7153c001a8eb",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "89571513-3a3d-48e1-90f3-7153c001a8eb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">09-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "occurrenceDateTime": "2025-06-09",
+        "lotNumber": "AS-Y8C55GE",
+        "expirationDate": "2026-04-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:18915ff5-4245-4224-a2c3-c4d583d788a9",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "18915ff5-4245-4224-a2c3-c4d583d788a9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Jul-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "occurrenceDateTime": "2021-07-05",
+        "lotNumber": "QY-zOuXz7peG",
+        "expirationDate": "2021-11-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e962126-c1e5-42ce-b8e8-33aadaedb46b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2e962126-c1e5-42ce-b8e8-33aadaedb46b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">10-May-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "occurrenceDateTime": "2021-05-10",
+        "lotNumber": "CG-AYHTyR",
+        "expirationDate": "2021-09-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b69053e-3d78-45f8-a857-8053516f493c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "6b69053e-3d78-45f8-a857-8053516f493c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2221000221107",
+              "system": "http://snomed.info/sct",
+              "display": "Live attenuated Varicella-zoster vaccine"
+            },
+            {
+              "code": "J07BK02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Varicella-zoster vaccines"
+            }
+          ],
+          "text": "Live attenuated Human alphaherpesvirus 3 only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "368208006",
+              "system": "http://snomed.info/sct",
+              "display": "Left upper arm structure"
+            }
+          ],
+          "text": "Left upper arm structure"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "34206005",
+              "system": "http://snomed.info/sct",
+              "display": "Subcutaneous route"
+            }
+          ],
+          "text": "Subcutaneous route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">29-Jun-2020</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "occurrenceDateTime": "2020-06-29",
+        "lotNumber": "TI-r1KN1NJ",
+        "expirationDate": "2021-06-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db638caf-0e37-462b-a98f-6bc6e9bb0559",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "db638caf-0e37-462b-a98f-6bc6e9bb0559",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-01-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b24452a-2a7f-4515-a22a-18fab79ea451",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3b24452a-2a7f-4515-a22a-18fab79ea451",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-01-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f834f567-68b4-41cf-8a69-30951f662dda",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f834f567-68b4-41cf-8a69-30951f662dda",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "713106006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for drug abuse</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-01-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d54e464-4aa4-4f5c-ae67-ef8d5d3f6ffe",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9d54e464-4aa4-4f5c-ae67-ef8d5d3f6ffe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-01-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b93fc4b5-68be-4e45-bc1d-83ceda84d7a8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b93fc4b5-68be-4e45-bc1d-83ceda84d7a8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">23-Jan-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-01-23",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:027ba381-b3fd-4e14-93d8-5bf86a5a1b57",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "027ba381-b3fd-4e14-93d8-5bf86a5a1b57",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-10-24",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af65fb35-7a3f-4989-b0ea-0040db9510db",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "af65fb35-7a3f-4989-b0ea-0040db9510db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-10-24",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cee5daee-b375-4347-9376-dcdba392d97f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cee5daee-b375-4347-9376-dcdba392d97f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "763302001",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+            }
+          ],
+          "text": "Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">24-Oct-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-10-24",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:50b42779-265f-428c-b5a3-4ad9124727e0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "50b42779-265f-428c-b5a3-4ad9124727e0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "371908008",
+              "system": "http://snomed.info/sct",
+              "display": "Oxygen administration by mask (procedure)"
+            }
+          ],
+          "text": "Oxygen administration by mask"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "389087006",
+                "system": "http://snomed.info/sct",
+                "display": "Hypoxemia (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Oxygen administration by mask</td><td><span class=\"nb\">22-Dec-2020</span></td><td>Hypoxemia (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-12-22",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd92f46e-2d1c-44ab-a712-8c8969379772",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cd92f46e-2d1c-44ab-a712-8c8969379772",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "431182000",
+              "system": "http://snomed.info/sct",
+              "display": "Placing subject in prone position (procedure)"
+            }
+          ],
+          "text": "Placing subject in prone position"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "389087006",
+                "system": "http://snomed.info/sct",
+                "display": "Hypoxemia (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Placing subject in prone position</td><td><span class=\"nb\">22-Dec-2020</span></td><td>Hypoxemia (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-12-22",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5683445d-e9a7-49ae-8b00-de66c37ae089",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5683445d-e9a7-49ae-8b00-de66c37ae089",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "399208008",
+              "system": "http://snomed.info/sct",
+              "display": "Plain chest X-ray (procedure)"
+            }
+          ],
+          "text": "Plain X-ray of chest"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">13-Dec-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-12-13",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8dcf8f70-8294-45fb-9b19-d59cb039822f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8dcf8f70-8294-45fb-9b19-d59cb039822f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "866148006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">24-Aug-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-08-24",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a2616cc-b673-43b5-be02-0aa65c3d4daf",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "5a2616cc-b673-43b5-be02-0aa65c3d4daf",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3799a2cb-5f60-4153-b31a-a94ddc50ca66",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "3799a2cb-5f60-4153-b31a-a94ddc50ca66",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "408869004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Musculoskeletal care (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "201834006",
+                      "system": "http://snomed.info/sct",
+                      "display": "Localized  primary osteoarthritis of the hand"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Musculoskeletal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2014-01-12"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:d9fbb70b-3203-4a03-b7be-00cb6aad22a7"
+          },
+          {
+            "reference": "urn:uuid:14c4501d-f3c2-460c-812b-b17fe0d908b8"
+          },
+          {
+            "reference": "urn:uuid:abf00865-044f-4478-b731-408802fd34ec"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">12-Jan-2014</span></td><td>Localized primary osteoarthritis of the hand</td></tr><tr><td><ul><li>Decrease hand pain severity to improve function and quality of life</li><li>Increase ability to perform daily activities using hands</li><li>Decrease swelling in affected hand joints</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0bc3ece5-5a8f-4efa-b5be-f0fd43fcbe94",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "0bc3ece5-5a8f-4efa-b5be-f0fd43fcbe94",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1998-02-23"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:54f4c938-bd95-41f0-8695-bbb044905834"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">23-Feb-1998</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and sustain a diabetes self-management plan to reduce risk of progression to type 2 diabetes.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0250f3f-1f57-47a2-bc85-08db8ebe6302",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "e0250f3f-1f57-47a2-bc85-08db8ebe6302",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1987-12-28"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:d3fb9022-7787-49f7-a3cd-569f06631d6c"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">28-Dec-1987</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will receive education and demonstrate understanding of lifestyle modifications (diet, exercise, sodium restriction, weight management, alcohol moderation, smoking cessation) to help control blood pressure.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c12fb4d-c852-45bd-8d7c-494d01c0a71c",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "4c12fb4d-c852-45bd-8d7c-494d01c0a71c",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "718361005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Weight management program (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Weight management program",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1986-12-22"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Weight management program</td><td><span class=\"nb\">22-Dec-1986</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c07be08e-5084-4a1e-9444-aa1a7c6baab1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c07be08e-5084-4a1e-9444-aa1a7c6baab1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.7,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>09-Jun-2025</td><td>162.7 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:247d8b3e-158d-455d-bad8-5caa1b848602",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "247d8b3e-158d-455d-bad8-5caa1b848602",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>09-Jun-2025</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:157a2655-78d4-409b-a7a1-864ed6e28c86",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "157a2655-78d4-409b-a7a1-864ed6e28c86",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 84.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>09-Jun-2025</td><td>84.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7e300e1-80e3-4308-9d7b-64f4ceb45274",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7e300e1-80e3-4308-9d7b-64f4ceb45274",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 32,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>09-Jun-2025</td><td>32 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71721430-6dd9-4d90-ba78-25c5f32ce933",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "71721430-6dd9-4d90-ba78-25c5f32ce933",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>09-Jun-2025</td><td>73 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b87f790-a1f1-475a-b2ff-e9f2e9d0d820",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b87f790-a1f1-475a-b2ff-e9f2e9d0d820",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 96,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>09-Jun-2025</td><td>96 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d8b97f0f-5d26-422e-86e3-e857281cc12d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d8b97f0f-5d26-422e-86e3-e857281cc12d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>09-Jun-2025</td><td>73 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2909e023-fa1c-4bca-9439-04d3479a1b51",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2909e023-fa1c-4bca-9439-04d3479a1b51",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 16,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>09-Jun-2025</td><td>16 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:91185900-882f-45df-b558-c923d9ecb1e3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "91185900-882f-45df-b558-c923d9ecb1e3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.7,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>07-Apr-2025</td><td>162.7 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20816925-88fe-4ff5-8fcd-fc7d987aa91e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20816925-88fe-4ff5-8fcd-fc7d987aa91e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>07-Apr-2025</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7c2173b-08e3-4d3a-8ca0-b5078c52e699",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7c2173b-08e3-4d3a-8ca0-b5078c52e699",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 84.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>07-Apr-2025</td><td>84.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75578dac-4104-4460-866f-d81e6a9e69a3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "75578dac-4104-4460-866f-d81e6a9e69a3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 32,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>07-Apr-2025</td><td>32 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c74aeb4-83a1-4735-8482-0c7c6d31fff4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1c74aeb4-83a1-4735-8482-0c7c6d31fff4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 70,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>07-Apr-2025</td><td>70 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6e02aa3-e5d7-42d9-93e1-e3fc8e0cbb8b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f6e02aa3-e5d7-42d9-93e1-e3fc8e0cbb8b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 99,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>07-Apr-2025</td><td>99 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4b8576b-865b-4de4-afb1-299fd98c02c9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e4b8576b-865b-4de4-afb1-299fd98c02c9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>07-Apr-2025</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f3db50d2-6cc8-4f25-98b8-9655d65c38cf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f3db50d2-6cc8-4f25-98b8-9655d65c38cf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>07-Apr-2025</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2f71863-cf99-4d4d-adae-68107af3d164",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2f71863-cf99-4d4d-adae-68107af3d164",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2345-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 83.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 139,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>83.3</td><td>70 - 139</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:287e12ae-04ef-450b-bb8a-019c6624ed56",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "287e12ae-04ef-450b-bb8a-019c6624ed56",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "3094-0",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 19.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>19.8</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e7ac64b-c756-474e-b343-ca95a9f69fe3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5e7ac64b-c756-474e-b343-ca95a9f69fe3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2160-0",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td>2.0</td><td>0.6 - 1.1</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6bf2a3f-7514-4754-b539-bbcc0e32c609",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a6bf2a3f-7514-4754-b539-bbcc0e32c609",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "17861-6",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.3</td><td>8.4 - 10.3</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:98b49c28-5afe-4189-a7c4-eb5df42cce5e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "98b49c28-5afe-4189-a7c4-eb5df42cce5e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2951-2",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>137.8</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ffbf406-ef50-4c7a-b212-0dbb68eafe17",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1ffbf406-ef50-4c7a-b212-0dbb68eafe17",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2823-3",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.1,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>5.1</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85c74a57-040f-4ffa-b64b-e984ce08d498",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85c74a57-040f-4ffa-b64b-e984ce08d498",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2075-0",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 108,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>103.4</td><td>98 - 108</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:619610b5-1e29-4d0b-8869-2ae0d1d66190",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "619610b5-1e29-4d0b-8869-2ae0d1d66190",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2028-9",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 20.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 32,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>20.8</td><td>22 - 32</td><td>L</td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba7a96ed-7dba-49c7-af1a-0cbda5e6008d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ba7a96ed-7dba-49c7-af1a-0cbda5e6008d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5767-9",
+              "system": "http://loinc.org",
+              "display": "Appearance of Urine"
+            }
+          ],
+          "text": "Appearance of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Appearance of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:37829fa7-a07a-4a35-9fee-17095336c5c9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "37829fa7-a07a-4a35-9fee-17095336c5c9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "34533-0",
+              "system": "http://loinc.org",
+              "display": "Odor of Urine"
+            }
+          ],
+          "text": "Odor of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Odor of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1e32e82f-88a8-4bf6-bbe4-dee91fb6d9b5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1e32e82f-88a8-4bf6-bbe4-dee91fb6d9b5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32167-9",
+              "system": "http://loinc.org",
+              "display": "Clarity of Urine"
+            }
+          ],
+          "text": "Clarity of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Clarity of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34a5db39-8c43-4b2d-803a-7b4479b010c0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "34a5db39-8c43-4b2d-803a-7b4479b010c0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5778-6",
+              "system": "http://loinc.org",
+              "display": "Color of Urine"
+            }
+          ],
+          "text": "Color of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Color of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5bbd40bc-b53e-4119-ad8e-d5aa89059c43",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5bbd40bc-b53e-4119-ad8e-d5aa89059c43",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5792-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.1,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>2.1</td><td>0 - 0.8</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9552e206-674e-41f6-ab44-48cfc178f7a5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9552e206-674e-41f6-ab44-48cfc178f7a5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "25428-4",
+              "system": "http://loinc.org",
+              "display": "Glucose [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a1a50f0-d509-4d57-9418-086c5a074766",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3a1a50f0-d509-4d57-9418-086c5a074766",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20505-4",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>0.2</td><td>0 - 1</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad4ad198-16e9-4a09-826e-363ebf16f48b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad4ad198-16e9-4a09-826e-363ebf16f48b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5770-3",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3867e1a5-70d8-4eae-886b-f0d817f75e7d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3867e1a5-70d8-4eae-886b-f0d817f75e7d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5797-6",
+              "system": "http://loinc.org",
+              "display": "Ketones [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 13.1,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>13.1</td><td>0 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f81a0a42-4bb5-4b3c-8c46-95340f93b6c7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f81a0a42-4bb5-4b3c-8c46-95340f93b6c7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2514-8",
+              "system": "http://loinc.org",
+              "display": "Ketones [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58bcddcf-e3ac-46ed-8913-b0f25df5591f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "58bcddcf-e3ac-46ed-8913-b0f25df5591f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5811-5",
+              "system": "http://loinc.org",
+              "display": "Specific gravity of Urine by Test strip"
+            }
+          ],
+          "text": "Specific gravity of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "{nominal}",
+          "code": "{nominal}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1.005,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.03,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Specific gravity of Urine by Test strip</td><td>1.0</td><td>1.005 - 1.03</td><td>L</td><td>{nominal}</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:86369285-57c3-4078-a0cc-a6b389fea2d5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "86369285-57c3-4078-a0cc-a6b389fea2d5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5803-2",
+              "system": "http://loinc.org",
+              "display": "pH of Urine by Test strip"
+            }
+          ],
+          "text": "pH of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.3,
+          "unit": "pH",
+          "code": "pH"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.6,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>pH of Urine by Test strip</td><td>5.3</td><td>4.6 - 7</td><td></td><td>pH</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef6bafcb-08b3-47ab-b568-14c8c4786b0a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ef6bafcb-08b3-47ab-b568-14c8c4786b0a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5804-0",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 296.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 14,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td>296.3</td><td>0 - 14</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f12b7235-1e90-4736-bafc-36667395381b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f12b7235-1e90-4736-bafc-36667395381b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20454-5",
+              "system": "http://loinc.org",
+              "display": "Protein [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:078ae8cb-1aec-478f-87a9-d3915bff1fd0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "078ae8cb-1aec-478f-87a9-d3915bff1fd0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5802-4",
+              "system": "http://loinc.org",
+              "display": "Nitrite [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Nitrite [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f19f623-08bf-451b-8405-52b04021e713",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3f19f623-08bf-451b-8405-52b04021e713",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5794-3",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Hemoglobin [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f93b3fb4-61fc-460e-837a-1e8638151097",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f93b3fb4-61fc-460e-837a-1e8638151097",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5799-2",
+              "system": "http://loinc.org",
+              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Leukocyte esterase [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bd8c8134-9824-4799-a6a9-1c67d1ae3e5c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bd8c8134-9824-4799-a6a9-1c67d1ae3e5c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.1,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>3.1</td><td>4 - 6</td><td>L</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27e8e5d9-1b5a-4df8-8aaa-29e94ac6d731",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "27e8e5d9-1b5a-4df8-8aaa-29e94ac6d731",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 83.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>83.3</td><td>70 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:380e00f7-b234-4f8c-ac23-1a560a7ebf67",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "380e00f7-b234-4f8c-ac23-1a560a7ebf67",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 19.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c37e0979-29af-4414-bdc9-0a6706809791",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c37e0979-29af-4414-bdc9-0a6706809791",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>4.0</td><td>0.6 - 1.1</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e3eabea-f9a1-47c0-8a38-42e09b3523da",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2e3eabea-f9a1-47c0-8a38-42e09b3523da",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.3</td><td>8.5 - 10.4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:deb80d3b-f13b-4029-9472-91c60c6d4164",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "deb80d3b-f13b-4029-9472-91c60c6d4164",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.8</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54e9836c-293d-4915-8932-cbcb50c9f187",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "54e9836c-293d-4915-8932-cbcb50c9f187",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.1,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>5.1</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:239a0162-b2f3-4c25-bb64-49fe360c7e1e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "239a0162-b2f3-4c25-bb64-49fe360c7e1e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 107,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.4</td><td>98 - 107</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e3c943b7-2159-4524-abfa-b0d8dae0dd45",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e3c943b7-2159-4524-abfa-b0d8dae0dd45",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 20.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>20.8</td><td>22 - 29</td><td>L</td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "effectiveDateTime": "2025-06-09T03:11:48Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5fa5d301-c815-4096-980a-cbd226758e3b",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "5fa5d301-c815-4096-980a-cbd226758e3b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2003-04-26"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">26-Apr-2003</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:89deaf36-3302-44f5-a6f3-c0dc714ecf29",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:89deaf36-3302-44f5-a6f3-c0dc714ecf29",
+      "resource": {
+        "resourceType": "Device",
+        "id": "89deaf36-3302-44f5-a6f3-c0dc714ecf29",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)89012266555081(11)030405(17)280419(10)84571(21)8384431307957"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d538b9e-61d2-4f87-a8c6-dc3257470719",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "8d538b9e-61d2-4f87-a8c6-dc3257470719",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1998-02-23"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">23-Feb-1998</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:6ab04844-6627-418c-bfdd-289ebedaa50e",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ab04844-6627-418c-bfdd-289ebedaa50e",
+      "resource": {
+        "resourceType": "Device",
+        "id": "6ab04844-6627-418c-bfdd-289ebedaa50e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)75150332159802(11)980202(17)230217(10)39690(21)848460799"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:f77703b4-aeb1-4375-a868-6bcbfb48263a",
+          "display": "Julianna Kwak"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f67a12ac-e492-4a8d-a06d-b5fdee5135f5",
+      "resource": {
+        "resourceType": "Device",
+        "id": "f67a12ac-e492-4a8d-a06d-b5fdee5135f5",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9171d1cc-7a08-4d89-985e-9639868a043a",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "9171d1cc-7a08-4d89-985e-9639868a043a",
+        "target": [
+          {
+            "reference": "Patient/f77703b4-aeb1-4375-a868-6bcbfb48263a"
+          },
+          {
+            "reference": "Bundle/c32b89c8-114f-4e69-86ff-9be292152b5d"
+          },
+          {
+            "reference": "Composition/fe19e253-66b9-4bbe-98d7-1018f1d95170"
+          },
+          {
+            "reference": "PractitionerRole/f7a41e9f-e406-4e12-b345-2f31f6e6a899"
+          },
+          {
+            "reference": "Organization/e1020de9-3863-41f2-8ee2-100ce2fdfd65"
+          },
+          {
+            "reference": "Practitioner/c191a3b2-dbc9-404b-ac22-b4925abbd848"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/f67a12ac-e492-4a8d-a06d-b5fdee5135f5"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-06-09T03:11:48Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-06-09T03:11:48Z"
+}

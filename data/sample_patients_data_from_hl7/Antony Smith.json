@@ -1,0 +1,5176 @@
+{
+  "resourceType": "Bundle",
+  "id": "78f51866-a098-4a7e-b14c-c239cbb9e08f",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "5c1f2864-2d64-4be9-9cf6-b3b75ae3189c"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:15172eed-8b22-4978-93bc-21fa66026565",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "15172eed-8b22-4978-93bc-21fa66026565",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "dcf579e5-e143-4afc-ad68-a1727a7c5e6f"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">08-Dec-2020</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">26-Jul-2016</span></td><td>active</td></tr><tr><td>Alzheimer's disease</td><td><span class=\"nb\">10-Mar-2015</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">11-Mar-2014</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">19-Mar-2013</span></td><td>active</td></tr><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">24-Feb-2009</span></td><td>active</td></tr><tr><td>Hyperlipidemia</td><td><span class=\"nb\">01-Feb-2005</span></td><td>active</td></tr><tr><td>Impacted molars</td><td><span class=\"nb\">16-Aug-2004</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">29-Jan-2003</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">12-Dec-1995</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">30-Nov-1993</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">21-Oct-1986</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">28-Sep-1983</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">16-Jul-1974</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">07-Dec-1971</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f1c8faaf-1ae9-4465-85fd-6e61bbaa09ee"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1d88352c-9875-4e0c-952a-51c6c3f3f03e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">15-Apr-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">01-Oct-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">16-Mar-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4c935e16-4f74-4b98-9afa-30d15d040aaf"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">10-Jun-2025</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">10-Jun-2025</span></td><td>-</td></tr><tr><td>Screening for drug abuse</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">11-Mar-2025</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">14-Oct-2018</span></td><td>-</td></tr><tr><td>Hospice care</td><td><span class=\"nb\">13-Oct-2018</span></td><td>-</td></tr><tr><td>Notifications</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr><tr><td>Certification procedure</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:96b77d59-502f-4356-828b-7ebdf7ad066d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:cdbbb8bd-0c4a-4d56-a159-6e67b020e156"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">10-Mar-2015</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Maintain or slow decline in cognitive function as measured by MMSE.</li><li>Ensure patient or caregiver administers prescribed dementia medications as directed.</li><li>Minimize frequency and severity of behavioral disturbances such as agitation or aggression.</li><li>Maintain independence in basic activities of daily living for as long as possible.</li><li>Provide caregiver with education and resources to support dementia care at home.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">14-May-2013</span></td><td>-</td></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">20-May-2008</span></td><td>-</td></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">22-Feb-2005</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve and maintain LDL cholesterol below 1.8 mmol/L to reduce cardiovascular risk.</li><li>Achieve and maintain total cholesterol below 4.0 mmol/L.</li><li>Achieve and maintain triglycerides below 1.7 mmol/L.</li><li>Maintain HDL cholesterol above 1.0 mmol/L.</li></ul></td><td></td><td></td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">28-Sep-1983</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain target blood pressure to reduce cardiovascular and renal risk.</li><li>Patient will implement recommended lifestyle changes (diet, exercise, sodium reduction, weight management) to support blood pressure control.</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">07-Dec-1971</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan including dietary changes, physical activity, and regular blood glucose monitoring to prevent progression to type 2 diabetes.</li><li>Patient will maintain hemoglobin A1c below the diagnostic threshold for diabetes.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-07-15</th><th>2025-06-10</th></tr><tr><td>Body Height</td><td>171.6 cm</td><td>171.6 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>2 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>81.1 kg</td><td>81.1 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.5 kg/m2</td><td>27.5 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>86 mm[Hg]</td><td>89 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>116 mm[Hg]</td><td>121 mm[Hg]</td></tr><tr><td>Heart rate</td><td>61 /min</td><td>86 /min</td></tr><tr><td>Respiratory rate</td><td>12 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:019f4834-2ccb-4e57-bb8a-bb6c902c18c2"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>22-JUL-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td><strong>64.7 L</strong></td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>9.4</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td><strong>1.9 H</strong></td><td>0.9 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.7</td><td>8.5 - 10.5</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>138.7</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>5.2</td><td>3.5 - 5.3</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>101.4</td><td>98 - 111</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>24.1</td><td>22 - 32</td><td>mmol/L</td></tr><tr><td>Appearance of Urine</td><td>Cloudy urine</td><td></td><td></td></tr><tr><td>Odor of Urine</td><td>Urine smell ammoniacal</td><td></td><td></td></tr><tr><td>Clarity of Urine</td><td>Translucent</td><td></td><td></td></tr><tr><td>Color of Urine</td><td>Brown color</td><td></td><td></td></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>0.8</td><td>0 - 0.8</td><td>mg/dL</td></tr><tr><td>Glucose [Presence] in Urine by Test strip</td><td>++</td><td></td><td></td></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.2</td><td>0 - 1.5</td><td>mg/dL</td></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td><td>Finding of bilirubin in urine</td><td></td><td></td></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>12.5</td><td>0 - 20</td><td>mg/dL</td></tr><tr><td>Ketones [Presence] in Urine by Test strip</td><td>Urine ketone test = ++</td><td></td><td></td></tr><tr><td>Specific gravity of Urine by Test strip</td><td><strong>1.0 L</strong></td><td>1.005 - 1.03</td><td>{nominal}</td></tr><tr><td>pH of Urine by Test strip</td><td>5.3</td><td>4.6 - 7</td><td>pH</td></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td><strong>387.3 H</strong></td><td>0 - 145</td><td>mg/dL</td></tr><tr><td>Protein [Presence] in Urine by Test strip</td><td>Urine protein test = ++</td><td></td><td></td></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td><td>Urine nitrite negative</td><td></td><td></td></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td><td>Urine blood test = negative</td><td></td><td></td></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td><td>Urine leukocyte test negative</td><td></td><td></td></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td><strong>3.2 L</strong></td><td>3.8 - 5.7</td><td>%</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">29-Jan-2003</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">07-Dec-1971</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c3e9a64d-2a71-47a0-a61d-201bf2976d94"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "custodian": {
+          "reference": "urn:uuid:b663f574-24fa-44f5-83f3-6b246958f466"
+        },
+        "date": "2025-07-22",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b64444fb-2c98-4cfb-a168-6439d34bbeca",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "1069-793368-6"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "3476dcbd-18e4-548a-b0fa-2ff5f8c281b6"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Antony"
+            ],
+            "family": "Smith",
+            "text": "Antony Smith"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "805 Taylor mountain"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "TD11",
+            "city": "Jamiemouth",
+            "country": "United Kingdom"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+44(0)141 4960762"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "GB",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Antony Smith</td><td>male</td><td>19-Apr-1946</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1946-04-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "d46c78c4-3792-4652-abac-b2c6a5c15a16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id d46c78c4-3792-4652-abac-b2c6a5c15a16</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:2f42fced-85c3-461c-9b39-e39ac26aecf2"
+        },
+        "organization": {
+          "reference": "urn:uuid:b663f574-24fa-44f5-83f3-6b246958f466"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b663f574-24fa-44f5-83f3-6b246958f466",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b663f574-24fa-44f5-83f3-6b246958f466",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "cf29754f-3817-4cd0-8fba-b8899d2519f1"
+          }
+        ],
+        "address": [
+          {
+            "city": "Berwick-upon-Tweed",
+            "postalCode": "TD15 1",
+            "country": "United Kingdom"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Berwick Infirmary</table></div>"
+        },
+        "name": "Berwick Infirmary"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2f42fced-85c3-461c-9b39-e39ac26aecf2",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "2f42fced-85c3-461c-9b39-e39ac26aecf2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1c8faaf-1ae9-4465-85fd-6e61bbaa09ee",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f1c8faaf-1ae9-4465-85fd-6e61bbaa09ee",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "433144002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 3 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">08-Dec-2020</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-12-08",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aecb46ff-3034-43d8-9951-9097bd6df500",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "aecb46ff-3034-43d8-9951-9097bd6df500",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">26-Jul-2016</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-07-26",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ad41034-1adc-4469-afc1-94cad71558d0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9ad41034-1adc-4469-afc1-94cad71558d0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26929004",
+              "system": "http://snomed.info/sct",
+              "display": "Alzheimer&#039;s disease (disorder)"
+            }
+          ],
+          "text": "Alzheimer&#039;s disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Alzheimer's disease</td><td><span class=\"nb\">10-Mar-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-03-10",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0b86488-5d35-400c-b3cc-9ec72e288dae",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c0b86488-5d35-400c-b3cc-9ec72e288dae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431855005",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 1 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">11-Mar-2014</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-03-11",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d6dc63a-da6c-48af-8eda-049d2a2cd68e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3d6dc63a-da6c-48af-8eda-049d2a2cd68e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">19-Mar-2013</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2013-03-19",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2da9cc96-9606-46d6-8b44-66d8bcfa25d5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2da9cc96-9606-46d6-8b44-66d8bcfa25d5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "157141000119108",
+              "system": "http://snomed.info/sct",
+              "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Proteinuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">24-Feb-2009</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2009-02-24",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f70fc0c8-3f32-4549-800b-9874c71d8dd4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f70fc0c8-3f32-4549-800b-9874c71d8dd4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55822004",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperlipidemia (disorder)"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hyperlipidemia</td><td><span class=\"nb\">01-Feb-2005</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2005-02-01",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:420064d6-4203-4f7d-8e15-f4ce84730f0b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "420064d6-4203-4f7d-8e15-f4ce84730f0b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "196416002",
+              "system": "http://snomed.info/sct",
+              "display": "Impacted molars (disorder)"
+            }
+          ],
+          "text": "Impacted molars"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Impacted molars</td><td><span class=\"nb\">16-Aug-2004</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2004-08-16",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc2a3941-6663-45ef-ab84-e125e16249ae",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dc2a3941-6663-45ef-ab84-e125e16249ae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">29-Jan-2003</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2003-01-29",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:57c549b2-5bc2-4161-9211-cbe1c975eec2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "57c549b2-5bc2-4161-9211-cbe1c975eec2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">12-Dec-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-12-12",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:50959216-d977-4356-9783-527c48a81b89",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "50959216-d977-4356-9783-527c48a81b89",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">30-Nov-1993</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1993-11-30",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75938bd5-5181-46ca-867f-1b606a99079d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "75938bd5-5181-46ca-867f-1b606a99079d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">21-Oct-1986</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1986-10-21",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f527df29-7334-420e-a0ed-57a84648ee6e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f527df29-7334-420e-a0ed-57a84648ee6e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">28-Sep-1983</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1983-09-28",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2af89d1-ac8a-4ed5-b33b-20e1ddbe66d7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e2af89d1-ac8a-4ed5-b33b-20e1ddbe66d7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">16-Jul-1974</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1974-07-16",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1228624-f6de-43fd-8639-45186b2616f1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c1228624-f6de-43fd-8639-45186b2616f1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">07-Dec-1971</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1971-12-07",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63f28341-0ccb-4f09-a77e-90b7c06938ba",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "63f28341-0ccb-4f09-a77e-90b7c06938ba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">01-Apr-2025 - 23-Apr-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-04-01",
+        "abatementDateTime": "2025-04-23",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:292187bd-e2be-4c73-97c6-46703720a7b3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "292187bd-e2be-4c73-97c6-46703720a7b3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">03-Sep-2024 - 28-Sep-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-09-03",
+        "abatementDateTime": "2024-09-28",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:279d5655-5170-4d7d-9c90-c56bbe60e03b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "279d5655-5170-4d7d-9c90-c56bbe60e03b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">14-Feb-2021 - 26-Feb-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-02-14",
+        "abatementDateTime": "2021-02-26",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f8df260-8716-4e79-86e4-0e197045db85",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4f8df260-8716-4e79-86e4-0e197045db85",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Polyp of colon</span></td><td><span class=\"nb\">24-Nov-2020 - 24-May-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-11-24",
+        "abatementDateTime": "2022-05-24",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a90a2a54-0372-4497-9be7-1434e7d47646",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a90a2a54-0372-4497-9be7-1434e7d47646",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Oct-2018 - 21-Oct-2018</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-10-10",
+        "abatementDateTime": "2018-10-21",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d46c78c4-3792-4652-abac-b2c6a5c15a16",
+          "display": "Berwick Infirmary"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1d88352c-9875-4e0c-952a-51c6c3f3f03e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "1d88352c-9875-4e0c-952a-51c6c3f3f03e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c935e16-4f74-4b98-9afa-30d15d040aaf",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4c935e16-4f74-4b98-9afa-30d15d040aaf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">15-Apr-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "occurrenceDateTime": "2025-04-15",
+        "lotNumber": "CX-Q5tO2lsp",
+        "expirationDate": "2025-11-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78d230f2-ac65-4dd2-af09-118abbf914ea",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "78d230f2-ac65-4dd2-af09-118abbf914ea",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">01-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "occurrenceDateTime": "2024-10-01",
+        "lotNumber": "CO-OsbVE",
+        "expirationDate": "2025-03-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:84e1c2c7-9320-446d-9ff3-32c74de06b3b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "84e1c2c7-9320-446d-9ff3-32c74de06b3b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">16-Mar-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "occurrenceDateTime": "2021-03-16",
+        "lotNumber": "OL-y4gDKrW",
+        "expirationDate": "2022-03-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96b77d59-502f-4356-828b-7ebdf7ad066d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "96b77d59-502f-4356-828b-7ebdf7ad066d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-15",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c31ad625-5322-4e54-9c69-b080eb088d8c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c31ad625-5322-4e54-9c69-b080eb088d8c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-15",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f965ca51-90c6-4313-a8bc-4d737f02d1c0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f965ca51-90c6-4313-a8bc-4d737f02d1c0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-15",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:50ade857-3fb8-4c09-9692-ad4a0143ce7b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "50ade857-3fb8-4c09-9692-ad4a0143ce7b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "866148006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-15",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:057bed2c-f2dd-478e-8c6a-42a1daa498f6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "057bed2c-f2dd-478e-8c6a-42a1daa498f6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">15-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-15",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14177099-29aa-4641-8f59-246fd6fa8077",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "14177099-29aa-4641-8f59-246fd6fa8077",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">10-Jun-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-06-10",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:768e8d83-ee4c-4f46-9f2a-3bf64a30a5e9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "768e8d83-ee4c-4f46-9f2a-3bf64a30a5e9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">10-Jun-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-06-10",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eb3e9f7d-a198-405d-87c7-26856170e42b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "eb3e9f7d-a198-405d-87c7-26856170e42b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "713106006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for drug abuse</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-13",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed845e71-91c8-47a1-97d8-66783c147239",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ed845e71-91c8-47a1-97d8-66783c147239",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "715252007",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+            }
+          ],
+          "text": "Depression screening using PHQ-9 (Patient Health Questionnaire 9) score"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-13",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1ec672f-7b5b-4ab4-9444-8e719a645150",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c1ec672f-7b5b-4ab4-9444-8e719a645150",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">13-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-13",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:81d00256-b130-49cd-9a70-0a8234ad48b8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "81d00256-b130-49cd-9a70-0a8234ad48b8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "763302001",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+            }
+          ],
+          "text": "Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">11-Mar-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-03-11",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f8dea993-03b8-418a-901f-335583921046",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f8dea993-03b8-418a-901f-335583921046",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">14-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-14",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83b680bf-402b-425c-b9a4-9f54b601095b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "83b680bf-402b-425c-b9a4-9f54b601095b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "385763009",
+              "system": "http://snomed.info/sct",
+              "display": "Hospice care (regime/therapy)"
+            }
+          ],
+          "text": "Hospice care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hospice care</td><td><span class=\"nb\">13-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-13",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:814a5ce4-2cad-4d96-994e-930deb3e1ff8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "814a5ce4-2cad-4d96-994e-930deb3e1ff8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "185087000",
+              "system": "http://snomed.info/sct",
+              "display": "Notifications (procedure)"
+            }
+          ],
+          "text": "Notifications"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notifications</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-02",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9dd58221-5e2b-4d68-b0c7-6124c040569c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9dd58221-5e2b-4d68-b0c7-6124c040569c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "310417005",
+              "system": "http://snomed.info/sct",
+              "display": "Certification procedure (procedure)"
+            }
+          ],
+          "text": "Certification procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Certification procedure</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-02",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04cfdaf6-8967-4c93-9983-4330e16ce6e7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "04cfdaf6-8967-4c93-9983-4330e16ce6e7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-02",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f3ab013-b0c3-43bd-9a28-cb016d5d1bdb",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4f3ab013-b0c3-43bd-9a28-cb016d5d1bdb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">02-Oct-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-10-02",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdbbb8bd-0c4a-4d56-a159-6e67b020e156",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "cdbbb8bd-0c4a-4d56-a159-6e67b020e156",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b583b30-a9b0-47f2-88dc-99c0e0c530b7",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "2b583b30-a9b0-47f2-88dc-99c0e0c530b7",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "386257007",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dementia management (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "26929004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Alzheimer&#039;s disease (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Dementia management",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2015-03-10"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:7fa4878c-c4aa-43cf-867d-12fde8d3b92b"
+          },
+          {
+            "reference": "urn:uuid:7209f491-ed65-4e51-aec4-30cbdb68448c"
+          },
+          {
+            "reference": "urn:uuid:af6d47da-5a5f-4780-87a2-4a724c1bc493"
+          },
+          {
+            "reference": "urn:uuid:c0a595eb-31a9-4204-b8b4-12d8b6d40055"
+          },
+          {
+            "reference": "urn:uuid:235da7c6-9365-43b0-b7bd-8ca48f7b7605"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">10-Mar-2015</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Maintain or slow decline in cognitive function as measured by MMSE.</li><li>Ensure patient or caregiver administers prescribed dementia medications as directed.</li><li>Minimize frequency and severity of behavioral disturbances such as agitation or aggression.</li><li>Maintain independence in basic activities of daily living for as long as possible.</li><li>Provide caregiver with education and resources to support dementia care at home.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24a4021b-a8d9-4d10-9639-e7c7510ca6ac",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "24a4021b-a8d9-4d10-9639-e7c7510ca6ac",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-05-14"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">14-May-2013</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:221c894a-809c-47c7-9d56-1b4dd19cd343",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "221c894a-809c-47c7-9d56-1b4dd19cd343",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736690008",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dialysis care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Dialysis care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2008-05-20"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">20-May-2008</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ee89bb45-dc07-4a67-bcb3-56aa2dedee5c",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ee89bb45-dc07-4a67-bcb3-56aa2dedee5c",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736285004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Hyperlipidemia clinical management plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "55822004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Hyperlipidemia"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Hyperlipidemia clinical management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2005-02-22"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:641b4963-66ca-49b2-b322-00c4ae22ae1f"
+          },
+          {
+            "reference": "urn:uuid:6340b908-40a3-472d-b2d1-18dd11a817fb"
+          },
+          {
+            "reference": "urn:uuid:3891bf05-06a1-492d-b627-77912b4095bd"
+          },
+          {
+            "reference": "urn:uuid:3fa84f23-6e61-4f80-b828-0b00e76135a2"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">22-Feb-2005</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve and maintain LDL cholesterol below 1.8 mmol/L to reduce cardiovascular risk.</li><li>Achieve and maintain total cholesterol below 4.0 mmol/L.</li><li>Achieve and maintain triglycerides below 1.7 mmol/L.</li><li>Maintain HDL cholesterol above 1.0 mmol/L.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40954b89-9c6b-4698-aed3-22a44ab40eff",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "40954b89-9c6b-4698-aed3-22a44ab40eff",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1983-09-28"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:47ed5b0d-f37d-457b-9d9e-ff1862ea3fd9"
+          },
+          {
+            "reference": "urn:uuid:b3872e53-b3f8-4716-b758-817005f2b438"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">28-Sep-1983</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain target blood pressure to reduce cardiovascular and renal risk.</li><li>Patient will implement recommended lifestyle changes (diet, exercise, sodium reduction, weight management) to support blood pressure control.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc488a33-0881-4643-88e1-7ccb09a08fba",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "fc488a33-0881-4643-88e1-7ccb09a08fba",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1971-12-07"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:6ce0216a-130e-4ab3-b440-55ab00794de3"
+          },
+          {
+            "reference": "urn:uuid:d7b82fa7-7a03-4426-a8a1-9f474c0aa186"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">07-Dec-1971</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan including dietary changes, physical activity, and regular blood glucose monitoring to prevent progression to type 2 diabetes.</li><li>Patient will maintain hemoglobin A1c below the diagnostic threshold for diabetes.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:106bcc3f-6b0f-4235-abdc-fabf794aafd0",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "106bcc3f-6b0f-4235-abdc-fabf794aafd0",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:019f4834-2ccb-4e57-bb8a-bb6c902c18c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "019f4834-2ccb-4e57-bb8a-bb6c902c18c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 171.6,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>15-Jul-2025</td><td>171.6 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:034e9709-7dd5-419e-9980-546424aed5a7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "034e9709-7dd5-419e-9980-546424aed5a7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>15-Jul-2025</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a669d905-b22e-4c90-83a9-5017b5961d94",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a669d905-b22e-4c90-83a9-5017b5961d94",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.1,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>15-Jul-2025</td><td>81.1 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f93aad8-c510-48ca-82a4-24100a2b2fef",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6f93aad8-c510-48ca-82a4-24100a2b2fef",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.5,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>15-Jul-2025</td><td>27.5 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1631c6ed-d661-4be1-b9a5-a5db2175a6a1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1631c6ed-d661-4be1-b9a5-a5db2175a6a1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>15-Jul-2025</td><td>86 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da95231d-33ee-4789-91bf-fad0b09404e8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da95231d-33ee-4789-91bf-fad0b09404e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 116,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>15-Jul-2025</td><td>116 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c16a0711-fa62-4dc2-813f-070a44f1fdb6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c16a0711-fa62-4dc2-813f-070a44f1fdb6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 61,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>15-Jul-2025</td><td>61 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94cea12d-2a9b-481d-ba63-2fec064623a8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "94cea12d-2a9b-481d-ba63-2fec064623a8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>15-Jul-2025</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c4b3946-3996-4c54-a19b-0e2190e45804",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2c4b3946-3996-4c54-a19b-0e2190e45804",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 171.6,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>10-Jun-2025</td><td>171.6 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:adecf4e7-584d-48a8-9a47-2029bb7a41f2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "adecf4e7-584d-48a8-9a47-2029bb7a41f2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>10-Jun-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5001f263-0384-44a7-9fdb-f994ca666631",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5001f263-0384-44a7-9fdb-f994ca666631",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.1,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>10-Jun-2025</td><td>81.1 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60738704-0100-4eed-9159-280152205795",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "60738704-0100-4eed-9159-280152205795",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.5,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>10-Jun-2025</td><td>27.5 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ec47c1f-cf55-4933-9ef9-7e749db0abba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7ec47c1f-cf55-4933-9ef9-7e749db0abba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 89,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>10-Jun-2025</td><td>89 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92d8c21d-e38c-4646-86eb-83260332d438",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "92d8c21d-e38c-4646-86eb-83260332d438",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 121,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>10-Jun-2025</td><td>121 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7e62f48-179e-40ef-bdbb-030a38d4faf8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7e62f48-179e-40ef-bdbb-030a38d4faf8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>10-Jun-2025</td><td>86 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e02be7f-ab65-4e10-8a40-10d42ca9425c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5e02be7f-ab65-4e10-8a40-10d42ca9425c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>10-Jun-2025</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-06-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8e07d1a8-5c1c-4f11-b6bc-73882a5df465",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8e07d1a8-5c1c-4f11-b6bc-73882a5df465",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2345-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 64.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>64.7</td><td>70 - 140</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aaa970d8-b3fa-4814-90a3-cc045e15331f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aaa970d8-b3fa-4814-90a3-cc045e15331f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "3094-0",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>9.4</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc20909e-0982-4ecd-852c-2fedc1ee1e63",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc20909e-0982-4ecd-852c-2fedc1ee1e63",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2160-0",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.9,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td>1.9</td><td>0.9 - 1.3</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab615154-3ffc-4bb0-ae38-9f9bb4a2f9f7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ab615154-3ffc-4bb0-ae38-9f9bb4a2f9f7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "17861-6",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>9.7</td><td>8.5 - 10.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b57a216-6bfd-4325-83d2-b676315d91fb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5b57a216-6bfd-4325-83d2-b676315d91fb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2951-2",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 138.7,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>138.7</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f5267b8-43b9-4c36-95ed-a883b3c3668d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6f5267b8-43b9-4c36-95ed-a883b3c3668d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2823-3",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.2,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.3,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>5.2</td><td>3.5 - 5.3</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b3ce6202-c9bd-42ae-8271-9c68c9d400a9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b3ce6202-c9bd-42ae-8271-9c68c9d400a9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2075-0",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 101.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 111,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>101.4</td><td>98 - 111</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f4d17ee7-273b-41ba-9510-63322a16fd03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f4d17ee7-273b-41ba-9510-63322a16fd03",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2028-9",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 24.1,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 32,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>24.1</td><td>22 - 32</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47f51a03-1fdf-42e5-9f6c-f141dc964af0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47f51a03-1fdf-42e5-9f6c-f141dc964af0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5767-9",
+              "system": "http://loinc.org",
+              "display": "Appearance of Urine"
+            }
+          ],
+          "text": "Appearance of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Appearance of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:525868d6-c3b3-4e4b-ae77-d756b447dd16",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "525868d6-c3b3-4e4b-ae77-d756b447dd16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "34533-0",
+              "system": "http://loinc.org",
+              "display": "Odor of Urine"
+            }
+          ],
+          "text": "Odor of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Odor of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d98e3b48-fb00-4d3c-840d-b4e489722247",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d98e3b48-fb00-4d3c-840d-b4e489722247",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32167-9",
+              "system": "http://loinc.org",
+              "display": "Clarity of Urine"
+            }
+          ],
+          "text": "Clarity of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Clarity of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0930eceb-8c6b-4cc1-90a9-d46b2db01b4d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0930eceb-8c6b-4cc1-90a9-d46b2db01b4d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5778-6",
+              "system": "http://loinc.org",
+              "display": "Color of Urine"
+            }
+          ],
+          "text": "Color of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Color of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:011279bb-314d-4a55-a0c0-67cc15f95515",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "011279bb-314d-4a55-a0c0-67cc15f95515",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5792-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>0.8</td><td>0 - 0.8</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b402158f-68d4-44a4-ae8d-8dc2f3d05e41",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b402158f-68d4-44a4-ae8d-8dc2f3d05e41",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "25428-4",
+              "system": "http://loinc.org",
+              "display": "Glucose [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c29a0bc0-5a5b-426b-b0d3-54f6f6a15c4d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c29a0bc0-5a5b-426b-b0d3-54f6f6a15c4d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20505-4",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.2</td><td>0 - 1.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3339aa36-51a6-41e7-9fd6-0a12f05cf94f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3339aa36-51a6-41e7-9fd6-0a12f05cf94f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5770-3",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06e59ef5-cc75-45c4-bea8-6d17c5575729",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06e59ef5-cc75-45c4-bea8-6d17c5575729",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5797-6",
+              "system": "http://loinc.org",
+              "display": "Ketones [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>12.5</td><td>0 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5a09905-4e9b-4306-b4f3-bd1e0cc8b88a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f5a09905-4e9b-4306-b4f3-bd1e0cc8b88a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2514-8",
+              "system": "http://loinc.org",
+              "display": "Ketones [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c6f1afdd-de6a-4ccb-aa0b-22ab4e1ba67f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c6f1afdd-de6a-4ccb-aa0b-22ab4e1ba67f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5811-5",
+              "system": "http://loinc.org",
+              "display": "Specific gravity of Urine by Test strip"
+            }
+          ],
+          "text": "Specific gravity of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "{nominal}",
+          "code": "{nominal}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1.005,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.03,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Specific gravity of Urine by Test strip</td><td>1.0</td><td>1.005 - 1.03</td><td>L</td><td>{nominal}</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:551901f1-9908-4fc5-9126-4a02b32d1932",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "551901f1-9908-4fc5-9126-4a02b32d1932",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5803-2",
+              "system": "http://loinc.org",
+              "display": "pH of Urine by Test strip"
+            }
+          ],
+          "text": "pH of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.3,
+          "unit": "pH",
+          "code": "pH"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.6,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>pH of Urine by Test strip</td><td>5.3</td><td>4.6 - 7</td><td></td><td>pH</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9cd1e55-aa9e-4410-b978-f075fe3cab1e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b9cd1e55-aa9e-4410-b978-f075fe3cab1e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5804-0",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 387.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td>387.3</td><td>0 - 145</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e08a2db9-555e-4692-86f7-c27bd76dc231",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e08a2db9-555e-4692-86f7-c27bd76dc231",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20454-5",
+              "system": "http://loinc.org",
+              "display": "Protein [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e59ae0d0-f22a-41e1-92c9-1f0cf9f8aea3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e59ae0d0-f22a-41e1-92c9-1f0cf9f8aea3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5802-4",
+              "system": "http://loinc.org",
+              "display": "Nitrite [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Nitrite [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7a69ca9-2c26-42af-8eaf-7114902e1816",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d7a69ca9-2c26-42af-8eaf-7114902e1816",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5794-3",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Hemoglobin [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eb1b8cad-965c-4c6b-b9c3-5987cf8cecc6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eb1b8cad-965c-4c6b-b9c3-5987cf8cecc6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5799-2",
+              "system": "http://loinc.org",
+              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Leukocyte esterase [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa0885fd-2115-4d98-ab10-280108477981",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa0885fd-2115-4d98-ab10-280108477981",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.2,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.8,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.7,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>22-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>3.2</td><td>3.8 - 5.7</td><td>L</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "effectiveDateTime": "2025-07-22T08:30:08Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3e9a64d-2a71-47a0-a61d-201bf2976d94",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "c3e9a64d-2a71-47a0-a61d-201bf2976d94",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2003-01-29"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">29-Jan-2003</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:17407a61-bf52-489d-8543-5afe2002ca7c",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17407a61-bf52-489d-8543-5afe2002ca7c",
+      "resource": {
+        "resourceType": "Device",
+        "id": "17407a61-bf52-489d-8543-5afe2002ca7c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)19252664846114(11)030108(17)280123(10)754976577(21)7963956029772"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6770319d-7e54-4606-8394-6a2542b93b00",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "6770319d-7e54-4606-8394-6a2542b93b00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1971-12-07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">07-Dec-1971</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:cb2509af-4f31-4247-bd75-d8f1719565a9",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb2509af-4f31-4247-bd75-d8f1719565a9",
+      "resource": {
+        "resourceType": "Device",
+        "id": "cb2509af-4f31-4247-bd75-d8f1719565a9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)65102816079553(11)711116(17)961130(10)5940(21)879384524484636343"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:b64444fb-2c98-4cfb-a168-6439d34bbeca",
+          "display": "Antony Smith"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d863e25c-c6f3-49e1-bff1-91706b65b022",
+      "resource": {
+        "resourceType": "Device",
+        "id": "d863e25c-c6f3-49e1-bff1-91706b65b022",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c1560f3-3259-4a86-b884-33dd5f416c98",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "9c1560f3-3259-4a86-b884-33dd5f416c98",
+        "target": [
+          {
+            "reference": "Patient/b64444fb-2c98-4cfb-a168-6439d34bbeca"
+          },
+          {
+            "reference": "Bundle/78f51866-a098-4a7e-b14c-c239cbb9e08f"
+          },
+          {
+            "reference": "Composition/15172eed-8b22-4978-93bc-21fa66026565"
+          },
+          {
+            "reference": "PractitionerRole/d46c78c4-3792-4652-abac-b2c6a5c15a16"
+          },
+          {
+            "reference": "Organization/b663f574-24fa-44f5-83f3-6b246958f466"
+          },
+          {
+            "reference": "Practitioner/2f42fced-85c3-461c-9b39-e39ac26aecf2"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/d863e25c-c6f3-49e1-bff1-91706b65b022"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-07-22T08:30:08Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-07-22T08:30:08Z"
+}

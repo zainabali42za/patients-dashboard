@@ -1,0 +1,3714 @@
+{
+  "resourceType": "Bundle",
+  "id": "ae1ecc89-8cbf-428f-a377-cca1aace9a24",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "31ccf86f-98fe-4573-b19c-8d4f71cbc3f9"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:f3685822-1ada-4f4e-9cd8-add8cedd7ab0",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "f3685822-1ada-4f4e-9cd8-add8cedd7ab0",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "74cccbba-8574-414f-8b87-d04ae9c230f0"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:d5f75e63-82c7-41d2-abc6-aa537c70681a"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">06-Oct-2014</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">26-Aug-2012</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">20-Aug-2006</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:59a7a093-cfbb-404e-8a04-b435596477c9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ff94523b-8f55-4e2b-825b-7451f3c1be21"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">30-Jun-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">07-Feb-2021</span></td></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">21-Jun-2020</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">21-Jun-2020</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b229a34b-7d2d-4afa-9a84-017bb27f7ad2"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Parturition</td><td><span class=\"nb\">02-Apr-2023</span></td><td>Normal pregnancy</td></tr><tr><td>Episiotomy</td><td><span class=\"nb\">02-Apr-2023</span></td><td>Normal pregnancy</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:751da48a-ab22-469d-8c91-a6ff5768543b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c8107fba-86b9-4a1b-92c3-21ef5975d837"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">20-Aug-2006</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Maintain fasting plasma glucose within the recommended range for prediabetes through lifestyle modification.</li><li>Maintain HbA1c within the recommended range for prediabetes through self-management strategies.</li></ul></td><td></td><td></td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-06-30</th><th>2022-06-26</th></tr><tr><td>Body Height</td><td>161.2 cm</td><td>161.2 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>2 {score}</td></tr><tr><td>Body Weight</td><td>77 kg</td><td>73.4 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>29.7 kg/m2</td><td>28.2 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>86 mm[Hg]</td><td>84 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>138 mm[Hg]</td><td>133 mm[Hg]</td></tr><tr><td>Heart rate</td><td>83 /min</td><td>92 /min</td></tr><tr><td>Respiratory rate</td><td>15 /min</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2cb78eeb-5d4e-4169-8fe5-6879d4778494"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">$<tr><td>[#] Births total</td><td>1</td></tr></table></div>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "History of pregnancies Narrative"
+                }
+              ]
+            },
+            "title": "Pregnancy History"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>30-JUN-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td><strong>6.3 H</strong></td><td>4.8 - 5.7</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>92.8</td><td>70 - 100</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>13.6</td><td>7 - 45</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.9</td><td></td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>8.7</td><td>8.4 - 10.3</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.6</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.8</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>101.4</td><td>98 - 108</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td><strong>21.3 L</strong></td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td><strong>98.6 L</strong></td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>115.2</td><td>35 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>24.9</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>50.7</td><td>40 - 60</td><td>mg/dL</td></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.2</td><td>3.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td><strong>5.5 H</strong></td><td>4.5 - 5</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>15.3</td><td>12 - 16</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>44.9</td><td>37 - 52</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>94.1</td><td>82 - 98</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>30.4</td><td>27 - 34</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>33.5</td><td>31 - 35</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>44.3</td><td>36 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>316.8</td><td>150 - 415</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>228.7 H</strong></td><td>11.6 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.8</td><td>7.2 - 13.8</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">06-Oct-2014</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">20-Aug-2006</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b19e962b-0c04-41e9-a749-63fa9d77d073"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "custodian": {
+          "reference": "urn:uuid:fde1c635-86ca-447b-9a7b-e1cdb3b4e1f4"
+        },
+        "date": "2024-06-30",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "6919036c-3556-4e9e-9d9f-68e751191a14",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "1505-398851-3"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "6ec674a0-64f5-b202-1ba6-cd734d105cd4"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Judita"
+            ],
+            "family": "Strnadová",
+            "text": "Judita Strnadová"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Brixiho 65"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "250 66",
+            "city": "Jílové",
+            "country": "Czechia"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "00420 601 130 134"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "CZ",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Judita Strnadová</td><td>female</td><td>15-Aug-1981</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1981-08-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5f75e63-82c7-41d2-abc6-aa537c70681a",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "d5f75e63-82c7-41d2-abc6-aa537c70681a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id d5f75e63-82c7-41d2-abc6-aa537c70681a</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:1b358b7f-3f91-4ddf-98f1-f2afe8c0ab6b"
+        },
+        "organization": {
+          "reference": "urn:uuid:fde1c635-86ca-447b-9a7b-e1cdb3b4e1f4"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fde1c635-86ca-447b-9a7b-e1cdb3b4e1f4",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "fde1c635-86ca-447b-9a7b-e1cdb3b4e1f4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "4312721b-8b08-4354-bab8-caea8a5f46d6"
+          }
+        ],
+        "address": [
+          {
+            "city": "Praha",
+            "postalCode": "182 00",
+            "country": "Czechia"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Psychiatrická nemocnice Bohnice</table></div>"
+        },
+        "name": "Psychiatrická nemocnice Bohnice"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b358b7f-3f91-4ddf-98f1-f2afe8c0ab6b",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1b358b7f-3f91-4ddf-98f1-f2afe8c0ab6b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59a7a093-cfbb-404e-8a04-b435596477c9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "59a7a093-cfbb-404e-8a04-b435596477c9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">06-Oct-2014</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-10-06",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d5f75e63-82c7-41d2-abc6-aa537c70681a",
+          "display": "Psychiatrická nemocnice Bohnice"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71a744d2-373a-4054-b80d-f5d095af891a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "71a744d2-373a-4054-b80d-f5d095af891a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">26-Aug-2012</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2012-08-26",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d5f75e63-82c7-41d2-abc6-aa537c70681a",
+          "display": "Psychiatrická nemocnice Bohnice"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7a88809-1acb-4b8f-b1c4-e756ba604aff",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d7a88809-1acb-4b8f-b1c4-e756ba604aff",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">20-Aug-2006</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2006-08-20",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d5f75e63-82c7-41d2-abc6-aa537c70681a",
+          "display": "Psychiatrická nemocnice Bohnice"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff94523b-8f55-4e2b-825b-7451f3c1be21",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "ff94523b-8f55-4e2b-825b-7451f3c1be21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b229a34b-7d2d-4afa-9a84-017bb27f7ad2",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b229a34b-7d2d-4afa-9a84-017bb27f7ad2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">30-Jun-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "occurrenceDateTime": "2024-06-30",
+        "lotNumber": "LA-SpSb6p",
+        "expirationDate": "2025-05-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2f5dc71-9722-46c2-adf2-7204a5771fec",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b2f5dc71-9722-46c2-adf2-7204a5771fec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">07-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "occurrenceDateTime": "2021-02-07",
+        "lotNumber": "MB-gUV60woE",
+        "expirationDate": "2021-10-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5de56970-c6ba-4ab9-a4a3-c2a58eac0cf3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "5de56970-c6ba-4ab9-a4a3-c2a58eac0cf3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">21-Jun-2020</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "occurrenceDateTime": "2020-06-21",
+        "lotNumber": "OX-7bsQox",
+        "expirationDate": "2021-03-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3646fc46-8653-4001-839b-125d19ca5c31",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3646fc46-8653-4001-839b-125d19ca5c31",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">21-Jun-2020</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "occurrenceDateTime": "2020-06-21",
+        "lotNumber": "ZB-SOyXj",
+        "expirationDate": "2021-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:751da48a-ab22-469d-8c91-a6ff5768543b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "751da48a-ab22-469d-8c91-a6ff5768543b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "66348005",
+              "system": "http://snomed.info/sct",
+              "display": "Childbirth"
+            }
+          ],
+          "text": "Parturition"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Parturition</td><td><span class=\"nb\">02-Apr-2023</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-04-02",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d05ac37f-46c6-46b9-a1af-bea331a4d3c6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d05ac37f-46c6-46b9-a1af-bea331a4d3c6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "85548006",
+              "system": "http://snomed.info/sct",
+              "display": "Episiotomy"
+            }
+          ],
+          "text": "Episiotomy"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Episiotomy</td><td><span class=\"nb\">02-Apr-2023</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-04-02",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c8107fba-86b9-4a1b-92c3-21ef5975d837",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "c8107fba-86b9-4a1b-92c3-21ef5975d837",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01261e4e-53c2-44ad-894c-ad9f3c31b98f",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "01261e4e-53c2-44ad-894c-ad9f3c31b98f",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2006-08-20"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:5ba1c99f-4928-4030-8a51-349d206d4a4b"
+          },
+          {
+            "reference": "urn:uuid:18de67df-e8ae-4527-9e85-f439589ca234"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">20-Aug-2006</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Maintain fasting plasma glucose within the recommended range for prediabetes through lifestyle modification.</li><li>Maintain HbA1c within the recommended range for prediabetes through self-management strategies.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2cb78eeb-5d4e-4169-8fe5-6879d4778494",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2cb78eeb-5d4e-4169-8fe5-6879d4778494",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 161.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>30-Jun-2024</td><td>161.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:73364531-58fc-48c0-8d80-886734f6762a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "73364531-58fc-48c0-8d80-886734f6762a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>30-Jun-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08333ca2-85c8-4cbf-94cd-20e568fb9e9f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "08333ca2-85c8-4cbf-94cd-20e568fb9e9f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 77,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>30-Jun-2024</td><td>77 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4a1c775-fc66-48a6-a4c7-b5ad154ad96b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e4a1c775-fc66-48a6-a4c7-b5ad154ad96b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 29.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30-Jun-2024</td><td>29.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54896b5c-b1ac-4f6f-bc62-a5c05b033a61",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "54896b5c-b1ac-4f6f-bc62-a5c05b033a61",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>30-Jun-2024</td><td>86 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a12d016a-6e82-415d-a182-01c805d4ced3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a12d016a-6e82-415d-a182-01c805d4ced3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 138,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>30-Jun-2024</td><td>138 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7dd56b8-8077-43c1-83e4-6df74ceafa39",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b7dd56b8-8077-43c1-83e4-6df74ceafa39",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>30-Jun-2024</td><td>83 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d645816-dc3c-4ce4-9a70-45b691d3e569",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0d645816-dc3c-4ce4-9a70-45b691d3e569",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>30-Jun-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ab64b9d-1f08-45bc-b27e-3ed4abd2d5ed",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ab64b9d-1f08-45bc-b27e-3ed4abd2d5ed",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 161.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>26-Jun-2022</td><td>161.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b98e7b9a-6053-4d32-8fb3-5f94a9081dc1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b98e7b9a-6053-4d32-8fb3-5f94a9081dc1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>26-Jun-2022</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:31c7f3ef-3516-4e28-b40d-5948f50f4cbe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "31c7f3ef-3516-4e28-b40d-5948f50f4cbe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>26-Jun-2022</td><td>73.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:962df6ad-2ee5-41b6-9480-47b41ee1d4c4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "962df6ad-2ee5-41b6-9480-47b41ee1d4c4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.2,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>26-Jun-2022</td><td>28.2 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49299a21-928d-4891-986d-075fcc0fa77e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "49299a21-928d-4891-986d-075fcc0fa77e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 84,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>26-Jun-2022</td><td>84 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8099f1c2-9102-4ecc-a9e9-7fda2fa9c150",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8099f1c2-9102-4ecc-a9e9-7fda2fa9c150",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 133,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>26-Jun-2022</td><td>133 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1d70f908-97cd-4c3c-a9b0-52c805e67524",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1d70f908-97cd-4c3c-a9b0-52c805e67524",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>26-Jun-2022</td><td>92 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:044b422f-3fcb-4e37-9a8b-e9acd681127f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "044b422f-3fcb-4e37-9a8b-e9acd681127f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>26-Jun-2022</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2022-06-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9dc9c3d5-79a7-48ac-be39-a0ed3a88b5d5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9dc9c3d5-79a7-48ac-be39-a0ed3a88b5d5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.3,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.8,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.7,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.3</td><td>4.8 - 5.7</td><td>H</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9295899f-7463-43a3-913a-014ebf3cc413",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9295899f-7463-43a3-913a-014ebf3cc413",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 92.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>92.8</td><td>70 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:126eaa46-1398-43f5-b25b-4d035e3c62c8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "126eaa46-1398-43f5-b25b-4d035e3c62c8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 13.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 45,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>13.6</td><td>7 - 45</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a62d4e5-9c0b-46c1-b5be-ebcca289b40d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0a62d4e5-9c0b-46c1-b5be-ebcca289b40d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.9</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e9f2183-ba16-4711-aed7-fbd55461bf61",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9e9f2183-ba16-4711-aed7-fbd55461bf61",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>8.7</td><td>8.4 - 10.3</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c779c164-4748-42cb-a235-213ea2370bca",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c779c164-4748-42cb-a235-213ea2370bca",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.6,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.6</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f895ad85-2260-47ab-a21a-7e97689b224e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f895ad85-2260-47ab-a21a-7e97689b224e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.8</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fcc7f028-e730-4ca2-9263-f62e60a7331a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fcc7f028-e730-4ca2-9263-f62e60a7331a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 101.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 108,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>101.4</td><td>98 - 108</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f8dcb31-eb58-4960-9d4e-9179b86ed16f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5f8dcb31-eb58-4960-9d4e-9179b86ed16f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 21.3,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>21.3</td><td>22 - 29</td><td>L</td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7dfb136-29a4-46d0-a73e-8d6bd9d26e91",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7dfb136-29a4-46d0-a73e-8d6bd9d26e91",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 98.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>98.6</td><td>125 - 200</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88244485-2929-4522-8cdc-11c5c3eb6cfa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "88244485-2929-4522-8cdc-11c5c3eb6cfa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 115.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 35,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>115.2</td><td>35 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c369245-cd01-41a8-b185-81a859c3f20b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4c369245-cd01-41a8-b185-81a859c3f20b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 24.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>24.9</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2951fcaf-4f5b-4bf7-a2d0-24e2f0a79e56",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2951fcaf-4f5b-4bf7-a2d0-24e2f0a79e56",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 50.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 60,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>50.7</td><td>40 - 60</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c5f77007-6b39-4d95-b02b-7c8b0b1379a0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5f77007-6b39-4d95-b02b-7c8b0b1379a0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.2,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.2</td><td>3.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b516a751-6c2d-4a6e-8380-fa23995fc9cc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b516a751-6c2d-4a6e-8380-fa23995fc9cc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.5,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.5</td><td>4.5 - 5</td><td>H</td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bbf70e61-7924-4592-aca3-dd07651d5f28",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bbf70e61-7924-4592-aca3-dd07651d5f28",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 15.3,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 12,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 16,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>15.3</td><td>12 - 16</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ea08bfd-c40b-48bc-b8ab-0f766906a029",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2ea08bfd-c40b-48bc-b8ab-0f766906a029",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 44.9,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 37,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 52,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>44.9</td><td>37 - 52</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2526a739-f9bb-4047-a9a9-18c2f9a7206b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2526a739-f9bb-4047-a9a9-18c2f9a7206b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 94.1,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 82,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 98,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>94.1</td><td>82 - 98</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14ab43f7-7467-410b-b633-da411aa0f8ca",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "14ab43f7-7467-410b-b633-da411aa0f8ca",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 30.4,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>30.4</td><td>27 - 34</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d9eb85e-65fc-42f7-bd0e-a337bcd8bd5d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7d9eb85e-65fc-42f7-bd0e-a337bcd8bd5d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 33.5,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 35,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>33.5</td><td>31 - 35</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f75fa725-d8bf-4a83-866c-c2244558c3ea",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f75fa725-d8bf-4a83-866c-c2244558c3ea",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 44.3,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 36,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>44.3</td><td>36 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2828dcd-93f5-4d58-a1a4-ca130a24a596",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2828dcd-93f5-4d58-a1a4-ca130a24a596",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 316.8,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 415,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>316.8</td><td>150 - 415</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e7d085c-e0fc-410f-b2a3-9a1a669611f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7e7d085c-e0fc-410f-b2a3-9a1a669611f8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 228.7,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 11.6,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>228.7</td><td>11.6 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d897163b-2139-44a0-90a8-fe88dd62b853",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d897163b-2139-44a0-90a8-fe88dd62b853",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.8,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.2,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 13.8,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>30-Jun-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.8</td><td>7.2 - 13.8</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "effectiveDateTime": "2024-06-30T01:53:54Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b19e962b-0c04-41e9-a749-63fa9d77d073",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "b19e962b-0c04-41e9-a749-63fa9d77d073",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2014-10-06"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">06-Oct-2014</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:d98a9dc6-af16-44b7-9be6-2ffe65ef736f",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d98a9dc6-af16-44b7-9be6-2ffe65ef736f",
+      "resource": {
+        "resourceType": "Device",
+        "id": "d98a9dc6-af16-44b7-9be6-2ffe65ef736f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)73136225587459(11)140915(17)390930(10)5669549959577(21)1971364489466"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:210e6496-7791-4c1a-91f2-7b954ec9d8ff",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "210e6496-7791-4c1a-91f2-7b954ec9d8ff",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2006-08-20"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">20-Aug-2006</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:6ef552b8-3490-4aab-871e-9de5b93bdd78",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ef552b8-3490-4aab-871e-9de5b93bdd78",
+      "resource": {
+        "resourceType": "Device",
+        "id": "6ef552b8-3490-4aab-871e-9de5b93bdd78",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)47865941806188(11)060730(17)310814(10)4105880874632848805(21)2261328427"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:6919036c-3556-4e9e-9d9f-68e751191a14",
+          "display": "Judita Strnadová"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6cb5f0f-3a8b-4a03-ad7f-6f77a604dcb4",
+      "resource": {
+        "resourceType": "Device",
+        "id": "f6cb5f0f-3a8b-4a03-ad7f-6f77a604dcb4",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7215c76-80c2-4697-97b2-0add9c33b176",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "b7215c76-80c2-4697-97b2-0add9c33b176",
+        "target": [
+          {
+            "reference": "Patient/6919036c-3556-4e9e-9d9f-68e751191a14"
+          },
+          {
+            "reference": "Bundle/ae1ecc89-8cbf-428f-a377-cca1aace9a24"
+          },
+          {
+            "reference": "Composition/f3685822-1ada-4f4e-9cd8-add8cedd7ab0"
+          },
+          {
+            "reference": "PractitionerRole/d5f75e63-82c7-41d2-abc6-aa537c70681a"
+          },
+          {
+            "reference": "Organization/fde1c635-86ca-447b-9a7b-e1cdb3b4e1f4"
+          },
+          {
+            "reference": "Practitioner/1b358b7f-3f91-4ddf-98f1-f2afe8c0ab6b"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/f6cb5f0f-3a8b-4a03-ad7f-6f77a604dcb4"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-06-30T01:53:54Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-06-30T01:53:54Z"
+}

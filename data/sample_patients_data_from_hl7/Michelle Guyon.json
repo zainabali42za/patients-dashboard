@@ -1,0 +1,2371 @@
+{
+  "resourceType": "Bundle",
+  "id": "c2dd1335-f889-456a-b959-65c109fcdad5",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "4e888d86-83ec-4688-8e51-d7d6adf4ccf6"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d8ffc345-2fd1-4de7-86b4-8bfa953a5316",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "d8ffc345-2fd1-4de7-86b4-8bfa953a5316",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "575e7f86-6b03-406f-ab5a-00ce006f2de2"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:8cddee3a-6237-4ffc-ae18-e7b04c9e41d1"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8255bc0b-b3ac-433e-8fd5-7ef3676dead1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f0b6c570-7f78-4d4d-8e19-2ae1cf8f037a"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">24-May-2024</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">24-May-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">11-Jun-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">31-Jul-2015</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c3e379a6-d45c-4a60-a14a-48ec55211cba"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:58012aa5-16c0-43a5-8d56-a3a655107a60"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-05-24</th><th>2021-08-06</th></tr><tr><td>Body Height</td><td>170.9 cm</td><td>170.9 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>2 {score}</td></tr><tr><td>Body Weight</td><td>87.9 kg</td><td>86.6 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.1 kg/m2</td><td>29.7 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>82 mm[Hg]</td><td>84 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>119 mm[Hg]</td><td>114 mm[Hg]</td></tr><tr><td>Heart rate</td><td>77 /min</td><td>72 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:155c8144-3ee7-4b6d-b199-84dea773c7b9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>24-MAY-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>8.7</td><td>3.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.8</td><td>4.2 - 5.4</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>14.2</td><td>12 - 16</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>37.6</td><td>37 - 47</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>90.8</td><td>82 - 98</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>32.0</td><td>27 - 34</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td><strong>35.1 H</strong></td><td>31 - 35</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>39.9</td><td>36 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td><strong>412.3 H</strong></td><td>150 - 400</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>203.3 H</strong></td><td>11.6 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.8</td><td>9.6 - 13.8</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "custodian": {
+          "reference": "urn:uuid:3e42916a-e20d-4810-bd1a-364455d4afba"
+        },
+        "date": "2024-05-24",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "9a6a5f07-0413-41cc-9443-42317e4681a9",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "2977-413141-0"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "f02e549f-e2cf-8dc9-42a1-63c8949c355a"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Michelle"
+            ],
+            "family": "Guyon",
+            "text": "Michelle Guyon"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "30, chemin Élise Grondin"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "14530",
+            "city": "Germain-sur-Mer",
+            "country": "France"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+33 (0)5 67 27 60 61"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FR",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Michelle Guyon</td><td>female</td><td>18-Jul-1987</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1987-07-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8cddee3a-6237-4ffc-ae18-e7b04c9e41d1",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "8cddee3a-6237-4ffc-ae18-e7b04c9e41d1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 8cddee3a-6237-4ffc-ae18-e7b04c9e41d1</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:7d49cd84-489b-4136-abc0-f319e185aa72"
+        },
+        "organization": {
+          "reference": "urn:uuid:3e42916a-e20d-4810-bd1a-364455d4afba"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e42916a-e20d-4810-bd1a-364455d4afba",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "3e42916a-e20d-4810-bd1a-364455d4afba",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "e82d1aa7-251d-49e4-be57-29ab9157f323"
+          }
+        ],
+        "address": [
+          {
+            "city": "Deauville",
+            "postalCode": "14800",
+            "country": "France"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Polyclinique Deauville</table></div>"
+        },
+        "name": "Polyclinique Deauville"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d49cd84-489b-4136-abc0-f319e185aa72",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "7d49cd84-489b-4136-abc0-f319e185aa72",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8255bc0b-b3ac-433e-8fd5-7ef3676dead1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8255bc0b-b3ac-433e-8fd5-7ef3676dead1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0b6c570-7f78-4d4d-8e19-2ae1cf8f037a",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f0b6c570-7f78-4d4d-8e19-2ae1cf8f037a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3e379a6-d45c-4a60-a14a-48ec55211cba",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "c3e379a6-d45c-4a60-a14a-48ec55211cba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">24-May-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "occurrenceDateTime": "2024-05-24",
+        "lotNumber": "YK-aGycv",
+        "expirationDate": "2024-07-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba6b4d1d-9121-4d80-b733-e902a1caccd5",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "ba6b4d1d-9121-4d80-b733-e902a1caccd5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">24-May-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "occurrenceDateTime": "2024-05-24",
+        "lotNumber": "UB-CWCBpBFG",
+        "expirationDate": "2025-05-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47d033b7-2b35-4f41-bd67-844e62c6cfc4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "47d033b7-2b35-4f41-bd67-844e62c6cfc4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">11-Jun-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "occurrenceDateTime": "2021-06-11",
+        "lotNumber": "VL-P28S",
+        "expirationDate": "2022-03-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9bfd8ad5-8e2d-41b5-9ebe-666e3dfe8e65",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "9bfd8ad5-8e2d-41b5-9ebe-666e3dfe8e65",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">31-Jul-2015</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "occurrenceDateTime": "2015-07-31",
+        "lotNumber": "GS-jcjX0S7",
+        "expirationDate": "2016-05-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58012aa5-16c0-43a5-8d56-a3a655107a60",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "58012aa5-16c0-43a5-8d56-a3a655107a60",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            }
+          ],
+          "text": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:155c8144-3ee7-4b6d-b199-84dea773c7b9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "155c8144-3ee7-4b6d-b199-84dea773c7b9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.9,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>24-May-2024</td><td>170.9 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6de64452-f89c-4170-9f72-362f55743d36",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6de64452-f89c-4170-9f72-362f55743d36",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>24-May-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ec23764-88ca-4e6c-aefb-893541977131",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ec23764-88ca-4e6c-aefb-893541977131",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 87.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>24-May-2024</td><td>87.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:432a0753-3158-4d91-b031-86ba56ae51bb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "432a0753-3158-4d91-b031-86ba56ae51bb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>24-May-2024</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9469b534-e39c-4c38-b90f-5447ca4d3781",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9469b534-e39c-4c38-b90f-5447ca4d3781",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>24-May-2024</td><td>82 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce9663c6-8643-4952-b0c2-e1bc1acf0ec9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce9663c6-8643-4952-b0c2-e1bc1acf0ec9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 119,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>24-May-2024</td><td>119 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1361580-aaf1-47bb-a778-5a1aaf537807",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a1361580-aaf1-47bb-a778-5a1aaf537807",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 77,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>24-May-2024</td><td>77 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:730adff5-3f60-4756-b4b9-5226f4464817",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "730adff5-3f60-4756-b4b9-5226f4464817",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>24-May-2024</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe6cd148-9f6b-4568-8dee-3c9139f99d66",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fe6cd148-9f6b-4568-8dee-3c9139f99d66",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.9,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>06-Aug-2021</td><td>170.9 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22608364-c78d-446c-8611-001f46a9c648",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "22608364-c78d-446c-8611-001f46a9c648",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>06-Aug-2021</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58fb39ee-96ad-4d88-82bb-8435def4905f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "58fb39ee-96ad-4d88-82bb-8435def4905f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86.6,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>06-Aug-2021</td><td>86.6 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eaeea4c9-aa36-4cf5-8796-92ccfdb61f5c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eaeea4c9-aa36-4cf5-8796-92ccfdb61f5c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 29.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>06-Aug-2021</td><td>29.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad88ecdb-8073-42d3-bd6a-fd9e174dbdfd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad88ecdb-8073-42d3-bd6a-fd9e174dbdfd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 84,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>06-Aug-2021</td><td>84 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c78b53c1-cacf-4cfb-a6bc-dcb2eaebae4c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c78b53c1-cacf-4cfb-a6bc-dcb2eaebae4c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 114,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>06-Aug-2021</td><td>114 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ffab990-1878-4ccc-969b-58bb59101e3f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7ffab990-1878-4ccc-969b-58bb59101e3f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>06-Aug-2021</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b9ebdfb-5fc6-4da3-b7d1-28d1add29b65",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b9ebdfb-5fc6-4da3-b7d1-28d1add29b65",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>06-Aug-2021</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2021-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:95324df3-af26-4c1e-87ed-e3f876743894",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "95324df3-af26-4c1e-87ed-e3f876743894",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.7,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>8.7</td><td>3.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b4308bd9-d3be-43c7-9109-ee0e81ad494e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b4308bd9-d3be-43c7-9109-ee0e81ad494e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.8,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.2,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.4,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.8</td><td>4.2 - 5.4</td><td></td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:926d36fd-f1e2-4722-9666-940f18fc0d0a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "926d36fd-f1e2-4722-9666-940f18fc0d0a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 14.2,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 12,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 16,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>14.2</td><td>12 - 16</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fa1ba869-b19b-4dc9-8323-8d76f413ee18",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fa1ba869-b19b-4dc9-8323-8d76f413ee18",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 37.6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 37,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 47,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>37.6</td><td>37 - 47</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:805b16f4-1ab4-4741-aafc-5f43c45057c3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "805b16f4-1ab4-4741-aafc-5f43c45057c3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 90.8,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 82,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 98,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>90.8</td><td>82 - 98</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb29eee6-f86c-4add-937d-076ac07ee464",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb29eee6-f86c-4add-937d-076ac07ee464",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 32,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>32.0</td><td>27 - 34</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9859f085-3229-45d5-a383-f623b109ad31",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9859f085-3229-45d5-a383-f623b109ad31",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 35.1,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 35,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>35.1</td><td>31 - 35</td><td>H</td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99cbafb5-320a-4279-ba95-d5c3f9dd93fa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "99cbafb5-320a-4279-ba95-d5c3f9dd93fa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 39.9,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 36,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>39.9</td><td>36 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62c947db-905a-429f-9c71-3804e01a7256",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "62c947db-905a-429f-9c71-3804e01a7256",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 412.3,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 400,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>412.3</td><td>150 - 400</td><td>H</td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22a818f4-8504-4a48-8eb5-6235c0b0352b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "22a818f4-8504-4a48-8eb5-6235c0b0352b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 203.3,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 11.6,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>203.3</td><td>11.6 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b764d043-8f4d-4df8-b56e-cee810ad210d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b764d043-8f4d-4df8-b56e-cee810ad210d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.8,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 9.6,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 13.8,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>24-May-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.8</td><td>9.6 - 13.8</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:9a6a5f07-0413-41cc-9443-42317e4681a9",
+          "display": "Michelle Guyon"
+        },
+        "effectiveDateTime": "2024-05-24T07:04:22Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e911db6-e98d-42ae-9902-63f8faa0a303",
+      "resource": {
+        "resourceType": "Device",
+        "id": "3e911db6-e98d-42ae-9902-63f8faa0a303",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:912d3475-bfbc-4a34-b35f-231ac3f39bfb",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "912d3475-bfbc-4a34-b35f-231ac3f39bfb",
+        "target": [
+          {
+            "reference": "Patient/9a6a5f07-0413-41cc-9443-42317e4681a9"
+          },
+          {
+            "reference": "Bundle/c2dd1335-f889-456a-b959-65c109fcdad5"
+          },
+          {
+            "reference": "Composition/d8ffc345-2fd1-4de7-86b4-8bfa953a5316"
+          },
+          {
+            "reference": "PractitionerRole/8cddee3a-6237-4ffc-ae18-e7b04c9e41d1"
+          },
+          {
+            "reference": "Organization/3e42916a-e20d-4810-bd1a-364455d4afba"
+          },
+          {
+            "reference": "Practitioner/7d49cd84-489b-4136-abc0-f319e185aa72"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/3e911db6-e98d-42ae-9902-63f8faa0a303"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-05-24T07:04:22Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-05-24T07:04:22Z"
+}

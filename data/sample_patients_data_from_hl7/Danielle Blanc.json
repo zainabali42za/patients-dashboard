@@ -1,0 +1,2958 @@
+{
+  "resourceType": "Bundle",
+  "id": "4b74b44f-5155-4d05-92ec-a2196429e784",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "e3dca680-488a-4edd-a9ce-2cee874de278"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:71ca459e-21da-424e-a6a5-f7ca1dbf3041",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "71ca459e-21da-424e-a6a5-f7ca1dbf3041",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "c826669f-dcd7-403f-bf40-aa12500dcc21"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:3a28fb5b-eed0-4ae0-b42b-caad14830056"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:30386231-09c1-47c3-98a9-74fda7941a19"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:500e32f8-781c-4601-84d4-d8c9f2f9888d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">29-Oct-2024</span></td></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">13-Sep-2016</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">08-Sep-2015</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">08-Sep-2015</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bb131cae-dbaf-4210-9a3e-8a9bccee153a"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Epidural anesthesia</td><td><span class=\"nb\">05-Nov-2024</span></td><td>Normal pregnancy</td></tr><tr><td>Parturition</td><td><span class=\"nb\">05-Nov-2024</span></td><td>Normal pregnancy</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">07-May-2019</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">07-May-2019</span></td><td>-</td></tr><tr><td>Patient evaluation and management</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Complete blood count</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Blood culture</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Urine specimen collection</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Taking patient vital signs</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>History taking</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Discussion about signs and symptoms</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Antibiotic therapy</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Triage: emergency center</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Urinalysis with reflex to microscopy and culture</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr><tr><td>Comprehensive metabolic panel</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ae5a48da-bd9f-4cf9-b44a-8b3f4503b853"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Mold</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td>Nose running&lt;br> &lt;/br>Wheezing</td></tr><tr><td>Latex</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>House dust mite</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Animal dander</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td>Rhinoconjunctivitis (disorder)&lt;br> &lt;/br>Cough (finding)</td></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Tree nut</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>food</td><td>Anaphylaxis (disorder)&lt;br> &lt;/br>Wheal (finding)</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8f179ea6-a810-4ddd-8a5f-99ce63e98cab"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Routine antenatal care</td><td><span class=\"nb\">22-Apr-2025</span></td><td>-</td></tr><tr><td>Asthma self management</td><td><span class=\"nb\">19-Apr-1997</span></td><td>Childhood asthma</td></tr><tr><td><ul><li>Patient will demonstrate correct inhaler technique and adhere to asthma action plan to minimize asthma symptoms and prevent exacerbations.</li></ul></td><td></td><td></td></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">13-Jul-1995</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-10-29</th><th>2023-10-24</th></tr><tr><td>Body Height</td><td>168.5 cm</td><td>168.5 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>0 {score}</td></tr><tr><td>Body Weight</td><td>76.7 kg</td><td>75.2 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27 kg/m2</td><td>26.5 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>76 mm[Hg]</td><td>74 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>136 mm[Hg]</td><td>137 mm[Hg]</td></tr><tr><td>Heart rate</td><td>92 /min</td><td>75 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3bace8df-4910-4c7f-9974-0ce39a004ef7"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">$<tr><td>[#] Births total</td><td>1</td></tr></table></div>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "History of pregnancies Narrative"
+                }
+              ]
+            },
+            "title": "Pregnancy History"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>29-OCT-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td><strong>124.7 L</strong></td><td>130 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>109.9</td><td>35 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>47.5</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>55.2</td><td>40 - 100</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "custodian": {
+          "reference": "urn:uuid:5292ba62-7d33-4783-a358-499fe68c2b21"
+        },
+        "date": "2024-10-29",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a2e650bd-3271-4563-a5c5-037f10634f74",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "5911-421838-7"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "94158136-9a61-1f93-81f0-c28b219dba17"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Danielle"
+            ],
+            "family": "Blanc",
+            "text": "Danielle Blanc"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "85, boulevard Leclerc"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "75001",
+            "city": "Saint Jeanninedan",
+            "country": "France"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+33 (0)1 64 23 74 35"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FR",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Danielle Blanc</td><td>female</td><td>27-Jan-1996</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1996-01-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a28fb5b-eed0-4ae0-b42b-caad14830056",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "3a28fb5b-eed0-4ae0-b42b-caad14830056",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 3a28fb5b-eed0-4ae0-b42b-caad14830056</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:560f63cc-959b-4fe7-87ef-a40e3725c05e"
+        },
+        "organization": {
+          "reference": "urn:uuid:5292ba62-7d33-4783-a358-499fe68c2b21"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5292ba62-7d33-4783-a358-499fe68c2b21",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "5292ba62-7d33-4783-a358-499fe68c2b21",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "c06b7dd9-d376-43bb-a9f6-2d67b4450b4f"
+          }
+        ],
+        "address": [
+          {
+            "city": "Paris",
+            "postalCode": "75001",
+            "country": "France"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Hôtel-Dieu</table></div>"
+        },
+        "name": "Hôtel-Dieu"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:560f63cc-959b-4fe7-87ef-a40e3725c05e",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "560f63cc-959b-4fe7-87ef-a40e3725c05e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30386231-09c1-47c3-98a9-74fda7941a19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "30386231-09c1-47c3-98a9-74fda7941a19",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:500e32f8-781c-4601-84d4-d8c9f2f9888d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "500e32f8-781c-4601-84d4-d8c9f2f9888d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bb131cae-dbaf-4210-9a3e-8a9bccee153a",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "bb131cae-dbaf-4210-9a3e-8a9bccee153a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">29-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "occurrenceDateTime": "2024-10-29",
+        "lotNumber": "KD-Aj69u",
+        "expirationDate": "2025-07-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f29f76f-d7b9-4c0b-9d4a-6a507d587624",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3f29f76f-d7b9-4c0b-9d4a-6a507d587624",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">13-Sep-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "occurrenceDateTime": "2016-09-13",
+        "lotNumber": "SL-S2vRW",
+        "expirationDate": "2017-07-31"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d0821fd-d60a-49a1-8727-7c454679b11b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "0d0821fd-d60a-49a1-8727-7c454679b11b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">08-Sep-2015</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "occurrenceDateTime": "2015-09-08",
+        "lotNumber": "BF-ONT5",
+        "expirationDate": "2016-06-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd81dc94-e040-49a3-85b4-2033785cf607",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "cd81dc94-e040-49a3-85b4-2033785cf607",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">08-Sep-2015</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "occurrenceDateTime": "2015-09-08",
+        "lotNumber": "UQ-ZXnQS65Fr",
+        "expirationDate": "2016-04-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae5a48da-bd9f-4cf9-b44a-8b3f4503b853",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ae5a48da-bd9f-4cf9-b44a-8b3f4503b853",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "18946005",
+              "system": "http://snomed.info/sct",
+              "display": "Epidural anesthesia"
+            }
+          ],
+          "text": "Epidural anesthesia"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Epidural anesthesia</td><td><span class=\"nb\">05-Nov-2024</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-11-05",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2612dca5-068b-4005-9c0d-52c6010f13df",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2612dca5-068b-4005-9c0d-52c6010f13df",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "66348005",
+              "system": "http://snomed.info/sct",
+              "display": "Childbirth"
+            }
+          ],
+          "text": "Parturition"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Parturition</td><td><span class=\"nb\">05-Nov-2024</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-11-05",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32f04dc8-a9fe-4073-b9d6-996900e4bb8a",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "32f04dc8-a9fe-4073-b9d6-996900e4bb8a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">07-May-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-05-07",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b2d0df0-65e2-4825-aa44-b28b692ca479",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5b2d0df0-65e2-4825-aa44-b28b692ca479",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">07-May-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-05-07",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1513f45a-534a-4bbf-acd8-66f9245b9285",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1513f45a-534a-4bbf-acd8-66f9245b9285",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "14736009",
+              "system": "http://snomed.info/sct",
+              "display": "History and physical examination with evaluation and management of patient (procedure)"
+            }
+          ],
+          "text": "Patient evaluation and management"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient evaluation and management</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6fabae9c-e456-4b59-adf5-72674a42837e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6fabae9c-e456-4b59-adf5-72674a42837e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "26604007",
+              "system": "http://snomed.info/sct",
+              "display": "Complete blood count (procedure)"
+            }
+          ],
+          "text": "Complete blood count"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Complete blood count</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87a53a43-18e0-4eeb-873a-e7581e34fcff",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "87a53a43-18e0-4eeb-873a-e7581e34fcff",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "30088009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood culture (procedure)"
+            }
+          ],
+          "text": "Blood culture"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood culture</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ec98f8a1-61e7-422a-9cc7-3d08848892fe",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ec98f8a1-61e7-422a-9cc7-3d08848892fe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "57617002",
+              "system": "http://snomed.info/sct",
+              "display": "Urine specimen collection (procedure)"
+            }
+          ],
+          "text": "Urine specimen collection"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Urine specimen collection</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a5d2b07-19b4-4893-99b2-aaa016f91fb1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6a5d2b07-19b4-4893-99b2-aaa016f91fb1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db1a0b8d-f5e5-41d5-910d-b1020278b0b8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "db1a0b8d-f5e5-41d5-910d-b1020278b0b8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "61746007",
+              "system": "http://snomed.info/sct",
+              "display": "Taking patient vital signs (procedure)"
+            }
+          ],
+          "text": "Taking patient vital signs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Taking patient vital signs</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b3f4a381-6860-41dd-876f-94b3c029ecf3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b3f4a381-6860-41dd-876f-94b3c029ecf3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84100007",
+              "system": "http://snomed.info/sct",
+              "display": "History taking (procedure)"
+            }
+          ],
+          "text": "History taking"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History taking</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a2f68e1-0b20-4730-bac1-0fa71161c696",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5a2f68e1-0b20-4730-bac1-0fa71161c696",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "223470000",
+              "system": "http://snomed.info/sct",
+              "display": "Discussion about signs and symptoms (procedure)"
+            }
+          ],
+          "text": "Discussion about signs and symptoms"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discussion about signs and symptoms</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96ee95fa-e84f-4247-800b-4096968ef237",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "96ee95fa-e84f-4247-800b-4096968ef237",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "281789004",
+              "system": "http://snomed.info/sct",
+              "display": "Antibiotic therapy (procedure)"
+            }
+          ],
+          "text": "Antibiotic therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Antibiotic therapy</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:818d0e60-d445-4037-a5f3-b427458aa539",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "818d0e60-d445-4037-a5f3-b427458aa539",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "386478007",
+              "system": "http://snomed.info/sct",
+              "display": "Triage emergency center (procedure)"
+            }
+          ],
+          "text": "Triage: emergency center"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Triage: emergency center</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fddc63af-5860-48c7-96a0-35f871d52ef6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "fddc63af-5860-48c7-96a0-35f871d52ef6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "441550005",
+              "system": "http://snomed.info/sct",
+              "display": "Urinalysis with reflex to microscopy and culture (procedure)"
+            }
+          ],
+          "text": "Urinalysis with reflex to microscopy and culture"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Urinalysis with reflex to microscopy and culture</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67d91d60-8999-4158-a11a-c5ebeddabfa4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "67d91d60-8999-4158-a11a-c5ebeddabfa4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "371361000119107",
+              "system": "http://snomed.info/sct",
+              "display": "Comprehensive metabolic panel (procedure)"
+            }
+          ],
+          "text": "Comprehensive metabolic panel"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Comprehensive metabolic panel</td><td><span class=\"nb\">13-Jun-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-06-13",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f179ea6-a810-4ddd-8a5f-99ce63e98cab",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "8f179ea6-a810-4ddd-8a5f-99ce63e98cab",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84489001",
+              "system": "http://snomed.info/sct",
+              "display": "Mold (organism)"
+            }
+          ],
+          "text": "Mold"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "267101005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Nose running"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          },
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "56018004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Wheezing"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Mold</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td>Nose running&lt;br> &lt;/br>Wheezing</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b5f39fb4-3b92-4549-b0e3-3f91dbe12c03",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "b5f39fb4-3b92-4549-b0e3-3f91dbe12c03",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "111088007",
+              "system": "http://snomed.info/sct",
+              "display": "Latex (substance)"
+            }
+          ],
+          "text": "Latex"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Latex</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:65c235d5-b3e1-497f-b42f-3536741aa949",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "65c235d5-b3e1-497f-b42f-3536741aa949",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "260147004",
+              "system": "http://snomed.info/sct",
+              "display": "House dust mite (organism)"
+            }
+          ],
+          "text": "House dust mite"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>House dust mite</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0bbcfab-4717-4ec4-bdf7-4d4c4bf127a6",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "d0bbcfab-4717-4ec4-bdf7-4d4c4bf127a6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "264287008",
+              "system": "http://snomed.info/sct",
+              "display": "Animal dander (substance)"
+            }
+          ],
+          "text": "Animal dander"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "878820003",
+                    "system": "http://snomed.info/sct",
+                    "display": "Rhinoconjunctivitis (disorder)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          },
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "49727002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Cough (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Animal dander</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td>Rhinoconjunctivitis (disorder)&lt;br> &lt;/br>Cough (finding)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9673c968-84c6-413e-aff0-4cd4efc5d57f",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "9673c968-84c6-413e-aff0-4cd4efc5d57f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "419199007",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to substance (finding)"
+            }
+          ],
+          "text": "Allergy to substance"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a9e0ee5b-bbd2-41ea-955a-3ba00999a7f4",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "a9e0ee5b-bbd2-41ea-955a-3ba00999a7f4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "442571000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Tree nut (substance)"
+            }
+          ],
+          "text": "Tree nut"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "food"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "39579001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Anaphylaxis (disorder)"
+                  }
+                ]
+              }
+            ],
+            "severity": "severe"
+          },
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "247472004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Wheal (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Tree nut</td><td><span class=\"nb\">1995-07-29</span></td><td>active</td><td>food</td><td>Anaphylaxis (disorder)&lt;br> &lt;/br>Wheal (finding)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-07-29",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00e145af-5514-4a2b-b9b6-6fdc869f44a1",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "00e145af-5514-4a2b-b9b6-6fdc869f44a1",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "134435003",
+                    "system": "http://snomed.info/sct",
+                    "display": "Routine antenatal care (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Routine antenatal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2025-04-22"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Routine antenatal care</td><td><span class=\"nb\">22-Apr-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:75c9b94d-94d4-4316-9168-d5f9940fe295",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "75c9b94d-94d4-4316-9168-d5f9940fe295",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "699728000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Asthma self management (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "233678006",
+                      "system": "http://snomed.info/sct",
+                      "display": "Childhood asthma"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Asthma self management",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1997-04-19"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:758f9c1b-b42e-4448-99e4-0d00ceaff54e"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Asthma self management</td><td><span class=\"nb\">19-Apr-1997</span></td><td>Childhood asthma</td></tr><tr><td><ul><li>Patient will demonstrate correct inhaler technique and adhere to asthma action plan to minimize asthma symptoms and prevent exacerbations.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:033e6317-0f35-4b13-be30-3c27dac2f2de",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "033e6317-0f35-4b13-be30-3c27dac2f2de",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "384758001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Self-care interventions (procedure)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Self-care interventions",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1995-07-13"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">13-Jul-1995</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3bace8df-4910-4c7f-9974-0ce39a004ef7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3bace8df-4910-4c7f-9974-0ce39a004ef7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 168.5,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>29-Oct-2024</td><td>168.5 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bc7fa398-ad43-4dfc-8d1a-99cdec59f742",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bc7fa398-ad43-4dfc-8d1a-99cdec59f742",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>29-Oct-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a23d3ac6-43d6-4c06-9f98-4865254d3df6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a23d3ac6-43d6-4c06-9f98-4865254d3df6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>29-Oct-2024</td><td>76.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:079d1795-f512-4796-aeab-0a5f2d4714a6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "079d1795-f512-4796-aeab-0a5f2d4714a6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>29-Oct-2024</td><td>27 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c56762e-03d1-4580-bd48-ee2c4cfcd070",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4c56762e-03d1-4580-bd48-ee2c4cfcd070",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>29-Oct-2024</td><td>76 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72656050-ba37-4850-8e9c-1ec82cc5eccb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "72656050-ba37-4850-8e9c-1ec82cc5eccb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 136,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>29-Oct-2024</td><td>136 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf386bef-5d63-4684-8064-7e4b52d79429",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf386bef-5d63-4684-8064-7e4b52d79429",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>29-Oct-2024</td><td>92 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e84da02-d030-4148-bf62-4073aefe3dc7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3e84da02-d030-4148-bf62-4073aefe3dc7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>29-Oct-2024</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40090000-6925-4e73-9dd0-bb15c1b065d3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "40090000-6925-4e73-9dd0-bb15c1b065d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 168.5,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>24-Oct-2023</td><td>168.5 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff7f9b76-ee25-415d-a4cb-91dc65238949",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ff7f9b76-ee25-415d-a4cb-91dc65238949",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>24-Oct-2023</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f35b6d1e-6327-488d-9711-12ec8468d7b7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f35b6d1e-6327-488d-9711-12ec8468d7b7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 75.2,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>24-Oct-2023</td><td>75.2 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:90a379ec-55b2-4195-b438-aecaa8dae046",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "90a379ec-55b2-4195-b438-aecaa8dae046",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 26.5,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>24-Oct-2023</td><td>26.5 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fd4b5ae-88fb-43bc-a7a3-a66700dbbf7e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3fd4b5ae-88fb-43bc-a7a3-a66700dbbf7e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>24-Oct-2023</td><td>74 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d6edcac-5f74-404f-9d39-eb67ad2b1abb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9d6edcac-5f74-404f-9d39-eb67ad2b1abb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 137,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>24-Oct-2023</td><td>137 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b099580-b947-4a5c-95ef-aa51d814f1cd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0b099580-b947-4a5c-95ef-aa51d814f1cd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 75,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>24-Oct-2023</td><td>75 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a78c4d8b-ad40-47de-a015-b2e6df0650b2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a78c4d8b-ad40-47de-a015-b2e6df0650b2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>24-Oct-2023</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2023-10-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f95edc9-3504-46ca-badb-0cec70e37c9d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0f95edc9-3504-46ca-badb-0cec70e37c9d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 124.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>124.7</td><td>130 - 200</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29T07:02:26Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17a835d3-a30d-421f-ac73-a6d3db4d495a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "17a835d3-a30d-421f-ac73-a6d3db4d495a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 109.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 35,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>109.9</td><td>35 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29T07:02:26Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2fbb23c2-5736-4cc8-a637-3fefbe3e0ec1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2fbb23c2-5736-4cc8-a637-3fefbe3e0ec1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 47.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>47.5</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29T07:02:26Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c8030bb9-075c-47e8-8983-e893cbc9bb13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c8030bb9-075c-47e8-8983-e893cbc9bb13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 55.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>55.2</td><td>40 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a2e650bd-3271-4563-a5c5-037f10634f74",
+          "display": "Danielle Blanc"
+        },
+        "effectiveDateTime": "2024-10-29T07:02:26Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20abc692-15af-4f15-b286-6da872cb32c1",
+      "resource": {
+        "resourceType": "Device",
+        "id": "20abc692-15af-4f15-b286-6da872cb32c1",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a478662-ec20-4974-98fd-ca2726c23a11",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "1a478662-ec20-4974-98fd-ca2726c23a11",
+        "target": [
+          {
+            "reference": "Patient/a2e650bd-3271-4563-a5c5-037f10634f74"
+          },
+          {
+            "reference": "Bundle/4b74b44f-5155-4d05-92ec-a2196429e784"
+          },
+          {
+            "reference": "Composition/71ca459e-21da-424e-a6a5-f7ca1dbf3041"
+          },
+          {
+            "reference": "PractitionerRole/3a28fb5b-eed0-4ae0-b42b-caad14830056"
+          },
+          {
+            "reference": "Organization/5292ba62-7d33-4783-a358-499fe68c2b21"
+          },
+          {
+            "reference": "Practitioner/560f63cc-959b-4fe7-87ef-a40e3725c05e"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/20abc692-15af-4f15-b286-6da872cb32c1"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-10-29T07:02:26Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-10-29T07:02:26Z"
+}

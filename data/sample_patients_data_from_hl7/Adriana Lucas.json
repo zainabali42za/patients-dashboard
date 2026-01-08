@@ -1,0 +1,3953 @@
+{
+  "resourceType": "Bundle",
+  "id": "d8d107fe-ba5e-4f95-a6f3-4c55015ae35a",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "03d60f47-48b6-4a0c-a53d-9ee7308452be"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:3df03759-7f4e-4f64-b0e8-2de976648ce8",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "3df03759-7f4e-4f64-b0e8-2de976648ce8",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "e62e4508-bc46-4724-b68c-b38703b3af4e"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Polyp of colon</td><td><span class=\"nb\">16-Jan-2025</span></td><td>active</td></tr><tr><td>Sepsis</td><td><span class=\"nb\">30-Aug-2023</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">08-Jun-2023</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">14-Dec-2017</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">05-Apr-2012</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">05-Apr-2012</span></td><td>active</td></tr><tr><td>Dependent drug abuse</td><td><span class=\"nb\">26-Apr-1991</span></td><td>active</td></tr><tr><td>Impacted molars</td><td><span class=\"nb\">10-Aug-1990</span></td><td>active</td></tr><tr><td>Chronic intractable migraine without aura</td><td><span class=\"nb\">03-Feb-1990</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d57efd58-b9ec-47eb-b651-c3f8bdecc17b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a7965be3-c27e-4bb4-827a-643b30402e7c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">19-Jun-2025</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">19-Jun-2025</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">13-May-2021</span></td></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">28-Apr-2016</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">28-Apr-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1f378a13-be09-42c7-9583-673e7053de50"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Postoperative procedure education</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Stair-climbing test</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Walking exercise test</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Discharge to ward</td><td><span class=\"nb\">14-Sep-2023</span></td><td>-</td></tr><tr><td>Discharge from hospital</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr><tr><td>Transfusion of fresh frozen plasma</td><td><span class=\"nb\">12-Sep-2023</span></td><td>-</td></tr><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">12-Sep-2023</span></td><td>-</td></tr><tr><td>Resuscitation using intravenous fluid</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Sepsis (disorder)</td></tr><tr><td>Transfer to stepdown unit</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Sepsis (disorder)</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">07-Dec-2017</span></td><td>-</td></tr><tr><td>Depression screening</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f5e361b4-1505-46d5-8b5e-7bc37e13f65e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:298db272-4654-4ede-bf6f-aeaa1ea414a0"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">05-Apr-2012</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Achieve a 5% reduction in body weight to improve blood pressure control.</li><li>Engage in at least 150 minutes of moderate-intensity aerobic physical activity per week.</li><li>Limit sodium intake to less than 2.3 grams per day to support blood pressure control.</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">05-Apr-2012</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Achieve and maintain Hemoglobin A1c below 5.7% to reduce risk of progression from prediabetes to diabetes.</li><li>Achieve and maintain a healthy body weight to support glycemic control and reduce cardiometabolic risk.</li><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular risk associated with prediabetes.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week to improve insulin sensitivity and metabolic health.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">07-Oct-1993</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-19</th><th>2024-06-13</th></tr><tr><td>Body Height</td><td>164 cm</td><td>164 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>4 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>83.3 kg</td><td>81.7 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>31 kg/m2</td><td>30.4 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>74 mm[Hg]</td><td>68 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>111 mm[Hg]</td><td>111 mm[Hg]</td></tr><tr><td>Heart rate</td><td>90 /min</td><td>66 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:8ebabf5c-f14f-40ed-a080-a9a0c0005faa"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>19-JUN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td><strong>6.3 H</strong></td><td>4.8 - 5.7</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>97.2</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>18.2</td><td>7 - 45</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.9</td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.9</td><td>8.5 - 10.5</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>139.3</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.6</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>105.2</td><td>98 - 114</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td><strong>20.5 L</strong></td><td>22 - 29</td><td>mmol/L</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">05-Apr-2012</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a03fb82e-923e-4f7a-867d-c0938493a185"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "custodian": {
+          "reference": "urn:uuid:c81626ed-28c6-4818-9eaa-cec1cd2e18b7"
+        },
+        "date": "2025-06-19",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a75248ac-996d-4fda-be5e-011060ae615e",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "5083-440869-7"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "43322dc7-ad55-404c-315d-318da6b897f2"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Adriana"
+            ],
+            "family": "Lucas",
+            "text": "Adriana Lucas"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Vial de Florencia Lillo 75 Puerta 6 "
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "11001",
+            "city": "Cádiz",
+            "country": "Spain"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+34948 759 607"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "ES",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Adriana Lucas</td><td>female</td><td>22-Oct-1977</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1977-10-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "922e9334-f528-473f-beb9-c5e9cb5bfce8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 922e9334-f528-473f-beb9-c5e9cb5bfce8</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:be261107-4ef7-49b3-8b44-8f3755746dc5"
+        },
+        "organization": {
+          "reference": "urn:uuid:c81626ed-28c6-4818-9eaa-cec1cd2e18b7"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c81626ed-28c6-4818-9eaa-cec1cd2e18b7",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "c81626ed-28c6-4818-9eaa-cec1cd2e18b7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "745b07c2-d89e-4671-b160-8711ceba487c"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Avenida Ana de Viya nan"
+            ],
+            "city": "Cádiz",
+            "postalCode": "11012",
+            "country": "Spain"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Puerta del Mar</table></div>"
+        },
+        "name": "Puerta del Mar"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:be261107-4ef7-49b3-8b44-8f3755746dc5",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "be261107-4ef7-49b3-8b44-8f3755746dc5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d57efd58-b9ec-47eb-b651-c3f8bdecc17b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d57efd58-b9ec-47eb-b651-c3f8bdecc17b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Polyp of colon</td><td><span class=\"nb\">16-Jan-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-01-16",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c4040a6-3850-4c45-9146-e16519561f30",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9c4040a6-3850-4c45-9146-e16519561f30",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "91302008",
+              "system": "http://snomed.info/sct",
+              "display": "Sepsis (disorder)"
+            }
+          ],
+          "text": "Sepsis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sepsis</td><td><span class=\"nb\">30-Aug-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:faff6be6-4d24-47d5-a76e-c602eb649e7b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "faff6be6-4d24-47d5-a76e-c602eb649e7b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">08-Jun-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-06-08",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:851d584a-fcd5-4c08-88bf-5711c37bf696",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "851d584a-fcd5-4c08-88bf-5711c37bf696",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">14-Dec-2017</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-12-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:28f5cb3b-8f94-4ee1-a495-641996ccc91e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "28f5cb3b-8f94-4ee1-a495-641996ccc91e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">05-Apr-2012</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2012-04-05",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a2b3e61-b864-423a-ba38-db22597a18d3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7a2b3e61-b864-423a-ba38-db22597a18d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">05-Apr-2012</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2012-04-05",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dcedab82-7f28-41f2-9245-dcd469130257",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dcedab82-7f28-41f2-9245-dcd469130257",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6525002",
+              "system": "http://snomed.info/sct",
+              "display": "Dependent drug abuse (disorder)"
+            }
+          ],
+          "text": "Dependent drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Dependent drug abuse</td><td><span class=\"nb\">26-Apr-1991</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1991-04-26",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eeda4ad2-a7f9-4fad-825e-2fc7bf8721ca",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eeda4ad2-a7f9-4fad-825e-2fc7bf8721ca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "196416002",
+              "system": "http://snomed.info/sct",
+              "display": "Impacted molars (disorder)"
+            }
+          ],
+          "text": "Impacted molars"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Impacted molars</td><td><span class=\"nb\">10-Aug-1990</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1990-08-10",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:53363533-a07b-4d53-a3a1-f1ae5b405b79",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "53363533-a07b-4d53-a3a1-f1ae5b405b79",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "124171000119105",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic intractable migraine without aura (disorder)"
+            }
+          ],
+          "text": "Chronic intractable migraine without aura"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic intractable migraine without aura</td><td><span class=\"nb\">03-Feb-1990</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1990-02-03",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8a7b0b07-633c-40f7-a090-5c9f82cab029",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8a7b0b07-633c-40f7-a090-5c9f82cab029",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">05-Jan-2023 - 05-Jan-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-01-05",
+        "abatementDateTime": "2023-01-05",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ee5d127-1e89-4dcb-b248-39651617f930",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1ee5d127-1e89-4dcb-b248-39651617f930",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">03-Mar-2021 - 04-Mar-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-03-03",
+        "abatementDateTime": "2021-03-04",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00d7da55-ac81-4eb4-b63a-b8e97633d924",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "00d7da55-ac81-4eb4-b63a-b8e97633d924",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">18-Feb-2020 - 18-Feb-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-02-18",
+        "abatementDateTime": "2020-02-18",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd41b3cb-a519-4af3-8c77-421ab2b06218",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dd41b3cb-a519-4af3-8c77-421ab2b06218",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "43878008",
+              "system": "http://snomed.info/sct",
+              "display": "Streptococcal sore throat (disorder)"
+            }
+          ],
+          "text": "Streptococcal sore throat"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Streptococcal sore throat</span></td><td><span class=\"nb\">28-Jul-2019 - 09-Aug-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-07-28",
+        "abatementDateTime": "2019-08-09",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd67b7ca-e920-48cf-aab9-4c3122913536",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dd67b7ca-e920-48cf-aab9-4c3122913536",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">05-Apr-2018 - 25-Apr-2018</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-04-05",
+        "abatementDateTime": "2018-04-25",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:539e58a9-acc3-4e95-bf6f-9778b3c2fc85",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "539e58a9-acc3-4e95-bf6f-9778b3c2fc85",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Chronic sinusitis</span></td><td><span class=\"nb\">21-Dec-2017 - 15-Feb-2018</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-12-21",
+        "abatementDateTime": "2018-02-15",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:619bc05e-dba1-4c47-804c-1379c6b55e75",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "619bc05e-dba1-4c47-804c-1379c6b55e75",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">18-Nov-2017 - 01-Dec-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-11-18",
+        "abatementDateTime": "2017-12-01",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:016bfe82-0b69-4d14-9f8d-16cc278230ab",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "016bfe82-0b69-4d14-9f8d-16cc278230ab",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "36971009",
+              "system": "http://snomed.info/sct",
+              "display": "Sinusitis (disorder)"
+            }
+          ],
+          "text": "Sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sinusitis</span></td><td><span class=\"nb\">25-Oct-2017 - 15-Feb-2018</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-10-25",
+        "abatementDateTime": "2018-02-15",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "asserter": {
+          "reference": "urn:uuid:922e9334-f528-473f-beb9-c5e9cb5bfce8",
+          "display": "Puerta del Mar"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7965be3-c27e-4bb4-827a-643b30402e7c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a7965be3-c27e-4bb4-827a-643b30402e7c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f378a13-be09-42c7-9583-673e7053de50",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "1f378a13-be09-42c7-9583-673e7053de50",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2221000221107",
+              "system": "http://snomed.info/sct",
+              "display": "Live attenuated Varicella-zoster vaccine"
+            },
+            {
+              "code": "J07BK02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Varicella-zoster vaccines"
+            }
+          ],
+          "text": "Live attenuated Human alphaherpesvirus 3 only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "368208006",
+              "system": "http://snomed.info/sct",
+              "display": "Left upper arm structure"
+            }
+          ],
+          "text": "Left upper arm structure"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "34206005",
+              "system": "http://snomed.info/sct",
+              "display": "Subcutaneous route"
+            }
+          ],
+          "text": "Subcutaneous route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">19-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "occurrenceDateTime": "2025-06-19",
+        "lotNumber": "KZ-xKIJO",
+        "expirationDate": "2026-01-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23e8329e-7600-4d02-a969-16815f631369",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "23e8329e-7600-4d02-a969-16815f631369",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">19-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "occurrenceDateTime": "2025-06-19",
+        "lotNumber": "SB-8M7Bo8TeF",
+        "expirationDate": "2025-10-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:519dba42-c402-4fbe-a077-6384d5226200",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "519dba42-c402-4fbe-a077-6384d5226200",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">13-May-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "occurrenceDateTime": "2021-05-13",
+        "lotNumber": "KU-2K3rBuHmt",
+        "expirationDate": "2022-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fa1b78b-e734-4752-b6dd-3a82c5664e6b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3fa1b78b-e734-4752-b6dd-3a82c5664e6b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">28-Apr-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "occurrenceDateTime": "2016-04-28",
+        "lotNumber": "FS-cot5w",
+        "expirationDate": "2016-12-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d9e1f9c-84d3-46ad-8595-55fd0fb55ccf",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3d9e1f9c-84d3-46ad-8595-55fd0fb55ccf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">28-Apr-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "occurrenceDateTime": "2016-04-28",
+        "lotNumber": "DU-SMP0O8fYs",
+        "expirationDate": "2016-11-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5e361b4-1505-46d5-8b5e-7bc37e13f65e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f5e361b4-1505-46d5-8b5e-7bc37e13f65e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "243063003",
+              "system": "http://snomed.info/sct",
+              "display": "Postoperative procedure education (procedure)"
+            }
+          ],
+          "text": "Postoperative procedure education"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Postoperative procedure education</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29734f64-698d-4824-9eb5-7b98c4a37576",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "29734f64-698d-4824-9eb5-7b98c4a37576",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "252482003",
+              "system": "http://snomed.info/sct",
+              "display": "Stair-climbing test (procedure)"
+            }
+          ],
+          "text": "Stair-climbing test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Stair-climbing test</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ba9d22f-e8fd-49ba-af31-427f15d346df",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8ba9d22f-e8fd-49ba-af31-427f15d346df",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "302761001",
+              "system": "http://snomed.info/sct",
+              "display": "Walking exercise test (procedure)"
+            }
+          ],
+          "text": "Walking exercise test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Walking exercise test</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6be5e9d7-0b77-459f-bdda-aa3c4efa2b14",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6be5e9d7-0b77-459f-bdda-aa3c4efa2b14",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "306706006",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge to ward (procedure)"
+            }
+          ],
+          "text": "Discharge to ward"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge to ward</td><td><span class=\"nb\">14-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9322ae97-e2f9-4b8f-ba6b-a55eb2f22c43",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9322ae97-e2f9-4b8f-ba6b-a55eb2f22c43",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "308283009",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from hospital (procedure)"
+            }
+          ],
+          "text": "Discharge from hospital"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from hospital</td><td><span class=\"nb\">14-Sep-2023</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-14",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bc805036-3e53-4918-8eee-d8e61ec8fbe1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "bc805036-3e53-4918-8eee-d8e61ec8fbe1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "29303009",
+              "system": "http://snomed.info/sct",
+              "display": "Electrocardiographic procedure (procedure)"
+            }
+          ],
+          "text": "Electrocardiographic procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-13",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47abbe07-6835-4d73-a128-203af2fdebf6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "47abbe07-6835-4d73-a128-203af2fdebf6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "71493000",
+              "system": "http://snomed.info/sct",
+              "display": "Transfusion of packed red blood cells (procedure)"
+            }
+          ],
+          "text": "Transfusion of packed red blood cells"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-13",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a36c2af0-47ef-46c6-abab-14d62de27f18",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a36c2af0-47ef-46c6-abab-14d62de27f18",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "399208008",
+              "system": "http://snomed.info/sct",
+              "display": "Plain chest X-ray (procedure)"
+            }
+          ],
+          "text": "Plain X-ray of chest"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">13-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-13",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56fe7f29-5860-41df-9787-64d865c37eb4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "56fe7f29-5860-41df-9787-64d865c37eb4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "116861002",
+              "system": "http://snomed.info/sct",
+              "display": "Transfusion of fresh frozen plasma (procedure)"
+            }
+          ],
+          "text": "Transfusion of fresh frozen plasma"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transfusion of fresh frozen plasma</td><td><span class=\"nb\">12-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-12",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97b1ce76-08de-4747-a3e5-be86f4d5b269",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "97b1ce76-08de-4747-a3e5-be86f4d5b269",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "271280005",
+              "system": "http://snomed.info/sct",
+              "display": "Removal of endotracheal tube (procedure)"
+            }
+          ],
+          "text": "Removal of endotracheal tube"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">12-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-12",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2080f1d4-b4f4-4688-9717-fdde8ccb75ac",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2080f1d4-b4f4-4688-9717-fdde8ccb75ac",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430701006",
+              "system": "http://snomed.info/sct",
+              "display": "Resuscitation using intravenous fluid (procedure)"
+            }
+          ],
+          "text": "Resuscitation using intravenous fluid"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "91302008",
+                "system": "http://snomed.info/sct",
+                "display": "Sepsis (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Resuscitation using intravenous fluid</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Sepsis (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11a745ec-ae1b-4ef6-afff-63f4bd334490",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "11a745ec-ae1b-4ef6-afff-63f4bd334490",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449214001",
+              "system": "http://snomed.info/sct",
+              "display": "Transfer to stepdown unit (procedure)"
+            }
+          ],
+          "text": "Transfer to stepdown unit"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "91302008",
+                "system": "http://snomed.info/sct",
+                "display": "Sepsis (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transfer to stepdown unit</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Sepsis (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba1f75c4-3aca-487c-8829-8b2acf95ac5a",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ba1f75c4-3aca-487c-8829-8b2acf95ac5a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">07-Dec-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-12-07",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9160e5fd-1068-4b55-a164-a7809c83cb3e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9160e5fd-1068-4b55-a164-a7809c83cb3e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-11-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ed90243-e3e6-41c7-a62f-8993476c2ca8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7ed90243-e3e6-41c7-a62f-8993476c2ca8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-11-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:adb2717a-3998-41ee-8d1d-0b34ed89252c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "adb2717a-3998-41ee-8d1d-0b34ed89252c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "866148006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-11-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7f15a3e7-2703-4184-b2d3-246da7616817",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7f15a3e7-2703-4184-b2d3-246da7616817",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">30-Nov-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-11-30",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:298db272-4654-4ede-bf6f-aeaa1ea414a0",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "298db272-4654-4ede-bf6f-aeaa1ea414a0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b1a05a9d-4ed7-403d-b8a2-891a1dcdfff3",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "b1a05a9d-4ed7-403d-b8a2-891a1dcdfff3",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2012-04-05"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:17b2b99c-3172-456d-a96f-b637deae2799"
+          },
+          {
+            "reference": "urn:uuid:19082ae0-91fc-41cd-a511-ca97f6955793"
+          },
+          {
+            "reference": "urn:uuid:8a83e2ff-67c2-4f16-819f-012e35c2b901"
+          },
+          {
+            "reference": "urn:uuid:8bee548f-469b-46cd-b337-b0fb4760c1d3"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">05-Apr-2012</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Achieve a 5% reduction in body weight to improve blood pressure control.</li><li>Engage in at least 150 minutes of moderate-intensity aerobic physical activity per week.</li><li>Limit sodium intake to less than 2.3 grams per day to support blood pressure control.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1bead3f5-01b5-41b1-a12f-0a67148bec47",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1bead3f5-01b5-41b1-a12f-0a67148bec47",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2012-04-05"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:70b61ceb-9a50-4c20-830e-7ece5707d697"
+          },
+          {
+            "reference": "urn:uuid:ae71cc5c-0a9b-44c4-b03b-a52cf49603ec"
+          },
+          {
+            "reference": "urn:uuid:32d4d285-9f62-4f6d-9f93-e472d68db31d"
+          },
+          {
+            "reference": "urn:uuid:e06b73f3-5d46-46ee-82ff-c39eff98072b"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">05-Apr-2012</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Achieve and maintain Hemoglobin A1c below 5.7% to reduce risk of progression from prediabetes to diabetes.</li><li>Achieve and maintain a healthy body weight to support glycemic control and reduce cardiometabolic risk.</li><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular risk associated with prediabetes.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week to improve insulin sensitivity and metabolic health.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba85e5e6-ecd6-43c0-a0e4-39cd02ef1918",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ba85e5e6-ecd6-43c0-a0e4-39cd02ef1918",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1993-10-07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">07-Oct-1993</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ebabf5c-f14f-40ed-a080-a9a0c0005faa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8ebabf5c-f14f-40ed-a080-a9a0c0005faa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 164,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>19-Jun-2025</td><td>164 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cabf2f33-502c-4b13-bb69-0d6599f84a64",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cabf2f33-502c-4b13-bb69-0d6599f84a64",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>19-Jun-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dec7c82f-44ff-4894-add9-ee0873688efe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dec7c82f-44ff-4894-add9-ee0873688efe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83.3,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>19-Jun-2025</td><td>83.3 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:642422b3-b9cd-42d4-8613-e12b16b22ead",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "642422b3-b9cd-42d4-8613-e12b16b22ead",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 31,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>19-Jun-2025</td><td>31 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20c2795c-adcd-47f5-8712-f8562cadde33",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "20c2795c-adcd-47f5-8712-f8562cadde33",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>19-Jun-2025</td><td>74 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d33b0700-680b-42a8-8414-c06fc3e17120",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d33b0700-680b-42a8-8414-c06fc3e17120",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 111,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>19-Jun-2025</td><td>111 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d3b19974-ce5b-401b-9f22-318d7cfd85a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d3b19974-ce5b-401b-9f22-318d7cfd85a2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 90,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>19-Jun-2025</td><td>90 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b1b81ef-2120-4268-a6f5-1c695ce74c11",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4b1b81ef-2120-4268-a6f5-1c695ce74c11",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>19-Jun-2025</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1bfbffa2-860f-4014-b692-d905ee0a1d92",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1bfbffa2-860f-4014-b692-d905ee0a1d92",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 164,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>13-Jun-2024</td><td>164 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4a94d533-5d29-480f-b944-130394eae653",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4a94d533-5d29-480f-b944-130394eae653",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>13-Jun-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a9fa3d00-1340-4ad3-8cef-6675853e195e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a9fa3d00-1340-4ad3-8cef-6675853e195e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>13-Jun-2024</td><td>81.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2f9f014b-9568-42d5-95f3-afcefe0ee373",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2f9f014b-9568-42d5-95f3-afcefe0ee373",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.4,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>13-Jun-2024</td><td>30.4 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ee866250-5a16-4215-af2d-ef56ab0c9636",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ee866250-5a16-4215-af2d-ef56ab0c9636",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 68,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>13-Jun-2024</td><td>68 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6a98c59-889f-4a3c-81bb-69710a07df6d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f6a98c59-889f-4a3c-81bb-69710a07df6d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 111,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>13-Jun-2024</td><td>111 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c08f22d1-ab70-42d6-8679-fb49fd4fe19b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c08f22d1-ab70-42d6-8679-fb49fd4fe19b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 66,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>13-Jun-2024</td><td>66 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:906bfe79-1c94-43c1-a74f-8cb130c8122c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "906bfe79-1c94-43c1-a74f-8cb130c8122c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>13-Jun-2024</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2024-06-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:349c8136-5426-4788-9dbc-e15084c95de4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "349c8136-5426-4788-9dbc-e15084c95de4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.3,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.8,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.7,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.3</td><td>4.8 - 5.7</td><td>H</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f5a0c25-58cf-4dc1-b5eb-62c0f30fa4f7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6f5a0c25-58cf-4dc1-b5eb-62c0f30fa4f7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 97.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>97.2</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c69cd0a7-688b-488d-bcc9-08548b5dc3b7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c69cd0a7-688b-488d-bcc9-08548b5dc3b7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 18.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 45,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>18.2</td><td>7 - 45</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bfffdd48-9b9d-4c51-a74c-5846e37ec435",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bfffdd48-9b9d-4c51-a74c-5846e37ec435",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.9</td><td>0.6 - 1.1</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47583d88-4667-4c31-b3df-3f5dbc93c614",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47583d88-4667-4c31-b3df-3f5dbc93c614",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.9</td><td>8.5 - 10.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b05daaa-8b30-45ed-a685-304d22b78851",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2b05daaa-8b30-45ed-a685-304d22b78851",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 139.3,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>139.3</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d67bdede-f32b-479e-9875-779289701f0b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d67bdede-f32b-479e-9875-779289701f0b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.6,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.6</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:50a1a674-072e-4b09-a48b-40ae7c062153",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "50a1a674-072e-4b09-a48b-40ae7c062153",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 105.2,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 114,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>105.2</td><td>98 - 114</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b629065c-db40-4075-ac70-e709269af608",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b629065c-db40-4075-ac70-e709269af608",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 20.5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>20.5</td><td>22 - 29</td><td>L</td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "effectiveDateTime": "2025-06-19T08:47:24Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a03fb82e-923e-4f7a-867d-c0938493a185",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "a03fb82e-923e-4f7a-867d-c0938493a185",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2012-04-05"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">05-Apr-2012</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:cb12b6ff-fff2-4ecd-a420-fc2e16b68b1b",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb12b6ff-fff2-4ecd-a420-fc2e16b68b1b",
+      "resource": {
+        "resourceType": "Device",
+        "id": "cb12b6ff-fff2-4ecd-a420-fc2e16b68b1b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)88805017682764(11)120315(17)370330(10)493790732(21)18446277712"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:a75248ac-996d-4fda-be5e-011060ae615e",
+          "display": "Adriana Lucas"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:630b1954-818b-4ff9-a96b-037f2d33d1c7",
+      "resource": {
+        "resourceType": "Device",
+        "id": "630b1954-818b-4ff9-a96b-037f2d33d1c7",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f0cab77-a1e4-4e63-88e9-73ad337b01d8",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "8f0cab77-a1e4-4e63-88e9-73ad337b01d8",
+        "target": [
+          {
+            "reference": "Patient/a75248ac-996d-4fda-be5e-011060ae615e"
+          },
+          {
+            "reference": "Bundle/d8d107fe-ba5e-4f95-a6f3-4c55015ae35a"
+          },
+          {
+            "reference": "Composition/3df03759-7f4e-4f64-b0e8-2de976648ce8"
+          },
+          {
+            "reference": "PractitionerRole/922e9334-f528-473f-beb9-c5e9cb5bfce8"
+          },
+          {
+            "reference": "Organization/c81626ed-28c6-4818-9eaa-cec1cd2e18b7"
+          },
+          {
+            "reference": "Practitioner/be261107-4ef7-49b3-8b44-8f3755746dc5"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/630b1954-818b-4ff9-a96b-037f2d33d1c7"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-06-19T08:47:24Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-06-19T08:47:24Z"
+}

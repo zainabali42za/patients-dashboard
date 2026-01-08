@@ -1,0 +1,4452 @@
+{
+  "resourceType": "Bundle",
+  "id": "8fef968a-1930-4a15-88f0-b856aca2dba5",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "3ada138c-2c1b-4fb5-95e7-51c0859ec131"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:21b04d4a-3f0b-4df1-9d8c-1a429c542f90",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "21b04d4a-3f0b-4df1-9d8c-1a429c542f90",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "3fc54c9c-6a5b-4ec0-9b54-83d0f8ca82a8"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Alzheimer's disease</td><td><span class=\"nb\">27-Dec-2020</span></td><td>active</td></tr><tr><td>Hyperlipidemia</td><td><span class=\"nb\">19-Jul-1998</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">19-Jul-1992</span></td><td>active</td></tr><tr><td>Malignant neoplasm of breast</td><td><span class=\"nb\">01-Jul-1987</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">18-Apr-1976</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">07-Apr-1974</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">01-Apr-1973</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">01-Apr-1973</span></td><td>active</td></tr><tr><td>Sleep apnea</td><td><span class=\"nb\">04-Feb-1973</span></td><td>active</td></tr><tr><td>Sleep disorder</td><td><span class=\"nb\">10-Jan-1973</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b355e7fc-4898-4c4e-aefa-2a2b1a26a514"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:41bc1098-b65f-4682-a446-1edb1d85c39d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">19-Jan-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Feb-2023</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Feb-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0d0925b3-66ef-4efd-951b-365d966b5b62"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Sleep apnea assessment</td><td><span class=\"nb\">12-Feb-2023</span></td><td>Sleep disorder (disorder)</td></tr><tr><td>Depression screening</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">07-Feb-2021</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">07-Feb-2021</span></td><td>-</td></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">04-Oct-2017</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">04-Oct-2017</span></td><td>-</td></tr><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">03-Oct-2017</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">03-Oct-2017</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr><tr><td>Postoperative care</td><td><span class=\"nb\">27-Sep-2017</span></td><td>Rupture of patellar tendon</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr><tr><td>Surgical manipulation of joint of knee</td><td><span class=\"nb\">22-Sep-2017</span></td><td>Rupture of patellar tendon</td></tr><tr><td>Radiologic examination of knee</td><td><span class=\"nb\">15-Sep-2017</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">09-Feb-2017</span></td><td>-</td></tr><tr><td>Hospice care</td><td><span class=\"nb\">08-Feb-2017</span></td><td>-</td></tr><tr><td>Notifications</td><td><span class=\"nb\">22-Jan-2017</span></td><td>-</td></tr><tr><td>Certification procedure</td><td><span class=\"nb\">22-Jan-2017</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b085a1f1-e922-4535-b154-e9c029db9598"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6687bfbc-bc6c-4b5e-8265-c179cbb94176"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">27-Dec-2020</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Support maintenance or slow decline of cognitive abilities through dementia management interventions.</li><li>Minimize agitation, aggression, and other behavioral symptoms associated with Alzheimer&#039;s disease.</li><li>Ensure regular and appropriate use of prescribed Alzheimer&#039;s disease medications.</li><li>Enhance daily functioning and overall well-being through supportive dementia care.</li><li>Support independence in basic self-care activities for as long as possible.</li></ul></td><td></td><td></td></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">09-Aug-1998</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve and maintain LDL cholesterol below 70 mg/dL to reduce cardiovascular risk.</li><li>Keep total cholesterol below 200 mg/dL.</li><li>Maintain HDL cholesterol above 50 mg/dL.</li><li>Keep triglycerides below 150 mg/dL.</li></ul></td><td></td><td></td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">01-Apr-1973</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of hypertension and recommended lifestyle changes (diet, exercise, sodium reduction, medication adherence) within 3 months.</li><li>Maintain systolic blood pressure below 130 mm[Hg].</li><li>Maintain diastolic blood pressure below 80 mm[Hg].</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">01-Apr-1973</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will participate in a diabetes self-management education program to improve understanding of prediabetes and implement lifestyle changes.</li><li>Maintain fasting plasma glucose within recommended range for prediabetes.</li><li>Maintain HbA1c below threshold for diabetes diagnosis.</li><li>Achieve and maintain at least 5% weight loss from baseline to reduce risk of progression to diabetes.</li><li>Engage in at least 150 minutes per week of moderate-intensity physical activity.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">04-Feb-1973</span></td><td>Sleep apnea (disorder)</td></tr><tr><td><ul><li>Reduce the Apnea-Hypopnea Index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Achieve patient-reported improvement in sleep quality as measured by the Pittsburgh Sleep Quality Index (PSQI) score.</li><li>Reduce daytime sleepiness as measured by the Epworth Sleepiness Scale (ESS) to a score of less than 10.</li></ul></td><td></td><td></td></tr><tr><td>Weight management program</td><td><span class=\"nb\">07-Feb-1954</span></td><td>-</td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-01-19</th><th>2024-01-14</th></tr><tr><td>Body Height</td><td>159.2 cm</td><td>159.2 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>4 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>80.8 kg</td><td>80.8 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>31.9 kg/m2</td><td>31.9 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>59 mm[Hg]</td><td>55 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>96 mm[Hg]</td><td>96 mm[Hg]</td></tr><tr><td>Heart rate</td><td>75 /min</td><td>98 /min</td></tr><tr><td>Respiratory rate</td><td>16 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1b905918-ad5f-463d-a657-1dab8b383658"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>19-JAN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.0</td><td>4.5 - 6.4</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>94.5</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>11.9</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td><strong>0.5 L</strong></td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.1</td><td>8.5 - 10.4</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.5</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.7</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.3</td><td>98 - 107</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td><strong>21.0 L</strong></td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>151.4</td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>109.7</td><td>0 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>72.0</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>57.5</td><td>50 - 100</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Appliance for sleep apnea (physical object)</td><td><span class=\"nb\">05-Feb-2023</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">01-Apr-1973</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1e01fc72-924f-4bb4-b1be-7ef8ba62f592"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "custodian": {
+          "reference": "urn:uuid:2b083d14-c03e-40ff-9760-754137e43ef7"
+        },
+        "date": "2025-01-19",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2e3087c0-3535-4698-bd37-4b77853826ff",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8980-070719-5"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "519cdad0-4196-0813-ff8f-fb7a3f8ea94d"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Jayne"
+            ],
+            "family": "Taylor",
+            "text": "Jayne Taylor"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "86 Marcus prairie"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "PA33",
+            "city": "Port Allan",
+            "country": "United Kingdom"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+441134960815"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "GB",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Jayne Taylor</td><td>female</td><td>11-Aug-1946</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1946-08-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "257178a5-7535-4dfc-9b58-44e001021eb9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 257178a5-7535-4dfc-9b58-44e001021eb9</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:c52fd7b6-a89c-4b6a-bf68-0faab5f9520f"
+        },
+        "organization": {
+          "reference": "urn:uuid:2b083d14-c03e-40ff-9760-754137e43ef7"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b083d14-c03e-40ff-9760-754137e43ef7",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "2b083d14-c03e-40ff-9760-754137e43ef7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "82365240-73bd-4471-9405-3974dd98fda0"
+          }
+        ],
+        "address": [
+          {
+            "city": "Lochgilphead",
+            "postalCode": "PA31 8",
+            "country": "United Kingdom"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">The Argyll and Bute Hospital</table></div>"
+        },
+        "name": "The Argyll and Bute Hospital"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c52fd7b6-a89c-4b6a-bf68-0faab5f9520f",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "c52fd7b6-a89c-4b6a-bf68-0faab5f9520f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b355e7fc-4898-4c4e-aefa-2a2b1a26a514",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b355e7fc-4898-4c4e-aefa-2a2b1a26a514",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26929004",
+              "system": "http://snomed.info/sct",
+              "display": "Alzheimer&#039;s disease (disorder)"
+            }
+          ],
+          "text": "Alzheimer&#039;s disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Alzheimer's disease</td><td><span class=\"nb\">27-Dec-2020</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-12-27",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:779eb0ae-b70e-4ad4-a3ba-a86968769407",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "779eb0ae-b70e-4ad4-a3ba-a86968769407",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55822004",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperlipidemia (disorder)"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hyperlipidemia</td><td><span class=\"nb\">19-Jul-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-07-19",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4a0ad3f-fbcf-47ec-bae0-a4e77cef7e36",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e4a0ad3f-fbcf-47ec-bae0-a4e77cef7e36",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">19-Jul-1992</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1992-07-19",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30bdef03-598a-4c1d-b3f0-4b0e28b0ef4b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "30bdef03-598a-4c1d-b3f0-4b0e28b0ef4b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "254837009",
+              "system": "http://snomed.info/sct",
+              "display": "Malignant neoplasm of breast (disorder)"
+            }
+          ],
+          "text": "Malignant neoplasm of breast"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Malignant neoplasm of breast</td><td><span class=\"nb\">01-Jul-1987</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1987-07-01",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c67f467-f42a-45ae-9c70-0380a0918be0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6c67f467-f42a-45ae-9c70-0380a0918be0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">18-Apr-1976</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1976-04-18",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99e34c1e-bf2a-4c8e-89b9-12430699d644",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "99e34c1e-bf2a-4c8e-89b9-12430699d644",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">07-Apr-1974</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1974-04-07",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ecd3dc23-f8d3-4f0b-9aed-233fac7e77e8",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ecd3dc23-f8d3-4f0b-9aed-233fac7e77e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">01-Apr-1973</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1973-04-01",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a96a04a9-2094-4b61-92e0-0fdd77769f64",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a96a04a9-2094-4b61-92e0-0fdd77769f64",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">01-Apr-1973</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1973-04-01",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0cefa9f-06dd-40f9-bfa4-1c47e172a782",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d0cefa9f-06dd-40f9-bfa4-1c47e172a782",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "73430006",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep apnea (disorder)"
+            }
+          ],
+          "text": "Sleep apnea"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep apnea</td><td><span class=\"nb\">04-Feb-1973</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1973-02-04",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:355302ba-345e-46d7-9c58-1deee8c5091f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "355302ba-345e-46d7-9c58-1deee8c5091f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "39898005",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep disorder (disorder)"
+            }
+          ],
+          "text": "Sleep disorder"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep disorder</td><td><span class=\"nb\">10-Jan-1973</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1973-01-10",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:19a80be6-5ac5-471a-8798-8c130dbc478e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "19a80be6-5ac5-471a-8798-8c130dbc478e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">26-Feb-2023 - 08-Mar-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-02-26",
+        "abatementDateTime": "2023-03-08",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de1f6f24-e31a-4c75-bf55-21f38c2fb976",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "de1f6f24-e31a-4c75-bf55-21f38c2fb976",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">26-Jan-2021 - 07-Feb-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-01-26",
+        "abatementDateTime": "2021-02-07",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8fea7107-55a3-45e8-8566-3eb524fbc7a2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8fea7107-55a3-45e8-8566-3eb524fbc7a2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "840539006",
+              "system": "http://snomed.info/sct",
+              "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+            }
+          ],
+          "text": "COVID-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">COVID-19</span></td><td><span class=\"nb\">17-Sep-2020 - 05-Oct-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-09-17",
+        "abatementDateTime": "2020-10-05",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eeacb890-4bfd-4720-850b-e19721e9e7f1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "eeacb890-4bfd-4720-850b-e19721e9e7f1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "30832001",
+              "system": "http://snomed.info/sct",
+              "display": "Rupture of patellar tendon (disorder)"
+            }
+          ],
+          "text": "Rupture of patellar tendon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Rupture of patellar tendon</span></td><td><span class=\"nb\">15-Sep-2017 - 15-Nov-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-09-15",
+        "abatementDateTime": "2017-11-15",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d1fdd22-a08b-4efb-a387-1a319b9c3f19",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0d1fdd22-a08b-4efb-a387-1a319b9c3f19",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125601008",
+              "system": "http://snomed.info/sct",
+              "display": "Injury of knee (disorder)"
+            }
+          ],
+          "text": "Injury of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Injury of knee</span></td><td><span class=\"nb\">15-Sep-2017 - 15-Nov-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-09-15",
+        "abatementDateTime": "2017-11-15",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "asserter": {
+          "reference": "urn:uuid:257178a5-7535-4dfc-9b58-44e001021eb9",
+          "display": "The Argyll and Bute Hospital"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:41bc1098-b65f-4682-a446-1edb1d85c39d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "41bc1098-b65f-4682-a446-1edb1d85c39d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d0925b3-66ef-4efd-951b-365d966b5b62",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "0d0925b3-66ef-4efd-951b-365d966b5b62",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">19-Jan-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "occurrenceDateTime": "2025-01-19",
+        "lotNumber": "AL-BwgFln",
+        "expirationDate": "2025-09-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96120bd6-f21e-42e2-b27f-835e7686f0aa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "96120bd6-f21e-42e2-b27f-835e7686f0aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Feb-2023</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "occurrenceDateTime": "2023-02-05",
+        "lotNumber": "FL-bosWzBvT",
+        "expirationDate": "2024-02-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dad7b34f-767e-4e95-9946-a0c81814dc1f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "dad7b34f-767e-4e95-9946-a0c81814dc1f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "occurrenceDateTime": "2021-02-21",
+        "lotNumber": "YK-6apgz3",
+        "expirationDate": "2021-05-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b085a1f1-e922-4535-b154-e9c029db9598",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b085a1f1-e922-4535-b154-e9c029db9598",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "103750000",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep apnea assessment (procedure)"
+            }
+          ],
+          "text": "Sleep apnea assessment"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "39898005",
+                "system": "http://snomed.info/sct",
+                "display": "Sleep disorder (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep apnea assessment</td><td><span class=\"nb\">12-Feb-2023</span></td><td>Sleep disorder (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-02-12",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0513fd12-f4be-42c8-b05b-cfd0b9ad00fc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0513fd12-f4be-42c8-b05b-cfd0b9ad00fc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-02-05",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:90887ee3-d8a7-485e-b9dc-76b636e25147",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "90887ee3-d8a7-485e-b9dc-76b636e25147",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-02-05",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:adf97e49-b7de-45ee-b155-50136c067f66",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "adf97e49-b7de-45ee-b155-50136c067f66",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-02-05",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:666a3d4f-f81f-4dae-af75-f2d92f4e2bc5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "666a3d4f-f81f-4dae-af75-f2d92f4e2bc5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">05-Feb-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-02-05",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:291d325c-2003-42b7-b074-d4ea05557ff0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "291d325c-2003-42b7-b074-d4ea05557ff0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">07-Feb-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-02-07",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23818fb2-2a78-4593-a947-8af3a614e7c4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "23818fb2-2a78-4593-a947-8af3a614e7c4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">07-Feb-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2021-02-07",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:904219d8-f77a-4c4a-bc98-37dae733006e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "904219d8-f77a-4c4a-bc98-37dae733006e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">04-Oct-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-10-04",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24170359-52ef-4ca9-811f-692faca41293",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "24170359-52ef-4ca9-811f-692faca41293",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">04-Oct-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-10-04",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4a1aac23-792f-479e-8ef0-d479662d77ae",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4a1aac23-792f-479e-8ef0-d479662d77ae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "409023009",
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">03-Oct-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-10-03",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea742cba-1449-4b26-aab2-2305596bf826",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ea742cba-1449-4b26-aab2-2305596bf826",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">03-Oct-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-10-03",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:245f56f4-b492-44ed-a69c-b84261c5fc88",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "245f56f4-b492-44ed-a69c-b84261c5fc88",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-27",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14170865-0a9b-48d8-bcd4-ab2e28dd2bd5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "14170865-0a9b-48d8-bcd4-ab2e28dd2bd5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "133899007",
+              "system": "http://snomed.info/sct",
+              "display": "Postoperative care (regime/therapy)"
+            }
+          ],
+          "text": "Postoperative care"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "30832001",
+                "system": "http://snomed.info/sct",
+                "display": "Rupture of patellar tendon"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Postoperative care</td><td><span class=\"nb\">27-Sep-2017</span></td><td>Rupture of patellar tendon</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-27",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7605d0dc-f6d5-4fb8-b39a-dfa5b7f063e1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7605d0dc-f6d5-4fb8-b39a-dfa5b7f063e1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-27",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:007aa7e4-bfcd-4c35-9674-4d48a3ceb0ec",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "007aa7e4-bfcd-4c35-9674-4d48a3ceb0ec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">27-Sep-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-27",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:205adfe6-3f6f-4b62-bf23-813cb5d80710",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "205adfe6-3f6f-4b62-bf23-813cb5d80710",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "699253003",
+              "system": "http://snomed.info/sct",
+              "display": "Surgical manipulation of joint of knee"
+            }
+          ],
+          "text": "Surgical manipulation of joint of knee"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "30832001",
+                "system": "http://snomed.info/sct",
+                "display": "Rupture of patellar tendon"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Surgical manipulation of joint of knee</td><td><span class=\"nb\">22-Sep-2017</span></td><td>Rupture of patellar tendon</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-22",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2172e0b4-00e5-476f-b1db-601ee9261dec",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2172e0b4-00e5-476f-b1db-601ee9261dec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "74016001",
+              "system": "http://snomed.info/sct",
+              "display": "Knee X-ray"
+            }
+          ],
+          "text": "Radiologic examination of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiologic examination of knee</td><td><span class=\"nb\">15-Sep-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-09-15",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63b8cd1f-110c-4552-9df2-66379d90b67d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "63b8cd1f-110c-4552-9df2-66379d90b67d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">09-Feb-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-02-09",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:346a6444-138d-4ead-ba7c-3213d2217125",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "346a6444-138d-4ead-ba7c-3213d2217125",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "385763009",
+              "system": "http://snomed.info/sct",
+              "display": "Hospice care (regime/therapy)"
+            }
+          ],
+          "text": "Hospice care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hospice care</td><td><span class=\"nb\">08-Feb-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-02-08",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:65763279-942a-43c3-9723-f3b553b4991e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "65763279-942a-43c3-9723-f3b553b4991e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "185087000",
+              "system": "http://snomed.info/sct",
+              "display": "Notifications (procedure)"
+            }
+          ],
+          "text": "Notifications"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notifications</td><td><span class=\"nb\">22-Jan-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-01-22",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:124c392f-cd7b-4dc8-b613-7e1913c55177",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "124c392f-cd7b-4dc8-b613-7e1913c55177",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "310417005",
+              "system": "http://snomed.info/sct",
+              "display": "Certification procedure (procedure)"
+            }
+          ],
+          "text": "Certification procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Certification procedure</td><td><span class=\"nb\">22-Jan-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-01-22",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6687bfbc-bc6c-4b5e-8265-c179cbb94176",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "6687bfbc-bc6c-4b5e-8265-c179cbb94176",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ab04a3c-e518-457d-8f3a-911632195597",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "6ab04a3c-e518-457d-8f3a-911632195597",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "386257007",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dementia management (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "26929004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Alzheimer&#039;s disease (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Dementia management",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2020-12-27"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:9eb5e20c-6ca5-4e26-aa49-0a61b660d842"
+          },
+          {
+            "reference": "urn:uuid:8886c83e-ddf3-4af8-b912-ca09cc073169"
+          },
+          {
+            "reference": "urn:uuid:26b9f46f-63b1-48f4-96b8-9c0f473a44fc"
+          },
+          {
+            "reference": "urn:uuid:929afedf-0616-4056-a37e-7834f9c5a94e"
+          },
+          {
+            "reference": "urn:uuid:321bd26f-caab-4afa-8ce1-5bc8a73a972f"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">27-Dec-2020</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Support maintenance or slow decline of cognitive abilities through dementia management interventions.</li><li>Minimize agitation, aggression, and other behavioral symptoms associated with Alzheimer&#039;s disease.</li><li>Ensure regular and appropriate use of prescribed Alzheimer&#039;s disease medications.</li><li>Enhance daily functioning and overall well-being through supportive dementia care.</li><li>Support independence in basic self-care activities for as long as possible.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9007ee75-a52d-4060-a5b9-9a52c4c4b30b",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "9007ee75-a52d-4060-a5b9-9a52c4c4b30b",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736285004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Hyperlipidemia clinical management plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "55822004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Hyperlipidemia"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Hyperlipidemia clinical management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1998-08-09"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:09bc9910-4a41-4e38-aad8-3f084cde7b4e"
+          },
+          {
+            "reference": "urn:uuid:778088bc-bfec-4133-bf72-a9fc2a42c026"
+          },
+          {
+            "reference": "urn:uuid:cc1cfa92-faa4-4d5e-99de-fdc8c0319e86"
+          },
+          {
+            "reference": "urn:uuid:bd554cd3-eecb-4cf8-adf8-a24fedf390f2"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">09-Aug-1998</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve and maintain LDL cholesterol below 70 mg/dL to reduce cardiovascular risk.</li><li>Keep total cholesterol below 200 mg/dL.</li><li>Maintain HDL cholesterol above 50 mg/dL.</li><li>Keep triglycerides below 150 mg/dL.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5e9e9c3-9eea-4541-839b-96bad81f4f6b",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "d5e9e9c3-9eea-4541-839b-96bad81f4f6b",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1973-04-01"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:f352e792-7e1e-4223-b272-4cd8152aea1f"
+          },
+          {
+            "reference": "urn:uuid:31428bf3-3ef6-4147-aa93-37677a7fa14d"
+          },
+          {
+            "reference": "urn:uuid:86962d24-4d91-4aab-98c5-25a2be4cb91b"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">01-Apr-1973</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of hypertension and recommended lifestyle changes (diet, exercise, sodium reduction, medication adherence) within 3 months.</li><li>Maintain systolic blood pressure below 130 mm[Hg].</li><li>Maintain diastolic blood pressure below 80 mm[Hg].</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d15675d-b7a3-4cc1-9491-e1b8c3b8ad6a",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "9d15675d-b7a3-4cc1-9491-e1b8c3b8ad6a",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1973-04-01"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:36582828-310d-4fdf-8a29-a2e9d6250430"
+          },
+          {
+            "reference": "urn:uuid:8955b946-b2a1-4a1c-9200-b28fc17c020c"
+          },
+          {
+            "reference": "urn:uuid:eb0d48f1-d7ca-4301-8219-deeb3d0adc56"
+          },
+          {
+            "reference": "urn:uuid:1688f20b-719e-46f1-a464-e76491577062"
+          },
+          {
+            "reference": "urn:uuid:fc838820-80ac-497b-adf9-99ecde777930"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">01-Apr-1973</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will participate in a diabetes self-management education program to improve understanding of prediabetes and implement lifestyle changes.</li><li>Maintain fasting plasma glucose within recommended range for prediabetes.</li><li>Maintain HbA1c below threshold for diabetes diagnosis.</li><li>Achieve and maintain at least 5% weight loss from baseline to reduce risk of progression to diabetes.</li><li>Engage in at least 150 minutes per week of moderate-intensity physical activity.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56a06a1f-8ba2-4a3b-9dd0-5db39c02c46a",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "56a06a1f-8ba2-4a3b-9dd0-5db39c02c46a",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "73430006",
+                      "system": "http://snomed.info/sct",
+                      "display": "Sleep apnea (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1973-02-04"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:04aeec5d-f393-4fcd-8492-1a2f4d9fcc3d"
+          },
+          {
+            "reference": "urn:uuid:eaa3db25-f74e-4794-8345-5de8bc3e4034"
+          },
+          {
+            "reference": "urn:uuid:8ea82ff1-678a-449e-a6db-ef8fbd3e04d1"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">04-Feb-1973</span></td><td>Sleep apnea (disorder)</td></tr><tr><td><ul><li>Reduce the Apnea-Hypopnea Index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Achieve patient-reported improvement in sleep quality as measured by the Pittsburgh Sleep Quality Index (PSQI) score.</li><li>Reduce daytime sleepiness as measured by the Epworth Sleepiness Scale (ESS) to a score of less than 10.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6d4dfdc-9d40-4602-a2c1-ca991a640af2",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "b6d4dfdc-9d40-4602-a2c1-ca991a640af2",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "718361005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Weight management program (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Weight management program",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1954-02-07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Weight management program</td><td><span class=\"nb\">07-Feb-1954</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6352b2b8-8134-4f7d-889f-111932eb1d68",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "6352b2b8-8134-4f7d-889f-111932eb1d68",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b905918-ad5f-463d-a657-1dab8b383658",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b905918-ad5f-463d-a657-1dab8b383658",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 159.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>19-Jan-2025</td><td>159.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34b7ddad-3278-4bac-bb9c-4e4641289242",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "34b7ddad-3278-4bac-bb9c-4e4641289242",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>19-Jan-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5b28bfd-2e2c-4c71-bce8-bc2951e196ee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a5b28bfd-2e2c-4c71-bce8-bc2951e196ee",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>19-Jan-2025</td><td>80.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2146c9d-97e7-4b2c-91ec-eb6081d26b09",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a2146c9d-97e7-4b2c-91ec-eb6081d26b09",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 31.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>19-Jan-2025</td><td>31.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:afe062ab-1063-40d8-9846-9b67e789a45f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "afe062ab-1063-40d8-9846-9b67e789a45f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 59,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>19-Jan-2025</td><td>59 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7551d12-51eb-4904-842a-cb1d2203f322",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b7551d12-51eb-4904-842a-cb1d2203f322",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 96,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>19-Jan-2025</td><td>96 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:07d576f1-f960-457e-b709-985150f9aaad",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "07d576f1-f960-457e-b709-985150f9aaad",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 75,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>19-Jan-2025</td><td>75 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83315182-3a50-4938-8fe6-0e9fe04fce0a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83315182-3a50-4938-8fe6-0e9fe04fce0a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 16,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>19-Jan-2025</td><td>16 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0026a75c-55f0-47ae-836c-137b5e5265fe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0026a75c-55f0-47ae-836c-137b5e5265fe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 159.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>14-Jan-2024</td><td>159.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:359f99ac-9f46-415e-9d5b-1b71a45242a4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "359f99ac-9f46-415e-9d5b-1b71a45242a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>14-Jan-2024</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7187180a-b567-485b-8edd-8e6c4069706e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7187180a-b567-485b-8edd-8e6c4069706e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>14-Jan-2024</td><td>80.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96d92987-13e9-456b-83ac-0f180dad332d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "96d92987-13e9-456b-83ac-0f180dad332d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 31.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>14-Jan-2024</td><td>31.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b0087bf-c3e5-4c54-8918-b0810e58c540",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3b0087bf-c3e5-4c54-8918-b0810e58c540",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 55,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>14-Jan-2024</td><td>55 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d938510-c146-484d-822b-790e7fe97ad9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0d938510-c146-484d-822b-790e7fe97ad9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 96,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>14-Jan-2024</td><td>96 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3cab40ad-aca6-419b-bb66-fd90a6c0003e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3cab40ad-aca6-419b-bb66-fd90a6c0003e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 98,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>14-Jan-2024</td><td>98 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:61506f99-6818-4cb6-b43e-1ff1eefa3710",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "61506f99-6818-4cb6-b43e-1ff1eefa3710",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>14-Jan-2024</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2024-01-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60efb912-7163-4574-bbbb-17733fdb6130",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "60efb912-7163-4574-bbbb-17733fdb6130",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.4,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.0</td><td>4.5 - 6.4</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d2dfcb0a-2441-4f4d-a47c-9de21df40a87",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d2dfcb0a-2441-4f4d-a47c-9de21df40a87",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 94.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>94.5</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bdad6adc-d6ce-44cb-a6ef-01ddf5c85f16",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bdad6adc-d6ce-44cb-a6ef-01ddf5c85f16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 11.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>11.9</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dfd84dde-6b9a-4621-b11c-efc6dade5115",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dfd84dde-6b9a-4621-b11c-efc6dade5115",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.5</td><td>0.6 - 1.1</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e93d1166-38bd-429c-a111-2fc8dd3fa47e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e93d1166-38bd-429c-a111-2fc8dd3fa47e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.1,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.1</td><td>8.5 - 10.4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05ff40e7-33ce-4d1b-8b71-2a42e64885c8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "05ff40e7-33ce-4d1b-8b71-2a42e64885c8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.5</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2a1a1615-b6fb-4cbf-8ceb-cbcbd7758992",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2a1a1615-b6fb-4cbf-8ceb-cbcbd7758992",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.7,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.7</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c4ab4058-6ecf-49d8-bdbc-cf39df7e36ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c4ab4058-6ecf-49d8-bdbc-cf39df7e36ac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103.3,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 107,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.3</td><td>98 - 107</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1fcbf9a9-2cd3-464c-b48c-7790459bc477",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1fcbf9a9-2cd3-464c-b48c-7790459bc477",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 21,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>21.0</td><td>22 - 29</td><td>L</td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c5caf40-7f3a-4f26-94c5-ee9f5ed0fcf3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0c5caf40-7f3a-4f26-94c5-ee9f5ed0fcf3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 151.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>151.4</td><td>125 - 200</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3db4989c-f2e1-4b4a-813b-882d2f029d72",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3db4989c-f2e1-4b4a-813b-882d2f029d72",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 109.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>109.7</td><td>0 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c44ee0fd-a792-411e-a6ac-0b414f161f85",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c44ee0fd-a792-411e-a6ac-0b414f161f85",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 72,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>72.0</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f2191dd4-bc15-4990-87fb-f099360f1ffd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f2191dd4-bc15-4990-87fb-f099360f1ffd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 57.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 50,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>19-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>57.5</td><td>50 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "effectiveDateTime": "2025-01-19T03:56:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1e01fc72-924f-4bb4-b1be-7ef8ba62f592",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "1e01fc72-924f-4bb4-b1be-7ef8ba62f592",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2023-02-05"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Appliance for sleep apnea (physical object)</td><td><span class=\"nb\">05-Feb-2023</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:9e513567-7ef2-4306-b409-39239dd14714",
+          "display": "Appliance for sleep apnea (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9e513567-7ef2-4306-b409-39239dd14714",
+      "resource": {
+        "resourceType": "Device",
+        "id": "9e513567-7ef2-4306-b409-39239dd14714",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)42685378610416(11)230115(17)480130(10)37905897716424(21)640415"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "272265001",
+              "system": "http://snomed.info/sct",
+              "display": "Appliance for sleep apnea (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2f041206-66fb-47e5-a0f5-f4b2e556dfe0",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "2f041206-66fb-47e5-a0f5-f4b2e556dfe0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1973-04-01"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">01-Apr-1973</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:e03622e4-807c-433d-8c5a-fb0aec832171",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e03622e4-807c-433d-8c5a-fb0aec832171",
+      "resource": {
+        "resourceType": "Device",
+        "id": "e03622e4-807c-433d-8c5a-fb0aec832171",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)78289323910395(11)730311(17)980326(10)7798(21)4433916266490311"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2e3087c0-3535-4698-bd37-4b77853826ff",
+          "display": "Jayne Taylor"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c957185f-a605-4f16-b609-043faa6325d8",
+      "resource": {
+        "resourceType": "Device",
+        "id": "c957185f-a605-4f16-b609-043faa6325d8",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e361456c-f0f9-4a1d-8603-cf69f233023d",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "e361456c-f0f9-4a1d-8603-cf69f233023d",
+        "target": [
+          {
+            "reference": "Patient/2e3087c0-3535-4698-bd37-4b77853826ff"
+          },
+          {
+            "reference": "Bundle/8fef968a-1930-4a15-88f0-b856aca2dba5"
+          },
+          {
+            "reference": "Composition/21b04d4a-3f0b-4df1-9d8c-1a429c542f90"
+          },
+          {
+            "reference": "PractitionerRole/257178a5-7535-4dfc-9b58-44e001021eb9"
+          },
+          {
+            "reference": "Organization/2b083d14-c03e-40ff-9760-754137e43ef7"
+          },
+          {
+            "reference": "Practitioner/c52fd7b6-a89c-4b6a-bf68-0faab5f9520f"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/c957185f-a605-4f16-b609-043faa6325d8"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-01-19T03:56:51Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-01-19T03:56:51Z"
+}

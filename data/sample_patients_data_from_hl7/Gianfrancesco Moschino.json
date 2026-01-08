@@ -1,0 +1,2591 @@
+{
+  "resourceType": "Bundle",
+  "id": "9e9a3012-708a-4790-bfd6-53e83a1c0451",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "5d7e727e-cba6-4aa8-93d4-7124f3038eb4"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d37ba8e9-0bbd-4957-8f65-fcbb296ef302",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "d37ba8e9-0bbd-4957-8f65-fcbb296ef302",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "7e588027-fb72-46fe-9d28-f9934c187a6e"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:e1844003-c665-4cf6-9072-1417f249fca9"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b76e7295-200a-4dda-9fc2-2ca45a75f39d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c677f32d-5fc2-4c6e-8f8e-8fdc85959937"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Apr-2025</span></td></tr><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">05-Apr-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Apr-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4c740db9-bcb7-43b7-a983-86596db77713"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6195f6de-e6f7-4f94-a016-78b3a0c3cf71"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-04-14</th><th>2023-04-10</th></tr><tr><td>Body Height</td><td>175.2 cm</td><td>175.2 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>1 {score}</td></tr><tr><td>Body Weight</td><td>92.9 kg</td><td>91.1 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.3 kg/m2</td><td>29.7 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>82 mm[Hg]</td><td>82 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>89 mm[Hg]</td><td>97 mm[Hg]</td></tr><tr><td>Heart rate</td><td>69 /min</td><td>60 /min</td></tr><tr><td>Respiratory rate</td><td>16 /min</td><td>12 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:de93e295-578d-40d6-bcd3-1764d6538dc9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>14-APR-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>197.5</td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>129.5</td><td>40 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>117.9</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>53.7</td><td>40 - 60</td><td>mg/dL</td></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>3.5</td><td>3.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.3</td><td>4.5 - 6.2</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>14.3</td><td>13.5 - 17.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td><strong>35.1 L</strong></td><td>38 - 52</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>82.3</td><td>82 - 98</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>29.9</td><td>27 - 34</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>34.9</td><td>31 - 36</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>40.9</td><td>39 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>170.5</td><td>150 - 400</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>338.9 H</strong></td><td>13.4 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td><strong>12.2 H</strong></td><td>9.4 - 12</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "custodian": {
+          "reference": "urn:uuid:544ec832-d2f5-4139-bf0f-b44692064e72"
+        },
+        "date": "2025-04-14",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "229850ff-8d8c-4f9f-9712-5f28c4f43582",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "2338-482725-1"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "a056a8b2-889b-d0f9-28af-1e641b42b016"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Gianfrancesco"
+            ],
+            "family": "Moschino",
+            "text": "Gianfrancesco Moschino"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Via Clelia, 62 Piano 2"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "06049",
+            "city": "Piedicolle",
+            "country": "Italy"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "03248849476"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "IT",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Gianfrancesco Moschino</td><td>male</td><td>09-Jun-1982</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1982-06-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1844003-c665-4cf6-9072-1417f249fca9",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "e1844003-c665-4cf6-9072-1417f249fca9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id e1844003-c665-4cf6-9072-1417f249fca9</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:58b7314d-8233-4fa7-bc2e-f05e0f8aaa15"
+        },
+        "organization": {
+          "reference": "urn:uuid:544ec832-d2f5-4139-bf0f-b44692064e72"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:544ec832-d2f5-4139-bf0f-b44692064e72",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "544ec832-d2f5-4139-bf0f-b44692064e72",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "dec95d5f-14ed-4147-a62b-a1c8151da0ee"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Via Pian della Genna 2"
+            ],
+            "city": "Perugia",
+            "postalCode": "06123",
+            "country": "Italy"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Centro Salute Madonna Alta</table></div>"
+        },
+        "name": "Centro Salute Madonna Alta"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58b7314d-8233-4fa7-bc2e-f05e0f8aaa15",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "58b7314d-8233-4fa7-bc2e-f05e0f8aaa15",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b76e7295-200a-4dda-9fc2-2ca45a75f39d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b76e7295-200a-4dda-9fc2-2ca45a75f39d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c677f32d-5fc2-4c6e-8f8e-8fdc85959937",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "c677f32d-5fc2-4c6e-8f8e-8fdc85959937",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c740db9-bcb7-43b7-a983-86596db77713",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4c740db9-bcb7-43b7-a983-86596db77713",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Apr-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "occurrenceDateTime": "2025-04-14",
+        "lotNumber": "OK-H9ax",
+        "expirationDate": "2025-05-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87098f12-edd7-4322-a49c-4b26c72c218c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "87098f12-edd7-4322-a49c-4b26c72c218c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871751006",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis A virus antigen"
+            },
+            {
+              "code": "J07BC02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis A vaccines"
+            }
+          ],
+          "text": "Hepatitis A virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis A virus antigen only vaccine product</td><td><span class=\"nb\">05-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "occurrenceDateTime": "2021-04-05",
+        "lotNumber": "FZ-f3HFOudrf",
+        "expirationDate": "2021-12-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8aef79be-2e0d-4a08-b40a-c640e2debecd",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "8aef79be-2e0d-4a08-b40a-c640e2debecd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "occurrenceDateTime": "2021-04-05",
+        "lotNumber": "WK-iW880G",
+        "expirationDate": "2022-02-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6195f6de-e6f7-4f94-a016-78b3a0c3cf71",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "6195f6de-e6f7-4f94-a016-78b3a0c3cf71",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            }
+          ],
+          "text": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing only Clostridium tetani toxoid antigen adsorbed</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de93e295-578d-40d6-bcd3-1764d6538dc9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "de93e295-578d-40d6-bcd3-1764d6538dc9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 175.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>14-Apr-2025</td><td>175.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c70c485-8826-4637-b86f-f3278c1f9640",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5c70c485-8826-4637-b86f-f3278c1f9640",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>14-Apr-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e33d1be-9b58-47f6-84ad-3228bbca4331",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2e33d1be-9b58-47f6-84ad-3228bbca4331",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 92.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>14-Apr-2025</td><td>92.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27d35b98-d100-4a07-9d16-d33b3e009553",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "27d35b98-d100-4a07-9d16-d33b3e009553",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>14-Apr-2025</td><td>30.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82a13185-d29d-4bcd-91ad-8d4467fae961",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82a13185-d29d-4bcd-91ad-8d4467fae961",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>14-Apr-2025</td><td>82 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ecdd5a4-92f6-472d-ae4c-97dcc483af5c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9ecdd5a4-92f6-472d-ae4c-97dcc483af5c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 89,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>14-Apr-2025</td><td>89 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb6ce58b-e6d2-4320-b0ea-861b6ac3ccc5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb6ce58b-e6d2-4320-b0ea-861b6ac3ccc5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>14-Apr-2025</td><td>69 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9ff65e0-ca48-4e53-b738-15d27a1c40ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e9ff65e0-ca48-4e53-b738-15d27a1c40ac",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 16,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>14-Apr-2025</td><td>16 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e19240f2-585d-404d-9238-1c6872a2df85",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e19240f2-585d-404d-9238-1c6872a2df85",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 175.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>10-Apr-2023</td><td>175.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83c13bf9-4826-402e-b11c-8dc219fc7c3a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "83c13bf9-4826-402e-b11c-8dc219fc7c3a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>10-Apr-2023</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a2a56fe-7234-48da-a7fc-214cc8984173",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1a2a56fe-7234-48da-a7fc-214cc8984173",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 91.1,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>10-Apr-2023</td><td>91.1 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0c06c2e-9035-4ea8-9602-cfb56f4df622",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a0c06c2e-9035-4ea8-9602-cfb56f4df622",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 29.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>10-Apr-2023</td><td>29.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0787481-26a2-4abb-b081-6a31864b8cee",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a0787481-26a2-4abb-b081-6a31864b8cee",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>10-Apr-2023</td><td>82 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49f9b6c3-c8d1-46ca-a201-631112fcbc99",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "49f9b6c3-c8d1-46ca-a201-631112fcbc99",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 97,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>10-Apr-2023</td><td>97 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4634e827-6b89-4073-ad97-1f50945e6f13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4634e827-6b89-4073-ad97-1f50945e6f13",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 60,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>10-Apr-2023</td><td>60 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:405fd586-e0b2-4929-8630-2b37a333a032",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "405fd586-e0b2-4929-8630-2b37a333a032",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>10-Apr-2023</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2023-04-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8967d3f4-e6ee-4835-8ecf-b580e64e9191",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8967d3f4-e6ee-4835-8ecf-b580e64e9191",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 197.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>197.5</td><td>125 - 200</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cfa8bfb3-a98f-4006-bf05-6fe6413ca310",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cfa8bfb3-a98f-4006-bf05-6fe6413ca310",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 129.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>129.5</td><td>40 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea022165-2f1b-4aff-bac0-49fb84df0dc8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ea022165-2f1b-4aff-bac0-49fb84df0dc8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 117.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>117.9</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2bed05ca-7868-4814-98d1-549bdcc88fa2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2bed05ca-7868-4814-98d1-549bdcc88fa2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 53.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 60,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>53.7</td><td>40 - 60</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:939bae77-7a59-4407-81e9-f20978f83b5b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "939bae77-7a59-4407-81e9-f20978f83b5b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.5,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>3.5</td><td>3.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:65a956ce-b0af-449e-b425-ea2a67c9ab0e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "65a956ce-b0af-449e-b425-ea2a67c9ab0e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.3,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.2,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.3</td><td>4.5 - 6.2</td><td></td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9ea8d1b-4cd7-4f4b-9af0-5e46990f830d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b9ea8d1b-4cd7-4f4b-9af0-5e46990f830d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 14.3,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>14.3</td><td>13.5 - 17.5</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:284bf6f4-1f1e-4a71-a687-ae807bc26274",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "284bf6f4-1f1e-4a71-a687-ae807bc26274",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 35.1,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 38,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 52,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>35.1</td><td>38 - 52</td><td>L</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6144409b-b478-488c-a513-800d1a9a8bdb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6144409b-b478-488c-a513-800d1a9a8bdb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 82.3,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 82,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 98,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>82.3</td><td>82 - 98</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:677f04f3-0f61-4e1e-bd69-7c1abf55d922",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "677f04f3-0f61-4e1e-bd69-7c1abf55d922",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 29.9,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>29.9</td><td>27 - 34</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:126f9f19-5f42-42c8-8f60-447b28e4159d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "126f9f19-5f42-42c8-8f60-447b28e4159d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 34.9,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 36,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>34.9</td><td>31 - 36</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8dce4289-d0bf-4249-a884-0697a763e24b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8dce4289-d0bf-4249-a884-0697a763e24b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 40.9,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 39,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>40.9</td><td>39 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34ec7ccf-31b3-4dc1-973d-c7996c32f0d8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "34ec7ccf-31b3-4dc1-973d-c7996c32f0d8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 170.5,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 400,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>170.5</td><td>150 - 400</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6a31544-c852-44bf-a42d-d69dce0a0d9b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e6a31544-c852-44bf-a42d-d69dce0a0d9b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 338.9,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>338.9</td><td>13.4 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a47c733e-db01-426b-8435-53718a52e495",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a47c733e-db01-426b-8435-53718a52e495",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12.2,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 9.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 12,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>14-Apr-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>12.2</td><td>9.4 - 12</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:229850ff-8d8c-4f9f-9712-5f28c4f43582",
+          "display": "Gianfrancesco Moschino"
+        },
+        "effectiveDateTime": "2025-04-14T20:21:39Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67bd93db-ed0b-4f36-87ac-e43b1556b548",
+      "resource": {
+        "resourceType": "Device",
+        "id": "67bd93db-ed0b-4f36-87ac-e43b1556b548",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce75d3ab-73e7-43b1-b432-703d644f57ec",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "ce75d3ab-73e7-43b1-b432-703d644f57ec",
+        "target": [
+          {
+            "reference": "Patient/229850ff-8d8c-4f9f-9712-5f28c4f43582"
+          },
+          {
+            "reference": "Bundle/9e9a3012-708a-4790-bfd6-53e83a1c0451"
+          },
+          {
+            "reference": "Composition/d37ba8e9-0bbd-4957-8f65-fcbb296ef302"
+          },
+          {
+            "reference": "PractitionerRole/e1844003-c665-4cf6-9072-1417f249fca9"
+          },
+          {
+            "reference": "Organization/544ec832-d2f5-4139-bf0f-b44692064e72"
+          },
+          {
+            "reference": "Practitioner/58b7314d-8233-4fa7-bc2e-f05e0f8aaa15"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/67bd93db-ed0b-4f36-87ac-e43b1556b548"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-04-14T20:21:39Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-04-14T20:21:39Z"
+}

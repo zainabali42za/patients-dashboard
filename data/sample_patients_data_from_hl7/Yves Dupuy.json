@@ -1,0 +1,3691 @@
+{
+  "resourceType": "Bundle",
+  "id": "afae2ff5-c832-4777-802f-96f453523c14",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "7a1dc07f-404c-48fb-abf1-aca3fc55b323"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:94ad6418-a48c-44db-885d-0b3cb5752802",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "94ad6418-a48c-44db-885d-0b3cb5752802",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "cb1ec301-d589-4008-a0ce-2a6aa625b06e"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">17-Oct-2021</span></td><td>active</td></tr><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">17-Oct-2021</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">07-Oct-2018</span></td><td>active</td></tr><tr><td>Fibromyalgia</td><td><span class=\"nb\">18-Sep-2018</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e8b13695-ea04-4cb5-b275-4be171060043"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:357e90fa-c74a-46ce-8f42-9e858ebc33d6"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">04-May-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">17-Oct-2021</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">17-Oct-2021</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">06-Jun-2021</span></td></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">25-Apr-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:492ed7f1-3f09-40a7-bcbf-bf5245829a60"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Hepatitis B virus antigen</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6d99f12b-32be-4576-8184-a687f61740ed"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">01-Dec-2018</span></td><td>-</td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">07-Oct-2018</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will receive education on lifestyle modifications to help manage blood pressure, including dietary changes, increased physical activity, sodium reduction, and weight management.</li><li>Achieve and maintain systolic blood pressure below 130 mmHg through lifestyle modifications.</li><li>Achieve and maintain diastolic blood pressure below 80 mmHg through lifestyle modifications.</li></ul></td><td></td><td></td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-29</th><th>2025-05-04</th></tr><tr><td>Body Height</td><td>162.1 cm</td><td>162.1 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>80.1 kg</td><td>80.1 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.5 kg/m2</td><td>30.5 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>71 mm[Hg]</td><td>71 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>123 mm[Hg]</td><td>117 mm[Hg]</td></tr><tr><td>Heart rate</td><td>72 /min</td><td>82 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3e1ce030-88e1-4e55-a25a-7029a0b91c46"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>29-JUN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>86.5</td><td>70 - 110</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>10.5</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td><strong>2.0 H</strong></td><td>0.6 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>8.9</td><td>8.5 - 10.5</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>139.6</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>4.8</td><td>3.5 - 5.3</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>110.1</td><td>98 - 114</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>26.6</td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Appearance of Urine</td><td>Cloudy urine</td><td></td><td></td></tr><tr><td>Odor of Urine</td><td>Urine smell ammoniacal</td><td></td><td></td></tr><tr><td>Clarity of Urine</td><td>Translucent</td><td></td><td></td></tr><tr><td>Color of Urine</td><td>Brown color</td><td></td><td></td></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td><strong>2.4 H</strong></td><td>0 - 0.8</td><td>mg/dL</td></tr><tr><td>Glucose [Presence] in Urine by Test strip</td><td>++</td><td></td><td></td></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.3</td><td>0 - 4</td><td>mg/dL</td></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td><td>Finding of bilirubin in urine</td><td></td><td></td></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td><strong>16.3 H</strong></td><td>0 - 8</td><td>mg/dL</td></tr><tr><td>Ketones [Presence] in Urine by Test strip</td><td>Urine ketone test = ++</td><td></td><td></td></tr><tr><td>Specific gravity of Urine by Test strip</td><td><strong>1.0 L</strong></td><td>1.005 - 1.03</td><td>{nominal}</td></tr><tr><td>pH of Urine by Test strip</td><td>6.7</td><td>4.6 - 7</td><td>pH</td></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td><strong>335.9 H</strong></td><td>150 - 20</td><td>mg/dL</td></tr><tr><td>Protein [Presence] in Urine by Test strip</td><td>Urine protein test = ++</td><td></td><td></td></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td><td>Urine nitrite negative</td><td></td><td></td></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td><td>Urine blood test = negative</td><td></td><td></td></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td><td>Urine leukocyte test negative</td><td></td><td></td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "custodian": {
+          "reference": "urn:uuid:a738ab15-a2e5-4bd1-86cd-d50ac364e17b"
+        },
+        "date": "2025-06-29",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "113e9491-b5b7-4961-a491-1debaaa5b8ff",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8451-197053-9"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "9800d671-caa6-4547-23a8-abf21346f9f4"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Yves"
+            ],
+            "family": "Dupuy",
+            "text": "Yves Dupuy"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "8, chemin Marthe Gilles"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "92210",
+            "city": "Collet",
+            "country": "France"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+33 (0)3 70 59 92 09"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FR",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Yves Dupuy</td><td>male</td><td>08-Dec-2001</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "2001-12-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:36c483ee-8f75-4c7d-bff2-b2ebbd3c9756"
+        },
+        "organization": {
+          "reference": "urn:uuid:a738ab15-a2e5-4bd1-86cd-d50ac364e17b"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a738ab15-a2e5-4bd1-86cd-d50ac364e17b",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a738ab15-a2e5-4bd1-86cd-d50ac364e17b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "08c4b68a-63ef-442e-88d3-4cbcaca98e61"
+          }
+        ],
+        "address": [
+          {
+            "city": "Paris",
+            "postalCode": "75012",
+            "country": "France"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Centre médical RATP</table></div>"
+        },
+        "name": "Centre médical RATP"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36c483ee-8f75-4c7d-bff2-b2ebbd3c9756",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "36c483ee-8f75-4c7d-bff2-b2ebbd3c9756",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e8b13695-ea04-4cb5-b275-4be171060043",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e8b13695-ea04-4cb5-b275-4be171060043",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "433144002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 3 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">17-Oct-2021</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-10-17",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fad4c579-333c-4d00-8bd6-e18fc5a11e35",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "fad4c579-333c-4d00-8bd6-e18fc5a11e35",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "157141000119108",
+              "system": "http://snomed.info/sct",
+              "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Proteinuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">17-Oct-2021</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-10-17",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce10cff8-bfda-40a2-af87-ca10cea3a060",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ce10cff8-bfda-40a2-af87-ca10cea3a060",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-10-13",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8eed7c7e-16e8-4a78-9b95-9d05f4ee2186",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8eed7c7e-16e8-4a78-9b95-9d05f4ee2186",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-10-13",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a2a4650c-fc5e-499e-af5c-ec1deee96b47",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a2a4650c-fc5e-499e-af5c-ec1deee96b47",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">13-Oct-2019</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-10-13",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb163de3-f4af-4f26-b48c-5bfabd85920f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cb163de3-f4af-4f26-b48c-5bfabd85920f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">07-Oct-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-10-07",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b83cfd0-c3c1-4cdc-8d24-ef567951c373",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5b83cfd0-c3c1-4cdc-8d24-ef567951c373",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "203082005",
+              "system": "http://snomed.info/sct",
+              "display": "Fibromyalgia (disorder)"
+            }
+          ],
+          "text": "Fibromyalgia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Fibromyalgia</td><td><span class=\"nb\">18-Sep-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-09-18",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e37f137-cb84-4ba0-9eb2-2bcaf1338503",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4e37f137-cb84-4ba0-9eb2-2bcaf1338503",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "840539006",
+              "system": "http://snomed.info/sct",
+              "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+            }
+          ],
+          "text": "COVID-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">COVID-19</span></td><td><span class=\"nb\">28-Aug-2020 - 13-Sep-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-08-28",
+        "abatementDateTime": "2020-09-13",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b2ca153-6047-4171-acda-bafd0ffc2253",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2b2ca153-6047-4171-acda-bafd0ffc2253",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">23-Oct-2018 - 31-Oct-2018</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-10-23",
+        "abatementDateTime": "2018-10-31",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0",
+          "display": "Centre médical RATP"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:357e90fa-c74a-46ce-8f42-9e858ebc33d6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "357e90fa-c74a-46ce-8f42-9e858ebc33d6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:492ed7f1-3f09-40a7-bcbf-bf5245829a60",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "492ed7f1-3f09-40a7-bcbf-bf5245829a60",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">04-May-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "occurrenceDateTime": "2025-05-04",
+        "lotNumber": "WI-8OHYgkL",
+        "expirationDate": "2026-03-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da89d6ba-77d6-48f7-9be3-bd873b606ead",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "da89d6ba-77d6-48f7-9be3-bd873b606ead",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">17-Oct-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "occurrenceDateTime": "2021-10-17",
+        "lotNumber": "MA-CLis",
+        "expirationDate": "2021-12-27"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8764c016-04a6-44ad-b1ad-ea8c927bfbcf",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "8764c016-04a6-44ad-b1ad-ea8c927bfbcf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">17-Oct-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "occurrenceDateTime": "2021-10-17",
+        "lotNumber": "RK-ZyZIVrihE",
+        "expirationDate": "2022-05-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d18dc01-17e3-41c8-baa7-79ffedfba24b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "7d18dc01-17e3-41c8-baa7-79ffedfba24b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">06-Jun-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "occurrenceDateTime": "2021-06-06",
+        "lotNumber": "EQ-K8BG7cTOH",
+        "expirationDate": "2022-03-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4dd8a27-7714-4658-a3b5-0e610cbacc18",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e4dd8a27-7714-4658-a3b5-0e610cbacc18",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">25-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "occurrenceDateTime": "2021-04-25",
+        "lotNumber": "GC-7bytS9zy7",
+        "expirationDate": "2021-05-24"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d99f12b-32be-4576-8184-a687f61740ed",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "6d99f12b-32be-4576-8184-a687f61740ed",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            }
+          ],
+          "text": "Vaccine product containing Hepatitis B virus antigen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Hepatitis B virus antigen</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49aee10a-834c-4bae-a31c-69e5b1f02d5f",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "49aee10a-834c-4bae-a31c-69e5b1f02d5f",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "276239002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Therapy (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Therapy",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2018-12-01"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">01-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ccb9afce-3e56-4a28-8fde-691493cba344",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ccb9afce-3e56-4a28-8fde-691493cba344",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2018-10-07"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:9cbdd334-0a73-4acf-bbdc-c80d6fd0bcee"
+          },
+          {
+            "reference": "urn:uuid:fdba6f13-5b14-4f15-9fff-cc9f030a5950"
+          },
+          {
+            "reference": "urn:uuid:3ed6d790-f26c-4750-9544-893f702ac9f3"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">07-Oct-2018</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will receive education on lifestyle modifications to help manage blood pressure, including dietary changes, increased physical activity, sodium reduction, and weight management.</li><li>Achieve and maintain systolic blood pressure below 130 mmHg through lifestyle modifications.</li><li>Achieve and maintain diastolic blood pressure below 80 mmHg through lifestyle modifications.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e1ce030-88e1-4e55-a25a-7029a0b91c46",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3e1ce030-88e1-4e55-a25a-7029a0b91c46",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>29-Jun-2025</td><td>162.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49d7b207-8e90-4ef1-9114-582b0260b381",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "49d7b207-8e90-4ef1-9114-582b0260b381",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>29-Jun-2025</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b97303be-5374-4cc0-9fbe-ce9843000ce3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b97303be-5374-4cc0-9fbe-ce9843000ce3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.1,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>29-Jun-2025</td><td>80.1 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b60c84e-1d19-4393-8b29-36e00caa8531",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b60c84e-1d19-4393-8b29-36e00caa8531",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.5,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>29-Jun-2025</td><td>30.5 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b273b650-4f39-4d29-9b85-8d3a9b924402",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b273b650-4f39-4d29-9b85-8d3a9b924402",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 71,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>29-Jun-2025</td><td>71 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d3903646-0e7d-464e-a5fc-74e95401420f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d3903646-0e7d-464e-a5fc-74e95401420f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 123,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>29-Jun-2025</td><td>123 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c81434c1-3b2f-43df-8aec-15da25b8d745",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c81434c1-3b2f-43df-8aec-15da25b8d745",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>29-Jun-2025</td><td>72 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9eb47db3-fc88-4976-ac3f-a2b1c273bc21",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9eb47db3-fc88-4976-ac3f-a2b1c273bc21",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>29-Jun-2025</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:688c0223-c430-48a3-808c-f83140ca8f28",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "688c0223-c430-48a3-808c-f83140ca8f28",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>04-May-2025</td><td>162.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82246122-a88a-43da-ba71-5630a1df80ef",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82246122-a88a-43da-ba71-5630a1df80ef",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>04-May-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3ef54359-aad7-4b1a-bc65-88ac2c80d60e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3ef54359-aad7-4b1a-bc65-88ac2c80d60e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.1,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>04-May-2025</td><td>80.1 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:03302ede-c97f-4246-a99f-517ff941b239",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "03302ede-c97f-4246-a99f-517ff941b239",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.5,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>04-May-2025</td><td>30.5 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6193fc6-c3ea-4270-9a47-3eff72ef5b6e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b6193fc6-c3ea-4270-9a47-3eff72ef5b6e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 71,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>04-May-2025</td><td>71 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e68840f-2b0f-4269-9860-0c3e3ae72bf5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2e68840f-2b0f-4269-9860-0c3e3ae72bf5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 117,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>04-May-2025</td><td>117 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b602443-ff71-4ee0-8d4f-c69974ace903",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8b602443-ff71-4ee0-8d4f-c69974ace903",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>04-May-2025</td><td>82 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:184eeee0-6f47-46e7-ba72-0e4b2e835ad6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "184eeee0-6f47-46e7-ba72-0e4b2e835ad6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>04-May-2025</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7040e2ed-e3a3-4994-982a-ef36546eda29",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7040e2ed-e3a3-4994-982a-ef36546eda29",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2345-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 86.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 110,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Serum or Plasma</td><td>86.5</td><td>70 - 110</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b3ab8935-65f6-45c8-baf9-bf10f202efd6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b3ab8935-65f6-45c8-baf9-bf10f202efd6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "3094-0",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Serum or Plasma</td><td>10.5</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e8c1abe-144e-4d89-a5b0-3b927fa84dbd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e8c1abe-144e-4d89-a5b0-3b927fa84dbd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2160-0",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Serum or Plasma</td><td>2.0</td><td>0.6 - 1.3</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3da3ee31-a4a1-4be6-9bc6-26a99c447eb4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3da3ee31-a4a1-4be6-9bc6-26a99c447eb4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "17861-6",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Serum or Plasma</td><td>8.9</td><td>8.5 - 10.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce218232-b66a-4da9-834f-575ae2bc6f88",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ce218232-b66a-4da9-834f-575ae2bc6f88",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2951-2",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 139.6,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Serum or Plasma</td><td>139.6</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e4dfd1d-ca4b-4e9b-80cf-d031b853dcb1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3e4dfd1d-ca4b-4e9b-80cf-d031b853dcb1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2823-3",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.3,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Serum or Plasma</td><td>4.8</td><td>3.5 - 5.3</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:847a76dc-769a-45ff-8865-816f4604b5fe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "847a76dc-769a-45ff-8865-816f4604b5fe",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2075-0",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 110.1,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 114,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Serum or Plasma</td><td>110.1</td><td>98 - 114</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23cfe5ff-979e-477f-ad75-7656a71f9e7d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "23cfe5ff-979e-477f-ad75-7656a71f9e7d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2028-9",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 26.6,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Serum or Plasma</td><td>26.6</td><td>22 - 29</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6adb08ac-1b43-4820-bc1a-d471e61a2e00",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6adb08ac-1b43-4820-bc1a-d471e61a2e00",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5767-9",
+              "system": "http://loinc.org",
+              "display": "Appearance of Urine"
+            }
+          ],
+          "text": "Appearance of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Appearance of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9733a196-f765-422f-9ab4-0e0cbc7d2368",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9733a196-f765-422f-9ab4-0e0cbc7d2368",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "34533-0",
+              "system": "http://loinc.org",
+              "display": "Odor of Urine"
+            }
+          ],
+          "text": "Odor of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Odor of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d119bf50-5be7-477d-97b3-e3d5f946769d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d119bf50-5be7-477d-97b3-e3d5f946769d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32167-9",
+              "system": "http://loinc.org",
+              "display": "Clarity of Urine"
+            }
+          ],
+          "text": "Clarity of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Clarity of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3bcbdac-baad-4946-95f5-2d17bb1cb38b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3bcbdac-baad-4946-95f5-2d17bb1cb38b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5778-6",
+              "system": "http://loinc.org",
+              "display": "Color of Urine"
+            }
+          ],
+          "text": "Color of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Color of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:918e2f80-827a-46b2-bf88-770ee446dd97",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "918e2f80-827a-46b2-bf88-770ee446dd97",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5792-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>2.4</td><td>0 - 0.8</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:843d84a9-59a6-4b2f-b705-acfb18c061b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "843d84a9-59a6-4b2f-b705-acfb18c061b1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "25428-4",
+              "system": "http://loinc.org",
+              "display": "Glucose [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e3d38d9f-f328-4618-b37e-cfd9211b2e40",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e3d38d9f-f328-4618-b37e-cfd9211b2e40",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20505-4",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>1.3</td><td>0 - 4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5c036e9-2b61-43f6-b825-01d810aded88",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f5c036e9-2b61-43f6-b825-01d810aded88",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5770-3",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7eeb6d04-f00d-4244-8c58-77db1fdc1fd8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7eeb6d04-f00d-4244-8c58-77db1fdc1fd8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5797-6",
+              "system": "http://loinc.org",
+              "display": "Ketones [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 16.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>16.3</td><td>0 - 8</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24507217-aec6-41f2-83a4-50895edf3d08",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "24507217-aec6-41f2-83a4-50895edf3d08",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2514-8",
+              "system": "http://loinc.org",
+              "display": "Ketones [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32418025-5186-4946-bb77-dd048457d7aa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "32418025-5186-4946-bb77-dd048457d7aa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5811-5",
+              "system": "http://loinc.org",
+              "display": "Specific gravity of Urine by Test strip"
+            }
+          ],
+          "text": "Specific gravity of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "{nominal}",
+          "code": "{nominal}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1.005,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.03,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Specific gravity of Urine by Test strip</td><td>1.0</td><td>1.005 - 1.03</td><td>L</td><td>{nominal}</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85253d45-1c0f-4ff0-897a-252f34ace12c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85253d45-1c0f-4ff0-897a-252f34ace12c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5803-2",
+              "system": "http://loinc.org",
+              "display": "pH of Urine by Test strip"
+            }
+          ],
+          "text": "pH of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.7,
+          "unit": "pH",
+          "code": "pH"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.6,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>pH of Urine by Test strip</td><td>6.7</td><td>4.6 - 7</td><td></td><td>pH</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d7c389b-1ddf-4327-ae2d-29536471e3b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2d7c389b-1ddf-4327-ae2d-29536471e3b1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5804-0",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 335.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td>335.9</td><td>150 - 20</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:459acdea-cc9f-406b-baad-0d92a9eaec65",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "459acdea-cc9f-406b-baad-0d92a9eaec65",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20454-5",
+              "system": "http://loinc.org",
+              "display": "Protein [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:192ac024-64b2-438b-bd72-a77a731b201a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "192ac024-64b2-438b-bd72-a77a731b201a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5802-4",
+              "system": "http://loinc.org",
+              "display": "Nitrite [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Nitrite [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7829bd0-8885-4af7-aa95-13586038bcbe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7829bd0-8885-4af7-aa95-13586038bcbe",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5794-3",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Hemoglobin [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3c3dfc99-fa9c-4a46-841d-7f605dd9e777",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3c3dfc99-fa9c-4a46-841d-7f605dd9e777",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5799-2",
+              "system": "http://loinc.org",
+              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Leukocyte esterase [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>29-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:113e9491-b5b7-4961-a491-1debaaa5b8ff",
+          "display": "Yves Dupuy"
+        },
+        "effectiveDateTime": "2025-06-29T01:34:16Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e83b3795-539a-407d-a672-3cf978fcdea3",
+      "resource": {
+        "resourceType": "Device",
+        "id": "e83b3795-539a-407d-a672-3cf978fcdea3",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9dc3c8b6-2272-465e-8973-b77da20ad1e1",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "9dc3c8b6-2272-465e-8973-b77da20ad1e1",
+        "target": [
+          {
+            "reference": "Patient/113e9491-b5b7-4961-a491-1debaaa5b8ff"
+          },
+          {
+            "reference": "Bundle/afae2ff5-c832-4777-802f-96f453523c14"
+          },
+          {
+            "reference": "Composition/94ad6418-a48c-44db-885d-0b3cb5752802"
+          },
+          {
+            "reference": "PractitionerRole/cc3b7d0e-5a54-4c1f-a7db-409dd9f120b0"
+          },
+          {
+            "reference": "Organization/a738ab15-a2e5-4bd1-86cd-d50ac364e17b"
+          },
+          {
+            "reference": "Practitioner/36c483ee-8f75-4c7d-bff2-b2ebbd3c9756"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/e83b3795-539a-407d-a672-3cf978fcdea3"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-06-29T01:34:16Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-06-29T01:34:16Z"
+}

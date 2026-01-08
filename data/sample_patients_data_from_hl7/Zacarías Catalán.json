@@ -1,0 +1,2749 @@
+{
+  "resourceType": "Bundle",
+  "id": "c32fcbd8-774f-4157-9dbb-a6957334dc03",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "bedf30cf-c2a9-4a7a-a727-b2caa511c443"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:dff95358-81e1-4a42-8aa8-a0e32d4e4a92",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "dff95358-81e1-4a42-8aa8-a0e32d4e4a92",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "a62a3353-2945-4d16-8676-ef4cb17332cf"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">03-Oct-2022</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a6d99ec3-0daf-4c75-8c0b-51981209e92f"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4022d3d0-509c-4b3a-abed-0b86f60f2928"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">24-May-2021</span></td></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">16-Sep-2019</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">10-Sep-2018</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">10-Sep-2018</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:178948d5-0d21-4288-9e34-bb72e512a0ee"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Neisseria meningitidis antigen</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e2afcd3a-f659-443e-a26b-6616fd40361d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">03-Oct-2022</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain a blood pressure below 130/80 mmHg through lifestyle changes including diet, exercise, and stress management.</li></ul></td><td></td><td></td></tr><tr><td>Therapy</td><td><span class=\"nb\">19-Oct-2015</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-10-14</th><th>2023-10-09</th></tr><tr><td>Body Height</td><td>170.8 cm</td><td>170.8 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>2 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>70.7 kg</td><td>69 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>24.2 kg/m2</td><td>23.6 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>77 mm[Hg]</td><td>70 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>108 mm[Hg]</td><td>108 mm[Hg]</td></tr><tr><td>Heart rate</td><td>68 /min</td><td>62 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f1ba588f-85d3-4117-a523-1a3aeb116895"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>09-OCT-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.5</td><td>3.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.1</td><td>4.5 - 6.2</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td><strong>12.6 L</strong></td><td>13.5 - 17.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>44.5</td><td>38 - 50</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>93.5</td><td>80 - 95</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>31.3</td><td>27 - 33</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>35.7</td><td>31 - 37</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>43.1</td><td>39 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>177.2</td><td>150 - 350</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>401.3 H</strong></td><td>9.7 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.4</td><td>7.2 - 13.5</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "custodian": {
+          "reference": "urn:uuid:e88c586b-2a07-4af4-a6ba-e5d574c22174"
+        },
+        "date": "2023-10-09",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "366e0a10-cbd0-4e6b-81c0-58499381a698",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "7631-694194-7"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "6d522484-e962-dfb8-2dcc-3ff0c715bfb4"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Zacarías"
+            ],
+            "family": "Catalán",
+            "text": "Zacarías Catalán"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Ronda Merche Barros 13"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "47001",
+            "city": "Valladolid",
+            "country": "Spain"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+34 941 498 244"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "ES",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Zacarías Catalán</td><td>male</td><td>08-Apr-1998</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1998-04-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "c75506e5-9440-436b-8426-badaa977088b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id c75506e5-9440-436b-8426-badaa977088b</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:fe3948a2-9f90-4b45-9a3f-7d0a51596c8a"
+        },
+        "organization": {
+          "reference": "urn:uuid:e88c586b-2a07-4af4-a6ba-e5d574c22174"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e88c586b-2a07-4af4-a6ba-e5d574c22174",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e88c586b-2a07-4af4-a6ba-e5d574c22174",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "d418d867-eebf-4261-9280-504924a34a72"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Calle de la Estación del Norte nan"
+            ],
+            "city": "Valladolid",
+            "postalCode": "47007",
+            "country": "Spain"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Hospital Recoletas Campo Grande</table></div>"
+        },
+        "name": "Hospital Recoletas Campo Grande"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe3948a2-9f90-4b45-9a3f-7d0a51596c8a",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "fe3948a2-9f90-4b45-9a3f-7d0a51596c8a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6d99ec3-0daf-4c75-8c0b-51981209e92f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a6d99ec3-0daf-4c75-8c0b-51981209e92f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">03-Oct-2022</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-10-03",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+          "display": "Hospital Recoletas Campo Grande"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6362b77b-c54e-450c-8761-5e907870045b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6362b77b-c54e-450c-8761-5e907870045b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Aug-2023 - 29-Aug-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-10",
+        "abatementDateTime": "2023-08-29",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+          "display": "Hospital Recoletas Campo Grande"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a5f03bbc-0a28-438b-9175-9f41190f03cc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a5f03bbc-0a28-438b-9175-9f41190f03cc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">16-Jan-2023 - 05-Feb-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-01-16",
+        "abatementDateTime": "2023-02-05",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+          "display": "Hospital Recoletas Campo Grande"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a1397f64-225d-4a8a-ac65-366be2a0c29c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a1397f64-225d-4a8a-ac65-366be2a0c29c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "62106007",
+              "system": "http://snomed.info/sct",
+              "display": "Concussion with no loss of consciousness (disorder)"
+            }
+          ],
+          "text": "Concussion with no loss of consciousness"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Concussion with no loss of consciousness</span></td><td><span class=\"nb\">26-Apr-2022 - 10-Jun-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-04-26",
+        "abatementDateTime": "2022-06-10",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+          "display": "Hospital Recoletas Campo Grande"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a822396b-79eb-43f1-bc35-680248f4ef63",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a822396b-79eb-43f1-bc35-680248f4ef63",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "110030002",
+              "system": "http://snomed.info/sct",
+              "display": "Concussion injury of brain (disorder)"
+            }
+          ],
+          "text": "Concussion injury of brain"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Concussion injury of brain</span></td><td><span class=\"nb\">26-Apr-2022 - 10-Jun-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-04-26",
+        "abatementDateTime": "2022-06-10",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c75506e5-9440-436b-8426-badaa977088b",
+          "display": "Hospital Recoletas Campo Grande"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4022d3d0-509c-4b3a-abed-0b86f60f2928",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "4022d3d0-509c-4b3a-abed-0b86f60f2928",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:178948d5-0d21-4288-9e34-bb72e512a0ee",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "178948d5-0d21-4288-9e34-bb72e512a0ee",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">14-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "occurrenceDateTime": "2024-10-14",
+        "lotNumber": "AK-VSvpO",
+        "expirationDate": "2025-04-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ff7d045-5970-46ab-ae61-ffee09050528",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "9ff7d045-5970-46ab-ae61-ffee09050528",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">24-May-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "occurrenceDateTime": "2021-05-24",
+        "lotNumber": "QN-1kpV5MeW",
+        "expirationDate": "2022-01-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d97889ab-dd80-462c-9724-61744aa8a8b7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d97889ab-dd80-462c-9724-61744aa8a8b7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">16-Sep-2019</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "occurrenceDateTime": "2019-09-16",
+        "lotNumber": "LA-ldz60m",
+        "expirationDate": "2020-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c4bf793-9e76-4dfd-88fc-79bd9ebc79f4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "9c4bf793-9e76-4dfd-88fc-79bd9ebc79f4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">10-Sep-2018</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "occurrenceDateTime": "2018-09-10",
+        "lotNumber": "FF-TKbM0a",
+        "expirationDate": "2019-03-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e704a14e-b62a-4331-b9c2-7a51987e396b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e704a14e-b62a-4331-b9c2-7a51987e396b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">10-Sep-2018</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "occurrenceDateTime": "2018-09-10",
+        "lotNumber": "TS-iHvM",
+        "expirationDate": "2018-12-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2afcd3a-f659-443e-a26b-6616fd40361d",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "e2afcd3a-f659-443e-a26b-6616fd40361d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            }
+          ],
+          "text": "Vaccine product containing Neisseria meningitidis antigen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Neisseria meningitidis antigen</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14874d53-baae-46f4-9dc1-7765ced54ae1",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "14874d53-baae-46f4-9dc1-7765ced54ae1",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2022-10-03"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:8f65e441-57da-443e-ba9e-3b50f747ba34"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">03-Oct-2022</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will achieve and maintain a blood pressure below 130/80 mmHg through lifestyle changes including diet, exercise, and stress management.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a8ba734-0015-4a8a-a61f-9f01db8e121a",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "1a8ba734-0015-4a8a-a61f-9f01db8e121a",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "276239002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Therapy (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Therapy",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2015-10-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">19-Oct-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1ba588f-85d3-4117-a523-1a3aeb116895",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f1ba588f-85d3-4117-a523-1a3aeb116895",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>14-Oct-2024</td><td>170.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad73033b-27b6-4bd1-b3ac-51c8f0ff3f0a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad73033b-27b6-4bd1-b3ac-51c8f0ff3f0a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>14-Oct-2024</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:169bbd42-1f02-4341-8c22-bbf2631418e6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "169bbd42-1f02-4341-8c22-bbf2631418e6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 70.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>14-Oct-2024</td><td>70.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:781d16c3-3fab-4434-bc62-a1ee7c5dfd72",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "781d16c3-3fab-4434-bc62-a1ee7c5dfd72",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 24.2,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>14-Oct-2024</td><td>24.2 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63e4e7ce-6d57-4194-88a4-56a2db5787ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "63e4e7ce-6d57-4194-88a4-56a2db5787ae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 77,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>14-Oct-2024</td><td>77 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8412f88a-7939-4731-8bec-1df022792a69",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8412f88a-7939-4731-8bec-1df022792a69",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 108,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>14-Oct-2024</td><td>108 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e83bf208-678b-46bd-8b9a-0ec5a9b21ae7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e83bf208-678b-46bd-8b9a-0ec5a9b21ae7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 68,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>14-Oct-2024</td><td>68 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94a63220-b3d6-4198-b215-c3f5e6fdec5d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "94a63220-b3d6-4198-b215-c3f5e6fdec5d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>14-Oct-2024</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2024-10-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4200c032-ade2-4401-8932-1012fcfcfd3a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4200c032-ade2-4401-8932-1012fcfcfd3a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 170.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>09-Oct-2023</td><td>170.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4975613e-a9c1-4ed5-939f-0b68ec271640",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4975613e-a9c1-4ed5-939f-0b68ec271640",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>09-Oct-2023</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9c8930a-cfa3-45e2-8839-ea4f7f5e007c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e9c8930a-cfa3-45e2-8839-ea4f7f5e007c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>09-Oct-2023</td><td>69 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5a0ee85-c8e9-480c-9c6e-16a011885f3e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d5a0ee85-c8e9-480c-9c6e-16a011885f3e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 23.6,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>09-Oct-2023</td><td>23.6 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:26610ec8-ba54-46eb-bb24-e61319f43056",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "26610ec8-ba54-46eb-bb24-e61319f43056",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 70,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>09-Oct-2023</td><td>70 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:093f78d7-70e1-4e99-b578-069199842759",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "093f78d7-70e1-4e99-b578-069199842759",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 108,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>09-Oct-2023</td><td>108 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88a0aa45-b4d2-4b04-8c33-27b20466fe1e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "88a0aa45-b4d2-4b04-8c33-27b20466fe1e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 62,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>09-Oct-2023</td><td>62 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a1dd9d2-9a69-4aa7-87ee-1fdee12cfe78",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9a1dd9d2-9a69-4aa7-87ee-1fdee12cfe78",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>09-Oct-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:07333665-3b1c-469d-851b-6e4488854091",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "07333665-3b1c-469d-851b-6e4488854091",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.5,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.5</td><td>3.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8230e695-fd1b-4a92-9c37-d76288352624",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8230e695-fd1b-4a92-9c37-d76288352624",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.1,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.2,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>5.1</td><td>4.5 - 6.2</td><td></td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fa37901-5e73-4d56-970a-9fd51f385e87",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3fa37901-5e73-4d56-970a-9fd51f385e87",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12.6,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>12.6</td><td>13.5 - 17.5</td><td>L</td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc2fb0c2-893a-4cfd-96ef-5071fa527f5f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dc2fb0c2-893a-4cfd-96ef-5071fa527f5f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 44.5,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 38,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 50,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>44.5</td><td>38 - 50</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:711262f2-56ba-40d9-bd51-bad5919ac85a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "711262f2-56ba-40d9-bd51-bad5919ac85a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 93.5,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 80,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 95,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>93.5</td><td>80 - 95</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16329999-dfe7-486e-9072-9480dcd14bb6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "16329999-dfe7-486e-9072-9480dcd14bb6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 31.3,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 33,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>31.3</td><td>27 - 33</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e1227ba5-a63b-4e4e-9b31-d959bdbf39d2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e1227ba5-a63b-4e4e-9b31-d959bdbf39d2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 35.7,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 37,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>35.7</td><td>31 - 37</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:788c42bf-120a-4a7e-bf09-da11f93204a7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "788c42bf-120a-4a7e-bf09-da11f93204a7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 43.1,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 39,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>43.1</td><td>39 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca75681d-ad80-44ea-9770-6c957c958d58",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ca75681d-ad80-44ea-9770-6c957c958d58",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 177.2,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 350,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>177.2</td><td>150 - 350</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49f2bc4a-b727-4f4c-a323-b71c17ac1cd7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "49f2bc4a-b727-4f4c-a323-b71c17ac1cd7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 401.3,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 9.7,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>401.3</td><td>9.7 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78fe7168-a9e2-40a4-921d-ed5562a5394b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "78fe7168-a9e2-40a4-921d-ed5562a5394b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.4,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.2,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 13.5,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>09-Oct-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.4</td><td>7.2 - 13.5</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:366e0a10-cbd0-4e6b-81c0-58499381a698",
+          "display": "Zacarías Catalán"
+        },
+        "effectiveDateTime": "2023-10-09T20:27:41Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7d472e4-a581-4f6f-8b4b-fd64c2afc53d",
+      "resource": {
+        "resourceType": "Device",
+        "id": "a7d472e4-a581-4f6f-8b4b-fd64c2afc53d",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f55fc10e-f4d7-4b37-aa55-08f358c74f7f",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "f55fc10e-f4d7-4b37-aa55-08f358c74f7f",
+        "target": [
+          {
+            "reference": "Patient/366e0a10-cbd0-4e6b-81c0-58499381a698"
+          },
+          {
+            "reference": "Bundle/c32fcbd8-774f-4157-9dbb-a6957334dc03"
+          },
+          {
+            "reference": "Composition/dff95358-81e1-4a42-8aa8-a0e32d4e4a92"
+          },
+          {
+            "reference": "PractitionerRole/c75506e5-9440-436b-8426-badaa977088b"
+          },
+          {
+            "reference": "Organization/e88c586b-2a07-4af4-a6ba-e5d574c22174"
+          },
+          {
+            "reference": "Practitioner/fe3948a2-9f90-4b45-9a3f-7d0a51596c8a"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/a7d472e4-a581-4f6f-8b4b-fd64c2afc53d"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2023-10-09T20:27:41Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2023-10-09T20:27:41Z"
+}

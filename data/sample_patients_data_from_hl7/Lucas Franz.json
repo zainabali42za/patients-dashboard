@@ -1,0 +1,4187 @@
+{
+  "resourceType": "Bundle",
+  "id": "47d7a9be-9845-450d-aa8b-644e0e02c888",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "eaed6676-a982-41aa-b36d-c755547b86e6"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:1d6be368-8725-45a6-8aa0-c9e78e9ee334",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "1d6be368-8725-45a6-8aa0-c9e78e9ee334",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "f9d879a8-9d82-4851-a5ed-b7a4d124ec17"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Chronic kidney disease stage 4</td><td><span class=\"nb\">20-Apr-2024</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">15-Jul-2023</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">26-Sep-2015</span></td><td>active</td></tr><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">26-Sep-2015</span></td><td>active</td></tr><tr><td>Acute ST segment elevation myocardial infarction</td><td><span class=\"nb\">17-Apr-2013</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">22-Jul-2000</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">06-Jul-1991</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Jul-1991</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">08-Sep-1984</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">08-Sep-1984</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">08-Jun-1968</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3bf3553c-5e57-47da-ad8b-ec20e97d4ec5"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3281475f-6508-40da-8f53-6f3192132b0c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">26-Apr-2025</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Aug-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">13-Oct-2018</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2100b8b8-26e0-4709-be9f-c73bd00bd25a"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Screening for drug abuse</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">27-May-2023</span></td><td>-</td></tr><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">20-May-2023</span></td><td>-</td></tr><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">20-May-2023</span></td><td>-</td></tr><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">15-Oct-2016</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a7c01fe5-35fe-4660-a2a1-7c95e968e044"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9201ad6c-f5eb-434f-ac85-5c5336b49ec9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">19-Jul-2023</span></td><td>-</td></tr><tr><td>Discharge care plan</td><td><span class=\"nb\">18-Apr-2013</span></td><td>-</td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">08-Jun-1968</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular and renal risk.</li><li>Implement dietary changes, increase physical activity as tolerated, and reduce sodium intake to support blood pressure management.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-07-18</th><th>2025-07-14</th></tr><tr><td>Weight difference [Mass difference] --pre dialysis - post dialysis</td><td>3 kg</td><td>1.3 kg</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>4 {score}</td><td>5 {score}</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b40b36dc-4c59-43a9-9b80-5f4fec8f1b39"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>08-JUL-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Blood</td><td>86.0</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>14.4</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td><strong>3.4 H</strong></td><td>0.9 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>8.6</td><td>8.5 - 10.5</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>140.8</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>3.9</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>105.9</td><td>98 - 108</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>26.7</td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Protein [Mass/volume] in Serum or Plasma</td><td>6.9</td><td>6 - 8.3</td><td>g/dL</td></tr><tr><td>Albumin [Mass/volume] in Serum or Plasma</td><td>5.2</td><td>3.5 - 5.5</td><td>g/dL</td></tr><tr><td>Globulin [Mass/volume] in Serum by calculation</td><td>2.6</td><td>2 - 3.5</td><td>g/L</td></tr><tr><td>Bilirubin.total [Mass/volume] in Serum or Plasma</td><td>1.0</td><td>0.3 - 1.2</td><td>mg/dL</td></tr><tr><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td><td>119.9</td><td>39 - 147</td><td>U/L</td></tr><tr><td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>56.0</td><td>10 - 63</td><td>U/L</td></tr><tr><td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>16.1</td><td>10 - 40</td><td>U/L</td></tr><tr><td>Appearance of Urine</td><td>Cloudy urine</td><td></td><td></td></tr><tr><td>Odor of Urine</td><td>Urine smell ammoniacal</td><td></td><td></td></tr><tr><td>Clarity of Urine</td><td>Translucent</td><td></td><td></td></tr><tr><td>Color of Urine</td><td>Brown color</td><td></td><td></td></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>0.8</td><td>0 - 0.8</td><td>mg/dL</td></tr><tr><td>Glucose [Presence] in Urine by Test strip</td><td>++</td><td></td><td></td></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>0.9</td><td>0 - 1.9</td><td>mg/dL</td></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td><td>Finding of bilirubin in urine</td><td></td><td></td></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td><strong>15.4 H</strong></td><td>0 - 3</td><td>mg/dL</td></tr><tr><td>Ketones [Presence] in Urine by Test strip</td><td>Urine ketone test = +++</td><td></td><td></td></tr><tr><td>Specific gravity of Urine by Test strip</td><td><strong>1.0 L</strong></td><td>1.01 - 1.03</td><td>{nominal}</td></tr><tr><td>pH of Urine by Test strip</td><td>5.1</td><td>4.5 - 7.5</td><td>pH</td></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td><strong>447.7 H</strong></td><td>0 - 149</td><td>mg/dL</td></tr><tr><td>Protein [Presence] in Urine by Test strip</td><td>Urine protein test = +++</td><td></td><td></td></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td><td>Urine nitrite negative</td><td></td><td></td></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td><td>Urine blood test = negative</td><td></td><td></td></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td><td>Urine leukocyte test negative</td><td></td><td></td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "custodian": {
+          "reference": "urn:uuid:8db2f5c3-ed2e-4303-ad8d-192bb0724ecb"
+        },
+        "date": "2025-07-08",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6234-464345-7"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "f6d3e9ab-ca9e-461a-b192-314d3691951b"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Lucas"
+            ],
+            "family": "Franz",
+            "text": "Lucas Franz"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Krainerring 2/2"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "9545",
+            "city": "Radenthein",
+            "country": "Austria"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "03649/20594881"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "AT",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Lucas Franz</td><td>male</td><td>14-Nov-1938</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1938-11-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id d8287722-bd6b-4240-a4bf-7752c6be4bc2</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:b02d62e2-c2b9-47aa-9eec-e928b95f7c96"
+        },
+        "organization": {
+          "reference": "urn:uuid:8db2f5c3-ed2e-4303-ad8d-192bb0724ecb"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8db2f5c3-ed2e-4303-ad8d-192bb0724ecb",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "8db2f5c3-ed2e-4303-ad8d-192bb0724ecb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "b713bf3f-428c-46ec-a08f-76114767c00c"
+          }
+        ],
+        "address": [
+          {
+            "city": "Arriach",
+            "postalCode": "9543",
+            "country": "Austria"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Pistenambulanz</table></div>"
+        },
+        "name": "Pistenambulanz"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b02d62e2-c2b9-47aa-9eec-e928b95f7c96",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "b02d62e2-c2b9-47aa-9eec-e928b95f7c96",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3bf3553c-5e57-47da-ad8b-ec20e97d4ec5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3bf3553c-5e57-47da-ad8b-ec20e97d4ec5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431857002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 4 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 4</td><td><span class=\"nb\">20-Apr-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-04-20",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4ff6b28-bd73-423a-b007-0d3dab187ffb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4ff6b28-bd73-423a-b007-0d3dab187ffb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">15-Jul-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-07-15",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:004457e5-f7a0-4108-8413-e016bed24edc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "004457e5-f7a0-4108-8413-e016bed24edc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "433144002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 3 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 3</td><td><span class=\"nb\">26-Sep-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-09-26",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:44454a61-b496-4fd3-9a00-f7c69dce6af1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "44454a61-b496-4fd3-9a00-f7c69dce6af1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "157141000119108",
+              "system": "http://snomed.info/sct",
+              "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Proteinuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">26-Sep-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-09-26",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78da15ac-c428-495a-8428-25c9e53019c5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "78da15ac-c428-495a-8428-25c9e53019c5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "401303003",
+              "system": "http://snomed.info/sct",
+              "display": "Acute ST segment elevation myocardial infarction (disorder)"
+            }
+          ],
+          "text": "Acute ST segment elevation myocardial infarction"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Acute ST segment elevation myocardial infarction</td><td><span class=\"nb\">17-Apr-2013</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2013-04-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:248c7f32-5c94-40cb-9a48-116a111de9bf",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "248c7f32-5c94-40cb-9a48-116a111de9bf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">22-Jul-2000</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2000-07-22",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:059a2ee4-b136-44fc-a0bd-87c601e7dfdb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "059a2ee4-b136-44fc-a0bd-87c601e7dfdb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">06-Jul-1991</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1991-07-06",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:800a9949-90c2-4835-873b-7377042150ec",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "800a9949-90c2-4835-873b-7377042150ec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Jul-1991</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1991-07-06",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70f97ac8-e217-4666-826a-7d421d4d592d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "70f97ac8-e217-4666-826a-7d421d4d592d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">08-Sep-1984</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1984-09-08",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:68d46bfa-5f33-474f-ad0f-7f2d71de275c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "68d46bfa-5f33-474f-ad0f-7f2d71de275c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431855005",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 1 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">08-Sep-1984</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1984-09-08",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e11f936c-ad80-4d4f-9366-8df5067380d4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e11f936c-ad80-4d4f-9366-8df5067380d4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">08-Jun-1968</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1968-06-08",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:731288e9-f33a-49bc-8769-ad127df89b7a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "731288e9-f33a-49bc-8769-ad127df89b7a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Jun-2023 - 07-Jul-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-06-10",
+        "abatementDateTime": "2023-07-07",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a489aef6-edbb-40d5-912d-67742d4c1d20",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a489aef6-edbb-40d5-912d-67742d4c1d20",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">20-Feb-2021 - 12-Mar-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-02-20",
+        "abatementDateTime": "2021-03-12",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9478ddc6-10fd-4e9d-9327-4edfa4bc5e75",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9478ddc6-10fd-4e9d-9327-4edfa4bc5e75",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Dec-2016 - 29-Dec-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-12-10",
+        "abatementDateTime": "2016-12-29",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "asserter": {
+          "reference": "urn:uuid:d8287722-bd6b-4240-a4bf-7752c6be4bc2",
+          "display": "Pistenambulanz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3281475f-6508-40da-8f53-6f3192132b0c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "3281475f-6508-40da-8f53-6f3192132b0c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2100b8b8-26e0-4709-be9f-c73bd00bd25a",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2100b8b8-26e0-4709-be9f-c73bd00bd25a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">26-Apr-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "occurrenceDateTime": "2025-04-26",
+        "lotNumber": "AF-W4U6",
+        "expirationDate": "2025-08-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df27747d-05aa-4399-afb7-22e5d119fb23",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "df27747d-05aa-4399-afb7-22e5d119fb23",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">21-Aug-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "occurrenceDateTime": "2021-08-21",
+        "lotNumber": "DE-N7LYOIWuH",
+        "expirationDate": "2022-06-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:16578d5f-3d66-4bb8-82ca-af63e764b5cf",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "16578d5f-3d66-4bb8-82ca-af63e764b5cf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">13-Oct-2018</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "occurrenceDateTime": "2018-10-13",
+        "lotNumber": "PV-ATW1uYUL",
+        "expirationDate": "2019-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7c01fe5-35fe-4660-a2a1-7c95e968e044",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a7c01fe5-35fe-4660-a2a1-7c95e968e044",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a464a37-14a6-48ff-ab32-b9c1b957189b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0a464a37-14a6-48ff-ab32-b9c1b957189b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b824967-d446-4ebb-9b64-704e6d8d3a4d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7b824967-d446-4ebb-9b64-704e6d8d3a4d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a59e5c2e-4742-4d65-815e-9bfdcc14a139",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a59e5c2e-4742-4d65-815e-9bfdcc14a139",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "713106006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for drug abuse</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7f3896f-6937-4c4a-aa94-062ea9630794",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a7f3896f-6937-4c4a-aa94-062ea9630794",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd0acb5e-c86f-4135-bb30-2fa927658b8d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cd0acb5e-c86f-4135-bb30-2fa927658b8d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb46da7d-beda-4174-b736-e6e66355172c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cb46da7d-beda-4174-b736-e6e66355172c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">17-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-17",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c455c5b6-0e99-427b-a322-efccd2b80165",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c455c5b6-0e99-427b-a322-efccd2b80165",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">27-May-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-05-27",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:69b32174-9cdc-43ba-a0f5-f69ef0c22383",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "69b32174-9cdc-43ba-a0f5-f69ef0c22383",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "763302001",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Alcohol Use Disorders Identification Test - Consumption (procedure)"
+            }
+          ],
+          "text": "Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using AUDIT-C (Alcohol Use Disorders Identification Test - Consumption)</td><td><span class=\"nb\">20-May-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-05-20",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d6ab810-596a-4a2b-919d-099631ce4438",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9d6ab810-596a-4a2b-919d-099631ce4438",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "866148006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">20-May-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-05-20",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8a218aaf-5770-40b6-8ff1-323d9f49acb3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8a218aaf-5770-40b6-8ff1-323d9f49acb3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "715252007",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+            }
+          ],
+          "text": "Depression screening using PHQ-9 (Patient Health Questionnaire 9) score"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">15-Oct-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-10-15",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9201ad6c-f5eb-434f-ac85-5c5336b49ec9",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "9201ad6c-f5eb-434f-ac85-5c5336b49ec9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:afcc1c27-0f59-4c7f-b08c-d0f340c6eb73",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "afcc1c27-0f59-4c7f-b08c-d0f340c6eb73",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736690008",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dialysis care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Dialysis care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2023-07-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">19-Jul-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40087c8e-b092-4eaf-9cc5-901f7f7de895",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "40087c8e-b092-4eaf-9cc5-901f7f7de895",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736372004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Discharge care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Discharge care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-04-18"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Discharge care plan</td><td><span class=\"nb\">18-Apr-2013</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe46ad23-1027-4c99-960a-7c83a85c46af",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "fe46ad23-1027-4c99-960a-7c83a85c46af",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1968-06-08"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:e290ea22-a42f-4482-bf1e-09348ee1389b"
+          },
+          {
+            "reference": "urn:uuid:fff829b9-9e57-4045-9772-5bba3b1f42f1"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">08-Jun-1968</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular and renal risk.</li><li>Implement dietary changes, increase physical activity as tolerated, and reduce sodium intake to support blood pressure management.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a34bd456-9bc5-44c8-9300-feb71da564dd",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "a34bd456-9bc5-44c8-9300-feb71da564dd",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b40b36dc-4c59-43a9-9b80-5f4fec8f1b39",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b40b36dc-4c59-43a9-9b80-5f4fec8f1b39",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Weight difference [Mass difference] --pre dialysis - post dialysis</td><td>18-Jul-2025</td><td>3 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "74006-8",
+              "system": "http://loinc.org",
+              "display": "Weight difference [Mass difference] --pre dialysis - post dialysis"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ed364ed5-1ee5-4277-b790-617d6144a4d3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ed364ed5-1ee5-4277-b790-617d6144a4d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>18-Jul-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:edc3db68-7722-4808-b3ed-70db9e08e1f5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "edc3db68-7722-4808-b3ed-70db9e08e1f5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.3,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Weight difference [Mass difference] --pre dialysis - post dialysis</td><td>14-Jul-2025</td><td>1.3 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "74006-8",
+              "system": "http://loinc.org",
+              "display": "Weight difference [Mass difference] --pre dialysis - post dialysis"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:635e7f39-b8a1-4ecc-8bc9-b085e797095d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "635e7f39-b8a1-4ecc-8bc9-b085e797095d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 5,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>14-Jul-2025</td><td>5 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5904286f-ce08-478b-a102-2907646e556f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5904286f-ce08-478b-a102-2907646e556f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 86,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>86.0</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:710cbd47-f84d-4e00-8c51-e485fae2a041",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "710cbd47-f84d-4e00-8c51-e485fae2a041",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 14.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>14.4</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b23f1d69-9a53-47b0-8a32-3429a44ee115",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b23f1d69-9a53-47b0-8a32-3429a44ee115",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.9,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>3.4</td><td>0.9 - 1.3</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba5d2a68-2ab4-471f-8597-dc064121dfc6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ba5d2a68-2ab4-471f-8597-dc064121dfc6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 8.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>8.6</td><td>8.5 - 10.5</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:87d4e4c3-b60b-4c1c-9099-c704723cee68",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87d4e4c3-b60b-4c1c-9099-c704723cee68",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 140.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>140.8</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c05664d4-0746-4766-9171-2bffcb253837",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c05664d4-0746-4766-9171-2bffcb253837",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>3.9</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a7e707f-25f2-4911-88c1-e66bd88ed789",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1a7e707f-25f2-4911-88c1-e66bd88ed789",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 105.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 108,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>105.9</td><td>98 - 108</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:553084e0-345a-4277-9023-78660d5ca3df",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "553084e0-345a-4277-9023-78660d5ca3df",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 26.7,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>26.7</td><td>22 - 29</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47e43d85-ef15-4b63-9b56-cbb1187acfba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "47e43d85-ef15-4b63-9b56-cbb1187acfba",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2885-2",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.9,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 6,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 8.3,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Serum or Plasma</td><td>6.9</td><td>6 - 8.3</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fd00f32-4537-421c-ab56-f22393c47ca2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3fd00f32-4537-421c-ab56-f22393c47ca2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1751-7",
+              "system": "http://loinc.org",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.2,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Albumin [Mass/volume] in Serum or Plasma</td><td>5.2</td><td>3.5 - 5.5</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e97ccb9-1aaa-4010-8103-baa892989cd5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e97ccb9-1aaa-4010-8103-baa892989cd5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "10834-0",
+              "system": "http://loinc.org",
+              "display": "Globulin [Mass/volume] in Serum by calculation"
+            }
+          ],
+          "text": "Globulin [Mass/volume] in Serum by calculation"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.6,
+          "unit": "g/L",
+          "code": "g/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 2,
+              "code": "g/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 3.5,
+              "code": "g/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Globulin [Mass/volume] in Serum by calculation</td><td>2.6</td><td>2 - 3.5</td><td></td><td>g/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:addb17b6-90a9-4895-80be-34c02f8b538f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "addb17b6-90a9-4895-80be-34c02f8b538f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1975-2",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.2,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Serum or Plasma</td><td>1.0</td><td>0.3 - 1.2</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4d28c5e5-e42e-48a7-9d30-5b3295d4db98",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4d28c5e5-e42e-48a7-9d30-5b3295d4db98",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6768-6",
+              "system": "http://loinc.org",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 119.9,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 39,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 147,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td><td>119.9</td><td>39 - 147</td><td></td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8503dadd-b936-41c0-be44-1d22aab6a1a2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8503dadd-b936-41c0-be44-1d22aab6a1a2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1742-6",
+              "system": "http://loinc.org",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 56,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 10,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 63,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>56.0</td><td>10 - 63</td><td></td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0e95828-d663-4269-a597-1e8b6a9650f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a0e95828-d663-4269-a597-1e8b6a9650f8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1920-8",
+              "system": "http://loinc.org",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 16.1,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 10,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 40,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>16.1</td><td>10 - 40</td><td></td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9866bfde-a88a-4cc6-b0b0-56eabe6248e9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9866bfde-a88a-4cc6-b0b0-56eabe6248e9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5767-9",
+              "system": "http://loinc.org",
+              "display": "Appearance of Urine"
+            }
+          ],
+          "text": "Appearance of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Appearance of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:190b930d-476c-48e3-8c5f-ddaf65dc22bf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "190b930d-476c-48e3-8c5f-ddaf65dc22bf",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "34533-0",
+              "system": "http://loinc.org",
+              "display": "Odor of Urine"
+            }
+          ],
+          "text": "Odor of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Odor of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6bf3b055-cd2b-4924-bba6-6ae5e99c7e7d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6bf3b055-cd2b-4924-bba6-6ae5e99c7e7d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32167-9",
+              "system": "http://loinc.org",
+              "display": "Clarity of Urine"
+            }
+          ],
+          "text": "Clarity of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Clarity of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:28c6b8e7-3501-4249-9bfa-257819912795",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "28c6b8e7-3501-4249-9bfa-257819912795",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5778-6",
+              "system": "http://loinc.org",
+              "display": "Color of Urine"
+            }
+          ],
+          "text": "Color of Urine"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Color of Urine</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:196bd503-e6a7-4a68-be48-41589095ad5b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "196bd503-e6a7-4a68-be48-41589095ad5b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5792-7",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 0.8,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Urine by Test strip</td><td>0.8</td><td>0 - 0.8</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2712fdbe-28ca-4370-b68b-618f33cd092f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2712fdbe-28ca-4370-b68b-618f33cd092f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "25428-4",
+              "system": "http://loinc.org",
+              "display": "Glucose [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Glucose [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6c563cc0-e3de-4c31-a6ee-41a947bb3c4a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6c563cc0-e3de-4c31-a6ee-41a947bb3c4a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20505-4",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.9,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Urine by Test strip</td><td>0.9</td><td>0 - 1.9</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0dc248e-b36b-4cc8-bc19-959a2ba7823e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d0dc248e-b36b-4cc8-bc19-959a2ba7823e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5770-3",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Bilirubin.total [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7c30c67-1336-4cf6-baf6-08df75cedfe5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7c30c67-1336-4cf6-baf6-08df75cedfe5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5797-6",
+              "system": "http://loinc.org",
+              "display": "Ketones [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 15.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Mass/volume] in Urine by Test strip</td><td>15.4</td><td>0 - 3</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e22b1af-f634-41db-94ca-67f76495a733",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7e22b1af-f634-41db-94ca-67f76495a733",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2514-8",
+              "system": "http://loinc.org",
+              "display": "Ketones [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Ketones [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Ketones [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:348b10ee-858b-41ea-995d-04eb787ac354",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "348b10ee-858b-41ea-995d-04eb787ac354",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5811-5",
+              "system": "http://loinc.org",
+              "display": "Specific gravity of Urine by Test strip"
+            }
+          ],
+          "text": "Specific gravity of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1,
+          "unit": "{nominal}",
+          "code": "{nominal}"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1.01,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.03,
+              "code": "g/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Specific gravity of Urine by Test strip</td><td>1.0</td><td>1.01 - 1.03</td><td>L</td><td>{nominal}</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94813978-399d-4b0f-91f9-bbba7dfbaa90",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "94813978-399d-4b0f-91f9-bbba7dfbaa90",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5803-2",
+              "system": "http://loinc.org",
+              "display": "pH of Urine by Test strip"
+            }
+          ],
+          "text": "pH of Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.1,
+          "unit": "pH",
+          "code": "pH"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 7.5,
+              "code": "pH",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>pH of Urine by Test strip</td><td>5.1</td><td>4.5 - 7.5</td><td></td><td>pH</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1e404d6f-a69b-47c7-8f74-84fcc1d3c598",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1e404d6f-a69b-47c7-8f74-84fcc1d3c598",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5804-0",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Urine by Test strip"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 447.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 149,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Urine by Test strip</td><td>447.7</td><td>0 - 149</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c849234e-9c6a-4373-b85b-cca2544a49e0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c849234e-9c6a-4373-b85b-cca2544a49e0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20454-5",
+              "system": "http://loinc.org",
+              "display": "Protein [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Protein [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:428490ca-f2cf-4144-a9ad-ed746296d9b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "428490ca-f2cf-4144-a9ad-ed746296d9b1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5802-4",
+              "system": "http://loinc.org",
+              "display": "Nitrite [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Nitrite [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Nitrite [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:419098d1-2c51-4fd4-8bda-bcc9fc3a1317",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "419098d1-2c51-4fd4-8bda-bcc9fc3a1317",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5794-3",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Hemoglobin [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c60e0287-e984-42b0-8680-6deff334b5fd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c60e0287-e984-42b0-8680-6deff334b5fd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "5799-2",
+              "system": "http://loinc.org",
+              "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+            }
+          ],
+          "text": "Leukocyte esterase [Presence] in Urine by Test strip"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocyte esterase [Presence] in Urine by Test strip</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2281d400-e719-4ec2-bcf9-fd87b9654fd8",
+          "display": "Lucas Franz"
+        },
+        "effectiveDateTime": "2025-07-08T15:27:56Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:109ebf76-d1d0-4917-9edd-508a8fb75e17",
+      "resource": {
+        "resourceType": "Device",
+        "id": "109ebf76-d1d0-4917-9edd-508a8fb75e17",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff6013df-cca1-4cc8-949c-0ba3d8325c33",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "ff6013df-cca1-4cc8-949c-0ba3d8325c33",
+        "target": [
+          {
+            "reference": "Patient/2281d400-e719-4ec2-bcf9-fd87b9654fd8"
+          },
+          {
+            "reference": "Bundle/47d7a9be-9845-450d-aa8b-644e0e02c888"
+          },
+          {
+            "reference": "Composition/1d6be368-8725-45a6-8aa0-c9e78e9ee334"
+          },
+          {
+            "reference": "PractitionerRole/d8287722-bd6b-4240-a4bf-7752c6be4bc2"
+          },
+          {
+            "reference": "Organization/8db2f5c3-ed2e-4303-ad8d-192bb0724ecb"
+          },
+          {
+            "reference": "Practitioner/b02d62e2-c2b9-47aa-9eec-e928b95f7c96"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/109ebf76-d1d0-4917-9edd-508a8fb75e17"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-07-08T15:27:56Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-07-08T15:27:56Z"
+}

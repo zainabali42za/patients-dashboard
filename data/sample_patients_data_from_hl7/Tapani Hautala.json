@@ -1,0 +1,2779 @@
+{
+  "resourceType": "Bundle",
+  "id": "6b45c60b-cb9f-46ae-9e7b-670db5041606",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "1b95ab77-9750-40a1-af44-307e6e54967e"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:886b1b51-4f7d-4e91-a596-df9131bc3897",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "886b1b51-4f7d-4e91-a596-df9131bc3897",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "68f97d41-5632-44cb-afdc-2af52b2b8304"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Non-small cell lung cancer</td><td><span class=\"nb\">29-May-2024</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">29-Jun-2021</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4dc2c17e-7614-4e9f-835b-0e66bd8dc6aa"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c1b4ce3c-4718-4f36-ada4-4d1017680e13"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">21-Jul-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">28-Jun-2021</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Apr-2021</span></td></tr><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">30-May-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:208b3fa3-88f0-4081-a613-981f4a3cdf78"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Digital examination of rectum</td><td><span class=\"nb\">16-Jul-2025</span></td><td>-</td></tr><tr><td>Combined chemotherapy and radiation therapy</td><td><span class=\"nb\">30-Jun-2025</span></td><td>Non-small cell carcinoma of lung TNM stage 1 (disorder)</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">02-May-2025</span></td><td>-</td></tr><tr><td>Hospice care</td><td><span class=\"nb\">01-May-2025</span></td><td>-</td></tr><tr><td>Notifications</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr><tr><td>Certification procedure</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr><tr><td>Bone immobilization</td><td><span class=\"nb\">27-Oct-2024</span></td><td>Fracture of rib</td></tr><tr><td>Bone density scan</td><td><span class=\"nb\">27-Oct-2024</span></td><td>Fracture of rib</td></tr><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">27-Oct-2024</span></td><td>-</td></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">23-Dec-2018</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">23-Dec-2018</span></td><td>-</td></tr><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">22-Dec-2018</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">22-Dec-2018</span></td><td>-</td></tr><tr><td>Occupational therapy</td><td><span class=\"nb\">01-Dec-2018</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">28-Nov-2018</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c8206e43-b713-41ce-b4fa-3cdfb3a7c618"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:cf694cf7-182c-4893-b0d9-590e062e47ab"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Terminal care</td><td><span class=\"nb\">31-May-2024</span></td><td>Non-small cell carcinoma of lung TNM stage 1 (disorder)</td></tr><tr><td><ul><li>Ensure patient comfort and symptom control during terminal care phase of non-small cell lung cancer.</li><li>Maintain pain at or below patient-acceptable level during terminal care.</li><li>Minimize shortness of breath to improve quality of life during terminal care.</li><li>Reduce anxiety to a manageable level during terminal care.</li><li>Ensure care is aligned with patient’s values and preferences, preserving dignity at end of life.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">06-Mar-2001</span></td><td>-</td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-07-21</th><th>2024-07-15</th></tr><tr><td>Body Height</td><td>171.8 cm</td><td>171.8 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>0 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>73 kg</td><td>73 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>24.7 kg/m2</td><td>24.7 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>63 mm[Hg]</td><td>57 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>89 mm[Hg]</td><td>85 mm[Hg]</td></tr><tr><td>Heart rate</td><td>92 /min</td><td>61 /min</td></tr><tr><td>Respiratory rate</td><td>15 /min</td><td>16 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:aa58c89d-f5e5-434b-8ced-a508503a0063"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>16-JUL-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Prostate specific Ag [Mass/volume] in Serum or Plasma</td><td>1.6</td><td>0 - 4</td><td>ng/mL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "custodian": {
+          "reference": "urn:uuid:1a2fc308-40de-4150-b5c3-aef406388277"
+        },
+        "date": "2025-07-16",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6930-366204-8"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "3efb9e82-fa26-572d-4d07-9c8c3a9fc1db"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Tapani"
+            ],
+            "family": "Hautala",
+            "text": "Tapani Hautala"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Yrjönkatu 9"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "07170",
+            "city": "Pornainen",
+            "country": "Finland"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+358 01 2472690"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FI",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Tapani Hautala</td><td>male</td><td>14-May-1952</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1952-05-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "14afc736-2bdb-4a97-955a-2e37b5489b23",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 14afc736-2bdb-4a97-955a-2e37b5489b23</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:99bc4c80-f850-489f-990b-ac618f973ddd"
+        },
+        "organization": {
+          "reference": "urn:uuid:1a2fc308-40de-4150-b5c3-aef406388277"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a2fc308-40de-4150-b5c3-aef406388277",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "1a2fc308-40de-4150-b5c3-aef406388277",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "73a52484-3edf-4bc1-8bac-de5b5ce31e6a"
+          }
+        ],
+        "address": [
+          {
+            "country": "Finland"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Työterveysasema</table></div>"
+        },
+        "name": "Työterveysasema"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:99bc4c80-f850-489f-990b-ac618f973ddd",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "99bc4c80-f850-489f-990b-ac618f973ddd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4dc2c17e-7614-4e9f-835b-0e66bd8dc6aa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4dc2c17e-7614-4e9f-835b-0e66bd8dc6aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "254637007",
+              "system": "http://snomed.info/sct",
+              "display": "Non-small cell lung cancer (disorder)"
+            }
+          ],
+          "text": "Non-small cell lung cancer"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Non-small cell lung cancer</td><td><span class=\"nb\">29-May-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-05-29",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ce8a07d8-64a2-438b-8635-f27060e08369",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ce8a07d8-64a2-438b-8635-f27060e08369",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">29-Jun-2021</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-06-29",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:64c08d39-fc7f-4e37-8a7f-31105f621728",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "64c08d39-fc7f-4e37-8a7f-31105f621728",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "33737001",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of rib (disorder)"
+            }
+          ],
+          "text": "Fracture of rib"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of rib</span></td><td><span class=\"nb\">27-Oct-2024 - 18-Dec-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-27",
+        "abatementDateTime": "2024-12-18",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d60c220f-ba25-4713-a1a4-a87c1908f93f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d60c220f-ba25-4713-a1a4-a87c1908f93f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">27-Oct-2024 - 18-Dec-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-27",
+        "abatementDateTime": "2024-12-18",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:413ac06b-9ce5-4409-974c-9caf360efc0c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "413ac06b-9ce5-4409-974c-9caf360efc0c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">21-Nov-2022 - 02-Dec-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-11-21",
+        "abatementDateTime": "2022-12-02",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:76430f31-d039-400e-bc63-70dfcab81898",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "76430f31-d039-400e-bc63-70dfcab81898",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">16-May-2021 - 27-May-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-05-16",
+        "abatementDateTime": "2021-05-27",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a89cfe1-bbaa-44e2-94a2-102a6e1228e6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7a89cfe1-bbaa-44e2-94a2-102a6e1228e6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "39848009",
+              "system": "http://snomed.info/sct",
+              "display": "Whiplash injury to neck (disorder)"
+            }
+          ],
+          "text": "Whiplash injury to neck"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Whiplash injury to neck</span></td><td><span class=\"nb\">28-Nov-2018 - 14-Jan-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-11-28",
+        "abatementDateTime": "2019-01-14",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ee359ca-2da3-4bfa-a05f-b6725906a39a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8ee359ca-2da3-4bfa-a05f-b6725906a39a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90460009",
+              "system": "http://snomed.info/sct",
+              "display": "Injury of neck (disorder)"
+            }
+          ],
+          "text": "Injury of neck"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Injury of neck</span></td><td><span class=\"nb\">28-Nov-2018 - 14-Jan-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-11-28",
+        "abatementDateTime": "2019-01-14",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "asserter": {
+          "reference": "urn:uuid:14afc736-2bdb-4a97-955a-2e37b5489b23",
+          "display": "Työterveysasema"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c1b4ce3c-4718-4f36-ada4-4d1017680e13",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "c1b4ce3c-4718-4f36-ada4-4d1017680e13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:208b3fa3-88f0-4081-a613-981f4a3cdf78",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "208b3fa3-88f0-4081-a613-981f4a3cdf78",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">21-Jul-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "occurrenceDateTime": "2025-07-21",
+        "lotNumber": "DR-mQDyot",
+        "expirationDate": "2026-02-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00b3ab65-dc78-49bc-be92-bcc0c5391149",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "00b3ab65-dc78-49bc-be92-bcc0c5391149",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">28-Jun-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "occurrenceDateTime": "2021-06-28",
+        "lotNumber": "TF-tmU7",
+        "expirationDate": "2021-12-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6460e11d-f6d8-4d35-9c0f-d2455b8d04a7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "6460e11d-f6d8-4d35-9c0f-d2455b8d04a7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "occurrenceDateTime": "2021-04-12",
+        "lotNumber": "TR-26hh73ovG",
+        "expirationDate": "2022-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dee6d083-23dd-474b-9e70-6913887c79c4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "dee6d083-23dd-474b-9e70-6913887c79c4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1252709000",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Streptococcus pneumoniae capsular polysaccharide antigens conjugated"
+            },
+            {
+              "code": "J07AL01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Pneumococcal polysaccharide vaccines"
+            }
+          ],
+          "text": "Streptococcus pneumoniae Danish serotype 1"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Streptococcus pneumoniae Danish serotype 1</td><td><span class=\"nb\">30-May-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "occurrenceDateTime": "2016-05-30",
+        "lotNumber": "LY-jec6YSu",
+        "expirationDate": "2017-03-01"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c8206e43-b713-41ce-b4fa-3cdfb3a7c618",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c8206e43-b713-41ce-b4fa-3cdfb3a7c618",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410006001",
+              "system": "http://snomed.info/sct",
+              "display": "Digital examination of rectum"
+            }
+          ],
+          "text": "Digital examination of rectum"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Digital examination of rectum</td><td><span class=\"nb\">16-Jul-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-07-16",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c388b76-6b1f-4844-ba0a-fdfc473963be",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0c388b76-6b1f-4844-ba0a-fdfc473963be",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "703423002",
+              "system": "http://snomed.info/sct",
+              "display": "Combined chemotherapy and radiation therapy (procedure)"
+            }
+          ],
+          "text": "Combined chemotherapy and radiation therapy"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "424132000",
+                "system": "http://snomed.info/sct",
+                "display": "Non-small cell carcinoma of lung  TNM stage 1 (disorder)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Combined chemotherapy and radiation therapy</td><td><span class=\"nb\">30-Jun-2025</span></td><td>Non-small cell carcinoma of lung TNM stage 1 (disorder)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-06-30",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5082a5c1-29aa-4786-8366-466592484bab",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5082a5c1-29aa-4786-8366-466592484bab",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">02-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-02",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8a8a448d-623b-4e4f-908a-a940efcc8314",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8a8a448d-623b-4e4f-908a-a940efcc8314",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "385763009",
+              "system": "http://snomed.info/sct",
+              "display": "Hospice care (regime/therapy)"
+            }
+          ],
+          "text": "Hospice care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hospice care</td><td><span class=\"nb\">01-May-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-05-01",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ec5b341-11ed-47cc-ab84-ed82d951aa8c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9ec5b341-11ed-47cc-ab84-ed82d951aa8c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "185087000",
+              "system": "http://snomed.info/sct",
+              "display": "Notifications (procedure)"
+            }
+          ],
+          "text": "Notifications"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notifications</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-03-04",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9467ec6-b384-4d83-b5f8-d52967c15aa3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e9467ec6-b384-4d83-b5f8-d52967c15aa3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "310417005",
+              "system": "http://snomed.info/sct",
+              "display": "Certification procedure (procedure)"
+            }
+          ],
+          "text": "Certification procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Certification procedure</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-03-04",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1d643c74-d61b-40ae-ae8c-e587636e7e73",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1d643c74-d61b-40ae-ae8c-e587636e7e73",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-03-04",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dc039fca-7a08-4f48-a84d-2defd3da04e9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "dc039fca-7a08-4f48-a84d-2defd3da04e9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">04-Mar-2025</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-03-04",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a63cd669-8eab-4ce9-829c-012f74c54c4d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a63cd669-8eab-4ce9-829c-012f74c54c4d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "274474001",
+              "system": "http://snomed.info/sct",
+              "display": "Bone immobilization"
+            }
+          ],
+          "text": "Bone immobilization"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "33737001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of rib"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone immobilization</td><td><span class=\"nb\">27-Oct-2024</span></td><td>Fracture of rib</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-27",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:84657c27-8342-4d46-bb2f-f285d4475758",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "84657c27-8342-4d46-bb2f-f285d4475758",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "312681000",
+              "system": "http://snomed.info/sct",
+              "display": "Bone density scan (procedure)"
+            }
+          ],
+          "text": "Bone density scan"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "33737001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of rib"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone density scan</td><td><span class=\"nb\">27-Oct-2024</span></td><td>Fracture of rib</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-27",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e66cee43-8bda-4545-8ea8-af768365099a",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e66cee43-8bda-4545-8ea8-af768365099a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "399208008",
+              "system": "http://snomed.info/sct",
+              "display": "Chest X-ray"
+            }
+          ],
+          "text": "Plain X-ray of chest"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">27-Oct-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-27",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:37394ade-3941-4de0-9940-1b1df3d0db62",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "37394ade-3941-4de0-9940-1b1df3d0db62",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">23-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-12-23",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14da55c7-facd-43a8-90ab-836f89ba8bd9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "14da55c7-facd-43a8-90ab-836f89ba8bd9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">23-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-12-23",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2c51ea24-0b3d-4506-8948-05662a85260f",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2c51ea24-0b3d-4506-8948-05662a85260f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "409023009",
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">22-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-12-22",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e3dd878-d101-4d74-834b-2693b51ee1bd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5e3dd878-d101-4d74-834b-2693b51ee1bd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">22-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-12-22",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:826b1576-ec38-419e-98df-7d31ad974770",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "826b1576-ec38-419e-98df-7d31ad974770",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84478008",
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Occupational therapy</td><td><span class=\"nb\">01-Dec-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-12-01",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:677e9fb0-809b-4f22-8ab6-fcd95b722013",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "677e9fb0-809b-4f22-8ab6-fcd95b722013",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">28-Nov-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-11-28",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf694cf7-182c-4893-b0d9-590e062e47ab",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "cf694cf7-182c-4893-b0d9-590e062e47ab",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8e33ecb9-6adb-4f8e-8262-fa249329dbdd",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "8e33ecb9-6adb-4f8e-8262-fa249329dbdd",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "182964004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Terminal care (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "424132000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Non-small cell carcinoma of lung  TNM stage 1 (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Terminal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2024-05-31"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:7e1ca28e-bc8a-4024-a4d0-87e8769146cd"
+          },
+          {
+            "reference": "urn:uuid:ae45dfc7-5b1a-45aa-958f-499941eecd6d"
+          },
+          {
+            "reference": "urn:uuid:9319e7ec-6ea4-4783-9880-9b5575ddacf3"
+          },
+          {
+            "reference": "urn:uuid:a7e34c96-d368-41f5-a94c-881131133902"
+          },
+          {
+            "reference": "urn:uuid:f3817100-d8ce-4153-ba7e-539b06429043"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Terminal care</td><td><span class=\"nb\">31-May-2024</span></td><td>Non-small cell carcinoma of lung TNM stage 1 (disorder)</td></tr><tr><td><ul><li>Ensure patient comfort and symptom control during terminal care phase of non-small cell lung cancer.</li><li>Maintain pain at or below patient-acceptable level during terminal care.</li><li>Minimize shortness of breath to improve quality of life during terminal care.</li><li>Reduce anxiety to a manageable level during terminal care.</li><li>Ensure care is aligned with patient’s values and preferences, preserving dignity at end of life.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:255619d1-6d94-4b35-b4d1-ab18bc204c29",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "255619d1-6d94-4b35-b4d1-ab18bc204c29",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2001-03-06"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">06-Mar-2001</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1d547f6-6a37-4371-a481-9b020f8b93c3",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "f1d547f6-6a37-4371-a481-9b020f8b93c3",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa58c89d-f5e5-434b-8ced-a508503a0063",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa58c89d-f5e5-434b-8ced-a508503a0063",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 171.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>21-Jul-2025</td><td>171.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:17627484-cabf-428b-9733-9fc82d614425",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "17627484-cabf-428b-9733-9fc82d614425",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>21-Jul-2025</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cac94367-ca5a-43f8-9905-002bd69b0985",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cac94367-ca5a-43f8-9905-002bd69b0985",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>21-Jul-2025</td><td>73 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a90fb4a6-53a9-44a4-88cf-aef251a5571c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a90fb4a6-53a9-44a4-88cf-aef251a5571c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 24.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>21-Jul-2025</td><td>24.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7dbe407-04de-4993-896a-763f5efb59d2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e7dbe407-04de-4993-896a-763f5efb59d2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 63,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>21-Jul-2025</td><td>63 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc3de798-7bbf-45eb-9bc0-c640c0c05c8f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cc3de798-7bbf-45eb-9bc0-c640c0c05c8f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 89,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>21-Jul-2025</td><td>89 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:812a36e1-3de1-4456-bd74-c5abfb97dcfe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "812a36e1-3de1-4456-bd74-c5abfb97dcfe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 92,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>21-Jul-2025</td><td>92 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2177ff4d-faf8-4690-a88d-18fb7da63314",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2177ff4d-faf8-4690-a88d-18fb7da63314",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>21-Jul-2025</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b78370d8-2b2e-4441-9cc2-fec72d60e44c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b78370d8-2b2e-4441-9cc2-fec72d60e44c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 171.8,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>15-Jul-2024</td><td>171.8 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6f366846-7855-47bb-a4e6-33129d92015f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6f366846-7855-47bb-a4e6-33129d92015f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>15-Jul-2024</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba29ca6a-d1c1-4087-afb3-457f6dab3dd0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ba29ca6a-d1c1-4087-afb3-457f6dab3dd0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>15-Jul-2024</td><td>73 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3cfd670c-1895-4371-a9bb-da046cdfddfb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3cfd670c-1895-4371-a9bb-da046cdfddfb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 24.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>15-Jul-2024</td><td>24.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40353392-db51-4ea2-b2d0-75d3fc966623",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "40353392-db51-4ea2-b2d0-75d3fc966623",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 57,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>15-Jul-2024</td><td>57 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60038ced-308d-4245-9f8b-eccc8bc444ba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "60038ced-308d-4245-9f8b-eccc8bc444ba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 85,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>15-Jul-2024</td><td>85 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:674014e7-82cf-4d58-8c65-dd8900d493c8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "674014e7-82cf-4d58-8c65-dd8900d493c8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 61,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>15-Jul-2024</td><td>61 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93e667ac-b2c0-4bca-9e33-3663e7b1ae8a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "93e667ac-b2c0-4bca-9e33-3663e7b1ae8a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 16,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>15-Jul-2024</td><td>16 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2024-07-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:167cf4b3-8229-4645-beb0-9212e86e5b8d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "167cf4b3-8229-4645-beb0-9212e86e5b8d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2857-1",
+              "system": "http://loinc.org",
+              "display": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Prostate specific Ag [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 1.6,
+          "unit": "ng/mL",
+          "code": "ng/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 4,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Prostate specific Ag [Mass/volume] in Serum or Plasma</td><td>1.6</td><td>0 - 4</td><td></td><td>ng/mL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:0c5efaa2-5998-40b3-ae93-1842b0bbdb88",
+          "display": "Tapani Hautala"
+        },
+        "effectiveDateTime": "2025-07-16T00:01:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b297617f-2fa4-4205-b388-63724a3af799",
+      "resource": {
+        "resourceType": "Device",
+        "id": "b297617f-2fa4-4205-b388-63724a3af799",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cfaa0d3c-9974-4472-a8b8-4e5d40574d5d",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "cfaa0d3c-9974-4472-a8b8-4e5d40574d5d",
+        "target": [
+          {
+            "reference": "Patient/0c5efaa2-5998-40b3-ae93-1842b0bbdb88"
+          },
+          {
+            "reference": "Bundle/6b45c60b-cb9f-46ae-9e7b-670db5041606"
+          },
+          {
+            "reference": "Composition/886b1b51-4f7d-4e91-a596-df9131bc3897"
+          },
+          {
+            "reference": "PractitionerRole/14afc736-2bdb-4a97-955a-2e37b5489b23"
+          },
+          {
+            "reference": "Organization/1a2fc308-40de-4150-b5c3-aef406388277"
+          },
+          {
+            "reference": "Practitioner/99bc4c80-f850-489f-990b-ac618f973ddd"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/b297617f-2fa4-4205-b388-63724a3af799"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-07-16T00:01:20Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-07-16T00:01:20Z"
+}

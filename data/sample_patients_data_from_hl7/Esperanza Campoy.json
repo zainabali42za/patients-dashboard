@@ -1,0 +1,5390 @@
+{
+  "resourceType": "Bundle",
+  "id": "e1d82759-7d38-4082-838e-adea3081df74",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "5225174d-aeeb-48b7-a1fa-e2a31c2b84a0"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:e4dd628a-ade3-4835-a06e-7a99e92529ea",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "e4dd628a-ade3-4835-a06e-7a99e92529ea",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "8f95d5df-e257-4fd9-ad43-4e9f853850bf"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Nov-2018</span></td><td>active</td></tr><tr><td>Atrial fibrillation</td><td><span class=\"nb\">24-May-2016</span></td><td>active</td></tr><tr><td>Osteoporosis</td><td><span class=\"nb\">01-Dec-2015</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">25-Nov-2014</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">27-Oct-2009</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">17-Sep-2002</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">31-Aug-1999</span></td><td>active</td></tr><tr><td>Hypertriglyceridemia</td><td><span class=\"nb\">31-Aug-1999</span></td><td>active</td></tr><tr><td>Type 2 diabetes mellitus</td><td><span class=\"nb\">25-Aug-1998</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">25-Aug-1998</span></td><td>active</td></tr><tr><td>Hyperlipidemia</td><td><span class=\"nb\">19-Aug-1997</span></td><td>active</td></tr><tr><td>Impacted molars</td><td><span class=\"nb\">02-Apr-1995</span></td><td>active</td></tr><tr><td>Sleep apnea</td><td><span class=\"nb\">17-Jun-1993</span></td><td>active</td></tr><tr><td>Sleep disorder</td><td><span class=\"nb\">27-May-1993</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">29-Aug-1972</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">26-Aug-1969</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:71dc1869-ae3e-47f6-ba25-533ea3fc6e70"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:48849caa-2983-44ed-8e8c-a4dcef965306"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">21-Jan-2025</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">02-Mar-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">15-Nov-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b53bf82c-7729-4cbe-9bda-27a6ccd2dba4"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">11-Aug-2024</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">11-Aug-2024</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">10-Aug-2024</span></td><td>-</td></tr><tr><td>Physical therapy procedure</td><td><span class=\"nb\">09-Aug-2024</span></td><td>-</td></tr><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">08-Aug-2024</span></td><td>-</td></tr><tr><td>Occupational therapy</td><td><span class=\"nb\">31-Jul-2024</span></td><td>-</td></tr><tr><td>Radiography of ankle</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr><tr><td>Bone immobilization</td><td><span class=\"nb\">27-Jul-2024</span></td><td>Fracture of ankle</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr><tr><td>Transplantation of kidney regime</td><td><span class=\"nb\">23-Mar-2023</span></td><td>History of renal transplant (situation)</td></tr><tr><td>Transplant of kidney</td><td><span class=\"nb\">14-Mar-2023</span></td><td>Awaiting transplantation of kidney (situation)</td></tr><tr><td>Pretransplant evaluation of kidney recipient</td><td><span class=\"nb\">14-Mar-2023</span></td><td>Awaiting transplantation of kidney (situation)</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr><tr><td>Screening for drug abuse</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr><tr><td>Suture open wound</td><td><span class=\"nb\">01-May-2017</span></td><td>Laceration of foot</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:67f7df93-29be-4f4e-bb4e-bbaed1c7e0bc"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:55345b0c-9c67-4e47-9994-9f8726f8cfd1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">17-Dec-2021</span></td><td>-</td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">31-Aug-1999</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of hypertension, its risks, and recommended lifestyle modifications including diet, exercise, and medication adherence.</li><li>Maintain systolic blood pressure below 130 mm[Hg].</li><li>Maintain diastolic blood pressure below 80 mm[Hg].</li></ul></td><td></td><td></td></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">09-Sep-1997</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve LDL cholesterol below 70 mg/dL to reduce cardiovascular risk.</li><li>Achieve triglycerides below 150 mg/dL.</li><li>Maintain HDL cholesterol above 50 mg/dL.</li><li>Maintain total cholesterol below 200 mg/dL.</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">17-Jun-1993</span></td><td>Sleep apnea (disorder)</td></tr><tr><td><ul><li>Reduce the Apnea-Hypopnea Index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Improve subjective sleep quality as reported by the patient using a validated sleep quality scale.</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">26-Aug-1969</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan to improve glycemic control and reduce risk of diabetes complications.</li><li>Achieve and maintain HbA1c below 7.0% through lifestyle modification and self-management.</li><li>Maintain fasting plasma glucose between 80 and 130 mg/dL.</li><li>Achieve and maintain a healthy weight as part of diabetes self-management plan.</li></ul></td><td></td><td></td></tr><tr><td>Weight management program</td><td><span class=\"nb\">12-Jul-1949</span></td><td>-</td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-01-21</th><th>2024-01-16</th></tr><tr><td>Body Height</td><td>173.4 cm</td><td>173.4 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>85.2 kg</td><td>85.2 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>28.3 kg/m2</td><td>28.3 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>83 mm[Hg]</td><td>82 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>114 mm[Hg]</td><td>123 mm[Hg]</td></tr><tr><td>Heart rate</td><td>98 /min</td><td>86 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>13 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:7c0c8257-04f4-4690-9312-e202573efbb2"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>28-JAN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Glucose [Mass/volume] in Blood</td><td>117.4</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td><strong>3.3 H</strong></td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.5</td><td>8.5 - 10.4</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.9</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>5.0</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>102.2</td><td>98 - 108</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>24.1</td><td>22 - 29</td><td>mmol/L</td></tr><tr><td>Protein [Mass/volume] in Serum or Plasma</td><td>6.9</td><td>6 - 8.2</td><td>g/dL</td></tr><tr><td>Albumin [Mass/volume] in Serum or Plasma</td><td><strong>5.2 H</strong></td><td>3.5 - 5</td><td>g/dL</td></tr><tr><td>Globulin [Mass/volume] in Serum by calculation</td><td>2.5</td><td>2 - 4</td><td>g/L</td></tr><tr><td>Bilirubin.total [Mass/volume] in Serum or Plasma</td><td>0.4</td><td>0.3 - 1.2</td><td>mg/dL</td></tr><tr><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td><td>92.3</td><td>39 - 141</td><td>U/L</td></tr><tr><td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td><strong>41.6 H</strong></td><td>6 - 33</td><td>U/L</td></tr><tr><td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>19.9</td><td>10 - 31</td><td>U/L</td></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>165.3</td><td>0 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td><strong>181.8 H</strong></td><td>10 - 175</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td><strong>147.2 H</strong></td><td>50 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td><strong>32.0 L</strong></td><td>50 - 100</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home continuous positive airway pressure unit (physical object)</td><td><span class=\"nb\">21-Jan-2025</span></td></tr><tr><td>Respiratory humidifier (physical object)</td><td><span class=\"nb\">21-Jan-2025</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">26-Aug-1969</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:442c4a87-b5ac-4f50-9cef-75eca662c6e4"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "custodian": {
+          "reference": "urn:uuid:6b7db9c1-6889-471f-ac29-7d8e971bdd64"
+        },
+        "date": "2025-01-28",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "4774-795489-0"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "6b253127-02f9-b0ed-c393-d91140a35daf"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Esperanza"
+            ],
+            "family": "Campoy",
+            "text": "Esperanza Campoy"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Glorieta Teresa Jordán 72 Apt. 58 "
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "01001",
+            "city": "Álava",
+            "country": "Spain"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+34979 62 76 95"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "ES",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Esperanza Campoy</td><td>female</td><td>13-Feb-1938</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1938-02-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 2fc34534-2c27-44a0-a7e3-a8fcab29ef07</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:0d52ed80-c37c-4b58-b128-88fff635be34"
+        },
+        "organization": {
+          "reference": "urn:uuid:6b7db9c1-6889-471f-ac29-7d8e971bdd64"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b7db9c1-6889-471f-ac29-7d8e971bdd64",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "6b7db9c1-6889-471f-ac29-7d8e971bdd64",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "52916005-b586-4ffb-b4f9-5c848daf8eb4"
+          }
+        ],
+        "address": [
+          {
+            "city": "Gasteiz",
+            "postalCode": "01003",
+            "country": "Spain"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Santiago Ospitalea/Hospital de Santiago</table></div>"
+        },
+        "name": "Santiago Ospitalea/Hospital de Santiago"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d52ed80-c37c-4b58-b128-88fff635be34",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0d52ed80-c37c-4b58-b128-88fff635be34",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:71dc1869-ae3e-47f6-ba25-533ea3fc6e70",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "71dc1869-ae3e-47f6-ba25-533ea3fc6e70",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "157141000119108",
+              "system": "http://snomed.info/sct",
+              "display": "Proteinuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Proteinuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Proteinuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Nov-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-11-06",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af1bebe5-1af8-4052-9ea2-e77e05e1d3c2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "af1bebe5-1af8-4052-9ea2-e77e05e1d3c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49436004",
+              "system": "http://snomed.info/sct",
+              "display": "Atrial fibrillation (disorder)"
+            }
+          ],
+          "text": "Atrial fibrillation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Atrial fibrillation</td><td><span class=\"nb\">24-May-2016</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-05-24",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e03cd6fe-d109-4176-8978-d39ba46c41e1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e03cd6fe-d109-4176-8978-d39ba46c41e1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "64859006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporosis (disorder)"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoporosis</td><td><span class=\"nb\">01-Dec-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-12-01",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6172bbf5-ce63-4ea8-87c7-93be54af9dce",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "6172bbf5-ce63-4ea8-87c7-93be54af9dce",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">25-Nov-2014</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-11-25",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2400ab74-c022-41dc-abc7-ce9575b85f75",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2400ab74-c022-41dc-abc7-ce9575b85f75",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">27-Oct-2009</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2009-10-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92ab9d64-3cf4-49fc-9fdc-cb8677bf124a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "92ab9d64-3cf4-49fc-9fdc-cb8677bf124a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">17-Sep-2002</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2002-09-17",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:93845d8f-3c72-40da-8123-64d2f9868933",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "93845d8f-3c72-40da-8123-64d2f9868933",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">31-Aug-1999</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1999-08-31",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78e87329-0528-4647-ac0d-0fe5085cb608",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "78e87329-0528-4647-ac0d-0fe5085cb608",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "302870006",
+              "system": "http://snomed.info/sct",
+              "display": "Hypertriglyceridemia (disorder)"
+            }
+          ],
+          "text": "Hypertriglyceridemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hypertriglyceridemia</td><td><span class=\"nb\">31-Aug-1999</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1999-08-31",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6c62247-20a6-4d06-a5fa-927bca267747",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e6c62247-20a6-4d06-a5fa-927bca267747",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "44054006",
+              "system": "http://snomed.info/sct",
+              "display": "Diabetes mellitus type 2 (disorder)"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Type 2 diabetes mellitus</td><td><span class=\"nb\">25-Aug-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-08-25",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0ef065a5-9d25-4836-93cf-98154d3ebc73",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0ef065a5-9d25-4836-93cf-98154d3ebc73",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">25-Aug-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-08-25",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01e99cca-8e9d-4127-85f9-82de204f9ab4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "01e99cca-8e9d-4127-85f9-82de204f9ab4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55822004",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperlipidemia (disorder)"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hyperlipidemia</td><td><span class=\"nb\">19-Aug-1997</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1997-08-19",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de62069b-f4ce-440e-b1f0-50932f9c96c9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "de62069b-f4ce-440e-b1f0-50932f9c96c9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "196416002",
+              "system": "http://snomed.info/sct",
+              "display": "Impacted molars (disorder)"
+            }
+          ],
+          "text": "Impacted molars"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Impacted molars</td><td><span class=\"nb\">02-Apr-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-04-02",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:421eb2bf-6849-48e8-b387-323453c5b18b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "421eb2bf-6849-48e8-b387-323453c5b18b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "73430006",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep apnea (disorder)"
+            }
+          ],
+          "text": "Sleep apnea"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep apnea</td><td><span class=\"nb\">17-Jun-1993</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1993-06-17",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e119464-e94e-42f1-9a78-1b982167a17d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2e119464-e94e-42f1-9a78-1b982167a17d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "39898005",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep disorder (disorder)"
+            }
+          ],
+          "text": "Sleep disorder"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep disorder</td><td><span class=\"nb\">27-May-1993</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1993-05-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:074c89f9-0ec6-4b2b-a531-9d4b461d095d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "074c89f9-0ec6-4b2b-a531-9d4b461d095d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">29-Aug-1972</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1972-08-29",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bbadab9b-55cb-43c8-9ac3-9011313c132b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bbadab9b-55cb-43c8-9ac3-9011313c132b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">26-Aug-1969</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1969-08-26",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e3eed81-7222-4d4b-a984-7b5cf7cafad4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0e3eed81-7222-4d4b-a984-7b5cf7cafad4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "16114001",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of ankle (disorder)"
+            }
+          ],
+          "text": "Fracture of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of ankle</span></td><td><span class=\"nb\">27-Jul-2024 - 28-Oct-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-07-27",
+        "abatementDateTime": "2024-10-28",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f4b8e38-6f4f-434e-bbfa-c87ba6918c5f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4f4b8e38-6f4f-434e-bbfa-c87ba6918c5f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">27-Jul-2024 - 28-Oct-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-07-27",
+        "abatementDateTime": "2024-10-28",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9aec3a4c-bb09-4d72-8da5-3802582bca10",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9aec3a4c-bb09-4d72-8da5-3802582bca10",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "443165006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporotic fracture of bone (disorder)"
+            }
+          ],
+          "text": "Osteoporotic fracture"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Osteoporotic fracture</span></td><td><span class=\"nb\">27-Jul-2024 - 28-Oct-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-07-27",
+        "abatementDateTime": "2024-10-28",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08050083-51cc-465f-a594-d352fed51ab4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "08050083-51cc-465f-a594-d352fed51ab4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431857002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 4 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Chronic kidney disease stage 4</span></td><td><span class=\"nb\">04-Jan-2022 - 14-Mar-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-01-04",
+        "abatementDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2135546f-d33d-4425-9c76-4796b4e009fa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2135546f-d33d-4425-9c76-4796b4e009fa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "433144002",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 3 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Chronic kidney disease stage 3</span></td><td><span class=\"nb\">06-Nov-2018 - 14-Mar-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-11-06",
+        "abatementDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b86ff64-98af-41be-854e-f9cfd57e0803",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1b86ff64-98af-41be-854e-f9cfd57e0803",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "284551006",
+              "system": "http://snomed.info/sct",
+              "display": "Laceration of foot (disorder)"
+            }
+          ],
+          "text": "Laceration of foot"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Laceration of foot</span></td><td><span class=\"nb\">01-May-2017 - 15-May-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-05-01",
+        "abatementDateTime": "2017-05-15",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ebf4f175-379a-4ff1-8ffd-22e34ab78128",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ebf4f175-379a-4ff1-8ffd-22e34ab78128",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "312608009",
+              "system": "http://snomed.info/sct",
+              "display": "Laceration - injury (disorder)"
+            }
+          ],
+          "text": "Laceration - injury"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Laceration - injury</span></td><td><span class=\"nb\">01-May-2017 - 15-May-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-05-01",
+        "abatementDateTime": "2017-05-15",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf3f7db9-c57b-4cb0-95fa-91ddd8568e14",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cf3f7db9-c57b-4cb0-95fa-91ddd8568e14",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Chronic kidney disease stage 2</span></td><td><span class=\"nb\">25-Nov-2014 - 14-Mar-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2014-11-25",
+        "abatementDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:07fb0c42-d3e9-4c68-a1d3-6eb9de76f28a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "07fb0c42-d3e9-4c68-a1d3-6eb9de76f28a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431855005",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 1 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Chronic kidney disease stage 1</span></td><td><span class=\"nb\">17-Sep-2002 - 14-Mar-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2002-09-17",
+        "abatementDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fc34534-2c27-44a0-a7e3-a8fcab29ef07",
+          "display": "Santiago Ospitalea/Hospital de Santiago"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:48849caa-2983-44ed-8e8c-a4dcef965306",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "48849caa-2983-44ed-8e8c-a4dcef965306",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b53bf82c-7729-4cbe-9bda-27a6ccd2dba4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b53bf82c-7729-4cbe-9bda-27a6ccd2dba4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">21-Jan-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "occurrenceDateTime": "2025-01-21",
+        "lotNumber": "AK-oFaqjk",
+        "expirationDate": "2025-05-15"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ab23236-d5bf-4848-949d-e7d2bbe3216a",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2ab23236-d5bf-4848-949d-e7d2bbe3216a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">02-Mar-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "occurrenceDateTime": "2021-03-02",
+        "lotNumber": "YN-IIexivS",
+        "expirationDate": "2021-05-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bfef9af9-35c4-404d-b882-0be6853cc1c8",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "bfef9af9-35c4-404d-b882-0be6853cc1c8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">15-Nov-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "occurrenceDateTime": "2016-11-15",
+        "lotNumber": "QR-gGGv4",
+        "expirationDate": "2017-09-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:67f7df93-29be-4f4e-bb4e-bbaed1c7e0bc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "67f7df93-29be-4f4e-bb4e-bbaed1c7e0bc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">11-Aug-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-08-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c0e122b-2950-465a-bc83-0091a778e6f0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8c0e122b-2950-465a-bc83-0091a778e6f0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">11-Aug-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-08-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa2b1ef4-f507-4bb0-a3d6-c46ce905a09d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "aa2b1ef4-f507-4bb0-a3d6-c46ce905a09d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">10-Aug-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-08-10",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:417735bd-76a1-45f3-825a-977133b23362",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "417735bd-76a1-45f3-825a-977133b23362",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "91251008",
+              "system": "http://snomed.info/sct",
+              "display": "Physical therapy procedure (regime/therapy)"
+            }
+          ],
+          "text": "Physical therapy procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Physical therapy procedure</td><td><span class=\"nb\">09-Aug-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-08-09",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:629c3cf3-9ce0-486e-9e3b-4add90e35811",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "629c3cf3-9ce0-486e-9e3b-4add90e35811",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "409023009",
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">08-Aug-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-08-08",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d0bf9351-f60c-4ac8-829b-0996ca058392",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d0bf9351-f60c-4ac8-829b-0996ca058392",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84478008",
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Occupational therapy</td><td><span class=\"nb\">31-Jul-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-31",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:28dce527-77d8-4078-bf90-23691794a981",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "28dce527-77d8-4078-bf90-23691794a981",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "19490002",
+              "system": "http://snomed.info/sct",
+              "display": "Ankle X-ray"
+            }
+          ],
+          "text": "Radiography of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiography of ankle</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27306291-594a-4293-9094-48930c5acfa7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "27306291-594a-4293-9094-48930c5acfa7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9fe72aad-d216-43c9-ba94-cdaba79eb0bd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9fe72aad-d216-43c9-ba94-cdaba79eb0bd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "274474001",
+              "system": "http://snomed.info/sct",
+              "display": "Bone immobilization"
+            }
+          ],
+          "text": "Bone immobilization"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "16114001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of ankle"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone immobilization</td><td><span class=\"nb\">27-Jul-2024</span></td><td>Fracture of ankle</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54fa06d3-8a39-4bd1-83e3-0e615b7099d8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "54fa06d3-8a39-4bd1-83e3-0e615b7099d8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ce58611-1e68-496f-a38f-b9fcc19294e8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7ce58611-1e68-496f-a38f-b9fcc19294e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">27-Jul-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-07-27",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ed46594-e215-4566-8a14-fe8748952ebd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4ed46594-e215-4566-8a14-fe8748952ebd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "711446003",
+              "system": "http://snomed.info/sct",
+              "display": "Transplantation of kidney regime (regime/therapy)"
+            }
+          ],
+          "text": "Transplantation of kidney regime"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "161665007",
+                "system": "http://snomed.info/sct",
+                "display": "History of renal transplant (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transplantation of kidney regime</td><td><span class=\"nb\">23-Mar-2023</span></td><td>History of renal transplant (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-03-23",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4d1ccacf-7a9c-44c0-bc91-bdc17be628f2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4d1ccacf-7a9c-44c0-bc91-bdc17be628f2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "70536003",
+              "system": "http://snomed.info/sct",
+              "display": "Transplant of kidney (procedure)"
+            }
+          ],
+          "text": "Transplant of kidney"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "698306007",
+                "system": "http://snomed.info/sct",
+                "display": "Awaiting transplantation of kidney (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transplant of kidney</td><td><span class=\"nb\">14-Mar-2023</span></td><td>Awaiting transplantation of kidney (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:02894df9-7ee5-416a-af45-85a41c373c4c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "02894df9-7ee5-416a-af45-85a41c373c4c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428830000",
+              "system": "http://snomed.info/sct",
+              "display": "Pretransplant evaluation of kidney recipient (procedure)"
+            }
+          ],
+          "text": "Pretransplant evaluation of kidney recipient"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "698306007",
+                "system": "http://snomed.info/sct",
+                "display": "Awaiting transplantation of kidney (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pretransplant evaluation of kidney recipient</td><td><span class=\"nb\">14-Mar-2023</span></td><td>Awaiting transplantation of kidney (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-03-14",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2854afe5-4b92-4bbf-8264-5849cbb84dcd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2854afe5-4b92-4bbf-8264-5849cbb84dcd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-09-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:96c1598b-af7b-42b8-8921-2a1736fce107",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "96c1598b-af7b-42b8-8921-2a1736fce107",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-09-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0484e688-610e-4bfb-9729-87a9dd4a9432",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0484e688-610e-4bfb-9729-87a9dd4a9432",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "713106006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for drug abuse</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-09-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c5f7e42-ace9-4eaa-bbd4-46ea4e174b9e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9c5f7e42-ace9-4eaa-bbd4-46ea4e174b9e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-09-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b3d5ea41-4a67-41f8-a3de-bc67b8816bfc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b3d5ea41-4a67-41f8-a3de-bc67b8816bfc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">11-Sep-2018</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2018-09-11",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72c98d0b-867b-414c-baa8-b77b6612bca2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "72c98d0b-867b-414c-baa8-b77b6612bca2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "288086009",
+              "system": "http://snomed.info/sct",
+              "display": "Suture open wound"
+            }
+          ],
+          "text": "Suture open wound"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "284551006",
+                "system": "http://snomed.info/sct",
+                "display": "Laceration of foot"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Suture open wound</td><td><span class=\"nb\">01-May-2017</span></td><td>Laceration of foot</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-05-01",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55345b0c-9c67-4e47-9994-9f8726f8cfd1",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "55345b0c-9c67-4e47-9994-9f8726f8cfd1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3673607c-6964-4146-a57a-5fadeee4aa5c",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "3673607c-6964-4146-a57a-5fadeee4aa5c",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736690008",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dialysis care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Dialysis care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-12-17"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dialysis care plan</td><td><span class=\"nb\">17-Dec-2021</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:381032c9-9bc7-4b25-a2fe-2c37effc7146",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "381032c9-9bc7-4b25-a2fe-2c37effc7146",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1999-08-31"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:ec0ae4d5-5490-4eae-8d2c-c4709c9f7983"
+          },
+          {
+            "reference": "urn:uuid:4f1f32da-9621-4768-afe6-520f81fb80a7"
+          },
+          {
+            "reference": "urn:uuid:33bb086a-28fb-4c6b-aa26-cf48bb0cd3d5"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">31-Aug-1999</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of hypertension, its risks, and recommended lifestyle modifications including diet, exercise, and medication adherence.</li><li>Maintain systolic blood pressure below 130 mm[Hg].</li><li>Maintain diastolic blood pressure below 80 mm[Hg].</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40c3e4bd-1898-4094-949f-d5eb54b1dab0",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "40c3e4bd-1898-4094-949f-d5eb54b1dab0",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736285004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Hyperlipidemia clinical management plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "55822004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Hyperlipidemia"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Hyperlipidemia clinical management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1997-09-09"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:4f5aa53c-d316-4979-a1b4-227700378a9d"
+          },
+          {
+            "reference": "urn:uuid:f5de202c-2de7-4e40-a295-047f2723f84d"
+          },
+          {
+            "reference": "urn:uuid:d39f3328-b708-4df2-ab77-f81f4c5ba05a"
+          },
+          {
+            "reference": "urn:uuid:6f3a3339-681b-479a-b19a-102671b3d179"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">09-Sep-1997</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve LDL cholesterol below 70 mg/dL to reduce cardiovascular risk.</li><li>Achieve triglycerides below 150 mg/dL.</li><li>Maintain HDL cholesterol above 50 mg/dL.</li><li>Maintain total cholesterol below 200 mg/dL.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bc363301-bd25-486a-9b83-5e5266e783d5",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "bc363301-bd25-486a-9b83-5e5266e783d5",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "73430006",
+                      "system": "http://snomed.info/sct",
+                      "display": "Sleep apnea (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1993-06-17"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:413ddea0-9b53-47a4-b506-73ce23fd92d6"
+          },
+          {
+            "reference": "urn:uuid:630dda4d-e8fc-4fa5-915a-3a1d74b3a830"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">17-Jun-1993</span></td><td>Sleep apnea (disorder)</td></tr><tr><td><ul><li>Reduce the Apnea-Hypopnea Index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Improve subjective sleep quality as reported by the patient using a validated sleep quality scale.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2855cbd-4c25-4ade-970e-5cc8fb0dedeb",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "e2855cbd-4c25-4ade-970e-5cc8fb0dedeb",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1969-08-26"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:4e9b0b7e-b293-4cd0-93bc-6f1dbee7845a"
+          },
+          {
+            "reference": "urn:uuid:82e3a832-0e6f-4406-b3ec-b2f2c6739eb0"
+          },
+          {
+            "reference": "urn:uuid:d555f2c5-95e0-4004-b167-1782f8d9b789"
+          },
+          {
+            "reference": "urn:uuid:442395f8-931d-44bd-a165-b8b43b6f7497"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">26-Aug-1969</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan to improve glycemic control and reduce risk of diabetes complications.</li><li>Achieve and maintain HbA1c below 7.0% through lifestyle modification and self-management.</li><li>Maintain fasting plasma glucose between 80 and 130 mg/dL.</li><li>Achieve and maintain a healthy weight as part of diabetes self-management plan.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ea47cab4-62da-420d-a5e4-7a05dd4b3f02",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ea47cab4-62da-420d-a5e4-7a05dd4b3f02",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "718361005",
+                    "system": "http://snomed.info/sct",
+                    "display": "Weight management program (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Weight management program",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1949-07-12"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Weight management program</td><td><span class=\"nb\">12-Jul-1949</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c05cbc1-2e95-4c79-a8f8-19a59fe41d11",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "0c05cbc1-2e95-4c79-a8f8-19a59fe41d11",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7c0c8257-04f4-4690-9312-e202573efbb2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7c0c8257-04f4-4690-9312-e202573efbb2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 173.4,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>21-Jan-2025</td><td>173.4 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:362dce0b-d26b-4286-adf7-12a6d3019211",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "362dce0b-d26b-4286-adf7-12a6d3019211",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>21-Jan-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:52529df2-0e2f-4a52-832b-b0f4776ce6da",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "52529df2-0e2f-4a52-832b-b0f4776ce6da",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 85.2,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>21-Jan-2025</td><td>85.2 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd778582-214b-4532-bac1-cee4757c1263",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dd778582-214b-4532-bac1-cee4757c1263",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>21-Jan-2025</td><td>28.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7b49aa45-d173-4f40-98e6-bc9b67006157",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7b49aa45-d173-4f40-98e6-bc9b67006157",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 83,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>21-Jan-2025</td><td>83 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1406840-92f1-47cc-ace4-1de82e286278",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f1406840-92f1-47cc-ace4-1de82e286278",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 114,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>21-Jan-2025</td><td>114 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad53cb32-7694-4b82-9ed4-fcd78819eb7e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ad53cb32-7694-4b82-9ed4-fcd78819eb7e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 98,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>21-Jan-2025</td><td>98 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae27d635-f0b9-4027-9797-17d0f4a481bc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ae27d635-f0b9-4027-9797-17d0f4a481bc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>21-Jan-2025</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf25feb8-be73-4457-bb4c-7b56f969cb38",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cf25feb8-be73-4457-bb4c-7b56f969cb38",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 173.4,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>16-Jan-2024</td><td>173.4 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0917423-c00a-4f46-afe7-fdff4fee7271",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c0917423-c00a-4f46-afe7-fdff4fee7271",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>16-Jan-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9c9fdc86-5ba6-4512-b17a-170eeda4c7c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9c9fdc86-5ba6-4512-b17a-170eeda4c7c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 85.2,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>16-Jan-2024</td><td>85.2 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e24855c8-99a6-4ebe-b2e3-2daebfff607e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e24855c8-99a6-4ebe-b2e3-2daebfff607e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>16-Jan-2024</td><td>28.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da78a22a-0d86-47c2-9b28-a4537126b760",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da78a22a-0d86-47c2-9b28-a4537126b760",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>16-Jan-2024</td><td>82 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ee4977d-da85-4ac0-bb39-6117cb99b8ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6ee4977d-da85-4ac0-bb39-6117cb99b8ae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 123,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>16-Jan-2024</td><td>123 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f7b9f33-9812-4f72-90a5-34bec275b38e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5f7b9f33-9812-4f72-90a5-34bec275b38e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>16-Jan-2024</td><td>86 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c6058e97-7d5a-4926-b9e0-b68ba198c777",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c6058e97-7d5a-4926-b9e0-b68ba198c777",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>16-Jan-2024</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2024-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:57068428-e072-44b5-acd1-1669754c7586",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "57068428-e072-44b5-acd1-1669754c7586",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 117.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>117.4</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63d965c4-018f-45c1-83c4-3015d43de771",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "63d965c4-018f-45c1-83c4-3015d43de771",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 19.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b38c983-acb7-40ac-9584-cd472d3233ae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6b38c983-acb7-40ac-9584-cd472d3233ae",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 3.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>3.3</td><td>0.6 - 1.1</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e93e5925-ae56-4af9-89bd-90817f62b22b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e93e5925-ae56-4af9-89bd-90817f62b22b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.5</td><td>8.5 - 10.4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4db43c74-7817-47ca-a414-fd2ff1f08074",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4db43c74-7817-47ca-a414-fd2ff1f08074",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 137.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>137.9</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5025ffa1-2866-4d94-a445-ed00b18dc9eb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5025ffa1-2866-4d94-a445-ed00b18dc9eb",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>5.0</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82c3794e-ab71-4bc1-8167-d3ff4f8c57f0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82c3794e-ab71-4bc1-8167-d3ff4f8c57f0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 102.2,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 108,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>102.2</td><td>98 - 108</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63a9e824-1c16-48a7-8982-6ed532ee25f2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "63a9e824-1c16-48a7-8982-6ed532ee25f2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 24.1,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>24.1</td><td>22 - 29</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2b52d34-167d-4199-a0f4-c7e0c9b07b8e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b2b52d34-167d-4199-a0f4-c7e0c9b07b8e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2885-2",
+              "system": "http://loinc.org",
+              "display": "Protein [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Protein [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.9,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 6,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 8.2,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Protein [Mass/volume] in Serum or Plasma</td><td>6.9</td><td>6 - 8.2</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e160326f-93ca-44c8-8273-48fac0c18a07",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e160326f-93ca-44c8-8273-48fac0c18a07",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1751-7",
+              "system": "http://loinc.org",
+              "display": "Albumin [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Albumin [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.2,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Albumin [Mass/volume] in Serum or Plasma</td><td>5.2</td><td>3.5 - 5</td><td>H</td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34f00699-c65c-4500-bd1c-dc48a8e61ba2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "34f00699-c65c-4500-bd1c-dc48a8e61ba2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "10834-0",
+              "system": "http://loinc.org",
+              "display": "Globulin [Mass/volume] in Serum by calculation"
+            }
+          ],
+          "text": "Globulin [Mass/volume] in Serum by calculation"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.5,
+          "unit": "g/L",
+          "code": "g/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 2,
+              "code": "g/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 4,
+              "code": "g/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Globulin [Mass/volume] in Serum by calculation</td><td>2.5</td><td>2 - 4</td><td></td><td>g/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9999f8db-433b-4bdc-bb11-6bde6176f613",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9999f8db-433b-4bdc-bb11-6bde6176f613",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1975-2",
+              "system": "http://loinc.org",
+              "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.2,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Bilirubin.total [Mass/volume] in Serum or Plasma</td><td>0.4</td><td>0.3 - 1.2</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d0ef963-af09-472e-ba03-ce9a6cede8e1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3d0ef963-af09-472e-ba03-ce9a6cede8e1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6768-6",
+              "system": "http://loinc.org",
+              "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 92.3,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 39,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 141,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma</td><td>92.3</td><td>39 - 141</td><td></td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:773d1027-1988-493d-99c0-2ec9a69ca4a4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "773d1027-1988-493d-99c0-2ec9a69ca4a4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1742-6",
+              "system": "http://loinc.org",
+              "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 41.6,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 6,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 33,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>41.6</td><td>6 - 33</td><td>H</td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d74dd952-1abf-43d8-836a-901b0e08b501",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d74dd952-1abf-43d8-836a-901b0e08b501",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "1920-8",
+              "system": "http://loinc.org",
+              "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 19.9,
+          "unit": "U/L",
+          "code": "U/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 10,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 31,
+              "code": "U/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma</td><td>19.9</td><td>10 - 31</td><td></td><td>U/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d8660722-a6a3-4c75-9614-ccb64abe4626",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d8660722-a6a3-4c75-9614-ccb64abe4626",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 165.3,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>165.3</td><td>0 - 200</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70ad24cb-9066-4103-95e9-dd49993e232f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "70ad24cb-9066-4103-95e9-dd49993e232f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 181.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 10,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 175,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>181.8</td><td>10 - 175</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:52aa163e-d14d-411c-8f31-96d395bb1ebc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "52aa163e-d14d-411c-8f31-96d395bb1ebc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 147.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 50,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>147.2</td><td>50 - 130</td><td>H</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f9c2e009-7c6d-4b03-b6b5-c6f31860bb56",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f9c2e009-7c6d-4b03-b6b5-c6f31860bb56",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 32,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 50,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Jan-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>32.0</td><td>50 - 100</td><td>L</td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "effectiveDateTime": "2025-01-28T08:28:57Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:442c4a87-b5ac-4f50-9cef-75eca662c6e4",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "442c4a87-b5ac-4f50-9cef-75eca662c6e4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2025-01-21"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home continuous positive airway pressure unit (physical object)</td><td><span class=\"nb\">21-Jan-2025</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:948e21d3-0500-4bc2-932a-bc6a334c7e49",
+          "display": "Home continuous positive airway pressure unit (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:948e21d3-0500-4bc2-932a-bc6a334c7e49",
+      "resource": {
+        "resourceType": "Device",
+        "id": "948e21d3-0500-4bc2-932a-bc6a334c7e49",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)90710700427509(11)251231(17)500115(10)6068287258275113(21)107593580852890"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "702172008",
+              "system": "http://snomed.info/sct",
+              "display": "Home continuous positive airway pressure unit (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:897daa95-f525-43ad-9a65-39cfb5cb4083",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "897daa95-f525-43ad-9a65-39cfb5cb4083",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2025-01-21"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Respiratory humidifier (physical object)</td><td><span class=\"nb\">21-Jan-2025</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:72fd8de5-8d92-458c-9b2a-bb373b098045",
+          "display": "Respiratory humidifier (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72fd8de5-8d92-458c-9b2a-bb373b098045",
+      "resource": {
+        "resourceType": "Device",
+        "id": "72fd8de5-8d92-458c-9b2a-bb373b098045",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)41234200661527(11)251231(17)500115(10)1524339925741661350(21)30677668"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "706180003",
+              "system": "http://snomed.info/sct",
+              "display": "Respiratory humidifier (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d41bdff4-6fb2-46cc-a6b8-616a59e11579",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "d41bdff4-6fb2-46cc-a6b8-616a59e11579",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1969-08-26"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">26-Aug-1969</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:92f53fb5-4cfa-4f6a-86cf-bc27e77b9747",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92f53fb5-4cfa-4f6a-86cf-bc27e77b9747",
+      "resource": {
+        "resourceType": "Device",
+        "id": "92f53fb5-4cfa-4f6a-86cf-bc27e77b9747",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)55445896427995(11)690805(17)940820(10)532373102142(21)1262178510066673"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f",
+          "display": "Esperanza Campoy"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:137b2489-7ff8-4a9b-919f-2ee5a60c8fc9",
+      "resource": {
+        "resourceType": "Device",
+        "id": "137b2489-7ff8-4a9b-919f-2ee5a60c8fc9",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d25c6152-966e-4000-b266-300997eb5243",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "d25c6152-966e-4000-b266-300997eb5243",
+        "target": [
+          {
+            "reference": "Patient/ab05d5e7-9fd4-40cd-8afd-0dfbd2107f3f"
+          },
+          {
+            "reference": "Bundle/e1d82759-7d38-4082-838e-adea3081df74"
+          },
+          {
+            "reference": "Composition/e4dd628a-ade3-4835-a06e-7a99e92529ea"
+          },
+          {
+            "reference": "PractitionerRole/2fc34534-2c27-44a0-a7e3-a8fcab29ef07"
+          },
+          {
+            "reference": "Organization/6b7db9c1-6889-471f-ac29-7d8e971bdd64"
+          },
+          {
+            "reference": "Practitioner/0d52ed80-c37c-4b58-b128-88fff635be34"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/137b2489-7ff8-4a9b-919f-2ee5a60c8fc9"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-01-28T08:28:57Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-01-28T08:28:57Z"
+}

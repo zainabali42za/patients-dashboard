@@ -1,0 +1,2687 @@
+{
+  "resourceType": "Bundle",
+  "id": "82096423-81c9-490a-b41d-7e9a2048604e",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "5db817c7-6341-4c0c-8e46-26e9a04c5577"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:5289b1bf-6834-41b2-8287-758313b3eba6",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "5289b1bf-6834-41b2-8287-758313b3eba6",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "a4db18db-c794-4d3b-9fb0-fb72808e5809"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Epilepsy</td><td><span class=\"nb\">18-Apr-2024</span></td><td>active</td></tr><tr><td>Seizure disorder</td><td><span class=\"nb\">18-Apr-2024</span></td><td>active</td></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">26-Jul-2011</span></td><td>active</td></tr><tr><td>Dependent drug abuse</td><td><span class=\"nb\">24-May-1990</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">04-Mar-1986</span></td><td>active</td></tr><tr><td>Recurrent urinary tract infection</td><td><span class=\"nb\">21-Dec-1951</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">11-Jun-1938</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:11d2879d-bc98-4ef2-842e-48ee87913e57"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4a265507-c142-4404-adc9-7edc5397c06d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">08-Oct-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">16-Nov-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">22-Mar-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b2211bd2-a4ce-406a-a232-d83e0e1980a1"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Electroencephalogram</td><td><span class=\"nb\">17-Oct-2024</span></td><td>-</td></tr><tr><td>Radiography of humerus</td><td><span class=\"nb\">10-Feb-2017</span></td><td>-</td></tr><tr><td>Bone immobilization</td><td><span class=\"nb\">10-Feb-2017</span></td><td>Fracture of forearm</td></tr><tr><td>Bone density scan</td><td><span class=\"nb\">10-Feb-2017</span></td><td>Fracture of forearm</td></tr><tr><td>Depression screening</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:53894f5d-4496-47c7-937c-46ff2175234c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:05bc287f-b3d7-4fd8-80d8-e479c5edb891"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">25-Jun-1990</span></td><td>-</td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">04-Mar-1986</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will understand and implement recommended lifestyle changes to help control blood pressure, including dietary modifications, increased physical activity, and medication adherence.</li><li>Maintain systolic blood pressure below 130 mmHg.</li><li>Maintain diastolic blood pressure below 80 mmHg.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-10-08</th><th>2024-03-23</th></tr><tr><td>Body Height</td><td>162.4 cm</td><td>-</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>73.6 kg</td><td>-</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.9 kg/m2</td><td>-</td></tr><tr><td>Diastolic Blood Pressure</td><td>95 mm[Hg]</td><td>-</td></tr><tr><td>Systolic Blood Pressure</td><td>117 mm[Hg]</td><td>-</td></tr><tr><td>Heart rate</td><td>60 /min</td><td>-</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b88cd35a-bb60-4ce1-9664-f273feac259c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>08-OCT-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>165.2</td><td>0 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>112.7</td><td>0 - 199</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>91.0</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>51.6</td><td>46 - 77</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">11-Jun-1938</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9a15de68-05fa-4f92-9acd-051912c46a77"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "custodian": {
+          "reference": "urn:uuid:a9ec25b2-2201-4114-ab3e-ca4da5218d22"
+        },
+        "date": "2024-10-08",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "5080-477369-0"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "ffa103a3-d0ba-b9de-f335-8da018662267"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Carmen"
+            ],
+            "family": "Cervantes",
+            "text": "Carmen Cervantes"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Glorieta Jaime Álvarez 419 Apt. 06 "
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "29001",
+            "city": "Málaga",
+            "country": "Spain"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+34824 10 37 60"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "ES",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Carmen Cervantes</td><td>female</td><td>30-Nov-1938</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1938-11-30"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "0f5c237a-4b60-452a-912a-5c9372da0a1d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 0f5c237a-4b60-452a-912a-5c9372da0a1d</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:04a10f1f-3b83-4e43-bd6b-7419880a81fc"
+        },
+        "organization": {
+          "reference": "urn:uuid:a9ec25b2-2201-4114-ab3e-ca4da5218d22"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a9ec25b2-2201-4114-ab3e-ca4da5218d22",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a9ec25b2-2201-4114-ab3e-ca4da5218d22",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "ace3733b-5169-4fd2-8d0b-49b849ecf603"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Calle San Agustín 1"
+            ],
+            "city": "Málaga",
+            "postalCode": "29008",
+            "country": "Spain"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Hospital Doctor Gálvez</table></div>"
+        },
+        "name": "Hospital Doctor Gálvez"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04a10f1f-3b83-4e43-bd6b-7419880a81fc",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "04a10f1f-3b83-4e43-bd6b-7419880a81fc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:11d2879d-bc98-4ef2-842e-48ee87913e57",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "11d2879d-bc98-4ef2-842e-48ee87913e57",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "84757009",
+              "system": "http://snomed.info/sct",
+              "display": "Epilepsy (disorder)"
+            }
+          ],
+          "text": "Epilepsy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Epilepsy</td><td><span class=\"nb\">18-Apr-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-04-18",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3570a356-4ea8-40d7-9eb2-d735ce6921c2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "3570a356-4ea8-40d7-9eb2-d735ce6921c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "128613002",
+              "system": "http://snomed.info/sct",
+              "display": "Seizure disorder (disorder)"
+            }
+          ],
+          "text": "Seizure disorder"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Seizure disorder</td><td><span class=\"nb\">18-Apr-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-04-18",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a0509c60-2412-45e7-85f4-d714079694dd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a0509c60-2412-45e7-85f4-d714079694dd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">26-Jul-2011</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2011-07-26",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6484468-9ae1-45b1-b556-1d56f8ad8bb1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b6484468-9ae1-45b1-b556-1d56f8ad8bb1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6525002",
+              "system": "http://snomed.info/sct",
+              "display": "Dependent drug abuse (disorder)"
+            }
+          ],
+          "text": "Dependent drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Dependent drug abuse</td><td><span class=\"nb\">24-May-1990</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1990-05-24",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60cfd834-6281-4393-adea-b9697ab5c2be",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "60cfd834-6281-4393-adea-b9697ab5c2be",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">04-Mar-1986</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1986-03-04",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e23a6e40-da1d-45d7-ac4e-403df58dedcd",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e23a6e40-da1d-45d7-ac4e-403df58dedcd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "197927001",
+              "system": "http://snomed.info/sct",
+              "display": "Recurrent urinary tract infection (disorder)"
+            }
+          ],
+          "text": "Recurrent urinary tract infection"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Recurrent urinary tract infection</td><td><span class=\"nb\">21-Dec-1951</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1951-12-21",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38932725-345f-41e7-81dc-3b480cce622c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "38932725-345f-41e7-81dc-3b480cce622c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">11-Jun-1938</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1938-06-11",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ad94b00e-7fe7-4894-b4b6-a4aae3f0ff0e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ad94b00e-7fe7-4894-b4b6-a4aae3f0ff0e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">09-May-2022 - 23-May-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-05-09",
+        "abatementDateTime": "2022-05-23",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40408268-9c84-4667-b875-9dfbe8de0114",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "40408268-9c84-4667-b875-9dfbe8de0114",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "36971009",
+              "system": "http://snomed.info/sct",
+              "display": "Sinusitis (disorder)"
+            }
+          ],
+          "text": "Sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sinusitis</span></td><td><span class=\"nb\">13-Mar-2022 - 03-Apr-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-03-13",
+        "abatementDateTime": "2022-04-03",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0d1292e-c3ba-4d0d-a29a-85e532f23663",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e0d1292e-c3ba-4d0d-a29a-85e532f23663",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">07-Jun-2020 - 07-Jun-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-06-07",
+        "abatementDateTime": "2020-06-07",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38aafb4f-c6d0-4473-bafb-894792dfbe02",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "38aafb4f-c6d0-4473-bafb-894792dfbe02",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "65966004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of forearm (disorder)"
+            }
+          ],
+          "text": "Fracture of forearm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of forearm</span></td><td><span class=\"nb\">10-Feb-2017 - 16-Mar-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-02-10",
+        "abatementDateTime": "2017-03-16",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7e19963-7492-40ad-8748-29bdbfbcaccc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d7e19963-7492-40ad-8748-29bdbfbcaccc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">10-Feb-2017 - 16-Mar-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-02-10",
+        "abatementDateTime": "2017-03-16",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dfd8923e-2af0-4db4-801d-7cd2d3e0f03c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "dfd8923e-2af0-4db4-801d-7cd2d3e0f03c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">08-Aug-2016 - 09-Aug-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-08-08",
+        "abatementDateTime": "2016-08-09",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4b977347-9425-4f97-a9c7-121c43cbde00",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4b977347-9425-4f97-a9c7-121c43cbde00",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">12-Apr-2016 - 25-Apr-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-04-12",
+        "abatementDateTime": "2016-04-25",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "asserter": {
+          "reference": "urn:uuid:0f5c237a-4b60-452a-912a-5c9372da0a1d",
+          "display": "Hospital Doctor Gálvez"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4a265507-c142-4404-adc9-7edc5397c06d",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "4a265507-c142-4404-adc9-7edc5397c06d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2211bd2-a4ce-406a-a232-d83e0e1980a1",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b2211bd2-a4ce-406a-a232-d83e0e1980a1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">08-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "occurrenceDateTime": "2024-10-08",
+        "lotNumber": "FJ-JXbN4Np",
+        "expirationDate": "2025-07-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:22c96cf5-1e51-4770-8868-95146d6db64b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "22c96cf5-1e51-4770-8868-95146d6db64b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">16-Nov-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "occurrenceDateTime": "2021-11-16",
+        "lotNumber": "AP-7NjKaFE",
+        "expirationDate": "2022-01-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d50c709d-ab38-4c0a-a4b2-8c04af87bb1d",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d50c709d-ab38-4c0a-a4b2-8c04af87bb1d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">22-Mar-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "occurrenceDateTime": "2016-03-22",
+        "lotNumber": "LS-KBmf",
+        "expirationDate": "2016-09-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:53894f5d-4496-47c7-937c-46ff2175234c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "53894f5d-4496-47c7-937c-46ff2175234c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "54550000",
+              "system": "http://snomed.info/sct",
+              "display": "Electroencephalogram (procedure)"
+            }
+          ],
+          "text": "Electroencephalogram"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Electroencephalogram</td><td><span class=\"nb\">17-Oct-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-17",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5dea0d22-9ce6-4506-9704-7c94cc7f4a9d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5dea0d22-9ce6-4506-9704-7c94cc7f4a9d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "1225002",
+              "system": "http://snomed.info/sct",
+              "display": "Upper arm X-ray"
+            }
+          ],
+          "text": "Radiography of humerus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiography of humerus</td><td><span class=\"nb\">10-Feb-2017</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-02-10",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:26d5d6ba-ec23-41b1-86e2-1e10317d0da9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "26d5d6ba-ec23-41b1-86e2-1e10317d0da9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "274474001",
+              "system": "http://snomed.info/sct",
+              "display": "Bone immobilization"
+            }
+          ],
+          "text": "Bone immobilization"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "65966004",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of forearm"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone immobilization</td><td><span class=\"nb\">10-Feb-2017</span></td><td>Fracture of forearm</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-02-10",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a09ee70-4f57-4431-8e52-d4484ffff4db",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5a09ee70-4f57-4431-8e52-d4484ffff4db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "312681000",
+              "system": "http://snomed.info/sct",
+              "display": "Bone density scan (procedure)"
+            }
+          ],
+          "text": "Bone density scan"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "65966004",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of forearm"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone density scan</td><td><span class=\"nb\">10-Feb-2017</span></td><td>Fracture of forearm</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2017-02-10",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24c348c5-ac62-48c5-a624-3d7c3edf924d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "24c348c5-ac62-48c5-a624-3d7c3edf924d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-03-22",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aba0663f-a59a-4f1b-aa24-6ac3fd238a49",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "aba0663f-a59a-4f1b-aa24-6ac3fd238a49",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-03-22",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b8e42313-0d4b-42f6-84ac-e09745f238aa",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b8e42313-0d4b-42f6-84ac-e09745f238aa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-03-22",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3eadc6fc-512c-4c22-b4db-915ee1d84332",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3eadc6fc-512c-4c22-b4db-915ee1d84332",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "762993000",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Morse Fall Scale (procedure)"
+            }
+          ],
+          "text": "Assessment using Morse Fall Scale"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Morse Fall Scale</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-03-22",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e43be1f5-3187-41f7-b21b-ff7b7da5844c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e43be1f5-3187-41f7-b21b-ff7b7da5844c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">22-Mar-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-03-22",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05bc287f-b3d7-4fd8-80d8-e479c5edb891",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "05bc287f-b3d7-4fd8-80d8-e479c5edb891",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac6b3c95-f1cb-4ca9-b56e-bf4a5bbc575b",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ac6b3c95-f1cb-4ca9-b56e-bf4a5bbc575b",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1990-06-25"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">25-Jun-1990</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a654494e-a9f0-461d-874c-f73ce4628e29",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "a654494e-a9f0-461d-874c-f73ce4628e29",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1986-03-04"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:d46417fb-ac76-4114-9c46-83810c1daa6f"
+          },
+          {
+            "reference": "urn:uuid:58b8db78-59d8-4935-8266-170308ecb5ab"
+          },
+          {
+            "reference": "urn:uuid:d26257e4-a864-45f3-b50e-c626d58c2478"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">04-Mar-1986</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will understand and implement recommended lifestyle changes to help control blood pressure, including dietary modifications, increased physical activity, and medication adherence.</li><li>Maintain systolic blood pressure below 130 mmHg.</li><li>Maintain diastolic blood pressure below 80 mmHg.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c2f99bbb-2f23-4c6d-9b0c-68d20104a9a0",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "c2f99bbb-2f23-4c6d-9b0c-68d20104a9a0",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b88cd35a-bb60-4ce1-9664-f273feac259c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b88cd35a-bb60-4ce1-9664-f273feac259c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.4,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>08-Oct-2024</td><td>162.4 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d87c19b2-a100-4459-bce9-bac41cf6ec51",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d87c19b2-a100-4459-bce9-bac41cf6ec51",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>08-Oct-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7fc6eec8-6932-4831-ab99-ab9035ae8a02",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7fc6eec8-6932-4831-ab99-ab9035ae8a02",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73.6,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>08-Oct-2024</td><td>73.6 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b85ece3-a0df-454b-b214-80f515df58fe",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9b85ece3-a0df-454b-b214-80f515df58fe",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>08-Oct-2024</td><td>27.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5e495d0a-3c9b-4557-8126-2e5c40ea1036",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5e495d0a-3c9b-4557-8126-2e5c40ea1036",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 95,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>08-Oct-2024</td><td>95 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a506cd21-1e0e-4baf-b09b-1b1d3fa01337",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a506cd21-1e0e-4baf-b09b-1b1d3fa01337",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 117,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>08-Oct-2024</td><td>117 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c4c853ed-2e8a-41e8-8db9-2e082602650c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c4c853ed-2e8a-41e8-8db9-2e082602650c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 60,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>08-Oct-2024</td><td>60 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d80e788f-706d-4085-a2bb-1aee669c29f9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d80e788f-706d-4085-a2bb-1aee669c29f9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>08-Oct-2024</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dfd43c49-228a-4a1b-8668-20eaa057c7a3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "dfd43c49-228a-4a1b-8668-20eaa057c7a3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>23-Mar-2024</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-03-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf293342-e078-4919-b18b-144b09e79099",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf293342-e078-4919-b18b-144b09e79099",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 165.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>165.2</td><td>0 - 200</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08T00:53:21Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:877ff9b4-0225-4e46-9bc8-4191fc738983",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "877ff9b4-0225-4e46-9bc8-4191fc738983",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 112.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 199,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>112.7</td><td>0 - 199</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08T00:53:21Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:18527d4d-500b-4cf1-9f4f-f635e288e564",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "18527d4d-500b-4cf1-9f4f-f635e288e564",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 91,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>91.0</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08T00:53:21Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5ba9239-a32c-44db-9b20-744e157ccefa",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d5ba9239-a32c-44db-9b20-744e157ccefa",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 51.6,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 46,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 77,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>08-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>51.6</td><td>46 - 77</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "effectiveDateTime": "2024-10-08T00:53:21Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a15de68-05fa-4f92-9acd-051912c46a77",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "9a15de68-05fa-4f92-9acd-051912c46a77",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1938-06-11"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">11-Jun-1938</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:0ffbe1fc-d63c-4bf4-92ff-700905b88053",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0ffbe1fc-d63c-4bf4-92ff-700905b88053",
+      "resource": {
+        "resourceType": "Device",
+        "id": "0ffbe1fc-d63c-4bf4-92ff-700905b88053",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)37011725178469(11)380521(17)630605(10)168242166154(21)8726460"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe",
+          "display": "Carmen Cervantes"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:45654866-c6aa-419c-9086-f6c6e68648e8",
+      "resource": {
+        "resourceType": "Device",
+        "id": "45654866-c6aa-419c-9086-f6c6e68648e8",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b07608d-4663-42cd-a5f7-43cadda0c912",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "3b07608d-4663-42cd-a5f7-43cadda0c912",
+        "target": [
+          {
+            "reference": "Patient/c0620d9a-fec3-46ad-a2c0-b5ce6ec346fe"
+          },
+          {
+            "reference": "Bundle/82096423-81c9-490a-b41d-7e9a2048604e"
+          },
+          {
+            "reference": "Composition/5289b1bf-6834-41b2-8287-758313b3eba6"
+          },
+          {
+            "reference": "PractitionerRole/0f5c237a-4b60-452a-912a-5c9372da0a1d"
+          },
+          {
+            "reference": "Organization/a9ec25b2-2201-4114-ab3e-ca4da5218d22"
+          },
+          {
+            "reference": "Practitioner/04a10f1f-3b83-4e43-bd6b-7419880a81fc"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/45654866-c6aa-419c-9086-f6c6e68648e8"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-10-08T00:53:21Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-10-08T00:53:21Z"
+}

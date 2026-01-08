@@ -1,0 +1,3596 @@
+{
+  "resourceType": "Bundle",
+  "id": "84b7734b-2284-460f-9aa7-778725374661",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "e0c27a73-27ba-4d2e-bad9-64996ede7242"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:76819192-714b-4cc9-aa9c-64e0ed67f899",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "76819192-714b-4cc9-aa9c-64e0ed67f899",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "68b2fc74-8a0f-43fa-a5c0-f3924da1d73f"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Alzheimer's disease</td><td><span class=\"nb\">28-Oct-2024</span></td><td>active</td></tr><tr><td>Osteoporosis</td><td><span class=\"nb\">28-Jul-2008</span></td><td>active</td></tr><tr><td>Dependent drug abuse</td><td><span class=\"nb\">09-Aug-1995</span></td><td>active</td></tr><tr><td>Impacted molars</td><td><span class=\"nb\">14-Dec-1990</span></td><td>active</td></tr><tr><td>Chronic intractable migraine without aura</td><td><span class=\"nb\">05-Jul-1990</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">06-Aug-1973</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:191f91c9-fd42-468c-9b56-8d4ba47986fb"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0c683f44-c596-46da-ab1e-839e0ba90e20"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">28-Oct-2024</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">30-Sep-2019</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:beceb3b3-8e79-4bed-9cb6-771787782183"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">01-Sep-2023</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">01-Sep-2023</span></td><td>-</td></tr><tr><td>Occupational therapy</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr><tr><td>Care regimes assessment</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr><tr><td>Radiography of wrist</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr><tr><td>Bone immobilization</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Fracture subluxation of wrist</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">22-Jun-2023</span></td><td>-</td></tr><tr><td>Hospice care</td><td><span class=\"nb\">21-Jun-2023</span></td><td>-</td></tr><tr><td>Notifications</td><td><span class=\"nb\">05-Jun-2023</span></td><td>-</td></tr><tr><td>Certification procedure</td><td><span class=\"nb\">05-Jun-2023</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:130b43b7-0ac9-4829-914e-3e7bb2b67dbc"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a9a7b852-2bd3-4d2b-b322-e561450af70b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">28-Oct-2024</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Maintain current level of cognitive function as long as possible</li><li>Preserve ability to perform basic activities of daily living (ADLs)</li><li>Minimize frequency and severity of behavioral disturbances</li><li>Achieve at least 90% adherence to prescribed dementia medications</li></ul></td><td></td><td></td></tr><tr><td>Care plan</td><td><span class=\"nb\">29-Jan-2001</span></td><td>-</td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">06-Aug-1973</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan to reduce risk of progression to diabetes.</li></ul></td><td></td><td></td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-10-28</th><th>2023-10-23</th></tr><tr><td>Body Height</td><td>169.3 cm</td><td>169.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>86.4 kg</td><td>86.4 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.1 kg/m2</td><td>30.1 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>80 mm[Hg]</td><td>76 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>91 mm[Hg]</td><td>100 mm[Hg]</td></tr><tr><td>Heart rate</td><td>64 /min</td><td>86 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3a4fd223-927c-4527-b566-fea42a010cdb"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>28-OCT-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.0</td><td>4 - 6</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>73.5</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>18.2</td><td>7 - 20</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.8</td><td>0.6 - 1.1</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.4</td><td>8.5 - 10.4</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>140.6</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.9</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.7</td><td>98 - 108</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>22.4</td><td>22 - 29</td><td>mmol/L</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">06-Aug-1973</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9b74a335-57e3-49b0-a074-bbdfe9090744"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "custodian": {
+          "reference": "urn:uuid:229669ae-e74c-462f-b59f-e7abb549ff7b"
+        },
+        "date": "2024-10-28",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "7618-900219-9"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "7149abee-4c1d-0de7-6189-e929dd837491"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Gianna"
+            ],
+            "family": "Musatti",
+            "text": "Gianna Musatti"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Stretto Rosiello, 976 Appartamento 19"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "80075",
+            "city": "Piedimonte D&#039;Ischia",
+            "country": "Italy"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+39 3510040120"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "IT",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Gianna Musatti</td><td>female</td><td>17-Mar-1952</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1952-03-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 2fab2314-dc93-49b2-9336-1d7bcb00c57c</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:9bb0be47-0a6f-40f2-ac4e-97b68013e539"
+        },
+        "organization": {
+          "reference": "urn:uuid:229669ae-e74c-462f-b59f-e7abb549ff7b"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:229669ae-e74c-462f-b59f-e7abb549ff7b",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "229669ae-e74c-462f-b59f-e7abb549ff7b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "3feaff2d-d85c-4f93-8ecf-7f7230149449"
+          }
+        ],
+        "address": [
+          {
+            "city": "Pozzuoli",
+            "postalCode": "80078",
+            "country": "Italy"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Ospedale La Schiana</table></div>"
+        },
+        "name": "Ospedale La Schiana"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9bb0be47-0a6f-40f2-ac4e-97b68013e539",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "9bb0be47-0a6f-40f2-ac4e-97b68013e539",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:191f91c9-fd42-468c-9b56-8d4ba47986fb",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "191f91c9-fd42-468c-9b56-8d4ba47986fb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "26929004",
+              "system": "http://snomed.info/sct",
+              "display": "Alzheimer&#039;s disease (disorder)"
+            }
+          ],
+          "text": "Alzheimer&#039;s disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Alzheimer's disease</td><td><span class=\"nb\">28-Oct-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-28",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c805f211-3543-448f-94ed-769f1a11e5df",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c805f211-3543-448f-94ed-769f1a11e5df",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "64859006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporosis (disorder)"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoporosis</td><td><span class=\"nb\">28-Jul-2008</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2008-07-28",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c7a8f864-c0a5-4626-92c4-e2f83dfdcfe7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c7a8f864-c0a5-4626-92c4-e2f83dfdcfe7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6525002",
+              "system": "http://snomed.info/sct",
+              "display": "Dependent drug abuse (disorder)"
+            }
+          ],
+          "text": "Dependent drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Dependent drug abuse</td><td><span class=\"nb\">09-Aug-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-08-09",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:81636172-9924-4de0-b29e-da6728d386e1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "81636172-9924-4de0-b29e-da6728d386e1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "196416002",
+              "system": "http://snomed.info/sct",
+              "display": "Impacted molars (disorder)"
+            }
+          ],
+          "text": "Impacted molars"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Impacted molars</td><td><span class=\"nb\">14-Dec-1990</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1990-12-14",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:957dc4e3-5a76-49c3-b985-60c461f27d5f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "957dc4e3-5a76-49c3-b985-60c461f27d5f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "124171000119105",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic intractable migraine without aura (disorder)"
+            }
+          ],
+          "text": "Chronic intractable migraine without aura"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic intractable migraine without aura</td><td><span class=\"nb\">05-Jul-1990</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1990-07-05",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0cd9ffc4-fd6b-41fe-b0d3-392b8d792673",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0cd9ffc4-fd6b-41fe-b0d3-392b8d792673",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">06-Aug-1973</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1973-08-06",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:110203da-837b-4def-bc0f-db4dacf65e7d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "110203da-837b-4def-bc0f-db4dacf65e7d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">09-Feb-2025 - 09-Feb-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-09",
+        "abatementDateTime": "2025-02-09",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9820736e-4386-44b6-abe2-0d68ec7c402f",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9820736e-4386-44b6-abe2-0d68ec7c402f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">30-Aug-2023 - 01-Dec-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-30",
+        "abatementDateTime": "2023-12-01",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:220acda1-4478-4b83-9d1c-0e3d4fa8ff6e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "220acda1-4478-4b83-9d1c-0e3d4fa8ff6e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "263102004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture subluxation of wrist (disorder)"
+            }
+          ],
+          "text": "Fracture subluxation of wrist"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture subluxation of wrist</span></td><td><span class=\"nb\">30-Aug-2023 - 01-Dec-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-30",
+        "abatementDateTime": "2023-12-01",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:668a2131-e0e2-4968-8a17-9ed41d6a5056",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "668a2131-e0e2-4968-8a17-9ed41d6a5056",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "443165006",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoporotic fracture of bone (disorder)"
+            }
+          ],
+          "text": "Osteoporotic fracture"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Osteoporotic fracture</span></td><td><span class=\"nb\">30-Aug-2023 - 01-Dec-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-30",
+        "abatementDateTime": "2023-12-01",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7821c0b5-d1cf-4916-9c63-892c9d3a07e9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7821c0b5-d1cf-4916-9c63-892c9d3a07e9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">18-Oct-2020 - 18-Oct-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-10-18",
+        "abatementDateTime": "2020-10-18",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:53c2acf0-9e3d-4423-8751-1c23ec5051b5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "53c2acf0-9e3d-4423-8751-1c23ec5051b5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">11-Jan-2020 - 11-Jan-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-01-11",
+        "abatementDateTime": "2020-01-11",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0d43904b-d911-4945-ba14-b88f26d957e9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0d43904b-d911-4945-ba14-b88f26d957e9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">22-Nov-2019 - 23-Nov-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-11-22",
+        "abatementDateTime": "2019-11-23",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9cb838b5-965d-4f80-bf8e-611721b31921",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9cb838b5-965d-4f80-bf8e-611721b31921",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Polyp of colon</span></td><td><span class=\"nb\">05-Nov-2019 - 25-Apr-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-11-05",
+        "abatementDateTime": "2021-04-25",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0aa4e14-4d16-4138-8e96-2639c6184bc0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f0aa4e14-4d16-4138-8e96-2639c6184bc0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55680006",
+              "system": "http://snomed.info/sct",
+              "display": "Drug overdose (disorder)"
+            }
+          ],
+          "text": "Drug overdose"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Drug overdose</span></td><td><span class=\"nb\">16-Dec-2015 - 16-Dec-2015</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-12-16",
+        "abatementDateTime": "2015-12-16",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "asserter": {
+          "reference": "urn:uuid:2fab2314-dc93-49b2-9336-1d7bcb00c57c",
+          "display": "Ospedale La Schiana"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c683f44-c596-46da-ab1e-839e0ba90e20",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "0c683f44-c596-46da-ab1e-839e0ba90e20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:beceb3b3-8e79-4bed-9cb6-771787782183",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "beceb3b3-8e79-4bed-9cb6-771787782183",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">28-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "occurrenceDateTime": "2024-10-28",
+        "lotNumber": "ET-UWNN",
+        "expirationDate": "2025-01-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:77a1dc80-457a-41cd-9dc8-9e5ebdf101af",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "77a1dc80-457a-41cd-9dc8-9e5ebdf101af",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">30-Sep-2019</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "occurrenceDateTime": "2019-09-30",
+        "lotNumber": "SJ-PPxKTQXr",
+        "expirationDate": "2020-03-03"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:130b43b7-0ac9-4829-914e-3e7bb2b67dbc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "130b43b7-0ac9-4829-914e-3e7bb2b67dbc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">01-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-01",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e737eb97-d463-4495-b5c6-d04fef636510",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e737eb97-d463-4495-b5c6-d04fef636510",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">01-Sep-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-09-01",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09b94d1a-a8af-4e8d-8ebc-377ee9d33cec",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "09b94d1a-a8af-4e8d-8ebc-377ee9d33cec",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84478008",
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Occupational therapy</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-31",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fdab7ec6-5af0-4163-8425-d4902db9becc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "fdab7ec6-5af0-4163-8425-d4902db9becc",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "392091000",
+              "system": "http://snomed.info/sct",
+              "display": "Care regimes assessment (procedure)"
+            }
+          ],
+          "text": "Care regimes assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Care regimes assessment</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-31",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a671532-d89d-45ee-ac8c-8c2360626357",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5a671532-d89d-45ee-ac8c-8c2360626357",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "409023009",
+              "system": "http://snomed.info/sct",
+              "display": "Professional / ancillary services care (regime/therapy)"
+            }
+          ],
+          "text": "Professional / ancillary services care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Professional / ancillary services care</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-31",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6fd9e2f-7783-4da8-9975-dd4af67d4aa2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f6fd9e2f-7783-4da8-9975-dd4af67d4aa2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">31-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-31",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:734ae3a9-46f7-4d5b-a113-c8b0a35be9ad",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "734ae3a9-46f7-4d5b-a113-c8b0a35be9ad",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "60027007",
+              "system": "http://snomed.info/sct",
+              "display": "Radiography of wrist (procedure)"
+            }
+          ],
+          "text": "Radiography of wrist"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiography of wrist</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b7dd10e-1227-40eb-9746-2f030a951e08",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8b7dd10e-1227-40eb-9746-2f030a951e08",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6102f600-21f0-413e-abcb-c8897c6a670c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6102f600-21f0-413e-abcb-c8897c6a670c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "274474001",
+              "system": "http://snomed.info/sct",
+              "display": "Bone immobilization"
+            }
+          ],
+          "text": "Bone immobilization"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "263102004",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture subluxation of wrist"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone immobilization</td><td><span class=\"nb\">30-Aug-2023</span></td><td>Fracture subluxation of wrist</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b64509e-f30a-48b4-9312-5f225a202728",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0b64509e-f30a-48b4-9312-5f225a202728",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ba85102-3200-40b8-8ce3-8af493108b76",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8ba85102-3200-40b8-8ce3-8af493108b76",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">30-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-30",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:63bed3ee-ca98-48b6-b80e-7c5762f21f65",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "63bed3ee-ca98-48b6-b80e-7c5762f21f65",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">22-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-22",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4dee71f1-a996-4158-9fd5-2f6b510163f4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4dee71f1-a996-4158-9fd5-2f6b510163f4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "385763009",
+              "system": "http://snomed.info/sct",
+              "display": "Hospice care (regime/therapy)"
+            }
+          ],
+          "text": "Hospice care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hospice care</td><td><span class=\"nb\">21-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-21",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:01255721-9437-4419-a088-9d0a6c926042",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "01255721-9437-4419-a088-9d0a6c926042",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "185087000",
+              "system": "http://snomed.info/sct",
+              "display": "Notifications (procedure)"
+            }
+          ],
+          "text": "Notifications"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Notifications</td><td><span class=\"nb\">05-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-05",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32f39903-b79d-4ea4-8149-fe4a1e015559",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "32f39903-b79d-4ea4-8149-fe4a1e015559",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "310417005",
+              "system": "http://snomed.info/sct",
+              "display": "Certification procedure (procedure)"
+            }
+          ],
+          "text": "Certification procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Certification procedure</td><td><span class=\"nb\">05-Jun-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-06-05",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a9a7b852-2bd3-4d2b-b322-e561450af70b",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "a9a7b852-2bd3-4d2b-b322-e561450af70b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d46447e-d191-49ea-a8a8-ee67754cf652",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "9d46447e-d191-49ea-a8a8-ee67754cf652",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "386257007",
+                    "system": "http://snomed.info/sct",
+                    "display": "Dementia management (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "26929004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Alzheimer&#039;s disease (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Dementia management",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2024-10-28"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:f0785a93-1e55-45f7-8463-3087d32aea28"
+          },
+          {
+            "reference": "urn:uuid:c4fe1c87-b3b4-4fdd-83f1-c21c4d218837"
+          },
+          {
+            "reference": "urn:uuid:8d7e7166-9dd1-4ec1-aa7f-8a4e908bc933"
+          },
+          {
+            "reference": "urn:uuid:1ca4eb5f-9b72-4944-b211-90b60b6e780e"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Dementia management</td><td><span class=\"nb\">28-Oct-2024</span></td><td>Alzheimer's disease (disorder)</td></tr><tr><td><ul><li>Maintain current level of cognitive function as long as possible</li><li>Preserve ability to perform basic activities of daily living (ADLs)</li><li>Minimize frequency and severity of behavioral disturbances</li><li>Achieve at least 90% adherence to prescribed dementia medications</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0498481e-46c6-403b-892d-af485303c83b",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "0498481e-46c6-403b-892d-af485303c83b",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2001-01-29"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">29-Jan-2001</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8fcabb6d-fa5c-4050-9a9d-f4726c4ed8ef",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "8fcabb6d-fa5c-4050-9a9d-f4726c4ed8ef",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1973-08-06"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:1997b544-9291-4193-a35f-8b308b1528a4"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">06-Aug-1973</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will implement and maintain a diabetes self-management plan to reduce risk of progression to diabetes.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f27996e8-5147-4cf1-ac95-a270c8f82eae",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "f27996e8-5147-4cf1-ac95-a270c8f82eae",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3a4fd223-927c-4527-b566-fea42a010cdb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3a4fd223-927c-4527-b566-fea42a010cdb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 169.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>28-Oct-2024</td><td>169.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb8af595-5e64-4e88-adbe-7ae45fb0fd4d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cb8af595-5e64-4e88-adbe-7ae45fb0fd4d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>28-Oct-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e387f9d3-7d3e-4216-b9bc-d4c2091f6f69",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e387f9d3-7d3e-4216-b9bc-d4c2091f6f69",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>28-Oct-2024</td><td>86.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab65e5e5-433b-46b2-95a1-19f9b9e07b8f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ab65e5e5-433b-46b2-95a1-19f9b9e07b8f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>28-Oct-2024</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b5e8ea05-486a-4c1e-b36e-a6c4e6b3954c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b5e8ea05-486a-4c1e-b36e-a6c4e6b3954c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 80,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>28-Oct-2024</td><td>80 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d36ae53-da5c-4990-9e34-e22747bec55c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8d36ae53-da5c-4990-9e34-e22747bec55c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 91,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>28-Oct-2024</td><td>91 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0d73f3b-231b-43cd-9ad3-8f4b4a521ac3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e0d73f3b-231b-43cd-9ad3-8f4b4a521ac3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 64,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>28-Oct-2024</td><td>64 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3ab0fb1-c720-4ae5-bcdd-89469a477fef",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3ab0fb1-c720-4ae5-bcdd-89469a477fef",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>28-Oct-2024</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29af266d-d7b0-4acc-89a5-62beafcb2b32",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "29af266d-d7b0-4acc-89a5-62beafcb2b32",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 169.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>23-Oct-2023</td><td>169.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:070fa284-369a-4c55-b1ef-4a40e47d10c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "070fa284-369a-4c55-b1ef-4a40e47d10c2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>23-Oct-2023</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a864a75c-6345-41cb-b986-4281cae767d6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a864a75c-6345-41cb-b986-4281cae767d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>23-Oct-2023</td><td>86.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:30c50c14-73b6-4b44-8c70-079123e0b1de",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "30c50c14-73b6-4b44-8c70-079123e0b1de",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>23-Oct-2023</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9fb20e8-b8ff-44f7-831d-97b8627eac13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e9fb20e8-b8ff-44f7-831d-97b8627eac13",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>23-Oct-2023</td><td>76 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60fe7ca2-3cb1-459d-bda7-d736013aaea2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "60fe7ca2-3cb1-459d-bda7-d736013aaea2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 100,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>23-Oct-2023</td><td>100 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db515e32-f934-4889-960f-aa7a88d9c0d3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "db515e32-f934-4889-960f-aa7a88d9c0d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 86,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>23-Oct-2023</td><td>86 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f5a386c-4ec2-4487-bffe-c015ff30c190",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5f5a386c-4ec2-4487-bffe-c015ff30c190",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>23-Oct-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2023-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4eacf8f9-c395-4432-b766-af3dd4faf4f0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4eacf8f9-c395-4432-b766-af3dd4faf4f0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.0</td><td>4 - 6</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1091d3ba-6171-4db9-bfb5-185855bfb1c2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1091d3ba-6171-4db9-bfb5-185855bfb1c2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 73.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>73.5</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27a05024-1784-46d0-a8a4-7c8828cbc895",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "27a05024-1784-46d0-a8a4-7c8828cbc895",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 18.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 20,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>18.2</td><td>7 - 20</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:902fc33c-fdb2-4ac2-a9a0-691139f6bd61",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "902fc33c-fdb2-4ac2-a9a0-691139f6bd61",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.1,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.8</td><td>0.6 - 1.1</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9462109d-e1a3-4961-a0f6-a021ae021da0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9462109d-e1a3-4961-a0f6-a021ae021da0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.4,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.4,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.4</td><td>8.5 - 10.4</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7cba7200-4480-4a46-a36b-308066553ccc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7cba7200-4480-4a46-a36b-308066553ccc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 140.6,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>140.6</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7e5bfbc-47fd-41e8-b8bd-d9b061f13a70",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e7e5bfbc-47fd-41e8-b8bd-d9b061f13a70",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.9</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ed4e05b-71cb-475c-8f1c-188bdcd22bde",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ed4e05b-71cb-475c-8f1c-188bdcd22bde",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103.7,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 108,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.7</td><td>98 - 108</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d99b672-d368-44a7-be2a-0caa66fda1bd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8d99b672-d368-44a7-be2a-0caa66fda1bd",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 22.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 29,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>28-Oct-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>22.4</td><td>22 - 29</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "effectiveDateTime": "2024-10-28T19:53:51Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b74a335-57e3-49b0-a074-bbdfe9090744",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "9b74a335-57e3-49b0-a074-bbdfe9090744",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1973-08-06"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">06-Aug-1973</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:740ce555-fa38-407c-bcdf-5dfc8c8a8706",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:740ce555-fa38-407c-bcdf-5dfc8c8a8706",
+      "resource": {
+        "resourceType": "Device",
+        "id": "740ce555-fa38-407c-bcdf-5dfc8c8a8706",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)54751376711562(11)730716(17)980731(10)37070671623(21)7449765"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:10cdf7e3-6e8f-496b-bfce-4e1c74bea998",
+          "display": "Gianna Musatti"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1f8efab8-500d-49b5-823a-830d0cccb7e0",
+      "resource": {
+        "resourceType": "Device",
+        "id": "1f8efab8-500d-49b5-823a-830d0cccb7e0",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a2e482c-5238-4045-9dc8-a7d26ff8ced3",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "6a2e482c-5238-4045-9dc8-a7d26ff8ced3",
+        "target": [
+          {
+            "reference": "Patient/10cdf7e3-6e8f-496b-bfce-4e1c74bea998"
+          },
+          {
+            "reference": "Bundle/84b7734b-2284-460f-9aa7-778725374661"
+          },
+          {
+            "reference": "Composition/76819192-714b-4cc9-aa9c-64e0ed67f899"
+          },
+          {
+            "reference": "PractitionerRole/2fab2314-dc93-49b2-9336-1d7bcb00c57c"
+          },
+          {
+            "reference": "Organization/229669ae-e74c-462f-b59f-e7abb549ff7b"
+          },
+          {
+            "reference": "Practitioner/9bb0be47-0a6f-40f2-ac4e-97b68013e539"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/1f8efab8-500d-49b5-823a-830d0cccb7e0"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-10-28T19:53:51Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-10-28T19:53:51Z"
+}

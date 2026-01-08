@@ -1,0 +1,4017 @@
+{
+  "resourceType": "Bundle",
+  "id": "946dcda2-2fd7-4e11-b9a1-e9d731f52dad",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "b3605288-0207-4f80-a8a6-bf2cd3ce0f76"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:d4c9ac32-3d3c-4ae7-8149-72c7c54d93f3",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "d4c9ac32-3d3c-4ae7-8149-72c7c54d93f3",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "ae5288da-5f92-408e-98cf-aee22757ebee"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Polyp of colon</td><td><span class=\"nb\">21-Jul-2025</span></td><td>active</td></tr><tr><td>Osteoarthritis of knee</td><td><span class=\"nb\">23-Jun-2024</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">06-Mar-2018</span></td><td>active</td></tr><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Mar-2018</span></td><td>active</td></tr><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">02-Jan-2018</span></td><td>active</td></tr><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">02-Jan-2018</span></td><td>active</td></tr><tr><td>Hyperlipidemia</td><td><span class=\"nb\">04-Dec-2012</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">16-Nov-2006</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">19-Oct-2004</span></td><td>active</td></tr><tr><td>Hyperglycemia</td><td><span class=\"nb\">08-Oct-2002</span></td><td>active</td></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">02-Oct-2001</span></td><td>active</td></tr><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">26-Sep-1995</span></td><td>active</td></tr><tr><td>Hypertriglyceridemia</td><td><span class=\"nb\">26-Sep-1995</span></td><td>active</td></tr><tr><td>Type 2 diabetes mellitus</td><td><span class=\"nb\">25-Apr-1995</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">22-Sep-1992</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9f3ff108-41c8-4e74-92c1-251a467cecd6"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e43c461e-fba3-4593-882f-34e8197fccd9"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">28-Jan-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">19-Oct-2021</span></td></tr><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">22-Jun-2021</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">09-Feb-2021</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b06cfc90-8303-4de9-9236-e854c8e48f68"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Assessment of anxiety</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr><tr><td>Screening for drug abuse</td><td><span class=\"nb\">11-Oct-2022</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">11-Oct-2022</span></td><td>-</td></tr><tr><td>Patient evaluation and management</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Urine specimen collection</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Patient discharge</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Taking patient vital signs</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>History taking</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Discussion about signs and symptoms</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Antibiotic therapy</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Triage: emergency center</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Urinalysis with reflex to microscopy and culture</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">29-Jul-2019</span></td><td>-</td></tr><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">29-Jul-2019</span></td><td>-</td></tr><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">28-Jul-2019</span></td><td>-</td></tr><tr><td>Occupational therapy</td><td><span class=\"nb\">26-Jul-2019</span></td><td>-</td></tr><tr><td>Physical therapy procedure</td><td><span class=\"nb\">25-Jul-2019</span></td><td>-</td></tr><tr><td>History AND physical examination</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr><tr><td>Initial patient assessment</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr><tr><td>Suture open wound</td><td><span class=\"nb\">28-Jun-2016</span></td><td>Facial laceration</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4414bd50-be81-4eb6-ba62-b00411792439"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:90421fc2-abf0-4acf-a0bd-ba9a4876da4a"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">23-Jun-2024</span></td><td>Osteoarthritis of knee</td></tr><tr><td><ul><li>Reduce knee pain severity to improve function and quality of life</li><li>Increase ability to perform daily activities without limitation from knee osteoarthritis</li><li>Increase knee flexion range of motion</li><li>Achieve recommended physical activity for joint health</li></ul></td><td></td><td></td></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">25-Dec-2012</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve LDL cholesterol less than 1.8 mmol/L</li><li>Achieve total cholesterol less than 4.0 mmol/L</li><li>Achieve triglycerides less than 1.7 mmol/L</li><li>Achieve HDL cholesterol greater than 1.0 mmol/L</li></ul></td><td></td><td></td></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">02-Oct-2001</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular and renal risk.</li><li>Limit daily sodium intake to less than 2.3 grams to support blood pressure control.</li><li>Achieve at least 5% reduction in body weight to improve blood pressure control.</li><li>Engage in at least 150 minutes of moderate-intensity aerobic physical activity per week.</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">22-Sep-1992</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Maintain or achieve HbA1c at or below individualized target to support diabetes self-management.</li><li>Achieve and maintain weight loss as part of diabetes self-management plan.</li><li>Maintain blood pressure at or below target to reduce risk of diabetes complications.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week as part of diabetes self-management.</li></ul></td><td></td><td></td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-03-04</th><th>2025-02-11</th></tr><tr><td>Body Height</td><td>164.3 cm</td><td>164.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>81.8 kg</td><td>81.8 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.3 kg/m2</td><td>30.3 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>100 mm[Hg]</td><td>93 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>122 mm[Hg]</td><td>122 mm[Hg]</td></tr><tr><td>Heart rate</td><td>84 /min</td><td>79 /min</td></tr><tr><td>Respiratory rate</td><td>12 /min</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:cf5dd41b-f304-4002-ab13-470c67a2185c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>21-JUL-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Polyp size greatest dimension</td><td>2.3</td><td>0 - 5</td><td>mm</td></tr><tr><td>Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay --1st specimen</td><td>22.0</td><td>0 - 200</td><td>ng/mL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Walker (physical object)</td><td><span class=\"nb\">23-Jun-2024</span></td></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">16-Nov-2006</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">22-Sep-1992</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b6a47101-420d-4a8d-9d59-1434d3899f50"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "custodian": {
+          "reference": "urn:uuid:b242e497-bef2-4e5d-8186-38e977ea4f24"
+        },
+        "date": "2025-07-21",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b47e287a-50a0-4049-9903-f95d478b5538",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "2224-994199-2"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "f9433921-ff27-daaf-2c75-69bb04740cc8"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Stefan"
+            ],
+            "family": "Szczubełek",
+            "text": "Stefan Szczubełek"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "aleja Morska 96"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "37-500",
+            "city": "Jarosław",
+            "country": "Poland"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "660 973 830"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "PL",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Stefan Szczubełek</td><td>male</td><td>14-Jul-1971</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "1971-07-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "1ff4185c-2112-4111-8ab5-3c21be88d43b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 1ff4185c-2112-4111-8ab5-3c21be88d43b</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:cb7c5044-1212-4b4b-aa1e-5bb24fc82a24"
+        },
+        "organization": {
+          "reference": "urn:uuid:b242e497-bef2-4e5d-8186-38e977ea4f24"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b242e497-bef2-4e5d-8186-38e977ea4f24",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b242e497-bef2-4e5d-8186-38e977ea4f24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "1d22dcae-209f-4f99-88cc-d461e1e49ca5"
+          }
+        ],
+        "address": [
+          {
+            "city": "Jarosław",
+            "postalCode": "37-500",
+            "country": "Poland"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Szpital Psychiatryczny</table></div>"
+        },
+        "name": "Szpital Psychiatryczny"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cb7c5044-1212-4b4b-aa1e-5bb24fc82a24",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cb7c5044-1212-4b4b-aa1e-5bb24fc82a24",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f3ff108-41c8-4e74-92c1-251a467cecd6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9f3ff108-41c8-4e74-92c1-251a467cecd6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "68496003",
+              "system": "http://snomed.info/sct",
+              "display": "Polyp of colon (disorder)"
+            }
+          ],
+          "text": "Polyp of colon"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Polyp of colon</td><td><span class=\"nb\">21-Jul-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-07-21",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:809af1ff-e633-49c2-a8b6-7d2b0558d794",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "809af1ff-e633-49c2-a8b6-7d2b0558d794",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "239873007",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoarthritis of knee (disorder)"
+            }
+          ],
+          "text": "Osteoarthritis of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoarthritis of knee</td><td><span class=\"nb\">23-Jun-2024</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-06-23",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:659554ec-8e42-494b-ab10-6261002bf8ba",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "659554ec-8e42-494b-ab10-6261002bf8ba",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431856006",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 2 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 2</td><td><span class=\"nb\">06-Mar-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-03-06",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:875913cf-0040-444d-8829-7c38dd4f7e55",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "875913cf-0040-444d-8829-7c38dd4f7e55",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "90781000119102",
+              "system": "http://snomed.info/sct",
+              "display": "Microalbuminuria due to type 2 diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Microalbuminuria due to type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Microalbuminuria due to type 2 diabetes mellitus</td><td><span class=\"nb\">06-Mar-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-03-06",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7fe3c5df-bfbf-423b-a55a-9bb17057eeaa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7fe3c5df-bfbf-423b-a55a-9bb17057eeaa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "127013003",
+              "system": "http://snomed.info/sct",
+              "display": "Disorder of kidney due to diabetes mellitus (disorder)"
+            }
+          ],
+          "text": "Disorder of kidney due to diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Disorder of kidney due to diabetes mellitus</td><td><span class=\"nb\">02-Jan-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-01-02",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cdbcede6-25f8-4439-b409-096945eca312",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cdbcede6-25f8-4439-b409-096945eca312",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "431855005",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic kidney disease stage 1 (disorder)"
+            }
+          ],
+          "text": "Chronic kidney disease stage 1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic kidney disease stage 1</td><td><span class=\"nb\">02-Jan-2018</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2018-01-02",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a275d50-9010-415d-87cd-fdc807da5eaa",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0a275d50-9010-415d-87cd-fdc807da5eaa",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "55822004",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperlipidemia (disorder)"
+            }
+          ],
+          "text": "Hyperlipidemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hyperlipidemia</td><td><span class=\"nb\">04-Dec-2012</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2012-12-04",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12a61881-a1d6-4e47-bbb2-27e97b8485d2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "12a61881-a1d6-4e47-bbb2-27e97b8485d2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">16-Nov-2006</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2006-11-16",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2937b869-d6e2-4eb6-ada8-d0ecdac454a4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2937b869-d6e2-4eb6-ada8-d0ecdac454a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">19-Oct-2004</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2004-10-19",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4be05a70-5e72-4955-9e65-723da5b14643",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4be05a70-5e72-4955-9e65-723da5b14643",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "80394007",
+              "system": "http://snomed.info/sct",
+              "display": "Hyperglycemia (disorder)"
+            }
+          ],
+          "text": "Hyperglycemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hyperglycemia</td><td><span class=\"nb\">08-Oct-2002</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2002-10-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92f1623e-ecd5-4a8c-a8f1-fca0676bec08",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "92f1623e-ecd5-4a8c-a8f1-fca0676bec08",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">02-Oct-2001</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2001-10-02",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d574c9ed-8dd1-4607-bc2e-c6c019f736ab",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d574c9ed-8dd1-4607-bc2e-c6c019f736ab",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "237602007",
+              "system": "http://snomed.info/sct",
+              "display": "Metabolic syndrome X (disorder)"
+            }
+          ],
+          "text": "Metabolic syndrome X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Metabolic syndrome X</td><td><span class=\"nb\">26-Sep-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-09-26",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f955783-d235-41ca-800a-060f63077327",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4f955783-d235-41ca-800a-060f63077327",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "302870006",
+              "system": "http://snomed.info/sct",
+              "display": "Hypertriglyceridemia (disorder)"
+            }
+          ],
+          "text": "Hypertriglyceridemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hypertriglyceridemia</td><td><span class=\"nb\">26-Sep-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-09-26",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b87ed1e-e18e-49b5-8c45-08a899640b66",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "9b87ed1e-e18e-49b5-8c45-08a899640b66",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "44054006",
+              "system": "http://snomed.info/sct",
+              "display": "Diabetes mellitus type 2 (disorder)"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Type 2 diabetes mellitus</td><td><span class=\"nb\">25-Apr-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-04-25",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d26e97f9-0be2-449a-bec7-78b6e2f03035",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d26e97f9-0be2-449a-bec7-78b6e2f03035",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">22-Sep-1992</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1992-09-22",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6038fa5-aacb-448b-9e07-2f221e6b4c4c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a6038fa5-aacb-448b-9e07-2f221e6b4c4c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">04-Feb-2025 - 17-Feb-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-04",
+        "abatementDateTime": "2025-02-17",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4171eab3-dc90-4b98-a105-9513ae9a9c41",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4171eab3-dc90-4b98-a105-9513ae9a9c41",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">30-Jul-2019 - 18-Aug-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-07-30",
+        "abatementDateTime": "2019-08-18",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:496ba129-c755-45f2-aac6-306e484071a5",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "496ba129-c755-45f2-aac6-306e484071a5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "403191005",
+              "system": "http://snomed.info/sct",
+              "display": "Partial thickness burn (disorder)"
+            }
+          ],
+          "text": "Partial thickness burn"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Partial thickness burn</span></td><td><span class=\"nb\">23-Jul-2019 - 27-Aug-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-07-23",
+        "abatementDateTime": "2019-08-27",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:251ff0a6-eb92-496a-811f-5de5daf9b83d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "251ff0a6-eb92-496a-811f-5de5daf9b83d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "307426000",
+              "system": "http://snomed.info/sct",
+              "display": "Acute infective cystitis (disorder)"
+            }
+          ],
+          "text": "Acute infective cystitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute infective cystitis</span></td><td><span class=\"nb\">25-Jun-2019 - 01-Aug-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-06-25",
+        "abatementDateTime": "2019-08-01",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:789153c9-6112-43a7-bcdf-5c1abc50bc68",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "789153c9-6112-43a7-bcdf-5c1abc50bc68",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "312608009",
+              "system": "http://snomed.info/sct",
+              "display": "Laceration - injury (disorder)"
+            }
+          ],
+          "text": "Laceration - injury"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Laceration - injury</span></td><td><span class=\"nb\">28-Jun-2016 - 19-Jul-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-06-28",
+        "abatementDateTime": "2016-07-19",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56cf71d3-4b44-4f39-afa8-696569bbed37",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "56cf71d3-4b44-4f39-afa8-696569bbed37",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "370247008",
+              "system": "http://snomed.info/sct",
+              "display": "Facial laceration (disorder)"
+            }
+          ],
+          "text": "Facial laceration"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Facial laceration</span></td><td><span class=\"nb\">28-Jun-2016 - 19-Jul-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-06-28",
+        "abatementDateTime": "2016-07-19",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "asserter": {
+          "reference": "urn:uuid:1ff4185c-2112-4111-8ab5-3c21be88d43b",
+          "display": "Szpital Psychiatryczny"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e43c461e-fba3-4593-882f-34e8197fccd9",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "e43c461e-fba3-4593-882f-34e8197fccd9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b06cfc90-8303-4de9-9236-e854c8e48f68",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "b06cfc90-8303-4de9-9236-e854c8e48f68",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">28-Jan-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "occurrenceDateTime": "2025-01-28",
+        "lotNumber": "MH-saiJN0hk",
+        "expirationDate": "2025-09-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0985c42-5dc0-426c-9760-04b4119ccbe2",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "f0985c42-5dc0-426c-9760-04b4119ccbe2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">19-Oct-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "occurrenceDateTime": "2021-10-19",
+        "lotNumber": "VF-v0306AV2",
+        "expirationDate": "2022-04-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:247d4156-226f-4fd3-a2c7-2d63f7ff12b5",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "247d4156-226f-4fd3-a2c7-2d63f7ff12b5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2221000221107",
+              "system": "http://snomed.info/sct",
+              "display": "Live attenuated Varicella-zoster vaccine"
+            },
+            {
+              "code": "J07BK02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Varicella-zoster vaccines"
+            }
+          ],
+          "text": "Live attenuated Human alphaherpesvirus 3 only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "368208006",
+              "system": "http://snomed.info/sct",
+              "display": "Left upper arm structure"
+            }
+          ],
+          "text": "Left upper arm structure"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "34206005",
+              "system": "http://snomed.info/sct",
+              "display": "Subcutaneous route"
+            }
+          ],
+          "text": "Subcutaneous route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Live attenuated Human alphaherpesvirus 3 only vaccine product</td><td><span class=\"nb\">22-Jun-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "occurrenceDateTime": "2021-06-22",
+        "lotNumber": "GK-Enb4",
+        "expirationDate": "2022-01-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a4ad145-6db5-430e-b4d7-742949111913",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "9a4ad145-6db5-430e-b4d7-742949111913",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">09-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "occurrenceDateTime": "2021-02-09",
+        "lotNumber": "OE-YMx6pZ7ud",
+        "expirationDate": "2021-08-08"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4414bd50-be81-4eb6-ba62-b00411792439",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4414bd50-be81-4eb6-ba62-b00411792439",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3ccf9a9e-e6dd-4bfb-9a07-b8bc0439cd1b",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3ccf9a9e-e6dd-4bfb-9a07-b8bc0439cd1b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c59c0a96-a6be-4f95-96f4-f34b8a84baf3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c59c0a96-a6be-4f95-96f4-f34b8a84baf3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d66a79f5-b31e-4c8a-926d-d0741420e449",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d66a79f5-b31e-4c8a-926d-d0741420e449",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710841007",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of anxiety (procedure)"
+            }
+          ],
+          "text": "Assessment of anxiety"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of anxiety</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cafdac57-b4e4-4566-86b1-fb9e00fc3a64",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "cafdac57-b4e4-4566-86b1-fb9e00fc3a64",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "866148006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for domestic abuse (procedure)"
+            }
+          ],
+          "text": "Screening for domestic abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for domestic abuse</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fec683bb-a66b-4763-a04a-6ae13c877076",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "fec683bb-a66b-4763-a04a-6ae13c877076",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">08-Aug-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2023-08-08",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b8d74c2-152d-4fc1-93e2-b8a6ebed801d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "5b8d74c2-152d-4fc1-93e2-b8a6ebed801d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "713106006",
+              "system": "http://snomed.info/sct",
+              "display": "Screening for drug abuse (procedure)"
+            }
+          ],
+          "text": "Screening for drug abuse"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Screening for drug abuse</td><td><span class=\"nb\">11-Oct-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-10-11",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0c3a8483-fad3-4b54-aedc-23c8dea48ac3",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0c3a8483-fad3-4b54-aedc-23c8dea48ac3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">11-Oct-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-10-11",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62f128be-d7be-4b95-9c64-b14a0c26e2b1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "62f128be-d7be-4b95-9c64-b14a0c26e2b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "14736009",
+              "system": "http://snomed.info/sct",
+              "display": "History and physical examination with evaluation and management of patient (procedure)"
+            }
+          ],
+          "text": "Patient evaluation and management"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient evaluation and management</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db816de2-23bf-4fd3-aa2a-84aa14f4c2ca",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "db816de2-23bf-4fd3-aa2a-84aa14f4c2ca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "57617002",
+              "system": "http://snomed.info/sct",
+              "display": "Urine specimen collection (procedure)"
+            }
+          ],
+          "text": "Urine specimen collection"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Urine specimen collection</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b17d394-046a-405b-b88a-46216839c850",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6b17d394-046a-405b-b88a-46216839c850",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "58000006",
+              "system": "http://snomed.info/sct",
+              "display": "Patient discharge (procedure)"
+            }
+          ],
+          "text": "Patient discharge"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Patient discharge</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:976087e9-a64a-47af-8a92-0cfcbada66b2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "976087e9-a64a-47af-8a92-0cfcbada66b2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "61746007",
+              "system": "http://snomed.info/sct",
+              "display": "Taking patient vital signs (procedure)"
+            }
+          ],
+          "text": "Taking patient vital signs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Taking patient vital signs</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a4e4780-5f7f-4db5-8eb6-29a8ea0e1263",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "0a4e4780-5f7f-4db5-8eb6-29a8ea0e1263",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84100007",
+              "system": "http://snomed.info/sct",
+              "display": "History taking (procedure)"
+            }
+          ],
+          "text": "History taking"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History taking</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e62a640-473d-4814-9db5-ca55cb7b918c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3e62a640-473d-4814-9db5-ca55cb7b918c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "223470000",
+              "system": "http://snomed.info/sct",
+              "display": "Discussion about signs and symptoms (procedure)"
+            }
+          ],
+          "text": "Discussion about signs and symptoms"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discussion about signs and symptoms</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:56d3b456-7f86-4ccc-afa5-13337331a311",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "56d3b456-7f86-4ccc-afa5-13337331a311",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "281789004",
+              "system": "http://snomed.info/sct",
+              "display": "Antibiotic therapy (procedure)"
+            }
+          ],
+          "text": "Antibiotic therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Antibiotic therapy</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:15d70ea8-3de5-40e7-bcab-4e874a31ab05",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "15d70ea8-3de5-40e7-bcab-4e874a31ab05",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "386478007",
+              "system": "http://snomed.info/sct",
+              "display": "Triage emergency center (procedure)"
+            }
+          ],
+          "text": "Triage: emergency center"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Triage: emergency center</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ebb4c1ab-c650-4a6f-a309-2715ef755834",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "ebb4c1ab-c650-4a6f-a309-2715ef755834",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "441550005",
+              "system": "http://snomed.info/sct",
+              "display": "Urinalysis with reflex to microscopy and culture (procedure)"
+            }
+          ],
+          "text": "Urinalysis with reflex to microscopy and culture"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Urinalysis with reflex to microscopy and culture</td><td><span class=\"nb\">30-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-30",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d894dec5-21c2-48b9-b353-38d61435a1d1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d894dec5-21c2-48b9-b353-38d61435a1d1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "225386006",
+              "system": "http://snomed.info/sct",
+              "display": "Pre-discharge assessment (procedure)"
+            }
+          ],
+          "text": "Pre-discharge assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Pre-discharge assessment</td><td><span class=\"nb\">29-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-29",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24b56576-9a86-4f6b-98c5-63a2ed9fcc7d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "24b56576-9a86-4f6b-98c5-63a2ed9fcc7d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "449381000124108",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from skilled nursing facility (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from skilled nursing facility (procedure)</td><td><span class=\"nb\">29-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-29",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb3be178-ebc9-415a-b4b2-45c30ec22418",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "fb3be178-ebc9-415a-b4b2-45c30ec22418",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "410401003",
+              "system": "http://snomed.info/sct",
+              "display": "Nursing care/supplementary surveillance (regime/therapy)"
+            }
+          ],
+          "text": "Nursing care/supplementary surveillance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Nursing care/supplementary surveillance</td><td><span class=\"nb\">28-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-28",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6c233ff-90bd-4159-ae60-994f8b4b44e5",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "b6c233ff-90bd-4159-ae60-994f8b4b44e5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84478008",
+              "system": "http://snomed.info/sct",
+              "display": "Occupational therapy (regime/therapy)"
+            }
+          ],
+          "text": "Occupational therapy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Occupational therapy</td><td><span class=\"nb\">26-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-26",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7bce2649-1390-438e-be7c-d9d056e1a09d",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7bce2649-1390-438e-be7c-d9d056e1a09d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "91251008",
+              "system": "http://snomed.info/sct",
+              "display": "Physical therapy procedure (regime/therapy)"
+            }
+          ],
+          "text": "Physical therapy procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Physical therapy procedure</td><td><span class=\"nb\">25-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-25",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:23e22190-9513-48b4-b0c5-dd017f6293d8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "23e22190-9513-48b4-b0c5-dd017f6293d8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "63332003",
+              "system": "http://snomed.info/sct",
+              "display": "History AND physical examination (procedure)"
+            }
+          ],
+          "text": "History AND physical examination"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>History AND physical examination</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-23",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f0c7bf34-ef7e-4870-a758-aa00a8e87542",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f0c7bf34-ef7e-4870-a758-aa00a8e87542",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "315639002",
+              "system": "http://snomed.info/sct",
+              "display": "Initial patient assessment (procedure)"
+            }
+          ],
+          "text": "Initial patient assessment"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Initial patient assessment</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-23",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c24a8e29-7a46-47e8-8da3-c6520b3ff7a0",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c24a8e29-7a46-47e8-8da3-c6520b3ff7a0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "370789001",
+              "system": "http://snomed.info/sct",
+              "display": "Development of individualized plan of care (procedure)"
+            }
+          ],
+          "text": "Development of individualized plan of care"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Development of individualized plan of care</td><td><span class=\"nb\">23-Jul-2019</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2019-07-23",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:dd8e927d-55ee-470b-9abf-6e21cdf11db7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "dd8e927d-55ee-470b-9abf-6e21cdf11db7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "288086009",
+              "system": "http://snomed.info/sct",
+              "display": "Suture open wound"
+            }
+          ],
+          "text": "Suture open wound"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "370247008",
+                "system": "http://snomed.info/sct",
+                "display": "Facial laceration"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Suture open wound</td><td><span class=\"nb\">28-Jun-2016</span></td><td>Facial laceration</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-06-28",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:90421fc2-abf0-4acf-a0bd-ba9a4876da4a",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "90421fc2-abf0-4acf-a0bd-ba9a4876da4a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:afbdf4a7-c797-4d02-8fa9-fcc27bef2322",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "afbdf4a7-c797-4d02-8fa9-fcc27bef2322",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "408869004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Musculoskeletal care (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "239873007",
+                      "system": "http://snomed.info/sct",
+                      "display": "Osteoarthritis of knee"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Musculoskeletal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2024-06-23"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:d94a0cf5-7c83-4ce0-ba00-117e8e73bdd4"
+          },
+          {
+            "reference": "urn:uuid:f90772d9-00c8-4e89-b3fb-a3a52f310db1"
+          },
+          {
+            "reference": "urn:uuid:dda4f408-d8b1-4fee-8c30-f54618467448"
+          },
+          {
+            "reference": "urn:uuid:d78d7f5f-114c-4328-9866-3cf2d8279125"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">23-Jun-2024</span></td><td>Osteoarthritis of knee</td></tr><tr><td><ul><li>Reduce knee pain severity to improve function and quality of life</li><li>Increase ability to perform daily activities without limitation from knee osteoarthritis</li><li>Increase knee flexion range of motion</li><li>Achieve recommended physical activity for joint health</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4f93c5c9-b6c0-4eb5-b69f-dc54796fb295",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "4f93c5c9-b6c0-4eb5-b69f-dc54796fb295",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736285004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Hyperlipidemia clinical management plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "55822004",
+                      "system": "http://snomed.info/sct",
+                      "display": "Hyperlipidemia"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Hyperlipidemia clinical management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2012-12-25"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:bfe4eb81-1983-48c7-bcff-3790bd61ebfa"
+          },
+          {
+            "reference": "urn:uuid:93eb83aa-ea51-4bf9-9be9-fbeccaaeabd1"
+          },
+          {
+            "reference": "urn:uuid:39332619-607b-4f11-8ecf-068b36003a29"
+          },
+          {
+            "reference": "urn:uuid:d27f784c-eaad-49c8-8929-74ec9e21cdbd"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Hyperlipidemia clinical management plan</td><td><span class=\"nb\">25-Dec-2012</span></td><td>Hyperlipidemia</td></tr><tr><td><ul><li>Achieve LDL cholesterol less than 1.8 mmol/L</li><li>Achieve total cholesterol less than 4.0 mmol/L</li><li>Achieve triglycerides less than 1.7 mmol/L</li><li>Achieve HDL cholesterol greater than 1.0 mmol/L</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fc92d640-bfc0-4837-92d6-915257bf7b4e",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "fc92d640-bfc0-4837-92d6-915257bf7b4e",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2001-10-02"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:53d8c3eb-65fa-40dc-ae85-5f751515b79e"
+          },
+          {
+            "reference": "urn:uuid:afdcebf0-3a46-4905-97f2-5d111f5c44f9"
+          },
+          {
+            "reference": "urn:uuid:f26a69ec-4a45-4506-b23b-ec3fd5dbc6bb"
+          },
+          {
+            "reference": "urn:uuid:bb3f0d66-5633-4dbd-bcfe-c60176afcc7e"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">02-Oct-2001</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Maintain blood pressure below 130/80 mmHg to reduce cardiovascular and renal risk.</li><li>Limit daily sodium intake to less than 2.3 grams to support blood pressure control.</li><li>Achieve at least 5% reduction in body weight to improve blood pressure control.</li><li>Engage in at least 150 minutes of moderate-intensity aerobic physical activity per week.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c2f1bdb6-e6de-42d1-b75f-3c4f00bd52cb",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "c2f1bdb6-e6de-42d1-b75f-3c4f00bd52cb",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1992-09-22"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:966be7b4-077d-4c7f-a0ef-648edd805e26"
+          },
+          {
+            "reference": "urn:uuid:88327f29-650c-403e-9906-a88f4aa13ae4"
+          },
+          {
+            "reference": "urn:uuid:55c71bd0-55a2-4101-ab04-8137353b11bd"
+          },
+          {
+            "reference": "urn:uuid:107cf8af-2b1c-464e-976a-aceedb6bbd40"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">22-Sep-1992</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Maintain or achieve HbA1c at or below individualized target to support diabetes self-management.</li><li>Achieve and maintain weight loss as part of diabetes self-management plan.</li><li>Maintain blood pressure at or below target to reduce risk of diabetes complications.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week as part of diabetes self-management.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cf5dd41b-f304-4002-ab13-470c67a2185c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "cf5dd41b-f304-4002-ab13-470c67a2185c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 164.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>04-Mar-2025</td><td>164.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c76379ac-229c-48cf-9ff2-9e0e661b0770",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c76379ac-229c-48cf-9ff2-9e0e661b0770",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>04-Mar-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0e3feace-1228-4967-a163-633b0df88678",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0e3feace-1228-4967-a163-633b0df88678",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>04-Mar-2025</td><td>81.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7391c54f-c316-421a-89e4-2c899bbeb465",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7391c54f-c316-421a-89e4-2c899bbeb465",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>04-Mar-2025</td><td>30.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e72fe6f0-0fc6-4d76-a775-e4242a413386",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e72fe6f0-0fc6-4d76-a775-e4242a413386",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 100,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>04-Mar-2025</td><td>100 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:09b5f6cd-9414-4816-8255-df8b540ea76d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "09b5f6cd-9414-4816-8255-df8b540ea76d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 122,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>04-Mar-2025</td><td>122 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1d6cae24-99c0-4f7b-acf7-ea9909d684b3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1d6cae24-99c0-4f7b-acf7-ea9909d684b3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 84,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>04-Mar-2025</td><td>84 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2d72682-04a0-4a17-bf81-141247143773",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e2d72682-04a0-4a17-bf81-141247143773",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 12,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>04-Mar-2025</td><td>12 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-03-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6e75dedd-239d-440c-b603-78c4e402fda0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6e75dedd-239d-440c-b603-78c4e402fda0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 164.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>11-Feb-2025</td><td>164.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eb9a2982-ec3d-45f6-8254-9d702a836cd7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "eb9a2982-ec3d-45f6-8254-9d702a836cd7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>11-Feb-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9aba7c13-8f9b-47a4-8edf-b5356646dfe7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9aba7c13-8f9b-47a4-8edf-b5356646dfe7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.8,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>11-Feb-2025</td><td>81.8 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:316444ba-6ddf-4de7-b611-77a1028c512b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "316444ba-6ddf-4de7-b611-77a1028c512b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>11-Feb-2025</td><td>30.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58a614b4-ea75-48bd-b82b-457e891c86f6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "58a614b4-ea75-48bd-b82b-457e891c86f6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 93,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>11-Feb-2025</td><td>93 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:637e8f11-ff7a-42af-aa5d-fec33375b535",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "637e8f11-ff7a-42af-aa5d-fec33375b535",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 122,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>11-Feb-2025</td><td>122 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:18f36983-2a9e-4991-8a4a-58c90ccd6e10",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "18f36983-2a9e-4991-8a4a-58c90ccd6e10",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 79,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>11-Feb-2025</td><td>79 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:219fcbaa-8d42-4d68-ab18-96409f16d563",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "219fcbaa-8d42-4d68-ab18-96409f16d563",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>11-Feb-2025</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-02-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b88a2c14-7169-4d17-8921-91fdd203417c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b88a2c14-7169-4d17-8921-91fdd203417c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "33756-8",
+              "system": "http://loinc.org",
+              "display": "Polyp size greatest dimension"
+            }
+          ],
+          "text": "Polyp size greatest dimension"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 2.3,
+          "unit": "mm",
+          "code": "mm"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mm",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5,
+              "code": "mm",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>21-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Polyp size greatest dimension</td><td>2.3</td><td>0 - 5</td><td></td><td>mm</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-07-21T21:06:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb1dd96b-423f-48b3-a792-1825b847b5dc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "fb1dd96b-423f-48b3-a792-1825b847b5dc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "57905-2",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay --1st specimen"
+            }
+          ],
+          "text": "Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay --1st specimen"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 22,
+          "unit": "ng/mL",
+          "code": "ng/mL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "ng/mL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>21-Jul-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin.gastrointestinal.lower [Presence] in Stool by Immunoassay --1st specimen</td><td>22.0</td><td>0 - 200</td><td></td><td>ng/mL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "effectiveDateTime": "2025-07-21T21:06:38Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6a47101-420d-4a8d-9d59-1434d3899f50",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "b6a47101-420d-4a8d-9d59-1434d3899f50",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2024-06-23"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Walker (physical object)</td><td><span class=\"nb\">23-Jun-2024</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:0b5d6a49-cca3-472a-909a-dd035346378d",
+          "display": "Walker (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0b5d6a49-cca3-472a-909a-dd035346378d",
+      "resource": {
+        "resourceType": "Device",
+        "id": "0b5d6a49-cca3-472a-909a-dd035346378d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)18372933781413(11)240602(17)490617(10)35671822754(21)193286221707089"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "705406009",
+              "system": "http://snomed.info/sct",
+              "display": "Walker (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5c3d8d16-1862-486e-ab02-47e6116c6cd1",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "5c3d8d16-1862-486e-ab02-47e6116c6cd1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2006-11-16"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">16-Nov-2006</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:0a770043-9efc-4a9c-b4a2-29cc37669fe2",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a770043-9efc-4a9c-b4a2-29cc37669fe2",
+      "resource": {
+        "resourceType": "Device",
+        "id": "0a770043-9efc-4a9c-b4a2-29cc37669fe2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)53571740318374(11)061026(17)311110(10)4212208334(21)9048496056008"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bb8ba97e-0812-48c9-af29-f4bbafb94025",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "bb8ba97e-0812-48c9-af29-f4bbafb94025",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1992-09-22"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">22-Sep-1992</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:df1b48a3-71e7-4e4b-909b-d2e06fd650e1",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df1b48a3-71e7-4e4b-909b-d2e06fd650e1",
+      "resource": {
+        "resourceType": "Device",
+        "id": "df1b48a3-71e7-4e4b-909b-d2e06fd650e1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)28024180274500(11)920901(17)170916(10)914600(21)1150162186178910935"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:b47e287a-50a0-4049-9903-f95d478b5538",
+          "display": "Stefan Szczubełek"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf2351fe-183f-4a76-a51d-7da0cb97d671",
+      "resource": {
+        "resourceType": "Device",
+        "id": "bf2351fe-183f-4a76-a51d-7da0cb97d671",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:af054c56-cb91-4eb7-8f07-23f77d7c7d40",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "af054c56-cb91-4eb7-8f07-23f77d7c7d40",
+        "target": [
+          {
+            "reference": "Patient/b47e287a-50a0-4049-9903-f95d478b5538"
+          },
+          {
+            "reference": "Bundle/946dcda2-2fd7-4e11-b9a1-e9d731f52dad"
+          },
+          {
+            "reference": "Composition/d4c9ac32-3d3c-4ae7-8149-72c7c54d93f3"
+          },
+          {
+            "reference": "PractitionerRole/1ff4185c-2112-4111-8ab5-3c21be88d43b"
+          },
+          {
+            "reference": "Organization/b242e497-bef2-4e5d-8186-38e977ea4f24"
+          },
+          {
+            "reference": "Practitioner/cb7c5044-1212-4b4b-aa1e-5bb24fc82a24"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/bf2351fe-183f-4a76-a51d-7da0cb97d671"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-07-21T21:06:38Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-07-21T21:06:38Z"
+}

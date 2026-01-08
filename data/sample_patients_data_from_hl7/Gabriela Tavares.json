@@ -1,0 +1,4183 @@
+{
+  "resourceType": "Bundle",
+  "id": "ddc363e1-e230-4f6b-987b-21b5b2a29cad",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "6c92a4ba-3a37-4341-a7ba-a122a9ec60a1"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:0b63a45a-db96-4b5d-b68f-72cb53e11cf3",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "0b63a45a-db96-4b5d-b68f-72cb53e11cf3",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "93c32e7f-596e-4627-898c-b1d52a265aca"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Ischemic heart disease</td><td><span class=\"nb\">27-Jul-2015</span></td><td>active</td></tr><tr><td>Acute non-ST segment elevation myocardial infarction</td><td><span class=\"nb\">06-Nov-2012</span></td><td>active</td></tr><tr><td>Obstructive sleep apnea syndrome</td><td><span class=\"nb\">25-Apr-2001</span></td><td>active</td></tr><tr><td>Sleep disorder</td><td><span class=\"nb\">19-Mar-2001</span></td><td>active</td></tr><tr><td>Anemia</td><td><span class=\"nb\">20-Apr-1998</span></td><td>active</td></tr><tr><td>Osteoarthritis of knee</td><td><span class=\"nb\">22-Jul-1997</span></td><td>active</td></tr><tr><td>Prediabetes</td><td><span class=\"nb\">14-Apr-1997</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">24-Oct-1995</span></td><td>active</td></tr><tr><td>Recurrent urinary tract infection</td><td><span class=\"nb\">01-Sep-1960</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:e2be162c-187a-4d2b-abfd-eb04bacec400"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9a25face-e405-4eee-90b3-8e2c6ff1e68e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">16-Sep-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Apr-2021</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">01-Aug-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:04b323cf-8fc3-4a72-913a-2e375a8d9504"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Radiography of ankle</td><td><span class=\"nb\">11-Apr-2022</span></td><td>-</td></tr><tr><td>Bone immobilization</td><td><span class=\"nb\">11-Apr-2022</span></td><td>Fracture of ankle</td></tr><tr><td>Bone density scan</td><td><span class=\"nb\">11-Apr-2022</span></td><td>Fracture of ankle</td></tr><tr><td>Postoperative procedure education</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Stair-climbing test</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Walking exercise test</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Discharge to ward</td><td><span class=\"nb\">20-Aug-2015</span></td><td>-</td></tr><tr><td>Discharge from hospital</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">18-Aug-2015</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6abb813e-c0f6-4e7e-864d-9325b2b91637"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Aspirin</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>medication</td><td>Abdominal pain (finding)</td></tr><tr><td>Lisinopril</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>medication</td><td>Cough (finding)</td></tr><tr><td>Grass pollen</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Soyabean</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>food</td><td>Diarrhea (finding)</td></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:bf03985e-e9c4-4fbc-993b-bf6dc0d40790"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Discharge care plan</td><td><span class=\"nb\">07-Nov-2012</span></td><td>-</td></tr><tr><td>Care plan</td><td><span class=\"nb\">25-Apr-2001</span></td><td>Obstructive sleep apnea syndrome (disorder)</td></tr><tr><td><ul><li>Reduce the apnea-hypopnea index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Patient reports improved sleep quality and reduced daytime sleepiness as measured by the Epworth Sleepiness Scale (ESS) score less than 10.</li><li>Patient uses CPAP device for at least 4 hours per night on 70% of nights.</li></ul></td><td></td><td></td></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">22-Jul-1997</span></td><td>Osteoarthritis of knee</td></tr><tr><td><ul><li>Reduce knee pain severity to improve mobility and quality of life</li><li>Increase ability to walk without assistance</li><li>Decrease swelling and inflammation in the affected knee</li></ul></td><td></td><td></td></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">14-Apr-1997</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will demonstrate understanding of prediabetes and implement recommended lifestyle modifications including diet, exercise, and blood glucose monitoring.</li><li>Maintain or achieve hemoglobin A1c below 6.5% to reduce risk of progression to diabetes.</li><li>Achieve at least 5% reduction in body weight through dietary changes and increased physical activity.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week.</li></ul></td><td></td><td></td></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">09-Feb-1946</span></td><td>-</td></tr><tr><th>Immunization Recommendation</th><th>Due Date</th><th>Reason</th></tr><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-09-16</th><th>2023-09-11</th></tr><tr><td>Body Height</td><td>168.1 cm</td><td>168.1 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>0 {score}</td></tr><tr><td>Body Weight</td><td>78.7 kg</td><td>78.7 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>27.9 kg/m2</td><td>27.9 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>69 mm[Hg]</td><td>69 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>110 mm[Hg]</td><td>107 mm[Hg]</td></tr><tr><td>Heart rate</td><td>74 /min</td><td>74 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>14 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:91ef6e4c-0ddc-4b2b-a5da-04521648a320"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>16-SEP-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.2</td><td>4.5 - 6.4</td><td>%</td></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>95.9</td><td>70 - 140</td><td>mg/dL</td></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 30</td><td>mg/dL</td></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.8</td><td>0.5 - 1.3</td><td>mg/dL</td></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.2</td><td>8.6 - 10.2</td><td>mg/dL</td></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>136.8</td><td>135 - 145</td><td>mmol/L</td></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.4</td><td>3.5 - 5.1</td><td>mmol/L</td></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.9</td><td>98 - 114</td><td>mmol/L</td></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>27.3</td><td>22 - 32</td><td>mmol/L</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home continuous positive airway pressure unit (physical object)</td><td><span class=\"nb\">16-Sep-2024</span></td></tr><tr><td>Respiratory humidifier (physical object)</td><td><span class=\"nb\">16-Sep-2024</span></td></tr><tr><td>Walker (physical object)</td><td><span class=\"nb\">22-Jul-1997</span></td></tr><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">14-Apr-1997</span></td></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">24-Oct-1995</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c181f21f-2699-4b32-aba9-d9090c837d89"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "custodian": {
+          "reference": "urn:uuid:36186732-a90d-4a34-831a-1fbc9848e0ec"
+        },
+        "date": "2024-09-16",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8337-229151-4"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "4cd6f402-7efe-8379-d8d2-d92772a60123"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Gabriela"
+            ],
+            "family": "Tavares",
+            "text": "Gabriela Tavares"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Av Nunes, 7"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "2430-291",
+            "city": "Marinha Grande",
+            "country": "Portugal"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(351) 964 553 615"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Gabriela Tavares</td><td>female</td><td>26-Feb-1947</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1947-02-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 15e6053a-e36c-4e2f-8edd-cb8c447916d0</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:807a4fe0-bd39-4a5b-b4aa-a839118fd656"
+        },
+        "organization": {
+          "reference": "urn:uuid:36186732-a90d-4a34-831a-1fbc9848e0ec"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:36186732-a90d-4a34-831a-1fbc9848e0ec",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "36186732-a90d-4a34-831a-1fbc9848e0ec",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "a522e6ee-85bb-4602-9bf0-516635115eeb"
+          }
+        ],
+        "address": [
+          {
+            "city": "Marinha Grande",
+            "postalCode": "2430-237",
+            "country": "Portugal"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Terapia das dores</table></div>"
+        },
+        "name": "Terapia das dores"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:807a4fe0-bd39-4a5b-b4aa-a839118fd656",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "807a4fe0-bd39-4a5b-b4aa-a839118fd656",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e2be162c-187a-4d2b-abfd-eb04bacec400",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e2be162c-187a-4d2b-abfd-eb04bacec400",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "414545008",
+              "system": "http://snomed.info/sct",
+              "display": "Ischemic heart disease (disorder)"
+            }
+          ],
+          "text": "Ischemic heart disease"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ischemic heart disease</td><td><span class=\"nb\">27-Jul-2015</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2015-07-27",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:122faac2-0fe6-45aa-adf7-d2f26a8561b1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "122faac2-0fe6-45aa-adf7-d2f26a8561b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "401314000",
+              "system": "http://snomed.info/sct",
+              "display": "Acute non-ST segment elevation myocardial infarction (disorder)"
+            }
+          ],
+          "text": "Acute non-ST segment elevation myocardial infarction"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Acute non-ST segment elevation myocardial infarction</td><td><span class=\"nb\">06-Nov-2012</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2012-11-06",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b8ce6b0b-b8d2-4e9d-b537-56cf9b5a31b1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "b8ce6b0b-b8d2-4e9d-b537-56cf9b5a31b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "78275009",
+              "system": "http://snomed.info/sct",
+              "display": "Obstructive sleep apnea syndrome (disorder)"
+            }
+          ],
+          "text": "Obstructive sleep apnea syndrome"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Obstructive sleep apnea syndrome</td><td><span class=\"nb\">25-Apr-2001</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2001-04-25",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cbf14f89-da31-4864-a2b3-957c5e93e687",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cbf14f89-da31-4864-a2b3-957c5e93e687",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "39898005",
+              "system": "http://snomed.info/sct",
+              "display": "Sleep disorder (disorder)"
+            }
+          ],
+          "text": "Sleep disorder"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sleep disorder</td><td><span class=\"nb\">19-Mar-2001</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2001-03-19",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1107d76f-ef3d-44f0-ae1a-8dc459290720",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1107d76f-ef3d-44f0-ae1a-8dc459290720",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anemia</td><td><span class=\"nb\">20-Apr-1998</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1998-04-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c6ee0287-e38c-4158-b6d9-2b4b1c191d2d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c6ee0287-e38c-4158-b6d9-2b4b1c191d2d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "239873007",
+              "system": "http://snomed.info/sct",
+              "display": "Osteoarthritis of knee (disorder)"
+            }
+          ],
+          "text": "Osteoarthritis of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Osteoarthritis of knee</td><td><span class=\"nb\">22-Jul-1997</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1997-07-22",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ab592956-780e-4c49-bb63-280019975de1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ab592956-780e-4c49-bb63-280019975de1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "15777000",
+              "system": "http://snomed.info/sct",
+              "display": "Prediabetes (disorder)"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Prediabetes</td><td><span class=\"nb\">14-Apr-1997</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1997-04-14",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0831693-c5a8-4fb2-ba15-538ff5d2a45b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "e0831693-c5a8-4fb2-ba15-538ff5d2a45b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">24-Oct-1995</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1995-10-24",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12d1c1ba-6faf-423d-b238-3b4b536dfbb6",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "12d1c1ba-6faf-423d-b238-3b4b536dfbb6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "197927001",
+              "system": "http://snomed.info/sct",
+              "display": "Recurrent urinary tract infection (disorder)"
+            }
+          ],
+          "text": "Recurrent urinary tract infection"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Recurrent urinary tract infection</td><td><span class=\"nb\">01-Sep-1960</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1960-09-01",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:94130935-78b2-4842-b76f-96de6f8dfff2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "94130935-78b2-4842-b76f-96de6f8dfff2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "70704007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of wrist (disorder)"
+            }
+          ],
+          "text": "Sprain of wrist"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of wrist</span></td><td><span class=\"nb\">18-Jul-2023 - 06-Aug-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-07-18",
+        "abatementDateTime": "2023-08-06",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d9d36b2c-0b2c-4c36-9dc1-7ccd56398c1e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d9d36b2c-0b2c-4c36-9dc1-7ccd56398c1e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "16114001",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of ankle (disorder)"
+            }
+          ],
+          "text": "Fracture of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of ankle</span></td><td><span class=\"nb\">11-Apr-2022 - 01-Jun-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-04-11",
+        "abatementDateTime": "2022-06-01",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cd342fe9-976a-4479-b844-b76c19f52315",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cd342fe9-976a-4479-b844-b76c19f52315",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125605004",
+              "system": "http://snomed.info/sct",
+              "display": "Fracture of bone (disorder)"
+            }
+          ],
+          "text": "Fracture of bone"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Fracture of bone</span></td><td><span class=\"nb\">11-Apr-2022 - 01-Jun-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-04-11",
+        "abatementDateTime": "2022-06-01",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f7622ad-fc6f-4580-bf32-3ca663243562",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8f7622ad-fc6f-4580-bf32-3ca663243562",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "70704007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of wrist (disorder)"
+            }
+          ],
+          "text": "Sprain of wrist"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of wrist</span></td><td><span class=\"nb\">17-Apr-2019 - 28-May-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-04-17",
+        "abatementDateTime": "2019-05-28",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74511bba-a444-460d-b5b8-e989fab7b504",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "74511bba-a444-460d-b5b8-e989fab7b504",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">16-Oct-2016 - 03-Nov-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-10-16",
+        "abatementDateTime": "2016-11-03",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "asserter": {
+          "reference": "urn:uuid:15e6053a-e36c-4e2f-8edd-cb8c447916d0",
+          "display": "Terapia das dores"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a25face-e405-4eee-90b3-8e2c6ff1e68e",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "9a25face-e405-4eee-90b3-8e2c6ff1e68e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04b323cf-8fc3-4a72-913a-2e375a8d9504",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "04b323cf-8fc3-4a72-913a-2e375a8d9504",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">16-Sep-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "occurrenceDateTime": "2024-09-16",
+        "lotNumber": "GL-8JgJQ1Qh",
+        "expirationDate": "2025-01-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:600db2c1-0b81-4f19-9844-5e70aae2346f",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "600db2c1-0b81-4f19-9844-5e70aae2346f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "occurrenceDateTime": "2021-04-12",
+        "lotNumber": "UZ-ofONi",
+        "expirationDate": "2022-01-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59bf7766-ffd0-404c-a8fa-0658153afead",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "59bf7766-ffd0-404c-a8fa-0658153afead",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">01-Aug-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "occurrenceDateTime": "2016-08-01",
+        "lotNumber": "MY-ePiC",
+        "expirationDate": "2017-04-25"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6abb813e-c0f6-4e7e-864d-9325b2b91637",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6abb813e-c0f6-4e7e-864d-9325b2b91637",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "19490002",
+              "system": "http://snomed.info/sct",
+              "display": "Ankle X-ray"
+            }
+          ],
+          "text": "Radiography of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiography of ankle</td><td><span class=\"nb\">11-Apr-2022</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-04-11",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3e77c23c-3769-4895-8bc7-c175c37fb804",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3e77c23c-3769-4895-8bc7-c175c37fb804",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "274474001",
+              "system": "http://snomed.info/sct",
+              "display": "Bone immobilization"
+            }
+          ],
+          "text": "Bone immobilization"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "16114001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of ankle"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone immobilization</td><td><span class=\"nb\">11-Apr-2022</span></td><td>Fracture of ankle</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-04-11",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a4e97b58-73ed-4c46-ba52-f70d4d5a3145",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a4e97b58-73ed-4c46-ba52-f70d4d5a3145",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "312681000",
+              "system": "http://snomed.info/sct",
+              "display": "Bone density scan (procedure)"
+            }
+          ],
+          "text": "Bone density scan"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "16114001",
+                "system": "http://snomed.info/sct",
+                "display": "Fracture of ankle"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bone density scan</td><td><span class=\"nb\">11-Apr-2022</span></td><td>Fracture of ankle</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-04-11",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a12292da-dec8-4b07-8035-2f13497407fd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "a12292da-dec8-4b07-8035-2f13497407fd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "243063003",
+              "system": "http://snomed.info/sct",
+              "display": "Postoperative procedure education (procedure)"
+            }
+          ],
+          "text": "Postoperative procedure education"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Postoperative procedure education</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3c2241e3-2160-4c5a-8a37-1be62f5fad90",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3c2241e3-2160-4c5a-8a37-1be62f5fad90",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "252482003",
+              "system": "http://snomed.info/sct",
+              "display": "Stair-climbing test (procedure)"
+            }
+          ],
+          "text": "Stair-climbing test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Stair-climbing test</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e32c2afd-0d1b-401e-9140-cc6623a6bc95",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "e32c2afd-0d1b-401e-9140-cc6623a6bc95",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "302761001",
+              "system": "http://snomed.info/sct",
+              "display": "Walking exercise test (procedure)"
+            }
+          ],
+          "text": "Walking exercise test"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Walking exercise test</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:294e0b67-e9ad-4ed1-a8d3-47bd3c6a12cb",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "294e0b67-e9ad-4ed1-a8d3-47bd3c6a12cb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "306706006",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge to ward (procedure)"
+            }
+          ],
+          "text": "Discharge to ward"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge to ward</td><td><span class=\"nb\">20-Aug-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1215a75b-6a6b-41ab-8bcb-122e914fd0db",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1215a75b-6a6b-41ab-8bcb-122e914fd0db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "308283009",
+              "system": "http://snomed.info/sct",
+              "display": "Discharge from hospital (procedure)"
+            }
+          ],
+          "text": "Discharge from hospital"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "399261000",
+                "system": "http://snomed.info/sct",
+                "display": "History of coronary artery bypass grafting (situation)"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Discharge from hospital</td><td><span class=\"nb\">20-Aug-2015</span></td><td>History of coronary artery bypass grafting (situation)</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-20",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9b7cadac-eec4-4d98-8bfe-25b552a5c8f4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "9b7cadac-eec4-4d98-8bfe-25b552a5c8f4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "29303009",
+              "system": "http://snomed.info/sct",
+              "display": "Electrocardiographic procedure (procedure)"
+            }
+          ],
+          "text": "Electrocardiographic procedure"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Electrocardiographic procedure</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-19",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:800de4ae-2929-48ed-a365-647959baaba9",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "800de4ae-2929-48ed-a365-647959baaba9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "71493000",
+              "system": "http://snomed.info/sct",
+              "display": "Transfusion of packed red blood cells (procedure)"
+            }
+          ],
+          "text": "Transfusion of packed red blood cells"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Transfusion of packed red blood cells</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-19",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7d42d79a-2d55-4546-925a-8bff218a1fa4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7d42d79a-2d55-4546-925a-8bff218a1fa4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "399208008",
+              "system": "http://snomed.info/sct",
+              "display": "Plain chest X-ray (procedure)"
+            }
+          ],
+          "text": "Plain X-ray of chest"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Plain X-ray of chest</td><td><span class=\"nb\">19-Aug-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-19",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8d147783-44d6-44e4-8e16-c0f7a98c6a13",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "8d147783-44d6-44e4-8e16-c0f7a98c6a13",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "271280005",
+              "system": "http://snomed.info/sct",
+              "display": "Removal of endotracheal tube (procedure)"
+            }
+          ],
+          "text": "Removal of endotracheal tube"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Removal of endotracheal tube</td><td><span class=\"nb\">18-Aug-2015</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2015-08-18",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf03985e-e9c4-4fbc-993b-bf6dc0d40790",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "bf03985e-e9c4-4fbc-993b-bf6dc0d40790",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "1191",
+              "system": "http://snomed.info/sct",
+              "display": "Aspirin"
+            }
+          ],
+          "text": "Aspirin"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "21522001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Abdominal pain (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Aspirin</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>medication</td><td>Abdominal pain (finding)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1946-02-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6617c9ef-c5a6-48c3-98bf-4048911d0d8c",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "6617c9ef-c5a6-48c3-98bf-4048911d0d8c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "29046",
+              "system": "http://snomed.info/sct",
+              "display": "Lisinopril"
+            }
+          ],
+          "text": "Lisinopril"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "medication"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "49727002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Cough (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Lisinopril</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>medication</td><td>Cough (finding)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1946-02-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "intolerance",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3eb7b8e8-91e5-4431-8b75-7a105b4c95a3",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "3eb7b8e8-91e5-4431-8b75-7a105b4c95a3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "256277009",
+              "system": "http://snomed.info/sct",
+              "display": "Grass pollen (substance)"
+            }
+          ],
+          "text": "Grass pollen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Grass pollen</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1946-02-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38259638-246e-4464-8be3-391695a3e93b",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "38259638-246e-4464-8be3-391695a3e93b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "256355007",
+              "system": "http://snomed.info/sct",
+              "display": "Soy bean"
+            }
+          ],
+          "text": "Soyabean"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "food"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "62315008",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diarrhea (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Soyabean</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>food</td><td>Diarrhea (finding)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1946-02-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5aaf9c7c-b570-4ee3-9f25-d255cd417a20",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "5aaf9c7c-b570-4ee3-9f25-d255cd417a20",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "419199007",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to substance (finding)"
+            }
+          ],
+          "text": "Allergy to substance"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1946-02-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1946-02-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba2eee92-3250-4bed-98b0-5b7f84e5943f",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "ba2eee92-3250-4bed-98b0-5b7f84e5943f",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "736372004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Discharge care plan (record artifact)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Discharge care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2012-11-07"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Discharge care plan</td><td><span class=\"nb\">07-Nov-2012</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4fd5754-cda9-4b20-ba8c-25f413e6cf66",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "e4fd5754-cda9-4b20-ba8c-25f413e6cf66",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "734163000",
+                    "system": "http://snomed.info/sct",
+                    "display": "Care plan (record artifact)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "78275009",
+                      "system": "http://snomed.info/sct",
+                      "display": "Obstructive sleep apnea syndrome (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Care plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2001-04-25"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:cc007b0c-3835-4655-8fd3-57ebabfaa4d5"
+          },
+          {
+            "reference": "urn:uuid:5398e675-bd55-40c2-b4aa-40b060634d95"
+          },
+          {
+            "reference": "urn:uuid:6640f1bb-e3bc-4ff0-b787-e318c22c4f7b"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Care plan</td><td><span class=\"nb\">25-Apr-2001</span></td><td>Obstructive sleep apnea syndrome (disorder)</td></tr><tr><td><ul><li>Reduce the apnea-hypopnea index (AHI) to less than 5 events per hour to improve sleep quality and reduce cardiovascular risk.</li><li>Patient reports improved sleep quality and reduced daytime sleepiness as measured by the Epworth Sleepiness Scale (ESS) score less than 10.</li><li>Patient uses CPAP device for at least 4 hours per night on 70% of nights.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f031597b-f884-444b-b51f-e7b1bc039837",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "f031597b-f884-444b-b51f-e7b1bc039837",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "408869004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Musculoskeletal care (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "239873007",
+                      "system": "http://snomed.info/sct",
+                      "display": "Osteoarthritis of knee"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Musculoskeletal care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1997-07-22"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:55df6833-107e-4541-b669-ef9cfef795d4"
+          },
+          {
+            "reference": "urn:uuid:116c8908-7d33-4159-b12f-ab04981ba9f2"
+          },
+          {
+            "reference": "urn:uuid:f99536bd-23e0-4e84-b606-a20096994ef8"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Musculoskeletal care</td><td><span class=\"nb\">22-Jul-1997</span></td><td>Osteoarthritis of knee</td></tr><tr><td><ul><li>Reduce knee pain severity to improve mobility and quality of life</li><li>Increase ability to walk without assistance</li><li>Decrease swelling and inflammation in the affected knee</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:24b8f49a-b108-47ab-8148-dfbaa4aea9a4",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "24b8f49a-b108-47ab-8148-dfbaa4aea9a4",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "698360004",
+                    "system": "http://snomed.info/sct",
+                    "display": "Diabetes self management plan (qualifier value)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "15777000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Prediabetes"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Diabetes self management plan",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1997-04-14"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:3c60df92-06c6-4b94-84b6-17186e8de023"
+          },
+          {
+            "reference": "urn:uuid:52ed7f96-2af7-492b-a179-d2e44c2bdbf1"
+          },
+          {
+            "reference": "urn:uuid:286f0806-933b-4d65-b5a5-7d89be821f16"
+          },
+          {
+            "reference": "urn:uuid:94997752-ddf2-40bc-885d-ca63af96b77a"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Diabetes self management plan</td><td><span class=\"nb\">14-Apr-1997</span></td><td>Prediabetes</td></tr><tr><td><ul><li>Patient will demonstrate understanding of prediabetes and implement recommended lifestyle modifications including diet, exercise, and blood glucose monitoring.</li><li>Maintain or achieve hemoglobin A1c below 6.5% to reduce risk of progression to diabetes.</li><li>Achieve at least 5% reduction in body weight through dietary changes and increased physical activity.</li><li>Engage in at least 150 minutes of moderate-intensity physical activity per week.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7b54d86-31aa-455b-b1a1-0802368c12c1",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "d7b54d86-31aa-455b-b1a1-0802368c12c1",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "384758001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Self-care interventions (procedure)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Self-care interventions",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1946-02-09"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">09-Feb-1946</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5c4332c-bb2d-4fbc-9c98-8da3767e45b5",
+      "resource": {
+        "resourceType": "ImmunizationRecommendation",
+        "id": "f5c4332c-bb2d-4fbc-9c98-8da3767e45b5",
+        "recommendation": [
+          {
+            "vaccineCode": [
+              {
+                "coding": [
+                  {
+                    "code": "1181000221105",
+                    "system": "http://snomed.info/sct",
+                    "display": "Vaccine product containing only Influenza virus antigen (medicinal product)"
+                  }
+                ]
+              }
+            ],
+            "dateCriterion": [
+              {
+                "code": {
+                  "coding": [
+                    {
+                      "code": "30980-7",
+                      "system": "http://loinc.org",
+                      "display": "Date vaccine due"
+                    }
+                  ]
+                },
+                "value": "2025-10-01"
+              }
+            ],
+            "targetDisease": {
+              "coding": [
+                {
+                  "code": "6142004",
+                  "system": "http://snomed.info/sct",
+                  "display": "Influenza (disorder)"
+                }
+              ]
+            },
+            "series": "Annual seasonal influenza vaccination",
+            "forecastStatus": {
+              "coding": [
+                {
+                  "code": "due",
+                  "system": "http://terminology.hl7.org/CodeSystem/immunization-recommendation-status",
+                  "display": "Due"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Vaccine product containing only Influenza virus antigen (medicinal product)</td><td><span class=\"nb\">01-Oct-2025</span></td><td>Annual seasonal influenza vaccination</td></tr></table></div>"
+        },
+        "date": "2025-12-11",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:91ef6e4c-0ddc-4b2b-a5da-04521648a320",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "91ef6e4c-0ddc-4b2b-a5da-04521648a320",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 168.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>16-Sep-2024</td><td>168.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5130bdda-828a-4739-a54b-df97ce14fb21",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5130bdda-828a-4739-a54b-df97ce14fb21",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>16-Sep-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c68d3203-b61c-487c-be84-ab7fc9fb7bbd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c68d3203-b61c-487c-be84-ab7fc9fb7bbd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 78.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>16-Sep-2024</td><td>78.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:537121a4-06d5-405e-9335-7e905f8950f5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "537121a4-06d5-405e-9335-7e905f8950f5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>16-Sep-2024</td><td>27.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db9c7518-9135-46bf-b2ca-5880204d403d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "db9c7518-9135-46bf-b2ca-5880204d403d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>16-Sep-2024</td><td>69 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:823b93cf-5e5a-4871-8800-f15f819f2579",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "823b93cf-5e5a-4871-8800-f15f819f2579",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 110,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>16-Sep-2024</td><td>110 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:54b790d2-100c-4191-8f2c-b958f4303b3b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "54b790d2-100c-4191-8f2c-b958f4303b3b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>16-Sep-2024</td><td>74 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e5c09af1-2e79-424d-9368-2f5ca4290dae",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e5c09af1-2e79-424d-9368-2f5ca4290dae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>16-Sep-2024</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:59eec4c2-6b8a-4c1c-a676-da35f4da9de9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "59eec4c2-6b8a-4c1c-a676-da35f4da9de9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 168.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>11-Sep-2023</td><td>168.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:956d98b1-77a6-49db-bf65-ebd63ca4a261",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "956d98b1-77a6-49db-bf65-ebd63ca4a261",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>11-Sep-2023</td><td>0 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:38dc7be0-3915-48f1-b0e5-99838125b53c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "38dc7be0-3915-48f1-b0e5-99838125b53c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 78.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>11-Sep-2023</td><td>78.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2fad0fcc-b1f7-425c-8754-e081156077e6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2fad0fcc-b1f7-425c-8754-e081156077e6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.9,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>11-Sep-2023</td><td>27.9 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f511724-2237-41ed-bc54-7676f5b248d3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5f511724-2237-41ed-bc54-7676f5b248d3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 69,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>11-Sep-2023</td><td>69 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f14e60b1-1fad-4d0d-96f5-99522ffdc26f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f14e60b1-1fad-4d0d-96f5-99522ffdc26f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 107,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>11-Sep-2023</td><td>107 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60fb79d1-5382-4669-957b-bdd43c5b8322",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "60fb79d1-5382-4669-957b-bdd43c5b8322",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>11-Sep-2023</td><td>74 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:77aeb7e3-592d-4dec-8b19-dbff276ed909",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "77aeb7e3-592d-4dec-8b19-dbff276ed909",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>11-Sep-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2023-09-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:217b2b69-7ca6-49e6-abce-249cb53a4e7a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "217b2b69-7ca6-49e6-abce-249cb53a4e7a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4548-4",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 6.2,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.4,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin A1c/Hemoglobin.total in Blood</td><td>6.2</td><td>4.5 - 6.4</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5acdc084-d4c5-418f-99f9-04e6c95fb7ad",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5acdc084-d4c5-418f-99f9-04e6c95fb7ad",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2339-0",
+              "system": "http://loinc.org",
+              "display": "Glucose [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Glucose [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 95.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 70,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 140,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Glucose [Mass/volume] in Blood</td><td>95.9</td><td>70 - 140</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e6043752-f183-4041-aae5-c529f00d56d1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e6043752-f183-4041-aae5-c529f00d56d1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6299-2",
+              "system": "http://loinc.org",
+              "display": "Urea nitrogen [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Urea nitrogen [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 19.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 30,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Urea nitrogen [Mass/volume] in Blood</td><td>19.8</td><td>7 - 30</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:10997318-31a9-4060-a906-79102a9dbe16",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "10997318-31a9-4060-a906-79102a9dbe16",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "38483-4",
+              "system": "http://loinc.org",
+              "display": "Creatinine [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Creatinine [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 0.8,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.5,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 1.3,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Creatinine [Mass/volume] in Blood</td><td>0.8</td><td>0.5 - 1.3</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a516ae61-aeba-406c-87b3-ce224b36e38e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "a516ae61-aeba-406c-87b3-ce224b36e38e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "49765-1",
+              "system": "http://loinc.org",
+              "display": "Calcium [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Calcium [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.2,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 8.6,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.2,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Calcium [Mass/volume] in Blood</td><td>9.2</td><td>8.6 - 10.2</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7190d88-1a3c-421b-bf05-64023df2053b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d7190d88-1a3c-421b-bf05-64023df2053b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2947-0",
+              "system": "http://loinc.org",
+              "display": "Sodium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Sodium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 136.8,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 135,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 145,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Sodium [Moles/volume] in Blood</td><td>136.8</td><td>135 - 145</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ef35b226-7610-430a-83f6-f1fb2018c0d9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ef35b226-7610-430a-83f6-f1fb2018c0d9",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6298-4",
+              "system": "http://loinc.org",
+              "display": "Potassium [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Potassium [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.4,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.5,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 5.1,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Potassium [Moles/volume] in Blood</td><td>4.4</td><td>3.5 - 5.1</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:35decd76-c4ec-4c5f-9d02-3d5f025b0cbf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "35decd76-c4ec-4c5f-9d02-3d5f025b0cbf",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2069-3",
+              "system": "http://loinc.org",
+              "display": "Chloride [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Chloride [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 103.9,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 98,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 114,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Chloride [Moles/volume] in Blood</td><td>103.9</td><td>98 - 114</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0abaf656-f287-4181-866f-2ea52461bf0b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0abaf656-f287-4181-866f-2ea52461bf0b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20565-8",
+              "system": "http://loinc.org",
+              "display": "Carbon dioxide, total [Moles/volume] in Blood"
+            }
+          ],
+          "text": "Carbon dioxide, total [Moles/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 27.3,
+          "unit": "mmol/L",
+          "code": "mmol/L"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 22,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 32,
+              "code": "mmol/L",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Sep-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Carbon dioxide, total [Moles/volume] in Blood</td><td>27.3</td><td>22 - 32</td><td></td><td>mmol/L</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "effectiveDateTime": "2024-09-16T07:10:20Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c181f21f-2699-4b32-aba9-d9090c837d89",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "c181f21f-2699-4b32-aba9-d9090c837d89",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2024-09-16"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home continuous positive airway pressure unit (physical object)</td><td><span class=\"nb\">16-Sep-2024</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:3b0d7213-c2f8-44f1-ae00-e7cac3113342",
+          "display": "Home continuous positive airway pressure unit (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3b0d7213-c2f8-44f1-ae00-e7cac3113342",
+      "resource": {
+        "resourceType": "Device",
+        "id": "3b0d7213-c2f8-44f1-ae00-e7cac3113342",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)83426876501765(11)240826(17)490910(10)90300567925189(21)2540492927"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "702172008",
+              "system": "http://snomed.info/sct",
+              "display": "Home continuous positive airway pressure unit (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:034f9ac7-29f0-49c5-ba18-374b12e39c91",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "034f9ac7-29f0-49c5-ba18-374b12e39c91",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2024-09-16"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Respiratory humidifier (physical object)</td><td><span class=\"nb\">16-Sep-2024</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:ff2f6932-bede-480a-a646-f1cccb9f4d69",
+          "display": "Respiratory humidifier (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ff2f6932-bede-480a-a646-f1cccb9f4d69",
+      "resource": {
+        "resourceType": "Device",
+        "id": "ff2f6932-bede-480a-a646-f1cccb9f4d69",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)65478424306880(11)240826(17)490910(10)30946067715124(21)42443839479"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "706180003",
+              "system": "http://snomed.info/sct",
+              "display": "Respiratory humidifier (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:76802d1d-4634-4965-a55a-ce21fa62f5ff",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "76802d1d-4634-4965-a55a-ce21fa62f5ff",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1997-07-22"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Walker (physical object)</td><td><span class=\"nb\">22-Jul-1997</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:6dc963c1-65fe-4b85-a39c-9ec70f54c460",
+          "display": "Walker (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6dc963c1-65fe-4b85-a39c-9ec70f54c460",
+      "resource": {
+        "resourceType": "Device",
+        "id": "6dc963c1-65fe-4b85-a39c-9ec70f54c460",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)14597139076946(11)970701(17)220716(10)369076(21)637518"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "705406009",
+              "system": "http://snomed.info/sct",
+              "display": "Walker (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1cf20387-6d7b-4009-ae5d-7124482a5b53",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "1cf20387-6d7b-4009-ae5d-7124482a5b53",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1997-04-14"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Blood glucose meter (physical object)</td><td><span class=\"nb\">14-Apr-1997</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:03c14644-decb-44fb-b311-f9b2311bddb5",
+          "display": "Blood glucose meter (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:03c14644-decb-44fb-b311-f9b2311bddb5",
+      "resource": {
+        "resourceType": "Device",
+        "id": "03c14644-decb-44fb-b311-f9b2311bddb5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)22060504366861(11)970324(17)220408(10)53603(21)80286127716"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "337414009",
+              "system": "http://snomed.info/sct",
+              "display": "Blood glucose meter (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc9efa1b-a3b7-478d-b8af-7c8658deb7e7",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "cc9efa1b-a3b7-478d-b8af-7c8658deb7e7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "1995-10-24"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">24-Oct-1995</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:cafc8af3-b638-4314-8680-410680f5eba5",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cafc8af3-b638-4314-8680-410680f5eba5",
+      "resource": {
+        "resourceType": "Device",
+        "id": "cafc8af3-b638-4314-8680-410680f5eba5",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)86307560555781(11)951003(17)201017(10)73017728949438(21)79727137716"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:2edb34bd-20de-4d61-97bc-6a8bd8045eaa",
+          "display": "Gabriela Tavares"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:37ac5780-6c34-424e-b86b-6879a86281b8",
+      "resource": {
+        "resourceType": "Device",
+        "id": "37ac5780-6c34-424e-b86b-6879a86281b8",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f93022e2-57e5-49b0-8ae8-1c2742cc1ef3",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "f93022e2-57e5-49b0-8ae8-1c2742cc1ef3",
+        "target": [
+          {
+            "reference": "Patient/2edb34bd-20de-4d61-97bc-6a8bd8045eaa"
+          },
+          {
+            "reference": "Bundle/ddc363e1-e230-4f6b-987b-21b5b2a29cad"
+          },
+          {
+            "reference": "Composition/0b63a45a-db96-4b5d-b68f-72cb53e11cf3"
+          },
+          {
+            "reference": "PractitionerRole/15e6053a-e36c-4e2f-8edd-cb8c447916d0"
+          },
+          {
+            "reference": "Organization/36186732-a90d-4a34-831a-1fbc9848e0ec"
+          },
+          {
+            "reference": "Practitioner/807a4fe0-bd39-4a5b-b4aa-a839118fd656"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/37ac5780-6c34-424e-b86b-6879a86281b8"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-09-16T07:10:20Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-09-16T07:10:20Z"
+}

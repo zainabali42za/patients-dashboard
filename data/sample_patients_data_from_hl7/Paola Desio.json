@@ -1,0 +1,2090 @@
+{
+  "resourceType": "Bundle",
+  "id": "210731ec-524a-4690-8555-22919a9faa26",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "47f38bb7-f4c0-49d6-b3fb-27158d33ae1d"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:0ea2a41a-102f-4da5-8766-b657708307fd",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "0ea2a41a-102f-4da5-8766-b657708307fd",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "eaf1a832-7e87-4caa-a949-ea61f5baeaca"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">31-May-2013</span></td><td>active</td></tr><tr><td>Atopic dermatitis</td><td><span class=\"nb\">21-Sep-1985</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:420c2937-24f5-4153-9f33-1595f999c241"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:7a3c79fb-312f-4e26-b897-4859fd0b5372"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">02-Aug-2024</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">17-Jun-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:d017a9da-5632-4c4c-baaf-1006c02652c6"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Radiologic examination of knee</td><td><span class=\"nb\">23-Jun-2020</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:3085d841-f856-467c-a467-10baea5c2e62"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1985-10-11</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4c175764-9be4-4f71-b148-dd26984cf175"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">31-May-2013</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Achieve and maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Patient will demonstrate understanding of hypertension and its management strategies, including diet, exercise, and medication adherence.</li></ul></td><td></td><td></td></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">11-Oct-1985</span></td><td>-</td></tr><tr><td>Skin condition care</td><td><span class=\"nb\">21-Sep-1985</span></td><td>Atopic dermatitis</td></tr><tr><td><ul><li>Decrease the severity of atopic dermatitis symptoms as measured by the Eczema Area and Severity Index (EASI) score.</li><li>Reduce patient-reported itch intensity using the Numeric Rating Scale (NRS) for pruritus.</li></ul></td><td></td><td></td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-08-02</th><th>2023-09-19</th></tr><tr><td>Body Height</td><td>164 cm</td><td>-</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>-</td></tr><tr><td>Body Weight</td><td>75.7 kg</td><td>-</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>28.2 kg/m2</td><td>-</td></tr><tr><td>Diastolic Blood Pressure</td><td>68 mm[Hg]</td><td>-</td></tr><tr><td>Systolic Blood Pressure</td><td>115 mm[Hg]</td><td>-</td></tr><tr><td>Heart rate</td><td>81 /min</td><td>-</td></tr><tr><td>Respiratory rate</td><td>15 /min</td><td>-</td></tr><tr><td>Body temperature</td><td>-</td><td>37.8 Cel</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:da56c4ad-8f6f-4772-934c-0f2b18924aaf"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>02-AUG-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>185.9</td><td>125 - 200</td><td>mg/dL</td></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>108.7</td><td>35 - 150</td><td>mg/dL</td></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>112.7</td><td>0 - 130</td><td>mg/dL</td></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>51.5</td><td>40 - 100</td><td>mg/dL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "custodian": {
+          "reference": "urn:uuid:0cc6a9d1-87b7-4380-a14b-bc626c8b53c6"
+        },
+        "date": "2024-08-02",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f1b04907-2444-439e-8c44-27c1848a02e3",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6244-423563-4"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "fb7eb51f-4fea-3a05-c950-7375eee15989"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Paola"
+            ],
+            "family": "Desio",
+            "text": "Paola Desio"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Contrada Nitto, 4"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "73026",
+            "city": "San Foca",
+            "country": "Italy"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "33742530051"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "IT",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Paola Desio</td><td>female</td><td>07-Jun-1987</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "1987-06-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "21ccf12d-7594-4535-8a07-79ec9507b413",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 21ccf12d-7594-4535-8a07-79ec9507b413</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:14b44f1e-a2b4-4789-804f-732d3d695b14"
+        },
+        "organization": {
+          "reference": "urn:uuid:0cc6a9d1-87b7-4380-a14b-bc626c8b53c6"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0cc6a9d1-87b7-4380-a14b-bc626c8b53c6",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "0cc6a9d1-87b7-4380-a14b-bc626c8b53c6",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "e583fe84-b05b-4cb7-9e46-9ae54c7ed4e5"
+          }
+        ],
+        "address": [
+          {
+            "city": "Calimera",
+            "postalCode": "73021",
+            "country": "Italy"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">ASL Calimera</table></div>"
+        },
+        "name": "ASL Calimera"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:14b44f1e-a2b4-4789-804f-732d3d695b14",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "14b44f1e-a2b4-4789-804f-732d3d695b14",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:420c2937-24f5-4153-9f33-1595f999c241",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "420c2937-24f5-4153-9f33-1595f999c241",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">31-May-2013</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2013-05-31",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d5f92162-4570-4099-b440-2c90e85d6673",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d5f92162-4570-4099-b440-2c90e85d6673",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "24079001",
+              "system": "http://snomed.info/sct",
+              "display": "Atopic dermatitis (disorder)"
+            }
+          ],
+          "text": "Atopic dermatitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Atopic dermatitis</td><td><span class=\"nb\">21-Sep-1985</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "1985-09-21",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5cdfcf6a-9c3b-4459-b591-89285c5359e7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "5cdfcf6a-9c3b-4459-b591-89285c5359e7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">20-Sep-2023 - 01-Oct-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-09-20",
+        "abatementDateTime": "2023-10-01",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1cd7b675-bc50-4b9e-8be0-622e7cfaf50c",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1cd7b675-bc50-4b9e-8be0-622e7cfaf50c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "43878008",
+              "system": "http://snomed.info/sct",
+              "display": "Streptococcal sore throat (disorder)"
+            }
+          ],
+          "text": "Streptococcal sore throat"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Streptococcal sore throat</span></td><td><span class=\"nb\">04-Aug-2023 - 17-Aug-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-08-04",
+        "abatementDateTime": "2023-08-17",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d89c855c-32d8-4556-942b-213ccde1e806",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "d89c855c-32d8-4556-942b-213ccde1e806",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">10-Nov-2022 - 01-Dec-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-11-10",
+        "abatementDateTime": "2022-12-01",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:df27c467-d259-42bc-a3dc-acedf635100d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "df27c467-d259-42bc-a3dc-acedf635100d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">18-Sep-2022 - 26-Sep-2022</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2022-09-18",
+        "abatementDateTime": "2022-09-26",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c09cd13c-2e18-4918-8ad2-c9f450323654",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "c09cd13c-2e18-4918-8ad2-c9f450323654",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "125601008",
+              "system": "http://snomed.info/sct",
+              "display": "Injury of knee (disorder)"
+            }
+          ],
+          "text": "Injury of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Injury of knee</span></td><td><span class=\"nb\">23-Jun-2020 - 15-Aug-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-06-23",
+        "abatementDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:354024ae-b7fc-45ad-b0f7-c69faa7d4a9a",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "354024ae-b7fc-45ad-b0f7-c69faa7d4a9a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "239720000",
+              "system": "http://snomed.info/sct",
+              "display": "Tear of meniscus of knee (disorder)"
+            }
+          ],
+          "text": "Tear of meniscus of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Tear of meniscus of knee</span></td><td><span class=\"nb\">23-Jun-2020 - 15-Aug-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-06-23",
+        "abatementDateTime": "2020-08-15",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:57c71d61-872a-4852-a0ef-f6171a212d91",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "57c71d61-872a-4852-a0ef-f6171a212d91",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "19169002",
+              "system": "http://snomed.info/sct",
+              "display": "Miscarriage in first trimester (disorder)"
+            }
+          ],
+          "text": "Miscarriage in first trimester"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Miscarriage in first trimester</span></td><td><span class=\"nb\">08-Apr-2016 - 22-Apr-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-04-08",
+        "abatementDateTime": "2016-04-22",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c69e1ed-c45d-4061-bb0a-77aed9072fd0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8c69e1ed-c45d-4061-bb0a-77aed9072fd0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "35999006",
+              "system": "http://snomed.info/sct",
+              "display": "Blighted ovum (disorder)"
+            }
+          ],
+          "text": "Blighted ovum"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Blighted ovum</span></td><td><span class=\"nb\">08-Apr-2016 - 22-Apr-2016</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2016-04-08",
+        "abatementDateTime": "2016-04-22",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "asserter": {
+          "reference": "urn:uuid:21ccf12d-7594-4535-8a07-79ec9507b413",
+          "display": "ASL Calimera"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a3c79fb-312f-4e26-b897-4859fd0b5372",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "7a3c79fb-312f-4e26-b897-4859fd0b5372",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d017a9da-5632-4c4c-baaf-1006c02652c6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d017a9da-5632-4c4c-baaf-1006c02652c6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">02-Aug-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "occurrenceDateTime": "2024-08-02",
+        "lotNumber": "DX-plyO4Ucu3",
+        "expirationDate": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f6e200c1-eeed-46b1-84fd-8f435fbe03d0",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "f6e200c1-eeed-46b1-84fd-8f435fbe03d0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">17-Jun-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "occurrenceDateTime": "2016-06-17",
+        "lotNumber": "PR-rJEesKZ",
+        "expirationDate": "2017-06-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3085d841-f856-467c-a467-10baea5c2e62",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "3085d841-f856-467c-a467-10baea5c2e62",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "74016001",
+              "system": "http://snomed.info/sct",
+              "display": "Knee X-ray"
+            }
+          ],
+          "text": "Radiologic examination of knee"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Radiologic examination of knee</td><td><span class=\"nb\">23-Jun-2020</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2020-06-23",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4c175764-9be4-4f71-b148-dd26984cf175",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "4c175764-9be4-4f71-b148-dd26984cf175",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "419199007",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to substance (finding)"
+            }
+          ],
+          "text": "Allergy to substance"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1985-10-11</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1985-10-11",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a7aa9330-a0f2-4212-99fc-f0b604cfe2f2",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "a7aa9330-a0f2-4212-99fc-f0b604cfe2f2",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2013-05-31"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:de48fcf4-f6cd-4508-aa74-f372dff2df7f"
+          },
+          {
+            "reference": "urn:uuid:726cf9cd-94e7-4a01-b0d9-f92d6b33aa5b"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">31-May-2013</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Achieve and maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Patient will demonstrate understanding of hypertension and its management strategies, including diet, exercise, and medication adherence.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a9f3698-3a44-46d3-9731-a89f6bef6792",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "9a9f3698-3a44-46d3-9731-a89f6bef6792",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "384758001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Self-care interventions (procedure)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Self-care interventions",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1985-10-11"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">11-Oct-1985</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d473734-c609-4f13-8dcc-80406091f205",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "2d473734-c609-4f13-8dcc-80406091f205",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "711282006",
+                    "system": "http://snomed.info/sct",
+                    "display": "Skin condition care (regime/therapy)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "24079001",
+                      "system": "http://snomed.info/sct",
+                      "display": "Atopic dermatitis"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Skin condition care",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1985-09-21"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:c4e8c065-d8f2-49e8-a972-0b9c097af3bb"
+          },
+          {
+            "reference": "urn:uuid:8a40fd27-e9e0-405a-9c28-5e9f57352741"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Skin condition care</td><td><span class=\"nb\">21-Sep-1985</span></td><td>Atopic dermatitis</td></tr><tr><td><ul><li>Decrease the severity of atopic dermatitis symptoms as measured by the Eczema Area and Severity Index (EASI) score.</li><li>Reduce patient-reported itch intensity using the Numeric Rating Scale (NRS) for pruritus.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:da56c4ad-8f6f-4772-934c-0f2b18924aaf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "da56c4ad-8f6f-4772-934c-0f2b18924aaf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 164,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>02-Aug-2024</td><td>164 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5aa08f2-6942-41ec-9ca8-61fba8287465",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f5aa08f2-6942-41ec-9ca8-61fba8287465",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>02-Aug-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0387021e-0584-45d8-8dd7-9ade190262a9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0387021e-0584-45d8-8dd7-9ade190262a9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 75.7,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>02-Aug-2024</td><td>75.7 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c05a5825-8623-4773-955f-8a322407e175",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c05a5825-8623-4773-955f-8a322407e175",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 28.2,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>02-Aug-2024</td><td>28.2 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3128a303-27d7-4726-846e-1385c4538e4a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3128a303-27d7-4726-846e-1385c4538e4a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 68,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>02-Aug-2024</td><td>68 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c5897517-7945-493a-9f42-6d21b66ec096",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5897517-7945-493a-9f42-6d21b66ec096",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 115,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>02-Aug-2024</td><td>115 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9306d7ca-1fde-4c32-8b56-ac3a45df915c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9306d7ca-1fde-4c32-8b56-ac3a45df915c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>02-Aug-2024</td><td>81 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:40793af8-a6d5-4bac-ad13-a35e74609333",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "40793af8-a6d5-4bac-ad13-a35e74609333",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>02-Aug-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ee8c6b4-c83f-4f76-beb5-f7ce5a77e3d2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6ee8c6b4-c83f-4f76-beb5-f7ce5a77e3d2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 37.8,
+          "code": "Cel",
+          "unit": "Cel"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body temperature</td><td>19-Sep-2023</td><td>37.8 Cel</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8310-5",
+              "system": "http://loinc.org",
+              "display": "Body temperature"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2023-09-19"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:04f1ae92-a265-42e2-98aa-faf3ebc70fff",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "04f1ae92-a265-42e2-98aa-faf3ebc70fff",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2093-3",
+              "system": "http://loinc.org",
+              "display": "Cholesterol [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 185.9,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 125,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 200,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol [Mass/volume] in Serum or Plasma</td><td>185.9</td><td>125 - 200</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02T20:47:50Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b6e8368-027d-4cb1-b1ac-e9afda29d2ac",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5b6e8368-027d-4cb1-b1ac-e9afda29d2ac",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2571-8",
+              "system": "http://loinc.org",
+              "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Triglyceride [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 108.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 35,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 150,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Triglyceride [Mass/volume] in Serum or Plasma</td><td>108.7</td><td>35 - 150</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02T20:47:50Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:daa10ebb-cde1-48ee-8d08-3b4daa96a278",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "daa10ebb-cde1-48ee-8d08-3b4daa96a278",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "18262-6",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+            }
+          ],
+          "text": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 112.7,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 130,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay</td><td>112.7</td><td>0 - 130</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02T20:47:50Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:12f59daa-5ad0-4cfa-a3a5-ee55885afe13",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "12f59daa-5ad0-4cfa-a3a5-ee55885afe13",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "2085-9",
+              "system": "http://loinc.org",
+              "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+            }
+          ],
+          "text": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 51.5,
+          "unit": "mg/dL",
+          "code": "mg/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 40,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "mg/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Aug-2024</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Cholesterol in HDL [Mass/volume] in Serum or Plasma</td><td>51.5</td><td>40 - 100</td><td></td><td>mg/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:f1b04907-2444-439e-8c44-27c1848a02e3",
+          "display": "Paola Desio"
+        },
+        "effectiveDateTime": "2024-08-02T20:47:50Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ff6e1f4-9c60-4fb2-87a7-d242d15c23d5",
+      "resource": {
+        "resourceType": "Device",
+        "id": "2ff6e1f4-9c60-4fb2-87a7-d242d15c23d5",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7ed577f7-e170-445f-bdbd-d6ee22753327",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "7ed577f7-e170-445f-bdbd-d6ee22753327",
+        "target": [
+          {
+            "reference": "Patient/f1b04907-2444-439e-8c44-27c1848a02e3"
+          },
+          {
+            "reference": "Bundle/210731ec-524a-4690-8555-22919a9faa26"
+          },
+          {
+            "reference": "Composition/0ea2a41a-102f-4da5-8766-b657708307fd"
+          },
+          {
+            "reference": "PractitionerRole/21ccf12d-7594-4535-8a07-79ec9507b413"
+          },
+          {
+            "reference": "Organization/0cc6a9d1-87b7-4380-a14b-bc626c8b53c6"
+          },
+          {
+            "reference": "Practitioner/14b44f1e-a2b4-4789-804f-732d3d695b14"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/2ff6e1f4-9c60-4fb2-87a7-d242d15c23d5"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2024-08-02T20:47:50Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2024-08-02T20:47:50Z"
+}

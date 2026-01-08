@@ -1,0 +1,1859 @@
+{
+  "resourceType": "Bundle",
+  "id": "98e0d432-7351-4077-98b1-fe3112b54a7a",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "0c33cd3c-137f-42bc-b01e-8d90fc05e2e5"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:53013bbd-bd07-41f8-8059-6a46ba914f17",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "53013bbd-bd07-41f8-8059-6a46ba914f17",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "42c953ab-c57b-4fbc-86a3-940edfb504de"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:9f6b4a31-1093-4330-956a-345d117bb41a"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:955921bd-2403-4385-8ea5-811425a463b3"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:a6918c79-e430-4fca-b7b9-030236f57cab"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">18-Mar-2025</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">18-Mar-2025</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">14-Sep-2021</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">23-Feb-2021</span></td></tr><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">25-Jul-2017</span></td></tr><tr><td>Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product</td><td><span class=\"nb\">26-Jan-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:18f8a805-50de-4a33-b1ba-2154c034ba6d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:47cad34f-cbc3-46bd-8b41-56ef68c42373"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">15-May-2023</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-03-18</th><th>2024-03-12</th></tr><tr><td>Body Height</td><td>173.4 cm</td><td>173.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>3 {score}</td><td>3 {score}</td></tr><tr><td>Body Weight</td><td>78.9 kg</td><td>76.9 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>26.2 kg/m2</td><td>25.6 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>64 mm[Hg]</td><td>81 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>105 mm[Hg]</td><td>105 mm[Hg]</td></tr><tr><td>Heart rate</td><td>63 /min</td><td>73 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>15 /min</td></tr><tr><td>Body mass index (BMI) [Percentile] Per age and sex</td><td>-</td><td>82.6 %</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5326739e-d745-4a77-9723-9063d6c1e6dd"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>16-FEB-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Drugs of abuse 5 panel - Urine by Screen method</td><td>Negative</td><td></td><td></td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "custodian": {
+          "reference": "urn:uuid:e0ba0479-af0d-4117-81f2-0805a98ccaa2"
+        },
+        "date": "2023-02-16",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "1c9a40b5-eb8a-4389-8c17-705bb1740480",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "3003-577495-6"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "c74565d1-33b1-c803-ca50-377806aac407"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Sophie"
+            ],
+            "family": "O&#039;Brien",
+            "text": "Sophie O&#039;Brien"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "852 Parker passage"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "M13",
+            "city": "North Jordan",
+            "country": "United Kingdom"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+4428 9018 0232"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "GB",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Sophie O'Brien</td><td>female</td><td>17-Aug-2007</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "2007-08-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f6b4a31-1093-4330-956a-345d117bb41a",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "9f6b4a31-1093-4330-956a-345d117bb41a",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 9f6b4a31-1093-4330-956a-345d117bb41a</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:933ba9cf-8084-4bef-864a-246735d9d3ff"
+        },
+        "organization": {
+          "reference": "urn:uuid:e0ba0479-af0d-4117-81f2-0805a98ccaa2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e0ba0479-af0d-4117-81f2-0805a98ccaa2",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "e0ba0479-af0d-4117-81f2-0805a98ccaa2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "845b52e1-e38a-40bd-84af-3f201c9c5b2c"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "City Road 204"
+            ],
+            "city": "Manchester",
+            "postalCode": "M3 3",
+            "country": "United Kingdom"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Cornbrook Medical Practice</table></div>"
+        },
+        "name": "Cornbrook Medical Practice"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:933ba9cf-8084-4bef-864a-246735d9d3ff",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "933ba9cf-8084-4bef-864a-246735d9d3ff",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:955921bd-2403-4385-8ea5-811425a463b3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "955921bd-2403-4385-8ea5-811425a463b3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a6918c79-e430-4fca-b7b9-030236f57cab",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "a6918c79-e430-4fca-b7b9-030236f57cab",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:18f8a805-50de-4a33-b1ba-2154c034ba6d",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "18f8a805-50de-4a33-b1ba-2154c034ba6d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">18-Mar-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2025-03-18",
+        "lotNumber": "OC-Ow6Sb1Z",
+        "expirationDate": "2026-01-16"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d3c43ea7-ad88-428d-bb8a-804fd9ce8163",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "d3c43ea7-ad88-428d-bb8a-804fd9ce8163",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">18-Mar-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2025-03-18",
+        "lotNumber": "NB-KtJ3YqJ",
+        "expirationDate": "2026-03-07"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fe976f71-b542-41bc-8411-5a3715df5b23",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "fe976f71-b542-41bc-8411-5a3715df5b23",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">14-Sep-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2021-09-14",
+        "lotNumber": "SF-CKwfzDFR",
+        "expirationDate": "2021-10-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6217355d-576f-461f-8357-f0d7c44f7819",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "6217355d-576f-461f-8357-f0d7c44f7819",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">23-Feb-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2021-02-23",
+        "lotNumber": "IX-efVh",
+        "expirationDate": "2022-02-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:507df550-87f4-4ea9-9743-a9eff312db44",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "507df550-87f4-4ea9-9743-a9eff312db44",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2001000221108",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing HPV 6, 11, 16, and 18 antigens"
+            },
+            {
+              "code": "J07BM02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Human papillomavirus vaccines"
+            }
+          ],
+          "text": "Human papillomavirus 6"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">25-Jul-2017</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2017-07-25",
+        "lotNumber": "BB-FlJlPFhHE",
+        "expirationDate": "2017-11-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3871293b-f226-4825-968e-38a527e4feef",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "3871293b-f226-4825-968e-38a527e4feef",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871875004",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens"
+            },
+            {
+              "code": "J07AM52",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus-pertussis vaccines, adult type"
+            }
+          ],
+          "text": "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product</td><td><span class=\"nb\">26-Jan-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "occurrenceDateTime": "2016-01-26",
+        "lotNumber": "RS-Pwyl6B3Xm",
+        "expirationDate": "2016-12-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47cad34f-cbc3-46bd-8b41-56ef68c42373",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "47cad34f-cbc3-46bd-8b41-56ef68c42373",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "871875004",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens"
+            }
+          ],
+          "text": "Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens</td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bfb82645-b359-47f1-b295-1cdafe26d48c",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "bfb82645-b359-47f1-b295-1cdafe26d48c",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "276239002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Therapy (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Therapy",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2023-05-15"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">15-May-2023</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5326739e-d745-4a77-9723-9063d6c1e6dd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5326739e-d745-4a77-9723-9063d6c1e6dd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 173.4,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>18-Mar-2025</td><td>173.4 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de129c01-f372-4629-9434-bbb6eac50da8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "de129c01-f372-4629-9434-bbb6eac50da8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>18-Mar-2025</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:619c7da2-4d02-4807-b54e-c685ac077ffd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "619c7da2-4d02-4807-b54e-c685ac077ffd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 78.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>18-Mar-2025</td><td>78.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:58974a19-f250-44d6-83f6-bb719ee34e60",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "58974a19-f250-44d6-83f6-bb719ee34e60",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 26.2,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>18-Mar-2025</td><td>26.2 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06288021-9266-47e7-b195-10c0ab59819e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06288021-9266-47e7-b195-10c0ab59819e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 64,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>18-Mar-2025</td><td>64 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85153cdb-bb82-43e3-9ed7-7c45d88eec9a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "85153cdb-bb82-43e3-9ed7-7c45d88eec9a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 105,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>18-Mar-2025</td><td>105 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c093d5e-000b-4688-b88b-dba0a5ad54e2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8c093d5e-000b-4688-b88b-dba0a5ad54e2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 63,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>18-Mar-2025</td><td>63 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82b6a093-6f6a-4ab2-bd15-e9762545acf1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82b6a093-6f6a-4ab2-bd15-e9762545acf1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>18-Mar-2025</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2025-03-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e96f1210-9cb4-4889-b183-5a0df7314e03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e96f1210-9cb4-4889-b183-5a0df7314e03",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 173.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>12-Mar-2024</td><td>173.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8302b7e2-83c1-4d34-83d0-fc205dbddbf9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8302b7e2-83c1-4d34-83d0-fc205dbddbf9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>12-Mar-2024</td><td>3 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4e54da90-c49f-44a7-9b0c-e618771fd7b1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4e54da90-c49f-44a7-9b0c-e618771fd7b1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>12-Mar-2024</td><td>76.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7e86c8b2-6d3d-40b4-9c07-11c7d02c39f4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7e86c8b2-6d3d-40b4-9c07-11c7d02c39f4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 25.6,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>12-Mar-2024</td><td>25.6 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b7b0ea45-341a-4eaa-8345-ac6faed82c5c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b7b0ea45-341a-4eaa-8345-ac6faed82c5c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 82.6,
+          "code": "%",
+          "unit": "%"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Percentile] Per age and sex</td><td>12-Mar-2024</td><td>82.6 %</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "59576-9",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Percentile] Per age and sex"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4ff41c39-b1c4-4e75-bbe9-5926afa5cc9b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4ff41c39-b1c4-4e75-bbe9-5926afa5cc9b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>12-Mar-2024</td><td>81 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7a7a5847-a9ec-40d3-8977-50f7af37b03e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7a7a5847-a9ec-40d3-8977-50f7af37b03e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 105,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>12-Mar-2024</td><td>105 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:bf7bd734-9062-45bb-a036-568c66e5b998",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "bf7bd734-9062-45bb-a036-568c66e5b998",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 73,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>12-Mar-2024</td><td>73 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:73dc8552-8c1e-49b6-8b88-a0199edee746",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "73dc8552-8c1e-49b6-8b88-a0199edee746",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>12-Mar-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2024-03-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74f7fc08-abe0-4c05-8f75-a83fc29243bc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "74f7fc08-abe0-4c05-8f75-a83fc29243bc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "65750-2",
+              "system": "http://loinc.org",
+              "display": "Drugs of abuse 5 panel - Urine by Screen method"
+            }
+          ],
+          "text": "Drugs of abuse 5 panel - Urine by Screen method"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>16-Feb-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Drugs of abuse 5 panel - Urine by Screen method</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:1c9a40b5-eb8a-4389-8c17-705bb1740480",
+          "display": "Sophie O&#039;Brien"
+        },
+        "effectiveDateTime": "2023-02-16T21:55:04Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f826d94b-2c8a-46b4-88ee-312c37508bc7",
+      "resource": {
+        "resourceType": "Device",
+        "id": "f826d94b-2c8a-46b4-88ee-312c37508bc7",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:41e8d10a-6729-42e9-bdcf-76c5e760cb73",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "41e8d10a-6729-42e9-bdcf-76c5e760cb73",
+        "target": [
+          {
+            "reference": "Patient/1c9a40b5-eb8a-4389-8c17-705bb1740480"
+          },
+          {
+            "reference": "Bundle/98e0d432-7351-4077-98b1-fe3112b54a7a"
+          },
+          {
+            "reference": "Composition/53013bbd-bd07-41f8-8059-6a46ba914f17"
+          },
+          {
+            "reference": "PractitionerRole/9f6b4a31-1093-4330-956a-345d117bb41a"
+          },
+          {
+            "reference": "Organization/e0ba0479-af0d-4117-81f2-0805a98ccaa2"
+          },
+          {
+            "reference": "Practitioner/933ba9cf-8084-4bef-864a-246735d9d3ff"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/f826d94b-2c8a-46b4-88ee-312c37508bc7"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2023-02-16T21:55:04Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2023-02-16T21:55:04Z"
+}

@@ -1,0 +1,2925 @@
+{
+  "resourceType": "Bundle",
+  "id": "dd3db1a8-ce54-4235-8154-e5c1e9a36b86",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "20b0581f-f6a1-4fab-a905-782539edbfc5"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:9a13ed56-e304-4afc-bff7-634addbf9dee",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "9a13ed56-e304-4afc-bff7-634addbf9dee",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "6c76ef17-230c-4a2d-948a-3c6ce865f616"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">05-Nov-2021</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:0bac5ebc-0c6f-4bf1-b57d-d032a0d479f0"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:92398619-94ed-4aea-b793-8ffde9508ff4"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">11-Oct-2024</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Mar-2021</span></td></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">13-Oct-2017</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">07-Oct-2016</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">07-Oct-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2ebf5409-3d47-43fb-983d-ed0d0733f1f8"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Depression screening</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr><tr><td>Medical induction of labor</td><td><span class=\"nb\">06-Apr-2024</span></td><td>Normal pregnancy</td></tr><tr><td>Parturition</td><td><span class=\"nb\">06-Apr-2024</span></td><td>Normal pregnancy</td></tr><tr><td>Epidural anesthesia</td><td><span class=\"nb\">30-Dec-2022</span></td><td>Normal pregnancy</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2ac23aa0-027f-46ad-8da8-c86cbda50654"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Mold</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td>Allergic skin rash</td></tr><tr><td>Eggs (edible)</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>food</td><td></td></tr><tr><td>House dust mite</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Animal dander</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td>Cough (finding)&lt;br> &lt;/br>Eruption of skin (disorder)</td></tr><tr><td>Bee venom</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr><tr><td>Tree pollen</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:ca81250c-a048-41de-8285-c52d2f45c647"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">05-Nov-2021</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of recommended lifestyle changes to manage blood pressure, including diet, exercise, and sodium reduction.</li></ul></td><td></td><td></td></tr><tr><td>Therapy</td><td><span class=\"nb\">03-Apr-2014</span></td><td>-</td></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">05-Oct-1996</span></td><td>-</td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2024-11-22</th><th>2024-10-11</th></tr><tr><td>Body Height</td><td>165.1 cm</td><td>165.1 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>1 {score}</td></tr><tr><td>Body Weight</td><td>81.9 kg</td><td>81.9 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>30.1 kg/m2</td><td>30.1 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>104 mm[Hg]</td><td>108 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>128 mm[Hg]</td><td>135 mm[Hg]</td></tr><tr><td>Heart rate</td><td>95 /min</td><td>79 /min</td></tr><tr><td>Respiratory rate</td><td>13 /min</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f7989e02-9a34-4c9d-9d7d-22431f7d7471"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">$<tr><td>[#] Births total</td><td>1</td></tr></table></div>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "History of pregnancies Narrative"
+                }
+              ]
+            },
+            "title": "Pregnancy History"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>02-SEP-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Hemoglobin [Mass/volume] in Blood</td><td><strong>11.9 L</strong></td><td>12.1 - 15.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood</td><td><strong>33.6 L</strong></td><td>37 - 46</td><td>%</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "custodian": {
+          "reference": "urn:uuid:029b022b-3f0b-4a67-a824-c74240a2d3c2"
+        },
+        "date": "2023-09-02",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "aee0ee48-9998-431b-a5ab-da46f942b883",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "8744-589296-8"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "f59d9b0c-6075-3c15-9e79-7e7cb8f0631c"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Juliette"
+            ],
+            "family": "Schmitt",
+            "text": "Juliette Schmitt"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "592, rue Alexandrie Rocher"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "71990",
+            "city": "Sainte Hugues",
+            "country": "France"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "0219647678"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "FR",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Juliette Schmitt</td><td>female</td><td>11-Jun-2000</td></tr></table></div>"
+        },
+        "gender": "female",
+        "birthDate": "2000-06-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "c76f06d7-6dab-457e-be25-83c94b0de055",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id c76f06d7-6dab-457e-be25-83c94b0de055</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:db3d9936-7eef-4b66-b6ba-02271921dd39"
+        },
+        "organization": {
+          "reference": "urn:uuid:029b022b-3f0b-4a67-a824-c74240a2d3c2"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:029b022b-3f0b-4a67-a824-c74240a2d3c2",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "029b022b-3f0b-4a67-a824-c74240a2d3c2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "17c9344e-be96-4890-9d50-cc22633ed478"
+          }
+        ],
+        "address": [
+          {
+            "city": "Roanne",
+            "postalCode": "42300",
+            "country": "France"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Centre Hospitalier de Roanne</table></div>"
+        },
+        "name": "Centre Hospitalier de Roanne"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:db3d9936-7eef-4b66-b6ba-02271921dd39",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "db3d9936-7eef-4b66-b6ba-02271921dd39",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0bac5ebc-0c6f-4bf1-b57d-d032a0d479f0",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "0bac5ebc-0c6f-4bf1-b57d-d032a0d479f0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">05-Nov-2021</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-11-05",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cada5c90-79c4-4169-8eba-e5ba5a798567",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cada5c90-79c4-4169-8eba-e5ba5a798567",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "19169002",
+              "system": "http://snomed.info/sct",
+              "display": "Miscarriage in first trimester (disorder)"
+            }
+          ],
+          "text": "Miscarriage in first trimester"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Miscarriage in first trimester</span></td><td><span class=\"nb\">21-Feb-2025 - 03-Mar-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-21",
+        "abatementDateTime": "2025-03-03",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:679aad01-e167-4b83-b820-ffd6aa8c6a59",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "679aad01-e167-4b83-b820-ffd6aa8c6a59",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "156073000",
+              "system": "http://snomed.info/sct",
+              "display": "Complete miscarriage (disorder)"
+            }
+          ],
+          "text": "Complete miscarriage"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Complete miscarriage</span></td><td><span class=\"nb\">21-Feb-2025 - 03-Mar-2025</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-02-21",
+        "abatementDateTime": "2025-03-03",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:70601e3a-f587-4ae7-a86b-dafc0be18ae9",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "70601e3a-f587-4ae7-a86b-dafc0be18ae9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "10509002",
+              "system": "http://snomed.info/sct",
+              "display": "Acute bronchitis (disorder)"
+            }
+          ],
+          "text": "Acute bronchitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute bronchitis</span></td><td><span class=\"nb\">18-Oct-2024 - 07-Nov-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-18",
+        "abatementDateTime": "2024-11-07",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:177172de-c6df-421c-a946-f2d62395707d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "177172de-c6df-421c-a946-f2d62395707d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "271737000",
+              "system": "http://snomed.info/sct",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Anemia</span></td><td><span class=\"nb\">01-Sep-2023 - 06-Apr-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-09-01",
+        "abatementDateTime": "2024-04-06",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1314a072-e689-4b56-adaf-bade319145b4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1314a072-e689-4b56-adaf-bade319145b4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">03-Oct-2017 - 11-Oct-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-10-03",
+        "abatementDateTime": "2017-10-11",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8b2f4a3a-f383-4a08-87a6-bffcfca2bb2b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8b2f4a3a-f383-4a08-87a6-bffcfca2bb2b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "62564004",
+              "system": "http://snomed.info/sct",
+              "display": "Concussion with loss of consciousness (disorder)"
+            }
+          ],
+          "text": "Concussion with loss of consciousness"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Concussion with loss of consciousness</span></td><td><span class=\"nb\">31-Mar-2017 - 23-Jun-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-03-31",
+        "abatementDateTime": "2017-06-23",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ac0b2238-8877-4ae2-af0d-96fd45d358ae",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "ac0b2238-8877-4ae2-af0d-96fd45d358ae",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "110030002",
+              "system": "http://snomed.info/sct",
+              "display": "Concussion injury of brain (disorder)"
+            }
+          ],
+          "text": "Concussion injury of brain"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Concussion injury of brain</span></td><td><span class=\"nb\">31-Mar-2017 - 23-Jun-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-03-31",
+        "abatementDateTime": "2017-06-23",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "asserter": {
+          "reference": "urn:uuid:c76f06d7-6dab-457e-be25-83c94b0de055",
+          "display": "Centre Hospitalier de Roanne"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:92398619-94ed-4aea-b793-8ffde9508ff4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "92398619-94ed-4aea-b793-8ffde9508ff4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ebf5409-3d47-43fb-983d-ed0d0733f1f8",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2ebf5409-3d47-43fb-983d-ed0d0733f1f8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">11-Oct-2024</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "occurrenceDateTime": "2024-10-11",
+        "lotNumber": "QP-KT4W",
+        "expirationDate": "2025-08-02"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae18467e-ac1c-413c-bc32-2743bfe15806",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "ae18467e-ac1c-413c-bc32-2743bfe15806",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">12-Mar-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "occurrenceDateTime": "2021-03-12",
+        "lotNumber": "LJ-ULvPhvi",
+        "expirationDate": "2021-07-06"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:de2bab92-3d92-4ff5-8747-4da71db85985",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "de2bab92-3d92-4ff5-8747-4da71db85985",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">13-Oct-2017</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "occurrenceDateTime": "2017-10-13",
+        "lotNumber": "XJ-m30FYMz",
+        "expirationDate": "2018-10-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2d9605ce-ca2d-4e3a-9103-edd975f8cf92",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2d9605ce-ca2d-4e3a-9103-edd975f8cf92",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">07-Oct-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "occurrenceDateTime": "2016-10-07",
+        "lotNumber": "IC-s7bcwkm",
+        "expirationDate": "2017-09-09"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:842c0dd6-963c-404e-a909-0ec1e53fa858",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "842c0dd6-963c-404e-a909-0ec1e53fa858",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">07-Oct-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "occurrenceDateTime": "2016-10-07",
+        "lotNumber": "RU-aqC2RQ",
+        "expirationDate": "2017-07-21"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ac23aa0-027f-46ad-8da8-c86cbda50654",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "2ac23aa0-027f-46ad-8da8-c86cbda50654",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-11",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:27033042-8c24-4586-b32e-57a1e29868d6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "27033042-8c24-4586-b32e-57a1e29868d6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "710824005",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of health and social care needs (procedure)"
+            }
+          ],
+          "text": "Assessment of health and social care needs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of health and social care needs</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-11",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:64c65418-710c-4712-bcf1-e0b4b3e8a509",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "64c65418-710c-4712-bcf1-e0b4b3e8a509",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "454711000124102",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using Patient Health Questionnaire Two-Item score (procedure)</td><td><span class=\"nb\">11-Oct-2024</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-11",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7aa6d97b-1fc3-4e2e-bbcb-2cce2a7ad73e",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "7aa6d97b-1fc3-4e2e-bbcb-2cce2a7ad73e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "31208007",
+              "system": "http://snomed.info/sct",
+              "display": "Medical induction of labor"
+            }
+          ],
+          "text": "Medical induction of labor"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medical induction of labor</td><td><span class=\"nb\">06-Apr-2024</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-04-06",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:78cde685-8f84-41c3-91dc-7cefa2d2bb91",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "78cde685-8f84-41c3-91dc-7cefa2d2bb91",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "66348005",
+              "system": "http://snomed.info/sct",
+              "display": "Childbirth"
+            }
+          ],
+          "text": "Parturition"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Parturition</td><td><span class=\"nb\">06-Apr-2024</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-04-06",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:83030b2b-733d-4a4c-a22e-43b513b7957c",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "83030b2b-733d-4a4c-a22e-43b513b7957c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "18946005",
+              "system": "http://snomed.info/sct",
+              "display": "Epidural anesthesia"
+            }
+          ],
+          "text": "Epidural anesthesia"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "72892002",
+                "system": "http://snomed.info/sct",
+                "display": "Normal pregnancy"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Epidural anesthesia</td><td><span class=\"nb\">30-Dec-2022</span></td><td>Normal pregnancy</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2022-12-30",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca81250c-a048-41de-8285-c52d2f45c647",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "ca81250c-a048-41de-8285-c52d2f45c647",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "84489001",
+              "system": "http://snomed.info/sct",
+              "display": "Mold (organism)"
+            }
+          ],
+          "text": "Mold"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "21626009",
+                    "system": "http://snomed.info/sct",
+                    "display": "Allergic skin rash"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Mold</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td>Allergic skin rash</td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:235d28f7-6e35-4ba5-9c42-daa1272c68da",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "235d28f7-6e35-4ba5-9c42-daa1272c68da",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "102263004",
+              "system": "http://snomed.info/sct",
+              "display": "Eggs (edible) (substance)"
+            }
+          ],
+          "text": "Eggs (edible)"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "food"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Eggs (edible)</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>food</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2ca5f11f-7e78-42b9-85e1-a655c586f447",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "2ca5f11f-7e78-42b9-85e1-a655c586f447",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "260147004",
+              "system": "http://snomed.info/sct",
+              "display": "House dust mite (organism)"
+            }
+          ],
+          "text": "House dust mite"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>House dust mite</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:72f9a42f-641b-4fb6-9cd3-ccaa68bc4b19",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "72f9a42f-641b-4fb6-9cd3-ccaa68bc4b19",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "264287008",
+              "system": "http://snomed.info/sct",
+              "display": "Animal dander (substance)"
+            }
+          ],
+          "text": "Animal dander"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "49727002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Cough (finding)"
+                  }
+                ]
+              }
+            ],
+            "severity": "moderate"
+          },
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "code": "271807003",
+                    "system": "http://snomed.info/sct",
+                    "display": "Eruption of skin (disorder)"
+                  }
+                ]
+              }
+            ],
+            "severity": "mild"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Animal dander</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td>Cough (finding)&lt;br> &lt;/br>Eruption of skin (disorder)</td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:60d88e87-5cdb-4a34-8a9c-730ad983a3a0",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "60d88e87-5cdb-4a34-8a9c-730ad983a3a0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "288328004",
+              "system": "http://snomed.info/sct",
+              "display": "Bee venom (substance)"
+            }
+          ],
+          "text": "Bee venom"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Bee venom</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:996803de-b40a-43cb-b2aa-85918483ec45",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "996803de-b40a-43cb-b2aa-85918483ec45",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "419199007",
+              "system": "http://snomed.info/sct",
+              "display": "Allergy to substance (finding)"
+            }
+          ],
+          "text": "Allergy to substance"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Allergy to substance</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb5c21e0-4d0e-4be7-a85b-e3010bb196a2",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "fb5c21e0-4d0e-4be7-a85b-e3010bb196a2",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "782576004",
+              "system": "http://snomed.info/sct",
+              "display": "Tree pollen (substance)"
+            }
+          ],
+          "text": "Tree pollen"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "category": [
+          "environment"
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td>Tree pollen</td><td><span class=\"nb\">1996-10-24</span></td><td>active</td><td>environment</td><td></td></tr></table></div>"
+        },
+        "onsetDateTime": "1996-10-24",
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "type": "allergy",
+        "patient": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3462d9f2-d5f3-470e-b7a7-5627127c669f",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "3462d9f2-d5f3-470e-b7a7-5627127c669f",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-11-05"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:2c43208a-73f8-4219-9b63-6e52b41246c9"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">05-Nov-2021</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Patient will demonstrate understanding of recommended lifestyle changes to manage blood pressure, including diet, exercise, and sodium reduction.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:462299db-efb7-4bc0-bc62-5ef8cc39a494",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "462299db-efb7-4bc0-bc62-5ef8cc39a494",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "276239002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Therapy (regime/therapy)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Therapy",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2014-04-03"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Therapy</td><td><span class=\"nb\">03-Apr-2014</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9d36c24f-90a9-4ec8-a53a-43c9f9452dde",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "9d36c24f-90a9-4ec8-a53a-43c9f9452dde",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "384758001",
+                    "system": "http://snomed.info/sct",
+                    "display": "Self-care interventions (procedure)"
+                  }
+                ]
+              },
+              "status": "unknown",
+              "description": "Self-care interventions",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "1996-10-05"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Self-care interventions</td><td><span class=\"nb\">05-Oct-1996</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f7989e02-9a34-4c9d-9d7d-22431f7d7471",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f7989e02-9a34-4c9d-9d7d-22431f7d7471",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 165.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>22-Nov-2024</td><td>165.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:79fed6ef-605a-4676-9a3c-45c6b15d3689",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "79fed6ef-605a-4676-9a3c-45c6b15d3689",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>22-Nov-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e10a2385-c60a-464d-9d0c-68a3cb3c0b54",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e10a2385-c60a-464d-9d0c-68a3cb3c0b54",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>22-Nov-2024</td><td>81.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2adb7e32-cb03-4d76-80a4-af047a98d970",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2adb7e32-cb03-4d76-80a4-af047a98d970",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>22-Nov-2024</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21428d4a-9ed4-4c55-a717-bded9424e33a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "21428d4a-9ed4-4c55-a717-bded9424e33a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 104,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>22-Nov-2024</td><td>104 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8f909fa2-b7e0-4f13-a2ee-b09e5a13bd7a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8f909fa2-b7e0-4f13-a2ee-b09e5a13bd7a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 128,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>22-Nov-2024</td><td>128 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2e9a4400-20ec-4962-ba0e-37cb1d2c53cd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "2e9a4400-20ec-4962-ba0e-37cb1d2c53cd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 95,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>22-Nov-2024</td><td>95 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6af945f7-e8cb-44e5-be90-fd218632c254",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6af945f7-e8cb-44e5-be90-fd218632c254",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 13,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>22-Nov-2024</td><td>13 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-11-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:06a46b6f-e050-4887-b1d1-61f3e6294e48",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "06a46b6f-e050-4887-b1d1-61f3e6294e48",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 165.1,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>11-Oct-2024</td><td>165.1 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b2e9e399-2ad7-4183-9ad1-1003dfcadc03",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b2e9e399-2ad7-4183-9ad1-1003dfcadc03",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>11-Oct-2024</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6a5649c4-37ea-44b6-8ebc-198051392b1f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6a5649c4-37ea-44b6-8ebc-198051392b1f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81.9,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>11-Oct-2024</td><td>81.9 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:64804e1d-00f9-4415-8b0d-4652f17fdacb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "64804e1d-00f9-4415-8b0d-4652f17fdacb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.1,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>11-Oct-2024</td><td>30.1 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62519a97-7d1f-4794-8f3d-7cfbc2d1589c",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "62519a97-7d1f-4794-8f3d-7cfbc2d1589c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 108,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>11-Oct-2024</td><td>108 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0db47a1b-3d0c-44a1-aa01-aadd3f1431ad",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0db47a1b-3d0c-44a1-aa01-aadd3f1431ad",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 135,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>11-Oct-2024</td><td>135 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b245c939-e0e7-4ab6-9e42-63ea8b0c24cd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b245c939-e0e7-4ab6-9e42-63ea8b0c24cd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 79,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>11-Oct-2024</td><td>79 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5c7c152-8792-43ad-b1b7-e8affb961e22",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f5c7c152-8792-43ad-b1b7-e8affb961e22",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>11-Oct-2024</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2024-10-11"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d44e2730-d9c6-458f-b067-a44e40675d66",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d44e2730-d9c6-458f-b067-a44e40675d66",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 11.9,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 12.1,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 15.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Sep-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>11.9</td><td>12.1 - 15.5</td><td>L</td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2023-09-02T10:22:01Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1a991de2-a8aa-4d13-9c21-d7cedbf1f3bc",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1a991de2-a8aa-4d13-9c21-d7cedbf1f3bc",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "20570-8",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 33.6,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 37,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 46,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>02-Sep-2023</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood</td><td>33.6</td><td>37 - 46</td><td>L</td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:aee0ee48-9998-431b-a5ab-da46f942b883",
+          "display": "Juliette Schmitt"
+        },
+        "effectiveDateTime": "2023-09-02T10:22:01Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b846417-247a-4c43-8de3-a5f5640f67b9",
+      "resource": {
+        "resourceType": "Device",
+        "id": "6b846417-247a-4c43-8de3-a5f5640f67b9",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3f281cd7-c70e-44c6-a669-fef14c524943",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "3f281cd7-c70e-44c6-a669-fef14c524943",
+        "target": [
+          {
+            "reference": "Patient/aee0ee48-9998-431b-a5ab-da46f942b883"
+          },
+          {
+            "reference": "Bundle/dd3db1a8-ce54-4235-8154-e5c1e9a36b86"
+          },
+          {
+            "reference": "Composition/9a13ed56-e304-4afc-bff7-634addbf9dee"
+          },
+          {
+            "reference": "PractitionerRole/c76f06d7-6dab-457e-be25-83c94b0de055"
+          },
+          {
+            "reference": "Organization/029b022b-3f0b-4a67-a824-c74240a2d3c2"
+          },
+          {
+            "reference": "Practitioner/db3d9936-7eef-4b66-b6ba-02271921dd39"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/6b846417-247a-4c43-8de3-a5f5640f67b9"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2023-09-02T10:22:01Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2023-09-02T10:22:01Z"
+}

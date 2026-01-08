@@ -1,0 +1,2828 @@
+{
+  "resourceType": "Bundle",
+  "id": "5fd93b3f-650b-4068-976f-1aa87ba30953",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "3b1ea77d-759e-4b85-8067-7b241d99c559"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:3036f213-5937-43ca-a70b-e84401f52822",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "3036f213-5937-43ca-a70b-e84401f52822",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "d401d47f-bd32-4fcb-ae47-89c274aaa30b"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Condition</th><th>Onset Date</th><th>Status</th></tr><tr><td>Essential hypertension</td><td><span class=\"nb\">18-May-2025</span></td><td>active</td></tr><tr><td>Chronic sinusitis</td><td><span class=\"nb\">13-Jul-2023</span></td><td>active</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2576b571-f7f0-4330-8a9a-0fcec6ccc77e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:6ca1e006-00b2-4b7f-8f45-6f70aeacea4c"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">18-May-2025</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">18-May-2025</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">25-Apr-2021</span></td></tr><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">08-Apr-2018</span></td></tr><tr><td>Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product</td><td><span class=\"nb\">27-Mar-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:2094e226-aa14-4a47-8af0-433c7f080fda"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Suture open wound</td><td><span class=\"nb\">29-Oct-2024</span></td><td>Laceration of thigh</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:82486419-9c2b-4d6c-b7a4-dca1814fb5e8"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:b9a9466f-baa6-4624-9131-4d5e08d7791e"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">18-May-2025</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Achieve and maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Patient will demonstrate understanding of lifestyle changes (diet, exercise, sodium reduction) to manage hypertension.</li></ul></td><td></td><td></td></tr></table></div>"
+            },
+            "title": "Care Plan",
+            "code": {
+              "coding": [
+                {
+                  "code": "18776-5",
+                  "system": "http://loinc.org",
+                  "display": "Plan of care note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-17</th><th>2025-05-18</th></tr><tr><td>Diastolic Blood Pressure</td><td>90 mm[Hg]</td><td>101 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>136 mm[Hg]</td><td>153 mm[Hg]</td></tr><tr><td>Body Height</td><td>-</td><td>190.2 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>-</td><td>4 {score}</td></tr><tr><td>Body Weight</td><td>-</td><td>93.4 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>-</td><td>25.8 kg/m2</td></tr><tr><td>Heart rate</td><td>-</td><td>76 /min</td></tr><tr><td>Respiratory rate</td><td>-</td><td>15 /min</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:82fc9bee-3c90-4935-ba9a-a632dfcc8a0b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>25-APR-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.3</td><td>4.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.5</td><td>4.5 - 6</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>17.2</td><td>13.5 - 17.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>40.9</td><td>38 - 50</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>85.1</td><td>80 - 100</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>27.2</td><td>27 - 34</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>35.0</td><td>32 - 36</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>39.8</td><td>36 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>272.6</td><td>150 - 350</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>305.5 H</strong></td><td>13.4 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>9.8</td><td>7.2 - 13.5</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Device</th><th>Date (since)</th></tr><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">13-Jul-2023</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:9ea897c1-6534-4e73-bade-d06b79645cff"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "46264-8",
+                  "display": "History of medical device use"
+                }
+              ]
+            },
+            "title": "Device Use"
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "custodian": {
+          "reference": "urn:uuid:c0d262c6-e780-45ea-8b45-095ebb7a3cc1"
+        },
+        "date": "2021-04-25",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "8e733c19-c599-487c-8389-71885e822f5e",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "4568-522754-3"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "bdc08858-4403-5d21-fbb8-0f808bc30060"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Ruben"
+            ],
+            "family": "de Wit",
+            "text": "Ruben de Wit"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Jannasteeg 921"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "4931",
+            "city": "Geertruidenberg",
+            "country": "Netherlands"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+31341-895525"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "NL",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Ruben de Wit</td><td>male</td><td>12-Dec-2005</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "2005-12-12"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id ba4f0611-332e-4f85-95f5-df4ba8c9e28e</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:e7f8cbeb-288b-4fb0-b72f-ebe0989dc780"
+        },
+        "organization": {
+          "reference": "urn:uuid:c0d262c6-e780-45ea-8b45-095ebb7a3cc1"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c0d262c6-e780-45ea-8b45-095ebb7a3cc1",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "c0d262c6-e780-45ea-8b45-095ebb7a3cc1",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "60eb5522-f68f-48c4-9450-881d77ac1ca9"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Pasteurlaan 9"
+            ],
+            "city": "Oosterhout",
+            "postalCode": "4901 DH",
+            "country": "Netherlands"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Amphia Ziekenhuis, Locatie Pasteurlaan</table></div>"
+        },
+        "name": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e7f8cbeb-288b-4fb0-b72f-ebe0989dc780",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "e7f8cbeb-288b-4fb0-b72f-ebe0989dc780",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2576b571-f7f0-4330-8a9a-0fcec6ccc77e",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "2576b571-f7f0-4330-8a9a-0fcec6ccc77e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "59621000",
+              "system": "http://snomed.info/sct",
+              "display": "Essential hypertension (disorder)"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Essential hypertension</td><td><span class=\"nb\">18-May-2025</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2025-05-18",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f5c430d6-4907-4bc7-9ff4-7bf77be01e51",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f5c430d6-4907-4bc7-9ff4-7bf77be01e51",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "40055000",
+              "system": "http://snomed.info/sct",
+              "display": "Chronic sinusitis (disorder)"
+            }
+          ],
+          "text": "Chronic sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Chronic sinusitis</td><td><span class=\"nb\">13-Jul-2023</span></td><td>active</td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-07-13",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:25bd80b0-9770-45d4-a020-e100ba28f4c3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "25bd80b0-9770-45d4-a020-e100ba28f4c3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "283385000",
+              "system": "http://snomed.info/sct",
+              "display": "Laceration of thigh (disorder)"
+            }
+          ],
+          "text": "Laceration of thigh"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Laceration of thigh</span></td><td><span class=\"nb\">29-Oct-2024 - 25-Nov-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-29",
+        "abatementDateTime": "2024-11-25",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:285c9744-1610-425c-ac31-163791f9febf",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "285c9744-1610-425c-ac31-163791f9febf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "312608009",
+              "system": "http://snomed.info/sct",
+              "display": "Laceration - injury (disorder)"
+            }
+          ],
+          "text": "Laceration - injury"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Laceration - injury</span></td><td><span class=\"nb\">29-Oct-2024 - 25-Nov-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-10-29",
+        "abatementDateTime": "2024-11-25",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:375e3829-0a3f-4db9-bfaa-7b8d0d69f547",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "375e3829-0a3f-4db9-bfaa-7b8d0d69f547",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">22-Mar-2024 - 03-Apr-2024</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2024-03-22",
+        "abatementDateTime": "2024-04-03",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:29795910-d9dd-43fd-a961-6b9ae5d507cf",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "29795910-d9dd-43fd-a961-6b9ae5d507cf",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "75498004",
+              "system": "http://snomed.info/sct",
+              "display": "Acute bacterial sinusitis (disorder)"
+            }
+          ],
+          "text": "Acute bacterial sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute bacterial sinusitis</span></td><td><span class=\"nb\">21-Jun-2023 - 20-Jul-2023</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2023-06-21",
+        "abatementDateTime": "2023-07-20",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82c21869-b549-498c-861d-3fbff34d0151",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "82c21869-b549-498c-861d-3fbff34d0151",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">07-Oct-2021 - 20-Oct-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-10-07",
+        "abatementDateTime": "2021-10-20",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:69837604-d42f-43e4-8926-83cd4283feb4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "69837604-d42f-43e4-8926-83cd4283feb4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "195662009",
+              "system": "http://snomed.info/sct",
+              "display": "Acute viral pharyngitis (disorder)"
+            }
+          ],
+          "text": "Acute viral pharyngitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Acute viral pharyngitis</span></td><td><span class=\"nb\">22-May-2021 - 31-May-2021</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2021-05-22",
+        "abatementDateTime": "2021-05-31",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8ba0640d-484b-4363-9704-af2a2dd6686d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "8ba0640d-484b-4363-9704-af2a2dd6686d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "840539006",
+              "system": "http://snomed.info/sct",
+              "display": "Disease caused by severe acute respiratory syndrome coronavirus 2 (disorder)"
+            }
+          ],
+          "text": "COVID-19"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">COVID-19</span></td><td><span class=\"nb\">29-Aug-2020 - 17-Sep-2020</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2020-08-29",
+        "abatementDateTime": "2020-09-17",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7867a834-5253-40b2-96f8-9986206c435b",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "7867a834-5253-40b2-96f8-9986206c435b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "44465007",
+              "system": "http://snomed.info/sct",
+              "display": "Sprain of ankle (disorder)"
+            }
+          ],
+          "text": "Sprain of ankle"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Sprain of ankle</span></td><td><span class=\"nb\">28-Oct-2019 - 03-Dec-2019</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2019-10-28",
+        "abatementDateTime": "2019-12-03",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f206acc7-331a-4e19-910e-2d2a4f2f6222",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f206acc7-331a-4e19-910e-2d2a4f2f6222",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "problem-list-item",
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "display": "Problem List Item"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "444814009",
+              "system": "http://snomed.info/sct",
+              "display": "Viral sinusitis (disorder)"
+            }
+          ],
+          "text": "Viral sinusitis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td><span class=\"grayedout\">Viral sinusitis</span></td><td><span class=\"nb\">07-Nov-2017 - 21-Nov-2017</span></td><td><span class=\"grayedout\">inactive</span></td></tr></table></div>"
+        },
+        "onsetDateTime": "2017-11-07",
+        "abatementDateTime": "2017-11-21",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "asserter": {
+          "reference": "urn:uuid:ba4f0611-332e-4f85-95f5-df4ba8c9e28e",
+          "display": "Amphia Ziekenhuis, Locatie Pasteurlaan"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6ca1e006-00b2-4b7f-8f45-6f70aeacea4c",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "6ca1e006-00b2-4b7f-8f45-6f70aeacea4c",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2094e226-aa14-4a47-8af0-433c7f080fda",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "2094e226-aa14-4a47-8af0-433c7f080fda",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">18-May-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "occurrenceDateTime": "2025-05-18",
+        "lotNumber": "BT-y9RHEd",
+        "expirationDate": "2025-10-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5ff069de-9fd4-4020-ace4-45579c85fa2b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "5ff069de-9fd4-4020-ace4-45579c85fa2b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">18-May-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "occurrenceDateTime": "2025-05-18",
+        "lotNumber": "ZV-kCgH",
+        "expirationDate": "2026-01-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9941ddc-27d6-438a-8857-b7fc99b7c66a",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e9941ddc-27d6-438a-8857-b7fc99b7c66a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">25-Apr-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "occurrenceDateTime": "2021-04-25",
+        "lotNumber": "WN-qmeDrlxZM",
+        "expirationDate": "2022-02-14"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0ccc556a-c14e-47f2-8331-7e1eaf7f9d83",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "0ccc556a-c14e-47f2-8331-7e1eaf7f9d83",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2001000221108",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing HPV 6, 11, 16, and 18 antigens"
+            },
+            {
+              "code": "J07BM02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Human papillomavirus vaccines"
+            }
+          ],
+          "text": "Human papillomavirus 6"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">08-Apr-2018</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "occurrenceDateTime": "2018-04-08",
+        "lotNumber": "OP-i9hSv1Fkx",
+        "expirationDate": "2018-11-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cc60db89-bdc6-4742-b2b4-1f42a404905c",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "cc60db89-bdc6-4742-b2b4-1f42a404905c",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871875004",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Bordetella pertussis, Clostridium tetani, and Corynebacterium diphtheriae antigens"
+            },
+            {
+              "code": "J07AM52",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus-pertussis vaccines, adult type"
+            }
+          ],
+          "text": "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product</td><td><span class=\"nb\">27-Mar-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "occurrenceDateTime": "2016-03-27",
+        "lotNumber": "AA-otQvJIRA",
+        "expirationDate": "2016-09-10"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82486419-9c2b-4d6c-b7a4-dca1814fb5e8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "82486419-9c2b-4d6c-b7a4-dca1814fb5e8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "288086009",
+              "system": "http://snomed.info/sct",
+              "display": "Suture open wound"
+            }
+          ],
+          "text": "Suture open wound"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "283385000",
+                "system": "http://snomed.info/sct",
+                "display": "Laceration of thigh"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Suture open wound</td><td><span class=\"nb\">29-Oct-2024</span></td><td>Laceration of thigh</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2024-10-29",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9a9466f-baa6-4624-9131-4d5e08d7791e",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "b9a9466f-baa6-4624-9131-4d5e08d7791e",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b319d1ed-479c-4b2e-a7bb-29cba46ec8d3",
+      "resource": {
+        "resourceType": "CarePlan",
+        "id": "b319d1ed-479c-4b2e-a7bb-29cba46ec8d3",
+        "category": [
+          {
+            "coding": [
+              {
+                "code": "assess-plan",
+                "system": "http://terminology.hl7.org/CodeSystem/care-plan-category",
+                "display": "Assessment and Plan"
+              }
+            ]
+          }
+        ],
+        "activity": [
+          {
+            "detail": {
+              "code": {
+                "coding": [
+                  {
+                    "code": "443402002",
+                    "system": "http://snomed.info/sct",
+                    "display": "Lifestyle education regarding hypertension (procedure)"
+                  }
+                ]
+              },
+              "reasonCode": [
+                {
+                  "coding": [
+                    {
+                      "code": "59621000",
+                      "system": "http://snomed.info/sct",
+                      "display": "Essential hypertension (disorder)"
+                    }
+                  ]
+                }
+              ],
+              "status": "unknown",
+              "description": "Lifestyle education regarding hypertension",
+              "kind": "Appointment"
+            }
+          }
+        ],
+        "period": {
+          "start": "2025-05-18"
+        },
+        "goal": [
+          {
+            "reference": "urn:uuid:dca8323d-cbb3-4dc3-9f15-55069fc8c033"
+          },
+          {
+            "reference": "urn:uuid:ecce4939-366d-4088-9a61-9f7b5b5ee29d"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips first25\"><tr><th>Active Planned Care / Goals</th><th>Start Date</th><th>Reason</th></tr><tr><td>Lifestyle education regarding hypertension</td><td><span class=\"nb\">18-May-2025</span></td><td>Essential hypertension (disorder)</td></tr><tr><td><ul><li>Achieve and maintain blood pressure below 130/80 mmHg through lifestyle modifications.</li><li>Patient will demonstrate understanding of lifestyle changes (diet, exercise, sodium reduction) to manage hypertension.</li></ul></td><td></td><td></td></tr></table></div>"
+        },
+        "status": "active",
+        "intent": "plan",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:82fc9bee-3c90-4935-ba9a-a632dfcc8a0b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "82fc9bee-3c90-4935-ba9a-a632dfcc8a0b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 90,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>17-Jun-2025</td><td>90 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-06-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e4266c33-1fcb-454c-ad44-7e8f08c7b07a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e4266c33-1fcb-454c-ad44-7e8f08c7b07a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 136,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>17-Jun-2025</td><td>136 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-06-17"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0f179551-632b-4a21-9aa2-4f645d638a01",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0f179551-632b-4a21-9aa2-4f645d638a01",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 190.2,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>18-May-2025</td><td>190.2 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ca46c754-c23e-4801-8dd4-66b9bcbc7bca",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ca46c754-c23e-4801-8dd4-66b9bcbc7bca",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 4,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>18-May-2025</td><td>4 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:19eff0fc-9b4d-415a-9314-59e72b80ed7e",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "19eff0fc-9b4d-415a-9314-59e72b80ed7e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 93.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>18-May-2025</td><td>93.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:004de11e-a089-4ce7-a11e-4f64185a8219",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "004de11e-a089-4ce7-a11e-4f64185a8219",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 25.8,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>18-May-2025</td><td>25.8 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9a0ebad4-4bf6-408d-9650-f85db13a72a4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9a0ebad4-4bf6-408d-9650-f85db13a72a4",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 101,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>18-May-2025</td><td>101 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6b4cd879-da69-4971-98cd-a214f80586db",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6b4cd879-da69-4971-98cd-a214f80586db",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 153,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>18-May-2025</td><td>153 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5a7a2c04-f69d-479f-be22-39c66e63e8a5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5a7a2c04-f69d-479f-be22-39c66e63e8a5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>18-May-2025</td><td>76 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fa07717-e1ba-432f-9363-91e7f2131992",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3fa07717-e1ba-432f-9363-91e7f2131992",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>18-May-2025</td><td>15 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2025-05-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:69bb80a0-cec2-465e-972d-b2bc547ffa78",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "69bb80a0-cec2-465e-972d-b2bc547ffa78",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 5.3,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>5.3</td><td>4.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e62e6456-3914-473e-ac49-fb855fbd3bc7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e62e6456-3914-473e-ac49-fb855fbd3bc7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.5,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.5</td><td>4.5 - 6</td><td></td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:985b2061-291e-4764-8ccf-936653830550",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "985b2061-291e-4764-8ccf-936653830550",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 17.2,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>17.2</td><td>13.5 - 17.5</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ae88c571-4e22-4b82-9528-fb1582aee875",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "ae88c571-4e22-4b82-9528-fb1582aee875",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 40.9,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 38,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 50,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>40.9</td><td>38 - 50</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5f294a4d-d70b-4613-9054-24564fbec54b",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5f294a4d-d70b-4613-9054-24564fbec54b",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 85.1,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 80,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 100,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>85.1</td><td>80 - 100</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:326481cd-39fc-4ac9-bca7-58ae70e6b547",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "326481cd-39fc-4ac9-bca7-58ae70e6b547",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 27.2,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>27.2</td><td>27 - 34</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:97f966c2-51d6-4e29-9c7a-17ab688f7d5f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "97f966c2-51d6-4e29-9c7a-17ab688f7d5f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 35,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 32,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 36,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>35.0</td><td>32 - 36</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:aa1a4d5d-cd34-448f-aa2b-a9441a7f7699",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "aa1a4d5d-cd34-448f-aa2b-a9441a7f7699",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 39.8,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 36,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>39.8</td><td>36 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d734d7a6-f7e1-4e09-a13a-2a6bfbfd91ba",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "d734d7a6-f7e1-4e09-a13a-2a6bfbfd91ba",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 272.6,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 350,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>272.6</td><td>150 - 350</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:08b3e1a5-60be-4685-a0db-48f7945c6886",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "08b3e1a5-60be-4685-a0db-48f7945c6886",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 305.5,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>305.5</td><td>13.4 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3fdecdcb-18d4-41bf-8975-6efb43f0b15f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "3fdecdcb-18d4-41bf-8975-6efb43f0b15f",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 9.8,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.2,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 13.5,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>25-Apr-2021</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>9.8</td><td>7.2 - 13.5</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "effectiveDateTime": "2021-04-25T18:45:25Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9ea897c1-6534-4e73-bade-d06b79645cff",
+      "resource": {
+        "resourceType": "DeviceUseStatement",
+        "id": "9ea897c1-6534-4e73-bade-d06b79645cff",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/deviceUseStatement-eu-eps"
+          ]
+        },
+        "timingPeriod": {
+          "start": "2023-07-13"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Home nebulizer (physical object)</td><td><span class=\"nb\">13-Jul-2023</span></td></tr></table></div>"
+        },
+        "status": "active",
+        "device": {
+          "reference": "urn:uuid:2db8f2c8-93b4-4045-8b7a-57fe80503992",
+          "display": "Home nebulizer (physical object)"
+        },
+        "subject": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2db8f2c8-93b4-4045-8b7a-57fe80503992",
+      "resource": {
+        "resourceType": "Device",
+        "id": "2db8f2c8-93b4-4045-8b7a-57fe80503992",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/device-eu-eps"
+          ]
+        },
+        "udiCarrier": [
+          {
+            "id": "(01)12168338990020(11)230622(17)480706(10)502978348666736(21)4266571669"
+          }
+        ],
+        "status": "active",
+        "patient": {
+          "reference": "urn:uuid:8e733c19-c599-487c-8389-71885e822f5e",
+          "display": "Ruben de Wit"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "170615005",
+              "system": "http://snomed.info/sct",
+              "display": "Home nebulizer (physical object)"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b05b9509-2764-45e1-a0ad-a2d4c5329a71",
+      "resource": {
+        "resourceType": "Device",
+        "id": "b05b9509-2764-45e1-a0ad-a2d4c5329a71",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a99b8ad2-4e83-4184-92bf-04d6b7be48a4",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "a99b8ad2-4e83-4184-92bf-04d6b7be48a4",
+        "target": [
+          {
+            "reference": "Patient/8e733c19-c599-487c-8389-71885e822f5e"
+          },
+          {
+            "reference": "Bundle/5fd93b3f-650b-4068-976f-1aa87ba30953"
+          },
+          {
+            "reference": "Composition/3036f213-5937-43ca-a70b-e84401f52822"
+          },
+          {
+            "reference": "PractitionerRole/ba4f0611-332e-4f85-95f5-df4ba8c9e28e"
+          },
+          {
+            "reference": "Organization/c0d262c6-e780-45ea-8b45-095ebb7a3cc1"
+          },
+          {
+            "reference": "Practitioner/e7f8cbeb-288b-4fb0-b72f-ebe0989dc780"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/b05b9509-2764-45e1-a0ad-a2d4c5329a71"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2021-04-25T18:45:25Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2021-04-25T18:45:25Z"
+}

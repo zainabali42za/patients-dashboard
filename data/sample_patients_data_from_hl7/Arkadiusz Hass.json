@@ -1,0 +1,2788 @@
+{
+  "resourceType": "Bundle",
+  "id": "a816a0e9-0ea7-4811-a233-823b76695a3e",
+  "meta": {
+    "profile": [
+      "http://hl7.eu/fhir/eps/StructureDefinition/bundle-eu-eps"
+    ]
+  },
+  "identifier": {
+    "assigner": {
+      "display": "HL7 Europe"
+    },
+    "system": "urn:oid:2.16.840.1.113883.2.51.999",
+    "value": "54ec190e-07b1-443e-a42b-717ae0fe4266"
+  },
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:04445dc7-cef1-4f99-ad79-1df2f41e2012",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "04445dc7-cef1-4f99-ad79-1df2f41e2012",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/composition-eu-eps"
+          ]
+        },
+        "identifier": {
+          "assigner": {
+            "display": "HL7 Europe"
+          },
+          "system": "urn:oid:2.16.840.1.113883.2.51.999",
+          "value": "9e4cce22-97b0-4063-a8fc-9f2bd5fb6a62"
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "60591-5",
+              "system": "http://loinc.org",
+              "display": "Patient summary Document"
+            }
+          ],
+          "text": "Patient summary Document"
+        },
+        "author": [
+          {
+            "reference": "urn:uuid:2da7b692-3b9f-427e-beb8-c0f27e187fec"
+          }
+        ],
+        "section": [
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:1fe02ca5-1198-46f9-9247-e61afab9018d"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list - Reported"
+                }
+              ]
+            },
+            "title": "Problem list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known medications</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:21d36cf5-1e83-4dd3-bfc1-77951f05f7f0"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "History of Medication use Narrative"
+                }
+              ]
+            },
+            "title": "Medication list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vaccine</th><th>Date</th></tr><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">09-Sep-2021</span></td></tr><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">12-May-2016</span></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:4765c697-c9eb-46d4-8819-175d12ecfc4b"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11369-6",
+                  "display": "History of Immunization note"
+                }
+              ]
+            },
+            "title": "Immunizations list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Procedure</th><th>Date</th><th>Reason</th></tr><tr><td>Appendectomy</td><td><span class=\"nb\">12-Jun-2025</span></td><td>Appendicitis</td></tr><tr><td>Depression screening</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr><tr><td>Anticipatory guidance</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr><tr><td>Medication reconciliation</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr><tr><td>Assessment using Car</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr><tr><td>Assessment of substance use</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:f21379d7-6479-4683-978d-120d26b725cd"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "47519-4",
+                  "display": "History of Procedures Document"
+                }
+              ]
+            },
+            "title": "Procedure History list"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c438008f-03a2-4593-be16-e6a7e445dcad"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "title": "Allergies and Intolerances"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Signs</th><th>2025-06-05</th><th>2023-06-22</th></tr><tr><td>Body Height</td><td>176.5 cm</td><td>176.3 cm</td></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>1 {score}</td><td>2 {score}</td></tr><tr><td>Body Weight</td><td>64.4 kg</td><td>63 kg</td></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>20.7 kg/m2</td><td>20.3 kg/m2</td></tr><tr><td>Diastolic Blood Pressure</td><td>79 mm[Hg]</td><td>74 mm[Hg]</td></tr><tr><td>Systolic Blood Pressure</td><td>100 mm[Hg]</td><td>107 mm[Hg]</td></tr><tr><td>Heart rate</td><td>65 /min</td><td>81 /min</td></tr><tr><td>Respiratory rate</td><td>14 /min</td><td>14 /min</td></tr><tr><td>Body mass index (BMI) [Percentile] Per age and sex</td><td>-</td><td>18.3 %</td></tr></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:5fef3a92-3553-4d37-8158-6a4a2c560cd5"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital signs note"
+                }
+              ]
+            },
+            "title": "Vital Signs"
+          },
+          {
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><table class=\"hl7__ips\"><thead><tr><th>Recent Lab Observations</th><th>05-JUN-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr></thead><tbody><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>7.7</td><td>4.5 - 10.5</td><td>10*3/uL</td></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.8</td><td>4.5 - 6.2</td><td>10*6/uL</td></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td><strong>12.3 L</strong></td><td>13.5 - 17.5</td><td>g/dL</td></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>46.2</td><td>38 - 50</td><td>%</td></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>82.1</td><td>76 - 98</td><td>fL</td></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>28.0</td><td>27 - 34.5</td><td>pg</td></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>34.6</td><td>31 - 37</td><td>g/dL</td></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>42.2</td><td>36 - 55</td><td>fL</td></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td><strong>408.3 H</strong></td><td>150 - 350</td><td>10*3/uL</td></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td><strong>323.3 H</strong></td><td>13.4 - 17.4</td><td>fL</td></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.4</td><td>9.4 - 12</td><td>fL</td></tr></tbody></table></table></div>"
+            },
+            "title": "Relevant diagnostic tests/laboratory data",
+            "code": {
+              "coding": [
+                {
+                  "code": "30954-2",
+                  "system": "http://loinc.org",
+                  "display": "Relevant diagnostic tests/laboratory data note"
+                }
+              ]
+            }
+          }
+        ],
+        "title": "European Patient Summary",
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "custodian": {
+          "reference": "urn:uuid:3d2e70df-e109-4b9c-92fb-9fc1fc921643"
+        },
+        "date": "2025-06-05",
+        "confidentiality": "N"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+        "meta": {
+          "security": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "HTEST"
+            },
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "code": "TRAIN"
+            }
+          ],
+          "tag": [
+            {
+              "system": "https://synderai.net/fhir/CodeSystem/tags",
+              "code": "synthetic",
+              "display": "SYNDERAI Synthetic data"
+            }
+          ],
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/patient-eu-eps"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "PT",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://ec.europa.eu/identifier/eci",
+            "value": "6949-512008-6"
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "code": "MR",
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203"
+                }
+              ]
+            },
+            "system": "http://local.setting.eu/identifier",
+            "value": "a9c1593b-35ea-8753-8bc7-3929b43d8a43"
+          }
+        ],
+        "name": [
+          {
+            "given": [
+              "Arkadiusz"
+            ],
+            "family": "Hass",
+            "text": "Arkadiusz Hass"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "ulica Mazowiecka 81"
+            ],
+            "use": "home",
+            "type": "physical",
+            "postalCode": "68-200",
+            "city": "Żary",
+            "country": "Poland"
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "511 852 016"
+          }
+        ],
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "PL",
+                  "system": "http://hl7.org/fhir/ValueSet/country"
+                }
+              ]
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Arkadiusz Hass</td><td>male</td><td>13-Aug-2007</td></tr></table></div>"
+        },
+        "gender": "male",
+        "birthDate": "2007-08-13"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2da7b692-3b9f-427e-beb8-c0f27e187fec",
+      "resource": {
+        "resourceType": "PractitionerRole",
+        "id": "2da7b692-3b9f-427e-beb8-c0f27e187fec",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitionerRole-eu"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Provider Role Id 2da7b692-3b9f-427e-beb8-c0f27e187fec</table></div>"
+        },
+        "practitioner": {
+          "reference": "urn:uuid:62d32bcf-0b43-4ba8-8d32-fff3ddd7c732"
+        },
+        "organization": {
+          "reference": "urn:uuid:3d2e70df-e109-4b9c-92fb-9fc1fc921643"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:3d2e70df-e109-4b9c-92fb-9fc1fc921643",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "3d2e70df-e109-4b9c-92fb-9fc1fc921643",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/organization-eu"
+          ]
+        },
+        "identifier": [
+          {
+            "assigner": {
+              "display": "HL7 Europe"
+            },
+            "system": "urn:oid:2.16.840.1.113883.2.51.999",
+            "value": "bf88363d-b94b-47ef-85f7-65b541ca2a5f"
+          }
+        ],
+        "address": [
+          {
+            "line": [
+              "Bolesława Domańskiego 2"
+            ],
+            "city": "Żary",
+            "postalCode": "68-200",
+            "country": "Poland"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">105 Szpital Wojskowy z Przychodnią SPZOZ</table></div>"
+        },
+        "name": "105 Szpital Wojskowy z Przychodnią SPZOZ"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:62d32bcf-0b43-4ba8-8d32-fff3ddd7c732",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "62d32bcf-0b43-4ba8-8d32-fff3ddd7c732",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/practitioner-eu"
+          ]
+        },
+        "name": [
+          {
+            "prefix": [
+              "Dr."
+            ],
+            "given": [
+              "Hel"
+            ],
+            "family": "Ping"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\">Dr. Hel Ping</table></div>"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1fe02ca5-1198-46f9-9247-e61afab9018d",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "1fe02ca5-1198-46f9-9247-e61afab9018d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "160245001",
+              "system": "http://snomed.info/sct",
+              "display": "No current problems or disability (situation)"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>No known problems or disabilities</td></tr></table></div>"
+        },
+        "subject": {
+          "reference": "Patient/fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown\""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:21d36cf5-1e83-4dd3-bfc1-77951f05f7f0",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "21d36cf5-1e83-4dd3-bfc1-77951f05f7f0",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/eps/StructureDefinition/MedicationStatement-eu-eps"
+          ]
+        },
+        "effectivePeriod": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        },
+        "status": "active",
+        "medicationCodeableConcept": {
+          "coding": [
+            {
+              "code": "787481004",
+              "system": "http://snomed.info/sct",
+              "display": "No known medications (situation)"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:4765c697-c9eb-46d4-8819-175d12ecfc4b",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4765c697-c9eb-46d4-8819-175d12ecfc4b",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "871822003",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Hepatitis B virus antigen"
+            },
+            {
+              "code": "J07BC01",
+              "system": "http://www.whocc.no/atc",
+              "display": "Hepatitis B vaccines"
+            }
+          ],
+          "text": "Hepatitis B virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Hepatitis B virus antigen only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2025-06-05",
+        "lotNumber": "FI-7z9NK0Ztk",
+        "expirationDate": "2026-02-23"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e11c04fd-dee1-4af8-a3d7-0974dce4060e",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "e11c04fd-dee1-4af8-a3d7-0974dce4060e",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "777725002",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Clostridium tetani toxoid antigen adsorbed"
+            },
+            {
+              "code": "J07AM51",
+              "system": "http://www.whocc.no/atc",
+              "display": "Diphtheria-tetanus vaccines, adult type"
+            }
+          ],
+          "text": "Clostridium tetani toxoid antigen adsorbed only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Clostridium tetani toxoid antigen adsorbed only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2025-06-05",
+        "lotNumber": "FR-VbCM",
+        "expirationDate": "2025-10-26"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:43af30dd-b4c4-4407-82f2-be47e6d373eb",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "43af30dd-b4c4-4407-82f2-be47e6d373eb",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "836401009",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Neisseria meningitidis antigen"
+            },
+            {
+              "code": "J07AH08",
+              "system": "http://www.whocc.no/atc",
+              "display": "Meningococcal vaccines, conjugated"
+            }
+          ],
+          "text": "Neisseria meningitidis antigen-containing vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Neisseria meningitidis antigen-containing vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2025-06-05",
+        "lotNumber": "ST-LQyb",
+        "expirationDate": "2026-04-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7bffae65-543d-4e01-bea0-cd6b0e354ca2",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "7bffae65-543d-4e01-bea0-cd6b0e354ca2",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1181000221105",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing Influenza virus antigen"
+            },
+            {
+              "code": "J07BB02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Influenza, inactivated, split virus"
+            }
+          ],
+          "text": "Influenza virus antigen only vaccine product"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Influenza virus antigen only vaccine product</td><td><span class=\"nb\">05-Jun-2025</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2025-06-05",
+        "lotNumber": "KU-gNym",
+        "expirationDate": "2025-12-18"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:52216a03-5b9c-4bef-86eb-5ed4c3e88bb3",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "52216a03-5b9c-4bef-86eb-5ed4c3e88bb3",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing SARS-CoV-2 mRNA"
+            },
+            {
+              "code": "J07BX03",
+              "system": "http://www.whocc.no/atc",
+              "display": "COVID-19 mRNA vaccines"
+            }
+          ],
+          "text": "SARS-CoV-2 mRNA vaccine"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>SARS-CoV-2 mRNA vaccine</td><td><span class=\"nb\">09-Sep-2021</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2021-09-09",
+        "lotNumber": "IN-JNfY",
+        "expirationDate": "2021-11-20"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:efcc89cd-fa47-4523-8c3a-09a02ea1ccf7",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "efcc89cd-fa47-4523-8c3a-09a02ea1ccf7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips"
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "2001000221108",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing HPV 6, 11, 16, and 18 antigens"
+            },
+            {
+              "code": "J07BM02",
+              "system": "http://www.whocc.no/atc",
+              "display": "Human papillomavirus vaccines"
+            }
+          ],
+          "text": "Human papillomavirus 6"
+        },
+        "site": {
+          "coding": [
+            {
+              "code": "244979005",
+              "system": "http://snomed.info/sct",
+              "display": "Entire muscle of upper arm"
+            }
+          ],
+          "text": "Entire muscle of upper arm"
+        },
+        "route": {
+          "coding": [
+            {
+              "code": "78421000",
+              "system": "http://snomed.info/sct",
+              "display": "Intramuscular route"
+            }
+          ],
+          "text": "Intramuscular route"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Human papillomavirus 6</td><td><span class=\"nb\">12-May-2016</span></td></tr></table></div>"
+        },
+        "status": "completed",
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "occurrenceDateTime": "2016-05-12",
+        "lotNumber": "WP-EvFosYIO",
+        "expirationDate": "2017-05-04"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f21379d7-6479-4683-978d-120d26b725cd",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "f21379d7-6479-4683-978d-120d26b725cd",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "80146002",
+              "system": "http://snomed.info/sct",
+              "display": "Appendectomy"
+            }
+          ],
+          "text": "Appendectomy"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "code": "74400008",
+                "system": "http://snomed.info/sct",
+                "display": "Appendicitis"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Appendectomy</td><td><span class=\"nb\">12-Jun-2025</span></td><td>Appendicitis</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2025-06-12",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c2b31065-c67f-46ca-9647-5c441bc5ee92",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "c2b31065-c67f-46ca-9647-5c441bc5ee92",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "171207006",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening (procedure)"
+            }
+          ],
+          "text": "Depression screening"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6bd70983-7ed2-4d35-b4ed-3ee6ebde04e7",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "6bd70983-7ed2-4d35-b4ed-3ee6ebde04e7",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "386516004",
+              "system": "http://snomed.info/sct",
+              "display": "Anticipatory guidance (procedure)"
+            }
+          ],
+          "text": "Anticipatory guidance"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Anticipatory guidance</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1ed643e2-80ef-4d31-bc4e-b21a5433ccac",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "1ed643e2-80ef-4d31-bc4e-b21a5433ccac",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "430193006",
+              "system": "http://snomed.info/sct",
+              "display": "Medication Reconciliation (procedure)"
+            }
+          ],
+          "text": "Medication reconciliation"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Medication reconciliation</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:20147d5b-df69-4cbd-bf2b-6bdde96401f1",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "20147d5b-df69-4cbd-bf2b-6bdde96401f1",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "715252007",
+              "system": "http://snomed.info/sct",
+              "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+            }
+          ],
+          "text": "Depression screening using PHQ-9 (Patient Health Questionnaire 9) score"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Depression screening using PHQ-9 (Patient Health Questionnaire 9) score</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d1ca889a-b7d5-441c-aada-a90d9747d188",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "d1ca889a-b7d5-441c-aada-a90d9747d188",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "868187001",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment using Car  Relax  Alone  Forget  Friends  Trouble Screening Test (procedure)"
+            }
+          ],
+          "text": "Assessment using Car"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment using Car</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:34d0e4ca-7b87-4438-afd9-3b6db52044b8",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "34d0e4ca-7b87-4438-afd9-3b6db52044b8",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Procedure-uv-ips"
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "code": "428211000124100",
+              "system": "http://snomed.info/sct",
+              "display": "Assessment of substance use (procedure)"
+            }
+          ],
+          "text": "Assessment of substance use"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><td>Assessment of substance use</td><td><span class=\"nb\">21-Jul-2016</span></td><td>-</td></tr></table></div>"
+        },
+        "status": "completed",
+        "performedDateTime": "2016-07-21",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c438008f-03a2-4593-be16-e6a7e445dcad",
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "c438008f-03a2-4593-be16-e6a7e445dcad",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core"
+          ]
+        },
+        "code": {
+          "text": ""
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+            }
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Allergy/Intolerance</th><th>Onset Date</th><th>Status</th><th>Type</th><th>Reaction</th></tr><tr><td></td><td>?</td><td>active</td><td>?</td><td></td></tr></table></div>"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed",
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "_onsetDateTime": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5fef3a92-3553-4d37-8158-6a4a2c560cd5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5fef3a92-3553-4d37-8158-6a4a2c560cd5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 176.5,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>05-Jun-2025</td><td>176.5 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5294dc6a-a7d1-4351-b952-063d38c5bbe6",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5294dc6a-a7d1-4351-b952-063d38c5bbe6",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>05-Jun-2025</td><td>1 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:1b43025f-018e-49a8-83d8-fc3783e460b9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "1b43025f-018e-49a8-83d8-fc3783e460b9",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 64.4,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>05-Jun-2025</td><td>64.4 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:5b546335-4cd0-49a1-bd61-edad61c20b4f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "5b546335-4cd0-49a1-bd61-edad61c20b4f",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 20.7,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>05-Jun-2025</td><td>20.7 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c4fa3766-f4a3-4d47-a303-cf90b03c3745",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c4fa3766-f4a3-4d47-a303-cf90b03c3745",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 79,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>05-Jun-2025</td><td>79 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:88dfb506-98ca-44d6-957c-a67dc6a3937a",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "88dfb506-98ca-44d6-957c-a67dc6a3937a",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 100,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>05-Jun-2025</td><td>100 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b9731766-40c6-4cce-bda9-b00fd9e9b792",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b9731766-40c6-4cce-bda9-b00fd9e9b792",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 65,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>05-Jun-2025</td><td>65 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:953ef7fc-b6fd-4e31-b067-197038b46eb5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "953ef7fc-b6fd-4e31-b067-197038b46eb5",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>05-Jun-2025</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c5a2b437-52d6-45e6-9d10-d4eef0075500",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c5a2b437-52d6-45e6-9d10-d4eef0075500",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 176.3,
+          "code": "cm",
+          "unit": "cm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Height</td><td>22-Jun-2023</td><td>176.3 cm</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8302-2",
+              "system": "http://loinc.org",
+              "display": "Body Height"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:49f32b5b-a3c8-4f93-b9fc-d8e69687e44d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "49f32b5b-a3c8-4f93-b9fc-d8e69687e44d",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 2,
+          "code": "{score}",
+          "unit": "{score}"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Pain severity - 0-10 verbal numeric rating [Score] - Reported</td><td>22-Jun-2023</td><td>2 {score}</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "72514-3",
+              "system": "http://loinc.org",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c3eb5a40-d93a-47bf-9175-4ee1d07b3962",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "c3eb5a40-d93a-47bf-9175-4ee1d07b3962",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 63,
+          "code": "kg",
+          "unit": "kg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body Weight</td><td>22-Jun-2023</td><td>63 kg</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "29463-7",
+              "system": "http://loinc.org",
+              "display": "Body Weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:f986db4e-7554-4fd7-944a-5caa2b3ee570",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "f986db4e-7554-4fd7-944a-5caa2b3ee570",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 20.3,
+          "code": "kg/m2",
+          "unit": "kg/m2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Ratio]</td><td>22-Jun-2023</td><td>20.3 kg/m2</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "39156-5",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Ratio]"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e9a3a782-d31d-4cbc-af0a-0272e3a455e0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e9a3a782-d31d-4cbc-af0a-0272e3a455e0",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 18.3,
+          "code": "%",
+          "unit": "%"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Body mass index (BMI) [Percentile] Per age and sex</td><td>22-Jun-2023</td><td>18.3 %</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "59576-9",
+              "system": "http://loinc.org",
+              "display": "Body mass index (BMI) [Percentile] Per age and sex"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:e804f14b-b596-4ca3-a174-4201207be188",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "e804f14b-b596-4ca3-a174-4201207be188",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 74,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Diastolic Blood Pressure</td><td>22-Jun-2023</td><td>74 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8462-4",
+              "system": "http://loinc.org",
+              "display": "Diastolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9acc13f8-0b8f-4dda-8385-7dae3216a537",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "9acc13f8-0b8f-4dda-8385-7dae3216a537",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 107,
+          "code": "mm[Hg]",
+          "unit": "mm[Hg]"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Systolic Blood Pressure</td><td>22-Jun-2023</td><td>107 mm[Hg]</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8480-6",
+              "system": "http://loinc.org",
+              "display": "Systolic Blood Pressure"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:25ff6544-0a23-4df4-8883-e3bf4de62200",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "25ff6544-0a23-4df4-8883-e3bf4de62200",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 81,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Heart rate</td><td>22-Jun-2023</td><td>81 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "8867-4",
+              "system": "http://loinc.org",
+              "display": "Heart rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:719b01f4-9d8e-4e59-8408-b360542ad538",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "719b01f4-9d8e-4e59-8408-b360542ad538",
+        "meta": {
+          "profile": [
+            "http://hl7.org/fhir/StructureDefinition/vitalsigns"
+          ]
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ]
+          }
+        ],
+        "valueQuantity": {
+          "value": 14,
+          "code": "/min",
+          "unit": "/min"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__ips\"><tr><th>Vital Sign</th><th>Date</th><th>Measurement</th></tr><tr><td>Respiratory rate</td><td>22-Jun-2023</td><td>14 /min</td></tr></table></div>"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "code": "9279-1",
+              "system": "http://loinc.org",
+              "display": "Respiratory rate"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2023-06-22"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:0a36a2cc-8858-435a-ac14-ad6b82e5d6b4",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "0a36a2cc-8858-435a-ac14-ad6b82e5d6b4",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "6690-2",
+              "system": "http://loinc.org",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 7.7,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 10.5,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Leukocytes [#/volume] in Blood by Automated count</td><td>7.7</td><td>4.5 - 10.5</td><td></td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:32899eba-4c33-42e1-9106-840ac0243c91",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "32899eba-4c33-42e1-9106-840ac0243c91",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "789-8",
+              "system": "http://loinc.org",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 4.8,
+          "unit": "10*6/uL",
+          "code": "10*6/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 4.5,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 6.2,
+              "code": "10*6/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocytes [#/volume] in Blood by Automated count</td><td>4.8</td><td>4.5 - 6.2</td><td></td><td>10*6/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:8c9dd941-5450-48da-97b0-34e7e38fa7c3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "8c9dd941-5450-48da-97b0-34e7e38fa7c3",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "718-7",
+              "system": "http://loinc.org",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 12.3,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.5,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "L",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "Low"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hemoglobin [Mass/volume] in Blood</td><td>12.3</td><td>13.5 - 17.5</td><td>L</td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:6d7f6c17-aa7e-4572-bd18-6da54ff7f9de",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "6d7f6c17-aa7e-4572-bd18-6da54ff7f9de",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "4544-3",
+              "system": "http://loinc.org",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 46.2,
+          "unit": "%",
+          "code": "%"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 38,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 50,
+              "code": "%",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Hematocrit [Volume Fraction] of Blood by Automated count</td><td>46.2</td><td>38 - 50</td><td></td><td>%</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:992d3778-56e1-4b74-b628-8622fbf02353",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "992d3778-56e1-4b74-b628-8622fbf02353",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "787-2",
+              "system": "http://loinc.org",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 82.1,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 76,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 98,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCV [Entitic volume] by Automated count</td><td>82.1</td><td>76 - 98</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:904e8d56-22c1-4510-b62b-5c01b8b5f3df",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "904e8d56-22c1-4510-b62b-5c01b8b5f3df",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "785-6",
+              "system": "http://loinc.org",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 28,
+          "unit": "pg",
+          "code": "pg"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 27,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 34.5,
+              "code": "pg",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCH [Entitic mass] by Automated count</td><td>28.0</td><td>27 - 34.5</td><td></td><td>pg</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:7737b3e6-2287-4325-89af-d15c4db23c11",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "7737b3e6-2287-4325-89af-d15c4db23c11",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "786-4",
+              "system": "http://loinc.org",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 34.6,
+          "unit": "g/dL",
+          "code": "g/dL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 31,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 37,
+              "code": "g/dL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>MCHC [Mass/volume] by Automated count</td><td>34.6</td><td>31 - 37</td><td></td><td>g/dL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:74561511-df38-48ad-a50a-3489a92e69da",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "74561511-df38-48ad-a50a-3489a92e69da",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "21000-5",
+              "system": "http://loinc.org",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 42.2,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 36,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 55,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Erythrocyte distribution width [Entitic volume] by Automated count</td><td>42.2</td><td>36 - 55</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b47ac091-2799-4dd5-ae1b-0cdc6700f2c7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b47ac091-2799-4dd5-ae1b-0cdc6700f2c7",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "777-3",
+              "system": "http://loinc.org",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 408.3,
+          "unit": "10*3/uL",
+          "code": "10*3/uL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 150,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 350,
+              "code": "10*3/uL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelets [#/volume] in Blood by Automated count</td><td>408.3</td><td>150 - 350</td><td>H</td><td>10*3/uL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b6fe4fe2-2969-440e-8f8b-9cdbf138f8f8",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b6fe4fe2-2969-440e-8f8b-9cdbf138f8f8",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32207-3",
+              "system": "http://loinc.org",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 323.3,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 13.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 17.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "code": "H",
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet distribution width [Entitic volume] in Blood by Automated count</td><td>323.3</td><td>13.4 - 17.4</td><td>H</td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b8429e1b-7b0b-4a17-a41a-78dd5bc5ef4d",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "b8429e1b-7b0b-4a17-a41a-78dd5bc5ef4d",
+        "meta": {
+          "profile": [
+            "http://hl7.eu/fhir/laboratory/StructureDefinition/Observation-resultslab-eu-lab"
+          ]
+        },
+        "performer": [
+          {
+            "display": "The Central European Lab"
+          }
+        ],
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "code": "32623-1",
+              "system": "http://loinc.org",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "valueQuantity": {
+          "system": "http://unitsofmeasure.org",
+          "value": 10.4,
+          "unit": "fL",
+          "code": "fL"
+        },
+        "referenceRange": [
+          {
+            "low": {
+              "value": 9.4,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          },
+          {
+            "high": {
+              "value": 12,
+              "code": "fL",
+              "system": "http://unitsofmeasure.org"
+            }
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hl7__eu__lab__report\"><tr><th>Test</th><th>05-Jun-2025</th><th>Reference&#xA0;Range</th><th>Unit</th></tr><tr><td>Platelet mean volume [Entitic volume] in Blood by Automated count</td><td>10.4</td><td>9.4 - 12</td><td></td><td>fL</td></tr></table></div>"
+        },
+        "status": "final",
+        "subject": {
+          "reference": "urn:uuid:fb50b55b-58b3-4a34-a936-ff2ad24fb496",
+          "display": "Arkadiusz Hass"
+        },
+        "effectiveDateTime": "2025-06-05T21:13:53Z"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:9f892bcc-48e4-4cf5-8ca3-f92cbbc6f480",
+      "resource": {
+        "resourceType": "Device",
+        "id": "9f892bcc-48e4-4cf5-8ca3-f92cbbc6f480",
+        "deviceName": [
+          {
+            "name": "SYNDERAI Synthetic Generator",
+            "type": "manufacturer-name"
+          }
+        ],
+        "version": [
+          {
+            "value": "5.0"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">SYNDERAI Synthetic Generator v5.0</div>"
+        },
+        "status": "active",
+        "distinctIdentifier": "synderai-generator-50",
+        "manufacturer": "SYNDERAI Project"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:eac7788c-5ee8-4292-b115-7be4e119a9f5",
+      "resource": {
+        "resourceType": "Provenance",
+        "id": "eac7788c-5ee8-4292-b115-7be4e119a9f5",
+        "target": [
+          {
+            "reference": "Patient/fb50b55b-58b3-4a34-a936-ff2ad24fb496"
+          },
+          {
+            "reference": "Bundle/a816a0e9-0ea7-4811-a233-823b76695a3e"
+          },
+          {
+            "reference": "Composition/04445dc7-cef1-4f99-ad79-1df2f41e2012"
+          },
+          {
+            "reference": "PractitionerRole/2da7b692-3b9f-427e-beb8-c0f27e187fec"
+          },
+          {
+            "reference": "Organization/3d2e70df-e109-4b9c-92fb-9fc1fc921643"
+          },
+          {
+            "reference": "Practitioner/62d32bcf-0b43-4ba8-8d32-fff3ddd7c732"
+          }
+        ],
+        "activity": {
+          "text": "Synthetic Example Data Generation"
+        },
+        "policy": [
+          "https://synderai.net/synderai-synthetic-data-policy"
+        ],
+        "agent": [
+          {
+            "type": {
+              "text": "author"
+            },
+            "who": {
+              "reference": "Device/9f892bcc-48e4-4cf5-8ca3-f92cbbc6f480"
+            }
+          }
+        ],
+        "reason": [
+          {
+            "text": "Interoperability Testing and Training (non-clinical use)"
+          }
+        ],
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Provenance for SYNDERAI Synthetic Example Data Resource</div>"
+        },
+        "recorded": "2025-06-05T21:13:53Z"
+      }
+    }
+  ],
+  "type": "document",
+  "timestamp": "2025-06-05T21:13:53Z"
+}
